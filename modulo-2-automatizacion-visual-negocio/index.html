@@ -1,0 +1,854 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Curso práctico de IA generativa para perfiles no técnicos, basado en flujos no-code y asistentes sobre documentación propia.">
+      
+      
+      
+      
+        <link rel="prev" href="../modulo-1-alfabetizacion-digital-ia/">
+      
+      
+        <link rel="next" href="../modulo-3-asistentes-seguros-con-docs-propias/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>Módulo 2 – Automatización visual con IA para tareas de negocio - Itinerario 1 · IA Generativa para Profesionales Senior</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#proposito-del-modulo" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="Itinerario 1 · IA Generativa para Profesionales Senior" class="md-header__button md-logo" aria-label="Itinerario 1 · IA Generativa para Profesionales Senior" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Itinerario 1 · IA Generativa para Profesionales Senior
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Módulo 2 – Automatización visual con IA para tareas de negocio
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Itinerario 1 · IA Generativa para Profesionales Senior" class="md-nav__button md-logo" aria-label="Itinerario 1 · IA Generativa para Profesionales Senior" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Itinerario 1 · IA Generativa para Profesionales Senior
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inicio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Itinerario 1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Itinerario 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduccion-y-objetivos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introducción y objetivos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-1-alfabetizacion-digital-ia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 1 – Alfabetización digital para IA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Módulo 2 – Automatización visual con IA para tareas de negocio
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 2 – Automatización visual con IA para tareas de negocio
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#proposito-del-modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Propósito del módulo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultados-de-aprendizaje" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resultados de aprendizaje
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#idea-central-del-modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Idea central del módulo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contenidos-del-modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contenidos del módulo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Contenidos del módulo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-recordatorio-rapido-de-la-estructura" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Recordatorio rápido de la estructura
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-patrones-de-ia-utiles-para-automatizacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Patrones de IA útiles para automatización
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-construccion-paso-a-paso-del-flujo-clasificar-y-guardar" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Construcción paso a paso del flujo “Clasificar y guardar”
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-condiciones-sin-miedo" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Condiciones sin miedo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-pruebas-con-varios-ejemplos" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Pruebas con varios ejemplos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-documentacion-funcional-del-flujo" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Documentación funcional del flujo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actividad-practica-guiada" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actividad práctica guiada
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recursos-recomendados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos recomendados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-de-finalizacion-del-modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Criterios de finalización del módulo
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-3-asistentes-seguros-con-docs-propias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 3 – Creación de asistentes seguros con documentación propia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-4-puente-hacia-lo-tecnico-conceptual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 4 – Puente hacia lo técnico (conceptual)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-5-evaluacion-documentacion-handover/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 5 – Evaluación, documentación y handover
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resumen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resumen y cierre
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Módulo 2 – Automatización visual con IA para tareas de negocio</h1>
+
+<h2 id="proposito-del-modulo">Propósito del módulo<a class="headerlink" href="#proposito-del-modulo" title="Permanent link">&para;</a></h2>
+<p>En el Módulo 1 aprendiste a moverte por una plataforma no-code/low-code, a entender qué es un trigger y una acción, y a no asustarte con las credenciales. En este <strong>Módulo 2</strong> vamos a dar el salto lógico: <strong>pasar de un flujo simple a una automatización de negocio con IA</strong>, es decir, algo que ya empiece a parecerse a tus procesos reales (clasificar, enriquecer, mandar a otro canal, registrar).</p>
+<p>El objetivo es que al final tengas <strong>un flujo útil de verdad</strong> —por ejemplo, “cuando recibo algo, lo resumo, lo clasifico y lo guardo donde toca”— y que sepas repetir el patrón para otros casos de uso.</p>
+<hr />
+<h2 id="resultados-de-aprendizaje">Resultados de aprendizaje<a class="headerlink" href="#resultados-de-aprendizaje" title="Permanent link">&para;</a></h2>
+<p>Al finalizar este módulo, el participante será capaz de:</p>
+<ol>
+<li>Diseñar un flujo de negocio con más de dos pasos, incluyendo <strong>al menos un paso de IA</strong> y <strong>al menos una salida hacia otra herramienta</strong>.</li>
+<li>Usar la IA no solo para “resumir”, sino también para <strong>clasificar, extraer datos y generar respuestas estructuradas</strong>.</li>
+<li>Configurar condiciones sencillas (ramas tipo “si es categoría A, haz esto; si no, haz lo otro”) sin escribir código.</li>
+<li>Probar el flujo con varios ejemplos y revisar el historial de ejecuciones.</li>
+<li>Documentar el flujo con una breve explicación funcional para que un compañero pueda reutilizarlo.</li>
+</ol>
+<hr />
+<h2 id="idea-central-del-modulo">Idea central del módulo<a class="headerlink" href="#idea-central-del-modulo" title="Permanent link">&para;</a></h2>
+<p>La IA en las automatizaciones <strong>no solo redacta</strong>; puede tomar decisiones si le pedimos que nos devuelva la información en un formato que la herramienta entienda (listas, etiquetas, JSON sencillo). Eso nos permite hacer cosas como:</p>
+<ul>
+<li>“Clasifica este lead como caliente / tibio / frío y pásalo al CRM si es caliente.”</li>
+<li>“Extrae el nombre de la empresa y el idioma del mensaje y mándalo al canal correcto.”</li>
+<li>“Analiza este comentario de cliente y guarda la categoría en un Sheet.”</li>
+</ul>
+<p>La clave del módulo es <strong>pedir bien la salida</strong> a la IA para poder encadenar pasos.</p>
+<hr />
+<h2 id="contenidos-del-modulo">Contenidos del módulo<a class="headerlink" href="#contenidos-del-modulo" title="Permanent link">&para;</a></h2>
+<h3 id="1-recordatorio-rapido-de-la-estructura">1. Recordatorio rápido de la estructura<a class="headerlink" href="#1-recordatorio-rapido-de-la-estructura" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Trigger → Paso de IA → Acción de salida.</li>
+<li>Qué cambia ahora: añadimos <strong>más de una acción</strong> y <strong>condiciones</strong>.</li>
+<li>Se introduce el concepto de <strong>“flujo de negocio”:</strong> una automatización que refleja un proceso que alguien del equipo hace hoy a mano.</li>
+</ul>
+<h3 id="2-patrones-de-ia-utiles-para-automatizacion">2. Patrones de IA útiles para automatización<a class="headerlink" href="#2-patrones-de-ia-utiles-para-automatizacion" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Resumen operativo</strong></li>
+<li>Prompt tipo: “Resume en 5 puntos claros para dirección”.</li>
+<li>
+<p>Uso: adjuntar a un email, enviar a Slack, alimentar una base de conocimiento.</p>
+</li>
+<li>
+<p><strong>Clasificación</strong></p>
+</li>
+<li>Prompt tipo:<br />
+     &gt; “Clasifica este texto en una de estas categorías: [Novedad cliente], [Incidencia], [Solicitud comercial], [Otro]. Devuelve SOLO el nombre de la categoría.”</li>
+<li>
+<p>Uso: decidir por qué rama continúa el flujo.</p>
+</li>
+<li>
+<p><strong>Extracción de datos</strong></p>
+</li>
+<li>Prompt tipo:<br />
+     &gt; “Del siguiente texto extrae: nombre de la empresa, país, persona de contacto (si aparece). Devuelve un JSON con esas tres claves.”</li>
+<li>
+<p>Uso: guardar en Sheet, CRM o enviar a otra API.</p>
+</li>
+<li>
+<p><strong>Generación de respuesta</strong></p>
+</li>
+<li>Prompt tipo:<br />
+     &gt; “Redacta una respuesta cortés, breve y en español, agradeciendo la información y pidiendo un teléfono de contacto.”</li>
+<li>Uso: contestar automáticamente o dejar una respuesta sugerida.</li>
+</ol>
+<p>Estos cuatro patrones son suficientes para el 80% de los casos de uso de negocio con IA.</p>
+<hr />
+<h3 id="3-construccion-paso-a-paso-del-flujo-clasificar-y-guardar">3. Construcción paso a paso del flujo “Clasificar y guardar”<a class="headerlink" href="#3-construccion-paso-a-paso-del-flujo-clasificar-y-guardar" title="Permanent link">&para;</a></h3>
+<p><strong>Escenario:</strong> llegan solicitudes o mensajes (correo, formulario, WhatsApp). Queremos:
+1. Capturarlos,
+2. Analizarlos con IA para saber de qué van,
+3. Guardarlos de forma ordenada (por ejemplo en Google Sheets o Notion),
+4. Y avisar a alguien si es “importante”.</p>
+<p><strong>Pasos:</strong></p>
+<ol>
+<li><strong>Trigger</strong>  </li>
+<li>“Nuevo mensaje” / “Nueva fila” / “Nuevo email”.</li>
+<li>
+<p>Si no hay conector directo, se puede usar “Webhook” y dispararlo a mano.</p>
+</li>
+<li>
+<p><strong>Paso de IA – Clasificación</strong>  </p>
+</li>
+<li>Prompt cerrado (como el de arriba).</li>
+<li>
+<p>Salida esperada: solo una palabra o etiqueta.</p>
+</li>
+<li>
+<p><strong>Condición / Rama</strong>  </p>
+</li>
+<li>Si categoría == “Solicitud comercial” → enviar notificación.</li>
+<li>Si categoría == “Incidencia” → registrar en otra hoja o canal.</li>
+<li>
+<p>Si categoría == “Otro” → archivar.</p>
+</li>
+<li>
+<p><strong>Guardar</strong>  </p>
+</li>
+<li>Acción de “añadir fila” o “crear página” en la herramienta elegida.</li>
+<li>
+<p>Campos: fecha, origen, texto original, categoría.</p>
+</li>
+<li>
+<p><strong>Notificar</strong>  </p>
+</li>
+<li>Acción de email o Slack con la categoría y el resumen.</li>
+</ol>
+<p><strong>Punto importante para perfiles senior:</strong> todo esto se puede montar <strong>a partir de una plantilla del formador</strong>, de forma que solo tengan que cambiar: conector de entrada, prompt y destino.</p>
+<hr />
+<h3 id="4-condiciones-sin-miedo">4. Condiciones sin miedo<a class="headerlink" href="#4-condiciones-sin-miedo" title="Permanent link">&para;</a></h3>
+<p>Muchos usuarios se bloquean cuando ven “IF / ELSE”. Aquí lo simplificamos:</p>
+<ul>
+<li>Lo que sale de la IA es <strong>un texto corto</strong>.</li>
+<li>La herramienta solo pregunta: “¿este texto es igual a ‘Solicitud comercial’?”.</li>
+<li>Si sí → sigue por esta rama.</li>
+<li>Si no → sigue por la otra.</li>
+</ul>
+<p>No hay que programar; solo hay que poner el nombre de la categoría <strong>exactamente igual</strong> a como la IA la devuelve. Por eso es tan importante que el prompt diga “devuelve SOLO el nombre de la categoría”.</p>
+<hr />
+<h3 id="5-pruebas-con-varios-ejemplos">5. Pruebas con varios ejemplos<a class="headerlink" href="#5-pruebas-con-varios-ejemplos" title="Permanent link">&para;</a></h3>
+<p>Para que el flujo sea creíble y no un “Hello World”, lo probamos con 3–4 casos distintos:</p>
+<ol>
+<li>Un mensaje claramente comercial.</li>
+<li>Un mensaje claramente de soporte / incidencia.</li>
+<li>Un mensaje raro o mixto.</li>
+<li>Un mensaje en otro idioma.</li>
+</ol>
+<p>Se revisa en el historial de ejecuciones cada uno y se corrige el prompt si hace falta (por ejemplo, añadiendo “responde siempre en español” o “si no reconoces la categoría, responde ‘Otro’”).</p>
+<hr />
+<h3 id="6-documentacion-funcional-del-flujo">6. Documentación funcional del flujo<a class="headerlink" href="#6-documentacion-funcional-del-flujo" title="Permanent link">&para;</a></h3>
+<p>Se reutiliza la plantilla del módulo 1, pero con más detalle:</p>
+<ul>
+<li><strong>Nombre del flujo:</strong> Clasificación de mensajes de clientes con IA.</li>
+<li><strong>Objetivo de negocio:</strong> reducir el tiempo de clasificación manual y asegurarse de que las incidencias se notifican.</li>
+<li><strong>Trigger:</strong> nuevo mensaje (indicar origen).</li>
+<li><strong>Pasos de IA:</strong> prompt usado + salida esperada.</li>
+<li><strong>Ramas / condiciones:</strong> categorías y acción asociada.</li>
+<li><strong>Salidas:</strong> hoja de cálculo, canal, email.</li>
+<li><strong>Observaciones:</strong> prompt sensible a idioma / formato.</li>
+</ul>
+<p>Esta documentación es clave si más adelante alguien del itinerario intermedio quiere “industrializar” el mismo flujo.</p>
+<hr />
+<h2 id="actividad-practica-guiada">Actividad práctica guiada<a class="headerlink" href="#actividad-practica-guiada" title="Permanent link">&para;</a></h2>
+<p><strong>Título:</strong> “Clasifica y avisa”</p>
+<ol>
+<li>Crear un flujo nuevo.</li>
+<li>Trigger manual (para no pelear con permisos).</li>
+<li>Paso de IA con el prompt de clasificación.</li>
+<li>Rama:</li>
+<li>Si es “Solicitud comercial” → enviar email al comercial.</li>
+<li>Si no → guardar en la hoja como registro.</li>
+<li>Ejecutar 3 pruebas con textos distintos.</li>
+<li>Ajustar el prompt hasta que la mayor parte de los casos salga bien.</li>
+<li>Documentar.</li>
+</ol>
+<p><strong>Opcional:</strong> añadir un segundo paso de IA que haga un pequeño resumen del mensaje y lo incluya en el email de aviso (“esto te lo dejo ya mascado”).</p>
+<hr />
+<h2 id="recursos-recomendados">Recursos recomendados<a class="headerlink" href="#recursos-recomendados" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Tutoriales recientes de n8n / Make sobre “AI workflows” (casi todos traen un paso de clasificación y otro de envío).</li>
+<li>Documentación de OpenAI / proveedor usado sobre “structured outputs” o “json mode”, para quien quiera ir un poco más allá con la extracción estructurada.</li>
+<li>Plantilla de prompts de negocio preparada por el formador (clasificar, resumir, extraer, responder).</li>
+<li>Guía breve: “Cómo nombrar las categorías para no romper las condiciones”.</li>
+</ul>
+<hr />
+<h2 id="criterios-de-finalizacion-del-modulo">Criterios de finalización del módulo<a class="headerlink" href="#criterios-de-finalizacion-del-modulo" title="Permanent link">&para;</a></h2>
+<p>El módulo se considera superado cuando el participante:</p>
+<ol>
+<li>Entrega <strong>un flujo con al menos 3 pasos</strong> (trigger, IA, salida) funcionando.</li>
+<li>Ese flujo tiene <strong>al menos una condición o rama</strong> que dependa de la salida de la IA.</li>
+<li>Ha probado el flujo con más de un ejemplo y ha corregido el prompt.</li>
+<li>Ha documentado el flujo en la plantilla.</li>
+</ol>
+<p>A partir de este punto, en el <strong>Módulo 3</strong> ya podremos entrar en “cómo crear asistentes/GPTs sobre documentación propia” porque el participante ya sabe capturar datos, pasarlos por IA y enviarlos a algún sitio.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.sections", "navigation.expand", "toc.integrate", "content.code.copy"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>

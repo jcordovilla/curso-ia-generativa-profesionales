@@ -1,0 +1,837 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Curso práctico de IA generativa para perfiles no técnicos, basado en flujos no-code y asistentes sobre documentación propia.">
+      
+      
+      
+      
+        <link rel="prev" href="../modulo-3-asistentes-seguros-con-docs-propias/">
+      
+      
+        <link rel="next" href="../modulo-5-evaluacion-documentacion-handover/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>Módulo 4 – Puente hacia lo técnico (conceptual) - Itinerario 1 · IA Generativa para Profesionales Senior</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#proposito-del-modulo" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="Itinerario 1 · IA Generativa para Profesionales Senior" class="md-header__button md-logo" aria-label="Itinerario 1 · IA Generativa para Profesionales Senior" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Itinerario 1 · IA Generativa para Profesionales Senior
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Módulo 4 – Puente hacia lo técnico (conceptual)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Itinerario 1 · IA Generativa para Profesionales Senior" class="md-nav__button md-logo" aria-label="Itinerario 1 · IA Generativa para Profesionales Senior" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Itinerario 1 · IA Generativa para Profesionales Senior
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inicio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Itinerario 1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Itinerario 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduccion-y-objetivos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introducción y objetivos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-1-alfabetizacion-digital-ia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 1 – Alfabetización digital para IA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-2-automatizacion-visual-negocio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 2 – Automatización visual con IA para tareas de negocio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-3-asistentes-seguros-con-docs-propias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 3 – Creación de asistentes seguros con documentación propia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Módulo 4 – Puente hacia lo técnico (conceptual)
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 4 – Puente hacia lo técnico (conceptual)
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#proposito-del-modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Propósito del módulo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultados-de-aprendizaje" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resultados de aprendizaje
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#idea-central-del-modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Idea central del módulo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contenidos-del-modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contenidos del módulo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Contenidos del módulo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-que-es-una-api-version-para-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Qué es una API (versión para negocio)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-componentes-basicos-de-una-llamada-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Componentes básicos de una llamada API
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-autenticacion-api-keys-y-tokens" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Autenticación: API keys y tokens
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-leer-documentacion-de-api-sin-ser-tecnico" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Leer documentación de API sin ser técnico
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-webhooks-la-puerta-de-entrada" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Webhooks: la puerta de entrada
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-git-github-y-docker-solo-para-entender-el-vocabulario" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Git / GitHub y Docker (solo para entender el vocabulario)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-entrega-al-equipo-tecnico-handover" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Entrega al equipo técnico (handover)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actividad-practica-guiada" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actividad práctica guiada
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recursos-recomendados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos recomendados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-de-finalizacion-del-modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Criterios de finalización del módulo
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-5-evaluacion-documentacion-handover/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 5 – Evaluación, documentación y handover
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resumen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resumen y cierre
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Módulo 4 – Puente hacia lo técnico (conceptual)</h1>
+
+<h2 id="proposito-del-modulo">Propósito del módulo<a class="headerlink" href="#proposito-del-modulo" title="Permanent link">&para;</a></h2>
+<p>Hasta ahora has trabajado <strong>dentro</strong> de las herramientas: abrías n8n/Make/Zapier, configurabas un flujo, creabas un asistente y todo ocurría en una interfaz gráfica. En muchas organizaciones, sin embargo, llega un momento en que alguien te dice:</p>
+<blockquote>
+<p>“Vale, esto está muy bien… ¿pero podemos integrarlo con nuestro sistema?”</p>
+<p>“¿Hay API para esto?”</p>
+<p>“¿Lo puedes pasar al equipo de desarrollo?”</p>
+</blockquote>
+<p>Este <strong>Módulo 4</strong> es precisamente para ese puente: que puedas <strong>entender de qué están hablando los técnicos</strong> cuando dicen API, endpoint, repo, token, webhook, Docker… y que puedas <strong>explicar tu caso de uso en esos términos</strong>. No vamos a convertirte en desarrollador aquí; vamos a darte el mapa para que no te pierdas.</p>
+<hr />
+<h2 id="resultados-de-aprendizaje">Resultados de aprendizaje<a class="headerlink" href="#resultados-de-aprendizaje" title="Permanent link">&para;</a></h2>
+<p>Al finalizar este módulo, el participante será capaz de:</p>
+<ol>
+<li>Explicar con palabras sencillas qué es una <strong>API</strong> y para qué se usa en automatización con IA.</li>
+<li>Diferenciar entre <strong>llamar una API desde una herramienta no-code</strong> y <strong>programar contra una API</strong> (y saber cuál de las dos le corresponde).</li>
+<li>Entender qué significa “este servicio expone un endpoint” y dónde va la <strong>API key / token</strong>.</li>
+<li>Leer una documentación de API sencilla y extraer la información relevante para negocio (qué hace, qué envía, qué recibe).</li>
+<li>Entender por qué los técnicos hablan de <strong>Git/GitHub</strong> y <strong>Docker</strong> y en qué momento entra cada cosa, sin tener que usarlo tú todavía.</li>
+<li>Preparar una ficha técnica mínima para entregar al equipo de IT o al compañero que sí está en el itinerario intermedio.</li>
+</ol>
+<hr />
+<h2 id="idea-central-del-modulo">Idea central del módulo<a class="headerlink" href="#idea-central-del-modulo" title="Permanent link">&para;</a></h2>
+<p>No todo lo que construyes en no-code se queda en no-code. A veces:
+- tu flujo tiene que esperar a que otro sistema le envíe datos (webhook),
+- tu asistente tiene que consultar un sistema interno (API de la empresa),
+- o el equipo quiere “empaquetar” tu idea para que funcione igual en todos los entornos (Docker).</p>
+<p>Si sabes <strong>nombrar bien las piezas</strong>, todo ese paso es más rápido.</p>
+<hr />
+<h2 id="contenidos-del-modulo">Contenidos del módulo<a class="headerlink" href="#contenidos-del-modulo" title="Permanent link">&para;</a></h2>
+<h3 id="1-que-es-una-api-version-para-negocio">1. Qué es una API (versión para negocio)<a class="headerlink" href="#1-que-es-una-api-version-para-negocio" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Definición operativa: <strong>una dirección en internet (endpoint) a la que le mando datos y me devuelve algo, siempre de la misma forma</strong>.</li>
+<li>Analogía: es como un mostrador con horario fijo y formulario fijo.</li>
+<li>Por qué nos importa en IA:</li>
+<li>porque los modelos se usan así (tú le mandas el prompt y él te devuelve el texto),</li>
+<li>porque otros sistemas de la empresa también se usan así (CRM, ERP, gestión de tickets),</li>
+<li>y porque nuestras herramientas no-code suelen tener un bloque llamado “HTTP Request” o “Call API”.</li>
+</ul>
+<p><strong>Mensaje clave:</strong> si tu herramienta ya tiene un conector, usas el conector; si no, usas la API con un bloque genérico.</p>
+<hr />
+<h3 id="2-componentes-basicos-de-una-llamada-api">2. Componentes básicos de una llamada API<a class="headerlink" href="#2-componentes-basicos-de-una-llamada-api" title="Permanent link">&para;</a></h3>
+<p>Descomponemos la “cosa fea” en 5 elementos:</p>
+<ol>
+<li><strong>URL / Endpoint</strong>: a dónde le hablo.</li>
+<li><strong>Método</strong>: qué quiero hacer (GET = leer, POST = enviar).</li>
+<li><strong>Headers</strong>: información extra, normalmente la autenticación (“esta soy yo”).</li>
+<li><strong>Body / Payload</strong>: los datos que envío (p. ej. el texto para que lo procese la IA).</li>
+<li><strong>Respuesta</strong>: lo que me devuelve (texto, JSON).</li>
+</ol>
+<p>En una herramienta no-code esto suele aparecer como un formulario muy parecido. Tu trabajo consiste en <strong>llenarlo con los datos correctos</strong> siguiendo la documentación.</p>
+<hr />
+<h3 id="3-autenticacion-api-keys-y-tokens">3. Autenticación: API keys y tokens<a class="headerlink" href="#3-autenticacion-api-keys-y-tokens" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Relación con el Módulo 1: esto es lo mismo que ya viste, pero ahora <strong>al servicio externo le tienes que decir quién eres</strong>.</li>
+<li>Sitios típicos donde se pone la API key:</li>
+<li>en un campo llamado “Authentication” o “API key”,</li>
+<li>en los headers (<code>Authorization: Bearer &lt;token&gt;</code>),</li>
+<li>dentro del propio conector (n8n/Make ya traen el campo).</li>
+<li>Buenas prácticas:</li>
+<li>no poner la key en texto plano en documentos compartidos,</li>
+<li>si es una key de la empresa, pedir una cuenta técnica,</li>
+<li>avisar si el flujo va a ser compartido.</li>
+</ul>
+<hr />
+<h3 id="4-leer-documentacion-de-api-sin-ser-tecnico">4. Leer documentación de API sin ser técnico<a class="headerlink" href="#4-leer-documentacion-de-api-sin-ser-tecnico" title="Permanent link">&para;</a></h3>
+<p>Vamos a establecer una mini-rutina de lectura:</p>
+<ol>
+<li><strong>¿Qué hace esta API?</strong> (descripción general, 2-3 frases).</li>
+<li><strong>¿Cuál es la URL que tengo que pegar en mi herramienta?</strong></li>
+<li><strong>¿Qué método usa?</strong> (GET/POST; si no lo dice, suele ser POST en IA).</li>
+<li><strong>¿Qué parámetros son obligatorios?</strong> (prompt, model, input…).</li>
+<li><strong>¿Qué devuelve?</strong> (cadenas de texto, JSON con campos).</li>
+</ol>
+<p>Con esas 5 preguntas puedes configurar el 80% de las APIs típicas para IA y automatización.</p>
+<hr />
+<h3 id="5-webhooks-la-puerta-de-entrada">5. Webhooks: la puerta de entrada<a class="headerlink" href="#5-webhooks-la-puerta-de-entrada" title="Permanent link">&para;</a></h3>
+<p>Hasta ahora disparábamos los flujos porque <strong>la herramienta</strong> detectaba algo. Pero puede ocurrir que:
+- un sistema externo quiera avisarte,
+- un desarrollador te diga “te mando un webhook”.</p>
+<p><strong>Webhook</strong> = una URL tuya que se queda esperando a que otro le mande datos.<br />
+En no-code esto suele ser un nodo “Webhook” o “Incoming request”.<br />
+La parte técnica la hace el otro; tú solo debes:
+- crear ese webhook,
+- copiar la URL,
+- dársela a quien te manda los datos,
+- y probar.</p>
+<p>Esto te permite integrarte con muchos sistemas sin programar.</p>
+<hr />
+<h3 id="6-git-github-y-docker-solo-para-entender-el-vocabulario">6. Git / GitHub y Docker (solo para entender el vocabulario)<a class="headerlink" href="#6-git-github-y-docker-solo-para-entender-el-vocabulario" title="Permanent link">&para;</a></h3>
+<p><strong>Git / GitHub</strong>
+- Para ti: es el sitio donde el equipo va a querer guardar las plantillas, documentos y, si hay código, el código.
+- Tu aportación: subir la documentación funcional del flujo/asistente para que viaje con el código.
+- Por qué lo nombramos: porque el itinerario intermedio lo usará y está bien que sepas que “ese es el sitio”.</p>
+<p><strong>Docker</strong>
+- Para ti: es “la caja” en la que los técnicos meten todo para que funcione igual en todos lados.
+- Cuándo aparece: cuando lo que tú hiciste en no-code alguien lo reescribe en código y lo quiere subir a un servidor.
+- Qué tienes que saber: que existe, que es normal que lo mencionen, y que tu documentación les ayuda a saber qué meter dentro.</p>
+<p>No hace falta que hagas <code>docker build</code>, solo que sepas leer la palabra sin pánico.</p>
+<hr />
+<h3 id="7-entrega-al-equipo-tecnico-handover">7. Entrega al equipo técnico (handover)<a class="headerlink" href="#7-entrega-al-equipo-tecnico-handover" title="Permanent link">&para;</a></h3>
+<p>Usaremos una <strong>ficha técnica mínima</strong>, muy parecida a la del módulo 2 pero con dos campos nuevos:</p>
+<ul>
+<li><strong>Nombre del flujo / asistente</strong></li>
+<li><strong>Propósito de negocio</strong></li>
+<li><strong>Datos de entrada</strong> (de dónde vienen, formato)</li>
+<li><strong>Datos de salida</strong> (a dónde van, formato)</li>
+<li><strong>Servicios externos usados</strong> (IA, correo, CRM…)</li>
+<li><strong>Credenciales necesarias</strong> (tipo de key, de quién es)</li>
+<li><strong>Puntos de integración deseados</strong> (aquí es donde dices: “idealmente que esto se llame desde el CRM”)</li>
+<li><strong>Observaciones técnicas</strong> (ej.: “funciona con una API X que requiere POST y JSON”)</li>
+</ul>
+<p>Con esto, la persona del itinerario intermedio o el equipo de IT ya puede: o bien replicarlo con código, o bien industrializarlo.</p>
+<hr />
+<h2 id="actividad-practica-guiada">Actividad práctica guiada<a class="headerlink" href="#actividad-practica-guiada" title="Permanent link">&para;</a></h2>
+<p><strong>Título:</strong> “Mi flujo llama a una API”</p>
+<ol>
+<li>Crear un flujo sencillo con disparo manual.</li>
+<li>Añadir un paso de “HTTP request” / “Call API”.</li>
+<li>Tomar una documentación de API fácil (p. ej. una API pública que devuelve un texto o una lista).</li>
+<li>Pegar URL, método y (si hace falta) la API key.</li>
+<li>Ejecutar y comprobar que viene una respuesta.</li>
+<li>Añadir un paso final que <strong>muestre</strong> la respuesta o la <strong>guarde</strong> en una hoja.</li>
+<li>Documentar con la ficha técnica mínima.</li>
+</ol>
+<p><strong>Variante aún más simple:</strong> en lugar de una API pública, usar la propia API de la plataforma de IA que ya usas (ej.: OpenAI → “chat completions”). Como ya tienes la key, es 1 paso menos.</p>
+<hr />
+<h2 id="recursos-recomendados">Recursos recomendados<a class="headerlink" href="#recursos-recomendados" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Documentación de “HTTP Request node” de la plataforma que uséis (n8n, Make o Zapier): suelen traer ejemplos ya completos.</li>
+<li>Una o dos APIs públicas sencillas (cat facts, quotes, meteo) para practicar sin miedo.</li>
+<li>Guía corta interna “Cómo pedir una API key a IT”.</li>
+<li>Artículo o vídeo corto “What is an API” pensado para no técnicos.</li>
+<li>Glosario de términos técnicos que aparecerán en el itinerario intermedio (API, endpoint, webhook, repo, Docker) en markdown para el vault.</li>
+</ul>
+<hr />
+<h2 id="criterios-de-finalizacion-del-modulo">Criterios de finalización del módulo<a class="headerlink" href="#criterios-de-finalizacion-del-modulo" title="Permanent link">&para;</a></h2>
+<p>El módulo se considera completado cuando el participante:</p>
+<ol>
+<li>Ha configurado <strong>al menos una llamada a una API</strong> desde su herramienta no-code y ha visto una respuesta real.</li>
+<li>Ha entendido dónde va la API key y para qué sirve.</li>
+<li>Ha rellenado la <strong>ficha técnica mínima</strong> de su caso de uso.</li>
+<li>Es capaz de explicar a un técnico qué quiere que ocurra “delante” (el flujo) y qué tendría que ocurrir “detrás” (la integración).</li>
+</ol>
+<p>Con esto, el <strong>Módulo 5</strong> ya puede centrarse en evaluación, documentación larga y handover completo.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.sections", "navigation.expand", "toc.integrate", "content.code.copy"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
