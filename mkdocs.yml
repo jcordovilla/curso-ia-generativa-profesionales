@@ -1,0 +1,41 @@
+site_name: Itinerario 1 · IA Generativa para Profesionales Senior
+site_description: Curso práctico de IA generativa para perfiles no técnicos, basado en flujos no-code y asistentes sobre documentación propia.
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - codehilite
+  - attr_list
+  - def_list
+
+nav:
+  - Inicio: index.md
+  - Itinerario 1:
+      - Introducción y objetivos: introduccion-y-objetivos.md
+      - Módulo 1 – Alfabetización digital para IA: modulo-1-alfabetizacion-digital-ia.md
+      - Módulo 2 – Automatización visual con IA para tareas de negocio: modulo-2-automatizacion-visual-negocio.md
+      - Módulo 3 – Creación de asistentes seguros con documentación propia: modulo-3-asistentes-seguros-con-docs-propias.md
+      - Módulo 4 – Puente hacia lo técnico (conceptual): modulo-4-puente-hacia-lo-tecnico-conceptual.md
+      - Módulo 5 – Evaluación, documentación y handover: modulo-5-evaluacion-documentacion-handover.md
+      - Resumen y cierre: resumen.md
+
+plugins:
+  - search
+  - roamlinks
