@@ -27,19 +27,19 @@ Lo que sigue es el cierre lógico: qué te llevas, qué has aprendido realmente 
 
 ## 2. Recordatorio de los módulos
 
-**Módulo 1 – Alfabetización digital para IA**  
+**[[modulo-1-alfabetizacion-digital-ia|Módulo 1 – Alfabetización digital para IA]]**  
 Bajamos la barrera: trigger, acción, credenciales, prueba, error. Sin esto, todo lo demás se vuelve frustrante.
 
-**Módulo 2 – Automatización visual con IA para tareas de negocio**  
+**[[modulo-2-automatizacion-visual-negocio|Módulo 2 – Automatización visual con IA para tareas de negocio]]**  
 Pasamos de “funciona” a “me ahorra trabajo”. Clasificamos, ramificamos y guardamos. La IA dejó de ser solo un chat.
 
-**Módulo 3 – Creación de asistentes/GPTs seguros con documentación propia**  
+**[[modulo-3-asistentes-seguros-con-docs-propias|Módulo 3 – Creación de asistentes/GPTs seguros con documentación propia]]**  
 Le diste forma a un asistente que responde como tu organización, con tus documentos y con tus reglas.
 
-**Módulo 4 – Puente hacia lo técnico (conceptual)**  
+**[[modulo-4-puente-hacia-lo-tecnico-conceptual|Módulo 4 – Puente hacia lo técnico (conceptual)]]**  
 Aprendiste a ponerle nombre a las piezas técnicas (API, endpoint, webhook, repo, Docker) sin tener que construirlas tú.
 
-**Módulo 5 – Evaluación, documentación y handover**  
+**[[modulo-5-evaluacion-documentacion-handover|Módulo 5 – Evaluación, documentación y handover]]**  
 Profesionalizaste el trabajo: casos de prueba, métricas sencillas, nota de documentación y traspaso al equipo.
 
 Juntos, estos cinco módulos forman un ciclo completo: **aprender → aplicar → explicar → entregar**.

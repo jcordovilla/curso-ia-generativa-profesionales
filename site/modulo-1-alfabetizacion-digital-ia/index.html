@@ -1,0 +1,787 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Curso práctico de IA generativa para perfiles no técnicos, basado en flujos no-code y asistentes sobre documentación propia.">
+      
+      
+      
+      
+        <link rel="prev" href="../introduccion-y-objetivos/">
+      
+      
+        <link rel="next" href="../modulo-2-automatizacion-visual-negocio/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>Módulo 1 – Alfabetización digital para IA - Itinerario 1 · IA Generativa para Profesionales Senior</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#proposito-del-modulo" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="Itinerario 1 · IA Generativa para Profesionales Senior" class="md-header__button md-logo" aria-label="Itinerario 1 · IA Generativa para Profesionales Senior" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Itinerario 1 · IA Generativa para Profesionales Senior
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Módulo 1 – Alfabetización digital para IA
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Itinerario 1 · IA Generativa para Profesionales Senior" class="md-nav__button md-logo" aria-label="Itinerario 1 · IA Generativa para Profesionales Senior" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Itinerario 1 · IA Generativa para Profesionales Senior
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inicio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Itinerario 1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Itinerario 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduccion-y-objetivos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introducción y objetivos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Módulo 1 – Alfabetización digital para IA
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 1 – Alfabetización digital para IA
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#proposito-del-modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Propósito del módulo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultados-de-aprendizaje-al-finalizar-el-modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resultados de aprendizaje al finalizar el módulo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enfoque-pedagogico-especifico-para-perfiles-senior" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enfoque pedagógico específico para perfiles senior
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contenidos-del-modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contenidos del módulo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Contenidos del módulo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-que-es-un-flujo-de-automatizacion-con-ia" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Qué es un flujo de automatización con IA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-componentes-basicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Componentes básicos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-credenciales-y-seguridad-basica" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Credenciales y seguridad básica
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-ejecucion-de-prueba-y-lectura-de-errores" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Ejecución de prueba y lectura de errores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-descripcion-funcional-del-flujo" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Descripción funcional del flujo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actividad-practica-guiada" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actividad práctica guiada
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#material-de-apoyo-recomendado" class="md-nav__link">
+    <span class="md-ellipsis">
+      Material de apoyo recomendado
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cierre-del-modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cierre del módulo
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-2-automatizacion-visual-negocio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 2 – Automatización visual con IA para tareas de negocio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-3-asistentes-seguros-con-docs-propias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 3 – Creación de asistentes seguros con documentación propia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-4-puente-hacia-lo-tecnico-conceptual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 4 – Puente hacia lo técnico (conceptual)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-5-evaluacion-documentacion-handover/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 5 – Evaluación, documentación y handover
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resumen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resumen y cierre
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Módulo 1 – Alfabetización digital para IA</h1>
+
+<h2 id="proposito-del-modulo">Propósito del módulo<a class="headerlink" href="#proposito-del-modulo" title="Permanent link">&para;</a></h2>
+<p>Este primer módulo existe para que nadie se quede fuera por “cosas básicas” que casi nunca se explican: qué es una plataforma no-code, por qué me pide una API key, qué diferencia hay entre un trigger y una acción, y cómo probar un flujo sin romper nada de la empresa. Está pensado específicamente para profesionales senior que vienen de negocio, consultoría o dirección y que <strong>sí son competentes digitalmente</strong>, pero <strong>no están acostumbrados a interfaces cambiantes ni a configurar servicios online cada semana</strong>.</p>
+<p>La idea es bajar la ansiedad técnica y construir un terreno común antes de pasar a automatizaciones más interesantes.</p>
+<hr />
+<h2 id="resultados-de-aprendizaje-al-finalizar-el-modulo">Resultados de aprendizaje al finalizar el módulo<a class="headerlink" href="#resultados-de-aprendizaje-al-finalizar-el-modulo" title="Permanent link">&para;</a></h2>
+<p>Al terminar, el participante será capaz de:</p>
+<ol>
+<li><strong>Reconocer los componentes básicos de un flujo no-code/low-code</strong>: disparador (trigger), paso de IA, salida.</li>
+<li><strong>Conectar una herramienta de uso diario</strong> (p. ej. Google Sheets o Email) a una plataforma de automatización guiándose por la documentación.</li>
+<li><strong>Entender qué es una credencial / API key</strong> y cuál es el procedimiento correcto para pedirla o protegerla en su organización.</li>
+<li><strong>Probar un flujo con datos de ejemplo</strong> y leer los mensajes de error más frecuentes.</li>
+<li><strong>Describir el flujo en lenguaje de negocio</strong>, de forma que un técnico pueda revisarlo o replicarlo.</li>
+</ol>
+<hr />
+<h2 id="enfoque-pedagogico-especifico-para-perfiles-senior">Enfoque pedagógico específico para perfiles senior<a class="headerlink" href="#enfoque-pedagogico-especifico-para-perfiles-senior" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Contexto primero, herramienta después</strong>: no vamos a “clicar hasta que funcione”. Primero se explica qué vamos a automatizar y por qué es útil en el trabajo real (ej.: “recibo un correo → quiero un resumen → que se guarde en un docs compartido”).</li>
+<li><strong>Pasos cortos y repetibles</strong>: la misma secuencia (crear flujo → añadir trigger → añadir acción → probar → guardar) se repetirá dos veces con ejemplos distintos. La repetición ayuda a fijar.</li>
+<li><strong>Vocabulario estable</strong>: en este módulo elegimos las palabras que usaremos en el resto del itinerario: <em>flujo, trigger, acción, conector, credencial, ejecución de prueba</em>.</li>
+<li><strong>Tolerancia al error guiada</strong>: incluimos una sección “si ves este mensaje, haz esto” porque muchos abandonos se producen justo cuando aparece el primer error.</li>
+<li><strong>Material descargable</strong>: checklist de “antes de crear un flujo” y otra de “después de crear el flujo”.</li>
+</ul>
+<hr />
+<h2 id="contenidos-del-modulo">Contenidos del módulo<a class="headerlink" href="#contenidos-del-modulo" title="Permanent link">&para;</a></h2>
+<h3 id="1-que-es-un-flujo-de-automatizacion-con-ia">1. Qué es un flujo de automatización con IA<a class="headerlink" href="#1-que-es-un-flujo-de-automatizacion-con-ia" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Definición operativa: “una secuencia de pasos que se ejecuta sola cuando pasa algo”.</li>
+<li>Diferencia entre un flujo “puro” (sin IA) y un flujo con IA (hay un paso que llama a un modelo con un prompt).</li>
+<li>Ejemplos del día a día:</li>
+<li>Cuando llegue un email con informe → pásalo por IA para que lo resuma → envíamelo a Slack.</li>
+<li>Cuando haya una nueva fila en Sheet de leads → clasifícala con IA → márcala como A/B/C.</li>
+</ul>
+<h3 id="2-componentes-basicos">2. Componentes básicos<a class="headerlink" href="#2-componentes-basicos" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Trigger (disparador):</strong> recibe el evento. Ej.: “nuevo email”, “nueva fila”, “mensaje de WhatsApp”.</li>
+<li><strong>Acción / tarea:</strong> lo que hace el flujo. Ej.: “enviar a IA”, “guardar en documento”, “enviar mensaje”.</li>
+<li><strong>Salida:</strong> dónde quiero ver el resultado. Ej.: email, chat, documento, CRM.</li>
+<li><strong>Conectores:</strong> piezas ya hechas para hablar con otros servicios (Gmail, Drive, Slack, Notion, etc.).</li>
+<li><strong>Paso de IA:</strong> nodo o bloque que envía un texto a un modelo y recibe una respuesta.</li>
+</ul>
+<h3 id="3-credenciales-y-seguridad-basica">3. Credenciales y seguridad básica<a class="headerlink" href="#3-credenciales-y-seguridad-basica" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Qué es una <strong>API key</strong> y por qué la pide la herramienta.</li>
+<li>Diferencia entre credenciales personales y credenciales corporativas.</li>
+<li>Buenas prácticas mínimas:</li>
+<li>No pegar la API key en documentos compartidos.</li>
+<li>Guardarla en el almacén seguro de la propia plataforma (n8n, Make, Zapier tienen uno).</li>
+<li>Si la empresa es estricta, pedir a IT una “cuenta técnica”.</li>
+<li>Mini-guía de cómo pedirlo a IT: “necesito conectar nuestra cuenta de Google a n8n para leer una hoja; el flujo solo leerá, no modificará”.</li>
+</ul>
+<h3 id="4-ejecucion-de-prueba-y-lectura-de-errores">4. Ejecución de prueba y lectura de errores<a class="headerlink" href="#4-ejecucion-de-prueba-y-lectura-de-errores" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Por qué hay un botón de “Run once / Ejecutar una vez”.</li>
+<li>Errores más habituales:</li>
+<li>“Authentication failed” → credenciales.</li>
+<li>“Rate limit / demasiadas peticiones” → IA o servicio externo.</li>
+<li>“Missing field / falta un campo” → el trigger no trae el dato esperado.</li>
+<li>Cómo documentar el error para pedir ayuda (captura + breve descripción).</li>
+</ul>
+<h3 id="5-descripcion-funcional-del-flujo">5. Descripción funcional del flujo<a class="headerlink" href="#5-descripcion-funcional-del-flujo" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Plantilla corta de documentación:</li>
+<li><strong>Nombre del flujo</strong></li>
+<li><strong>Objetivo de negocio</strong></li>
+<li><strong>Trigger</strong></li>
+<li><strong>Acciones</strong></li>
+<li><strong>Salida</strong></li>
+<li><strong>Dependencias / credenciales</strong></li>
+<li>Esta plantilla es la que luego se incluirá en el repositorio o en la wiki del equipo.</li>
+</ul>
+<hr />
+<h2 id="actividad-practica-guiada">Actividad práctica guiada<a class="headerlink" href="#actividad-practica-guiada" title="Permanent link">&para;</a></h2>
+<p><strong>Título:</strong> “Del email al resumen”</p>
+<ol>
+<li>Crear un flujo nuevo.</li>
+<li>Añadir un trigger de correo entrante (o, si no se puede, un trigger manual para no depender de permisos).</li>
+<li>Añadir un paso de IA con un prompt sencillo:<blockquote>
+<p>“Actúa como asistente de dirección. Resume este mensaje en 5 puntos y añade una acción recomendada.”</p>
+</blockquote>
+</li>
+<li>Añadir una salida (por ejemplo: enviar el resultado por email a uno mismo).</li>
+<li>Ejecutar una prueba.</li>
+<li>Documentar el flujo usando la plantilla.</li>
+</ol>
+<p><strong>Variantes para gente con menos confianza técnica:</strong>
+- En lugar de correo real, usar un webhook o un “execute manually” y pegar ahí el texto.
+- En lugar de enviar email al final, guardar en una nota o en un campo de la propia plataforma.</p>
+<hr />
+<h2 id="material-de-apoyo-recomendado">Material de apoyo recomendado<a class="headerlink" href="#material-de-apoyo-recomendado" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>Nota: aquí se listan recursos que explican exactamente este tipo de pasos para no-code. En el documento final (o en mkdocs) se pueden convertir en una sección “Recursos”.</p>
+</blockquote>
+<ul>
+<li>Documentación de inicio rápido de una plataforma de automatización (n8n, Make o Zapier) con ejemplos de un solo flujo.</li>
+<li>Guía de la plataforma sobre <strong>credential management</strong> para usuarios no técnicos.</li>
+<li>Vídeo corto de demostración grabado por el propio formador con la misma versión de la herramienta que verán los participantes (esto es importante porque las interfaces cambian).</li>
+<li>Checklist en formato Markdown:</li>
+<li>[ ] Tengo claro cuál es mi trigger.</li>
+<li>[ ] Sé qué datos necesito que salgan.</li>
+<li>[ ] Tengo o sé cómo pedir las credenciales.</li>
+<li>[ ] He probado el flujo una vez.</li>
+<li>[ ] He documentado el flujo.</li>
+</ul>
+<hr />
+<h2 id="cierre-del-modulo">Cierre del módulo<a class="headerlink" href="#cierre-del-modulo" title="Permanent link">&para;</a></h2>
+<p>El módulo se considera completado cuando el participante:
+1. Ha creado <strong>al menos un flujo</strong> que se ejecuta sin error.
+2. Ha documentado ese flujo en la plantilla.
+3. Ha sido capaz de explicar en voz alta qué parte hace la IA y qué parte hace la automatización.
+4. Ha guardado sus credenciales de forma segura o ha dejado constancia de que necesita la ayuda de IT.</p>
+<p>A partir de aquí, el Módulo 2 podrá centrarse ya en <strong>automatizaciones de negocio más ricas</strong> (ramificaciones, clasificación, envío a CRM) sin tener que volver a explicar qué es un trigger o por qué falló la autenticación.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.sections", "navigation.expand", "toc.integrate", "content.code.copy"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
