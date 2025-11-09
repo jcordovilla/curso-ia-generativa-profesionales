@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #485e69;
+    font-weight: 900;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #485e69;
+    font-weight: 700;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color:   #485e69;
+    font-weight: 400;
+}
+
+:root  > * {
+    --md-primary-fg-color:        #485e69;
+    --md-accent-fg-color:        #69485e;
+  }

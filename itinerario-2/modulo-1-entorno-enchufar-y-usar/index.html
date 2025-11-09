@@ -1,0 +1,1178 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Curso práctico de IA generativa para perfiles no técnicos, basado en flujos no-code y asistentes sobre documentación propia.">
+      
+      
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../modulo-2-llamar-a-apis-de-modelos/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>Módulo 1 – Entorno enchufar y usar - IA Generativa para Profesionales</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../style.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#itinerario-2-modulo-1" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../.." title="IA Generativa para Profesionales" class="md-header__button md-logo" aria-label="IA Generativa para Profesionales" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6V5a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v1h-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v1H3v14h10.09a5.5 5.5 0 0 1-.09-1 6 6 0 0 1 8-5.66V6m-1 9v3h3v2h-3v3h-2v-3h-3v-2h3v-3Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IA Generativa para Profesionales
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Módulo 1 – Entorno enchufar y usar
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="IA Generativa para Profesionales" class="md-nav__button md-logo" aria-label="IA Generativa para Profesionales" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6V5a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v1h-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v1H3v14h10.09a5.5 5.5 0 0 1-.09-1 6 6 0 0 1 8-5.66V6m-1 9v3h3v2h-3v3h-2v-3h-3v-2h3v-3Z"/></svg>
+
+    </a>
+    IA Generativa para Profesionales
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bienvenida
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../itinerario-1/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Itinerario 1 – No Code
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Itinerario 1 – No Code
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-1/modulo-1-alfabetizacion-digital-ia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 1 – Alfabetización digital para IA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-1/modulo-2-automatizacion-visual-negocio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 2 – Automatización visual con IA para tareas de negocio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-1/modulo-3-asistentes-seguros-con-docs-propias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 3 – Creación de asistentes seguros con documentación propia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-1/modulo-4-puente-hacia-lo-tecnico-conceptual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 4 – Puente hacia lo técnico (conceptual)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-1/modulo-5-evaluacion-documentacion-handover/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 5 – Evaluación, documentación y handover
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-1/resumen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resumen y cierre
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    itinerario-2 – Low Code
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            itinerario-2 – Low Code
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Módulo 1 – Entorno enchufar y usar
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 1 – Entorno enchufar y usar
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#entorno-enchufar-y-usar-ejecutar-primero-entender-despues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entorno “enchufar y usar”: ejecutar primero, entender después
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Entorno “enchufar y usar”: ejecutar primero, entender después">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-que-vamos-a-ver-en-este-modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Qué vamos a ver en este módulo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-por-que-empezamos-asi" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Por qué empezamos así
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-que-es-un-entorno-preparado" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Qué es un entorno preparado
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-flujo-de-trabajo-recomendado-el-de-verdad" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Flujo de trabajo recomendado (el de verdad)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-el-env-tu-sitio-para-las-claves" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. El .env: tu sitio para las claves
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-primera-ejecucion-que-debes-conseguir" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Primera ejecución: qué debes conseguir
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-senales-de-alerta-y-como-resolverlas" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Señales de alerta y cómo resolverlas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-documentar-lo-que-hiciste-para-tu-yo-del-futuro" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Documentar lo que hiciste (para tu yo del futuro)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-como-se-conecta-con-los-siguientes-modulos" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Cómo se conecta con los siguientes módulos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-cierre-y-aprendizajes-clave" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Cierre y aprendizajes clave
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-2-llamar-a-apis-de-modelos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 2 – Llamar a APIs de modelos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-3-rag-practico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 3 – RAG práctico con LangChain
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-4-agentes-y-orquestacion-minima/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 4 – Agentes y orquestación mínima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-5-publicar-y-compartir/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 5 – Publicar y compartir
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resumen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resumen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#entorno-enchufar-y-usar-ejecutar-primero-entender-despues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entorno “enchufar y usar”: ejecutar primero, entender después
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Entorno “enchufar y usar”: ejecutar primero, entender después">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-que-vamos-a-ver-en-este-modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Qué vamos a ver en este módulo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-por-que-empezamos-asi" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Por qué empezamos así
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-que-es-un-entorno-preparado" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Qué es un entorno preparado
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-flujo-de-trabajo-recomendado-el-de-verdad" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Flujo de trabajo recomendado (el de verdad)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-el-env-tu-sitio-para-las-claves" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. El .env: tu sitio para las claves
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-primera-ejecucion-que-debes-conseguir" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Primera ejecución: qué debes conseguir
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-senales-de-alerta-y-como-resolverlas" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Señales de alerta y cómo resolverlas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-documentar-lo-que-hiciste-para-tu-yo-del-futuro" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Documentar lo que hiciste (para tu yo del futuro)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-como-se-conecta-con-los-siguientes-modulos" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Cómo se conecta con los siguientes módulos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-cierre-y-aprendizajes-clave" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Cierre y aprendizajes clave
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="itinerario-2-modulo-1">Itinerario 2 · Módulo 1<a class="headerlink" href="#itinerario-2-modulo-1" title="Permanent link">&para;</a></h1>
+<h2 id="entorno-enchufar-y-usar-ejecutar-primero-entender-despues">Entorno “enchufar y usar”: ejecutar primero, entender después<a class="headerlink" href="#entorno-enchufar-y-usar-ejecutar-primero-entender-despues" title="Permanent link">&para;</a></h2>
+<p>En el itinerario 1 trabajaste siempre “desde fuera”: conectando servicios, construyendo flujos visuales y creando GPTs con tus documentos. Ahora vamos a entrar <strong>un poco más dentro</strong>: vamos a ejecutar código que ya viene preparado.<br />
+La clave de este módulo es que <strong>no vas a empezar desde un archivo vacío</strong>, sino desde un <strong>repo/proyecto ya montado</strong>. Tu trabajo es hacerlo funcionar en tu máquina (o en un entorno online) y dejarlo listo para los módulos siguientes.</p>
+<hr />
+<h3 id="1-que-vamos-a-ver-en-este-modulo">1. Qué vamos a ver en este módulo<a class="headerlink" href="#1-que-vamos-a-ver-en-este-modulo" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Qué es un “entorno preparado” y por qué lo usamos.  </li>
+<li>Cómo clonar o descargar un repositorio de ejemplo.  </li>
+<li>Cómo instalar las dependencias sin romper nada.  </li>
+<li>Cómo crear y rellenar un archivo <code>.env</code> con tu API key.  </li>
+<li>Cómo ejecutar el <strong>script de prueba</strong> y comprobar que la llamada al modelo funciona.  </li>
+<li>Qué guardar/documentar para el resto del itinerario.  </li>
+</ol>
+<p><strong>Idea clave:</strong> si hoy consigues “ejecutar un script que llama a la IA”, el resto de módulos (APIs, RAG, agentes) serán solo variaciones sobre lo mismo.</p>
+<hr />
+<h3 id="2-por-que-empezamos-asi">2. Por qué empezamos así<a class="headerlink" href="#2-por-que-empezamos-asi" title="Permanent link">&para;</a></h3>
+<p>Porque en este itinerario queremos que aprendas <strong>a modificar</strong> un prototipo, no a montarlo desde cero. En los equipos reales esto pasa todo el tiempo: alguien técnico te pasa un repo y tú tienes que:
+- poner tu clave,<br />
+- cambiar un parámetro,<br />
+- y volver a ejecutar.  </p>
+<p>En la práctica esto significa: <strong>tu habilidad no es programar, tu habilidad es echar a andar un proyecto que te dan</strong>.</p>
+<p><strong>Mini-resumen:</strong> este módulo te enseña a “arrancar motores”.</p>
+<hr />
+<h3 id="3-que-es-un-entorno-preparado">3. Qué es un entorno preparado<a class="headerlink" href="#3-que-es-un-entorno-preparado" title="Permanent link">&para;</a></h3>
+<p>Cuando decimos “entorno enchufar y usar” nos referimos a un proyecto que ya trae:</p>
+<ul>
+<li>un archivo <code>requirements.txt</code> o <code>pyproject</code> con las librerías necesarias,  </li>
+<li>un archivo <code>example.env</code> o <code>.env.example</code> donde van las claves,  </li>
+<li>un <code>README.md</code> que dice cómo ejecutar,  </li>
+<li>y un script de prueba, algo como <code>python test_llm.py</code>.  </li>
+</ul>
+<p>Tú no tienes que decidir librerías, ni estructura, ni versiones. <strong>Solo tienes que seguir las instrucciones y adaptar las claves.</strong></p>
+<p><strong>Comparación útil:</strong> es como recibir una plantilla de Excel con fórmulas: no la diseñas, la rellenas.</p>
+<hr />
+<h3 id="4-flujo-de-trabajo-recomendado-el-de-verdad">4. Flujo de trabajo recomendado (el de verdad)<a class="headerlink" href="#4-flujo-de-trabajo-recomendado-el-de-verdad" title="Permanent link">&para;</a></h3>
+<p>Vamos a dejarlo claro, porque lo vas a repetir en todos los módulos:</p>
+<ol>
+<li>
+<p><strong>Clonar o descargar el repo</strong></p>
+</li>
+<li>
+<p>Si usas GitHub: <code>git clone &lt;url-del-repo&gt;</code></p>
+</li>
+<li>
+<p>Si no usas Git: botón "Download ZIP" y lo descomprimes.</p>
+</li>
+<li>
+<p><strong>Abrir en VS Code / Codespace</strong></p>
+</li>
+<li>
+<p>Abre la carpeta del proyecto.</p>
+</li>
+<li>
+<p>Asegúrate de que ves los archivos (<code>requirements.txt</code>, <code>README.md</code>, etc.).</p>
+</li>
+<li>
+<p><strong>Crear el entorno de claves</strong></p>
+</li>
+<li>
+<p>Copia <code>.env.example</code> a <code>.env</code>.</p>
+</li>
+<li>En <code>.env</code> pega tu API key de OpenAI (u otro proveedor).</li>
+<li>
+<p>No subas ese <code>.env</code> a GitHub.</p>
+</li>
+<li>
+<p><strong>Instalar dependencias</strong></p>
+<p>(en la terminal de VS Code)
+<code>pip install -r requirements.txt</code>
+<em>(o el comando que indique el README)</em></p>
+</li>
+<li>
+<p><strong>Ejecutar el script de prueba</strong></p>
+<p><code>python test_llm.py</code>
+Debes ver una respuesta del modelo.</p>
+</li>
+<li>
+<p><strong>Apuntar lo que hiciste</strong></p>
+</li>
+<li>
+<p>En un <code>notas.md</code> o en Obsidian: versión del repo, fecha, modelo usado, API key cargada.  </p>
+</li>
+</ol>
+<p><strong>Mini-resumen:</strong> clonar → abrir → <code>.env</code> → instalar → ejecutar → anotar.</p>
+<hr />
+<h3 id="5-el-env-tu-sitio-para-las-claves">5. El <code>.env</code>: tu sitio para las claves<a class="headerlink" href="#5-el-env-tu-sitio-para-las-claves" title="Permanent link">&para;</a></h3>
+<p>En el itinerario 1 las claves las pegabas en la interfaz de la herramienta. Aquí vamos a hacerlo <strong>como lo hace la gente técnica</strong>: las claves van en un archivo <code>.env</code>.</p>
+<ul>
+<li><code>.env</code> es un archivo de texto que guarda pares <code>NOMBRE=VALOR</code>.  </li>
+<li>Ejemplo: <code>OPENAI_API_KEY=sk-xxxxxxx</code>  </li>
+<li>El código luego lee esa clave sin que tengas que pegarla en cada script.  </li>
+<li><strong>No se sube a GitHub.</strong> Por eso suele venir un <code>.env.example</code> para que lo copies.  </li>
+</ul>
+<p>En la práctica esto significa: <strong>puedes compartir el proyecto sin compartir la clave</strong>.</p>
+<p><strong>Error común:</strong> ejecutar el script sin haber creado el <code>.env</code>. El script se queja de “no hay API key” y parece que “no funciona”. Sí funciona, solo que faltan las credenciales.</p>
+<hr />
+<h3 id="6-primera-ejecucion-que-debes-conseguir">6. Primera ejecución: qué debes conseguir<a class="headerlink" href="#6-primera-ejecucion-que-debes-conseguir" title="Permanent link">&para;</a></h3>
+<p>Vamos a ponerle nombre a la meta de este módulo:</p>
+<blockquote>
+<p><strong>Meta del módulo 1:</strong> “En mi equipo puedo ejecutar un script que llama a un modelo de IA y devuelve una respuesta, usando mi propia API key, sin modificar el código fuente.”</p>
+</blockquote>
+<p>Eso implica que:
+- la instalación fue bien,<br />
+- la API key está en el sitio correcto,<br />
+- el entorno (VS Code, Python) está bien configurado.  </p>
+<p>Si esto está, ya puedes pasar al <strong><a href="../modulo-2-llamar-a-apis-de-modelos/">Módulo 2 – Llamar a APIs de modelos</a></strong> sin miedo.</p>
+<hr />
+<h3 id="7-senales-de-alerta-y-como-resolverlas">7. Señales de alerta y cómo resolverlas<a class="headerlink" href="#7-senales-de-alerta-y-como-resolverlas" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p><strong>“Python no se reconoce como comando”</strong><br />
+  → Tienes que asegurarte de que Python está instalado y disponible en la terminal. En Windows a veces es <code>py</code> en vez de <code>python</code>.  </p>
+</li>
+<li>
+<p><strong>“No se puede instalar tal librería”</strong><br />
+  → Vuelve al <code>README.md</code> y mira si hay versión recomendada de Python. Muchas plantillas están pensadas para 3.10 o 3.11.  </p>
+</li>
+<li>
+<p><strong>“El script dice que falta OPENAI_API_KEY”</strong><br />
+  → Revisa que el <code>.env</code> existe y que el nombre de la variable es exactamente el que espera el script.  </p>
+</li>
+<li>
+<p><strong>“Me funciona en Codespaces pero no en mi PC”</strong><br />
+  → Perfecto: usa Codespaces o un entorno online para seguir el curso y deja la instalación local para más adelante. El objetivo es que aprendas el flujo, no que te pelees con tu sistema operativo.  </p>
+</li>
+</ul>
+<p><strong>Regla de oro:</strong> si el repo trae instrucciones, <strong>haz primero lo que diga el repo</strong> y luego lo adaptas al curso.</p>
+<hr />
+<h3 id="8-documentar-lo-que-hiciste-para-tu-yo-del-futuro">8. Documentar lo que hiciste (para tu yo del futuro)<a class="headerlink" href="#8-documentar-lo-que-hiciste-para-tu-yo-del-futuro" title="Permanent link">&para;</a></h3>
+<p>Este itinerario asume que trabajas mientras trabajas 😅, así que vas a interrumpirte. Deja siempre una nota con:</p>
+<ul>
+<li>Fecha  </li>
+<li>Repo que usaste (URL)  </li>
+<li>Comando que ejecutaste  </li>
+<li>Modelo que probaste  </li>
+<li>Errores que aparecieron y cómo los solucionaste  </li>
+</ul>
+<p>Con 6 líneas te ahorrarás 40 minutos dentro de dos semanas.</p>
+<hr />
+<h3 id="9-como-se-conecta-con-los-siguientes-modulos">9. Cómo se conecta con los siguientes módulos<a class="headerlink" href="#9-como-se-conecta-con-los-siguientes-modulos" title="Permanent link">&para;</a></h3>
+<ul>
+<li>En el <strong><a href="../modulo-2-llamar-a-apis-de-modelos/">Módulo 2</a></strong> vamos a abrir ese mismo repo o uno muy parecido y cambiar parámetros de la llamada al modelo. Si el módulo 1 no está funcionando, el 2 tampoco.</li>
+<li>En el <strong><a href="../modulo-3-rag-practico/">Módulo 3</a></strong> usaremos el mismo patrón de "clonar → <code>.env</code> → ejecutar", pero añadiendo carga de documentos.  </li>
+<li>Por eso este módulo es <strong>obligatorio</strong>: resuelve lo que luego se repetirá.</li>
+</ul>
+<hr />
+<h3 id="10-cierre-y-aprendizajes-clave">10. Cierre y aprendizajes clave<a class="headerlink" href="#10-cierre-y-aprendizajes-clave" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Ya sabes poner en marcha un entorno preparado</strong>: clonar, instalar, configurar y ejecutar.  </li>
+<li><strong>Ya sabes dónde van las claves</strong> (<code>.env</code>) y por qué no van en el código.  </li>
+<li><strong>Ya sabes qué mirar cuando algo falla</strong> (terminal, README, nombre de la variable).  </li>
+<li><strong>Ya tienes tu máquina lista</strong> para empezar a cambiar parámetros de la llamada al modelo.  </li>
+</ul>
+<p><strong>Mini-resumen final:</strong>  </p>
+<blockquote>
+<p>“Puedo ejecutar un proyecto de ejemplo de IA con mi API key, sin escribir código desde cero, y sé repetir este proceso con otros repositorios.”</p>
+</blockquote>
+<p>A partir de aquí pasamos al <strong><a href="../modulo-2-llamar-a-apis-de-modelos/">Módulo 2 – Llamar a APIs de modelos</a></strong>, donde ya dejaremos de usar scripts "mágicos" y empezaremos a controlar qué le pedimos al modelo y cómo.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.sections", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
