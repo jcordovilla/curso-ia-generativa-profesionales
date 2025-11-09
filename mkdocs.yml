@@ -1,41 +1,87 @@
-site_name: Itinerario 1 · IA Generativa para Profesionales Senior
+site_name: IA Generativa para Profesionales
 site_description: Curso práctico de IA generativa para perfiles no técnicos, basado en flujos no-code y asistentes sobre documentación propia.
 
 theme:
   name: material
+  font:
+    text: Lato
+    code: Fira Code
   language: es
+  icon:
+    logo: material/toy-brick-plus
   features:
     - navigation.instant
     - navigation.sections
-    - navigation.expand
-    - toc.integrate
-    - content.code.copy
+    - navigation.indexes
+#    - navigation.path
+#    - navigation.expand
+#    - navigation.tabs
+#    - toc.integrate
   palette:
     - scheme: default
-      primary: blue
-      accent: indigo
+      primary: custom
+      accent: custom
+
+extra_css:
+  - style.css
+
 
 markdown_extensions:
+
+  # Python Markdown
+  - abbr
   - admonition
+  - attr_list
+  - def_list
   - footnotes
+  - md_in_html
   - tables
   - toc:
       permalink: true
-  - codehilite
-  - attr_list
-  - def_list
 
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: false
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      
+  
 nav:
-  - Inicio: index.md
-  - Itinerario 1:
-      - Introducción y objetivos: introduccion-y-objetivos.md
-      - Módulo 1 – Alfabetización digital para IA: modulo-1-alfabetizacion-digital-ia.md
-      - Módulo 2 – Automatización visual con IA para tareas de negocio: modulo-2-automatizacion-visual-negocio.md
-      - Módulo 3 – Creación de asistentes seguros con documentación propia: modulo-3-asistentes-seguros-con-docs-propias.md
-      - Módulo 4 – Puente hacia lo técnico (conceptual): modulo-4-puente-hacia-lo-tecnico-conceptual.md
-      - Módulo 5 – Evaluación, documentación y handover: modulo-5-evaluacion-documentacion-handover.md
-      - Resumen y cierre: resumen.md
+  - "Bienvenida": index.md
+  - "Itinerario 1 – No Code":
+      - "Introducción y Objetivos": "itinerario-1/index.md"
+      - "Módulo 1 – Alfabetización digital para IA": itinerario-1/modulo-1-alfabetizacion-digital-ia.md
+      - "Módulo 2 – Automatización visual con IA para tareas de negocio": itinerario-1/modulo-2-automatizacion-visual-negocio.md
+      - "Módulo 3 – Creación de asistentes seguros con documentación propia": itinerario-1/modulo-3-asistentes-seguros-con-docs-propias.md
+      - "Módulo 4 – Puente hacia lo técnico (conceptual)": itinerario-1/modulo-4-puente-hacia-lo-tecnico-conceptual.md
+      - "Módulo 5 – Evaluación, documentación y handover": itinerario-1/modulo-5-evaluacion-documentacion-handover.md
+      - "Resumen y cierre": itinerario-1/resumen.md
+  - "itinerario-2 – Low Code":
+      - "Introducción y objetivos": "itinerario-2/index.md"
+      - "Módulo 1 – Entorno enchufar y usar": "itinerario-2/modulo-1-entorno-enchufar-y-usar.md"
+      - "Módulo 2 – Llamar a APIs de modelos": "itinerario-2/modulo-2-llamar-a-apis-de-modelos.md"
+      - "Módulo 3 – RAG práctico con LangChain": "itinerario-2/modulo-3-rag-practico.md"
+      - "Módulo 4 – Agentes y orquestación mínima": "itinerario-2/modulo-4-agentes-y-orquestacion-minima.md"
+      - "Módulo 5 – Publicar y compartir": "itinerario-2/modulo-5-publicar-y-compartir.md"
+      - "Resumen": "itinerario-2/resumen.md"
+
 
 plugins:
   - search
-  - roamlinks
+  - callouts
