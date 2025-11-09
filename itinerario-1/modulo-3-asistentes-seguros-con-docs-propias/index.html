@@ -1000,45 +1000,51 @@ Eso es exactamente lo que veremos aquí: <strong>cómo crear un GPT/chatbot alim
 <h3 id="4-como-se-construye-uno-vision-paso-a-paso">4. Cómo se construye uno (visión paso a paso)<a class="headerlink" href="#4-como-se-construye-uno-vision-paso-a-paso" title="Permanent link">&para;</a></h3>
 <p>Tomemos como referencia los constructores tipo OpenAI porque son los más directos para no técnicos. El flujo mental es casi siempre este:</p>
 <ol>
-<li><strong>Define el propósito</strong>  </li>
-<li>“Eres un asistente para el departamento de operaciones.”</li>
-<li>“Respondes preguntas sobre el manual de contratación.”</li>
 <li>
-<p>“Si la información no está en los documentos, lo dices.”</p>
+<p><strong>Define el propósito</strong></p>
+<ul>
+<li>"Eres un asistente para el departamento de operaciones."</li>
+<li>"Respondes preguntas sobre el manual de contratación."</li>
+<li>"Si la información no está en los documentos, lo dices."</li>
+</ul>
 </li>
 <li>
-<p><strong>Sube o enlaza los documentos</strong>  </p>
-</li>
+<p><strong>Sube o enlaza los documentos</strong></p>
+<ul>
 <li>PDF, Word, FAQs, procedimientos.</li>
 <li>Mejor pocos y relevantes que muchos y desordenados.</li>
-<li>
-<p>Pon nombres claros: <code>procedimiento_vacaciones_2025.pdf</code>, no <code>docfinal2.pdf</code>.</p>
+<li>Pon nombres claros: <code>procedimiento_vacaciones_2025.pdf</code>, no <code>docfinal2.pdf</code>.</li>
+</ul>
 </li>
 <li>
-<p><strong>Escribe las instrucciones del sistema</strong> (a veces se llaman “instructions” o “behavior”)  </p>
+<p><strong>Escribe las instrucciones del sistema</strong> (a veces se llaman "instructions" o "behavior")</p>
+<ul>
+<li>Aquí mandas tú. Ejemplo:<blockquote>
+<p>"Responde únicamente basándote en los documentos cargados. Si la respuesta no está, di 'No está en la documentación'. Responde en español profesional y en máximo 120 palabras."</p>
+</blockquote>
+</li>
+</ul>
 </li>
 <li>
-<p>Aquí mandas tú. Ejemplo:
-     &gt; “Responde únicamente basándote en los documentos cargados. Si la respuesta no está, di ‘No está en la documentación’. Responde en español profesional y en máximo 120 palabras.”</p>
+<p><strong>Define el estilo de respuesta</strong></p>
+<ul>
+<li>Breve, con pasos, con referencias.</li>
+</ul>
 </li>
 <li>
-<p><strong>Define el estilo de respuesta</strong>  </p>
+<p><strong>Prueba con preguntas reales</strong></p>
+<ul>
+<li>No preguntes "¿quién eres?". Pregunta lo que preguntaría tu equipo: "¿Qué plazo tiene el cliente para reclamar?", "¿Qué documento hay que enviar primero?".</li>
+</ul>
 </li>
 <li>
-<p>Breve, con pasos, con referencias.</p>
-</li>
-<li>
-<p><strong>Prueba con preguntas reales</strong>  </p>
-</li>
-<li>
-<p>No preguntes “¿quién eres?”. Pregunta lo que preguntaría tu equipo: “¿Qué plazo tiene el cliente para reclamar?”, “¿Qué documento hay que enviar primero?”.</p>
-</li>
-<li>
-<p><strong>Decide cómo compartirlo</strong>  </p>
-</li>
+<p><strong>Decide cómo compartirlo</strong></p>
+<ul>
 <li>Solo para ti.</li>
 <li>Con el equipo.</li>
 <li>Público (ojo aquí).</li>
+</ul>
+</li>
 </ol>
 <p><strong>Mini-resumen:</strong> propósito claro + documentos adecuados + instrucciones firmes + prueba real = GPT útil.</p>
 <hr />

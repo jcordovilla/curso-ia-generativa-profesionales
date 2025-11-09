@@ -970,33 +970,37 @@
 <hr />
 <h3 id="3-checklist-de-pruebas-usalo-cada-vez-que-cambies-algo">3. Checklist de pruebas (úsalo cada vez que cambies algo)<a class="headerlink" href="#3-checklist-de-pruebas-usalo-cada-vez-que-cambies-algo" title="Permanent link">&para;</a></h3>
 <p>Cada vez que toques un prompt, una conexión o un documento, pasa por esta lista:</p>
-<ol class="task-list">
-<li><strong>Prueba de entrada</strong>  </li>
+<ol>
+<li>
+<p><strong>Prueba de entrada</strong></p>
+<ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> El flujo sigue recibiendo el dato (email, formulario, webhook).</li>
-<li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> La conexión sigue autorizada (no ha caducado la cuenta).</p>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> La conexión sigue autorizada (no ha caducado la cuenta).</li>
+</ul>
 </li>
 <li>
-<p><strong>Prueba de IA</strong>  </p>
-</li>
+<p><strong>Prueba de IA</strong></p>
+<ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> La IA responde en el idioma correcto.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> La IA devuelve el formato esperado (lista, párrafo, JSON).</li>
-<li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> La IA responde algo razonable con un caso real.</p>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> La IA responde algo razonable con un caso real.</li>
+</ul>
 </li>
 <li>
-<p><strong>Prueba de salida</strong>  </p>
-</li>
+<p><strong>Prueba de salida</strong></p>
+<ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> El mensaje llega al canal/equipo correcto.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Se guarda en el sistema previsto (CRM, Sheets).</li>
-<li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Se ve quién lo ha generado (trazabilidad mínima).</p>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Se ve quién lo ha generado (trazabilidad mínima).</li>
+</ul>
 </li>
 <li>
-<p><strong>Prueba de error</strong>  </p>
-</li>
+<p><strong>Prueba de error</strong></p>
+<ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Si la IA falla, el flujo no se queda colgado sin avisar.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Existe algún sitio donde se ve el error (log, email de aviso).</li>
+</ul>
+</li>
 </ol>
 <p><strong>En la práctica esto significa:</strong> no des por hecho que “como funcionó ayer, funcionará hoy”. Haz una prueba corta.</p>
 <hr />
