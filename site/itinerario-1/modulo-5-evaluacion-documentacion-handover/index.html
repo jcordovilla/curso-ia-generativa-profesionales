@@ -1,0 +1,1170 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Curso práctico de IA generativa para perfiles no técnicos, basado en flujos no-code y asistentes sobre documentación propia.">
+      
+      
+      
+      
+        <link rel="prev" href="../modulo-4-puente-hacia-lo-tecnico-conceptual/">
+      
+      
+        <link rel="next" href="../resumen/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>Módulo 5 – Evaluación, documentación y handover - IA Generativa para Profesionales</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../style.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#itinerario-1-modulo-5" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../.." title="IA Generativa para Profesionales" class="md-header__button md-logo" aria-label="IA Generativa para Profesionales" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6V5a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v1h-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v1H3v14h10.09a5.5 5.5 0 0 1-.09-1 6 6 0 0 1 8-5.66V6m-1 9v3h3v2h-3v3h-2v-3h-3v-2h3v-3Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IA Generativa para Profesionales
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Módulo 5 – Evaluación, documentación y handover
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="IA Generativa para Profesionales" class="md-nav__button md-logo" aria-label="IA Generativa para Profesionales" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6V5a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v1h-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v1H3v14h10.09a5.5 5.5 0 0 1-.09-1 6 6 0 0 1 8-5.66V6m-1 9v3h3v2h-3v3h-2v-3h-3v-2h3v-3Z"/></svg>
+
+    </a>
+    IA Generativa para Profesionales
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bienvenida
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Itinerario 1 – No Code
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Itinerario 1 – No Code
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-1-alfabetizacion-digital-ia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 1 – Alfabetización digital para IA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-2-automatizacion-visual-negocio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 2 – Automatización visual con IA para tareas de negocio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-3-asistentes-seguros-con-docs-propias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 3 – Creación de asistentes seguros con documentación propia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-4-puente-hacia-lo-tecnico-conceptual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 4 – Puente hacia lo técnico (conceptual)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Módulo 5 – Evaluación, documentación y handover
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 5 – Evaluación, documentación y handover
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#evaluar-y-mantener-tu-caso-de-uso-de-ia-mas-alla-de-la-demo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evaluar y mantener tu caso de uso de IA: Más allá de la demo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evaluar y mantener tu caso de uso de IA: Más allá de la demo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-que-vamos-a-ver" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. ¿Qué vamos a ver?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-por-que-es-relevante" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. ¿Por qué es relevante?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-checklist-de-pruebas-usalo-cada-vez-que-cambies-algo" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Checklist de pruebas (úsalo cada vez que cambies algo)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-metricas-sencillas-sin-volverte-analista-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Métricas sencillas (sin volverte analista de datos)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-mantener-los-documentos-y-los-prompts" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Mantener los documentos y los prompts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-de-mi-flujo-a-flujo-del-equipo" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. De “mi flujo” a “flujo del equipo”
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-cuando-hay-que-llamar-al-equipo-tecnico" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. ¿Cuándo hay que llamar al equipo técnico?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-errores-y-malentendidos-comunes" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Errores y malentendidos comunes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-cierre-y-aprendizajes-clave" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Cierre y aprendizajes clave
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resumen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resumen y cierre
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../itinerario-2/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    itinerario-2 – Low Code
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            itinerario-2 – Low Code
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-2/modulo-1-entorno-enchufar-y-usar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 1 – Entorno enchufar y usar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-2/modulo-2-llamar-a-apis-de-modelos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 2 – Llamar a APIs de modelos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-2/modulo-3-rag-practico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 3 – RAG práctico con LangChain
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-2/modulo-4-agentes-y-orquestacion-minima/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 4 – Agentes y orquestación mínima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-2/modulo-5-publicar-y-compartir/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 5 – Publicar y compartir
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-2/resumen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resumen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#evaluar-y-mantener-tu-caso-de-uso-de-ia-mas-alla-de-la-demo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evaluar y mantener tu caso de uso de IA: Más allá de la demo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evaluar y mantener tu caso de uso de IA: Más allá de la demo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-que-vamos-a-ver" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. ¿Qué vamos a ver?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-por-que-es-relevante" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. ¿Por qué es relevante?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-checklist-de-pruebas-usalo-cada-vez-que-cambies-algo" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Checklist de pruebas (úsalo cada vez que cambies algo)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-metricas-sencillas-sin-volverte-analista-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Métricas sencillas (sin volverte analista de datos)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-mantener-los-documentos-y-los-prompts" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Mantener los documentos y los prompts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-de-mi-flujo-a-flujo-del-equipo" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. De “mi flujo” a “flujo del equipo”
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-cuando-hay-que-llamar-al-equipo-tecnico" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. ¿Cuándo hay que llamar al equipo técnico?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-errores-y-malentendidos-comunes" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Errores y malentendidos comunes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-cierre-y-aprendizajes-clave" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Cierre y aprendizajes clave
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="itinerario-1-modulo-5">Itinerario 1 · Módulo 5<a class="headerlink" href="#itinerario-1-modulo-5" title="Permanent link">&para;</a></h1>
+<h2 id="evaluar-y-mantener-tu-caso-de-uso-de-ia-mas-alla-de-la-demo">Evaluar y mantener tu caso de uso de IA: Más allá de la demo<a class="headerlink" href="#evaluar-y-mantener-tu-caso-de-uso-de-ia-mas-alla-de-la-demo" title="Permanent link">&para;</a></h2>
+<p>Llegaste al punto que muchas organizaciones no alcanzan: <strong>ya tienes un flujo o un GPT funcionando</strong> (módulos 2 y 3) y sabes explicarlo al equipo técnico (módulo 4). Ahora toca la parte menos llamativa, pero más profesional: <strong>que funcione todos los días, para más gente y sin sustos</strong>.</p>
+<p>Este módulo te da una forma sencilla de <strong>probar, medir y mantener</strong> tu caso de uso sin convertirte en administrador de sistemas. Lo verás todo en clave de negocio: ¿funciona?, ¿aporta?, ¿se puede pasar al equipo?</p>
+<hr />
+<h3 id="1-que-vamos-a-ver">1. ¿Qué vamos a ver?<a class="headerlink" href="#1-que-vamos-a-ver" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Por qué las pruebas son necesarias incluso en no-code.</li>
+<li>Un <strong>checklist de pruebas</strong> rápido (datos, IA, salidas, errores).</li>
+<li><strong>Métricas sencillas</strong> para saber si vale la pena mantener el caso de uso.</li>
+<li>Cómo pasar de “mi flujo” a “flujo del equipo”.</li>
+<li>Qué hacer cuando cambian documentos, prompts o credenciales.</li>
+<li>Señales de que hay que llamar al equipo técnico.</li>
+</ol>
+<p><strong>Idea clave:</strong> lo que hace que un piloto sobreviva no es lo brillante que fue la primera vez, sino <strong>que alguien lo pueda repetir sin ti</strong>.</p>
+<hr />
+<h3 id="2-por-que-es-relevante">2. ¿Por qué es relevante?<a class="headerlink" href="#2-por-que-es-relevante" title="Permanent link">&para;</a></h3>
+<p>Porque la IA generativa no es estática:<br />
+- cambian las APIs,
+- cambian los modelos,
+- cambian los documentos que subiste,
+- cambian las personas que lo usan.</p>
+<p>En la práctica esto significa: <strong>si no tienes una forma de revisar tu caso de uso, se romperá en silencio</strong> y la gente dejará de confiar.</p>
+<p><strong>Mini-resumen:</strong> este módulo trata de <strong>confianza y continuidad</strong>.</p>
+<hr />
+<h3 id="3-checklist-de-pruebas-usalo-cada-vez-que-cambies-algo">3. Checklist de pruebas (úsalo cada vez que cambies algo)<a class="headerlink" href="#3-checklist-de-pruebas-usalo-cada-vez-que-cambies-algo" title="Permanent link">&para;</a></h3>
+<p>Cada vez que toques un prompt, una conexión o un documento, pasa por esta lista:</p>
+<ol class="task-list">
+<li><strong>Prueba de entrada</strong>  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> El flujo sigue recibiendo el dato (email, formulario, webhook).</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> La conexión sigue autorizada (no ha caducado la cuenta).</p>
+</li>
+<li>
+<p><strong>Prueba de IA</strong>  </p>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> La IA responde en el idioma correcto.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> La IA devuelve el formato esperado (lista, párrafo, JSON).</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> La IA responde algo razonable con un caso real.</p>
+</li>
+<li>
+<p><strong>Prueba de salida</strong>  </p>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> El mensaje llega al canal/equipo correcto.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Se guarda en el sistema previsto (CRM, Sheets).</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Se ve quién lo ha generado (trazabilidad mínima).</p>
+</li>
+<li>
+<p><strong>Prueba de error</strong>  </p>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Si la IA falla, el flujo no se queda colgado sin avisar.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Existe algún sitio donde se ve el error (log, email de aviso).</li>
+</ol>
+<p><strong>En la práctica esto significa:</strong> no des por hecho que “como funcionó ayer, funcionará hoy”. Haz una prueba corta.</p>
+<hr />
+<h3 id="4-metricas-sencillas-sin-volverte-analista-de-datos">4. Métricas sencillas (sin volverte analista de datos)<a class="headerlink" href="#4-metricas-sencillas-sin-volverte-analista-de-datos" title="Permanent link">&para;</a></h3>
+<p>No necesitas un cuadro de mando completo. Con 3-4 métricas puedes saber si tu caso de uso <strong>merece seguir vivo</strong>:</p>
+<ol>
+<li><strong>Uso</strong>  </li>
+<li>¿Cuántas ejecuciones ha tenido esta semana?</li>
+<li>
+<p>¿Quién lo está usando realmente?</p>
+</li>
+<li>
+<p><strong>Ahorro de tiempo estimado</strong>  </p>
+</li>
+<li>¿Cuánto tardabas en leer y resumir un email largo? (ej. 5 minutos)</li>
+<li>¿Cuántos emails procesa ahora la IA?</li>
+<li>
+<p>Ahorro aproximado = 5 min x nº de emails al día.</p>
+</li>
+<li>
+<p><strong>Calidad percibida</strong>  </p>
+</li>
+<li>¿Las personas que reciben el resultado lo usan o lo ignoran?</li>
+<li>
+<p>Puedes hacer una mini-encuesta: “¿Te sirve tal como llega?” Sí / No / A medias.</p>
+</li>
+<li>
+<p><strong>Errores o reintentos</strong>  </p>
+</li>
+<li>¿Cuántas veces falla por credenciales o formatos?</li>
+</ol>
+<p><strong>Lo importante:</strong> <strong>no midas solo la tecnología</strong>, mide el impacto en el proceso.<br />
+Ejemplo de frase para tu informe interno:  </p>
+<blockquote>
+<p>“El flujo de resumen automático procesó 46 correos en la última semana, con un ahorro estimado de 3,8 horas de lectura y una satisfacción del 80% del equipo comercial.”</p>
+</blockquote>
+<hr />
+<h3 id="5-mantener-los-documentos-y-los-prompts">5. Mantener los documentos y los prompts<a class="headerlink" href="#5-mantener-los-documentos-y-los-prompts" title="Permanent link">&para;</a></h3>
+<p>En el módulo 3 vimos que el GPT depende de los documentos que le subes. Eso implica mantenimiento.</p>
+<p><strong>Reglas simples:</strong>
+- <strong>Documento actualizado → asistente actualizado.</strong> Si cambias el procedimiento real, cambia el documento del asistente.
+- <strong>Versión visible.</strong> Nombra los archivos con fecha o versión: <code>procedimiento_onboarding_v2_2025.pdf</code>.
+- <strong>Prompt documentado.</strong> Guarda en un sitio (Notion, SharePoint, tu Obsidian) la versión del prompt que estás usando.
+- <strong>No mezclar objetivos.</strong> Si el prompt ya hace “resumir”, no le metas en el mismo prompt “además traduce” y “además clasifica”; eso aumenta las posibilidades de respuesta rara.</p>
+<p><strong>Señal de alerta:</strong> si la gente empieza a decir “ya no responde igual” o “ahora contesta cosas raras”, revisa primero: 1) ¿cambiaste documentos?, 2) ¿cambió el prompt?, 3) ¿cambió el modelo en la plataforma?</p>
+<hr />
+<h3 id="6-de-mi-flujo-a-flujo-del-equipo">6. De “mi flujo” a “flujo del equipo”<a class="headerlink" href="#6-de-mi-flujo-a-flujo-del-equipo" title="Permanent link">&para;</a></h3>
+<p>Uno de los objetivos del itinerario era que <strong>lo que hagas no se quede solo en tu cuenta</strong>. Para eso:</p>
+<ol>
+<li><strong>Centraliza credenciales</strong>  </li>
+<li>Pide que la cuenta de la plataforma (n8n, Make, GPTs) sea de equipo, no personal.</li>
+<li>
+<p>Así no se rompe cuando tú cambies de puesto o de dispositivo.</p>
+</li>
+<li>
+<p><strong>Documenta en una página simple</strong><br />
+   Incluye:</p>
+</li>
+<li>Qué hace el flujo.</li>
+<li>Cuándo se ejecuta.</li>
+<li>Qué entradas y salidas tiene.</li>
+<li>
+<p>Quién mantiene las credenciales.</p>
+</li>
+<li>
+<p><strong>Define responsable funcional</strong>  </p>
+</li>
+<li>No tiene que ser técnico.</li>
+<li>
+<p>Su trabajo es revisar que el resultado siga siendo útil.</p>
+</li>
+<li>
+<p><strong>Explica cómo reportar un fallo</strong>  </p>
+</li>
+<li>“Si no te llega el resumen, avisa en este canal.”</li>
+<li>“Si la respuesta del GPT no es correcta, pega la pregunta y la respuesta.”</li>
+</ol>
+<p><strong>Mini-resumen:</strong> si solo tú sabes cómo funciona, <strong>no está listo</strong>. Si otros lo pueden probar y arreglar, <strong>sí está listo</strong>.</p>
+<hr />
+<h3 id="7-cuando-hay-que-llamar-al-equipo-tecnico">7. ¿Cuándo hay que llamar al equipo técnico?<a class="headerlink" href="#7-cuando-hay-que-llamar-al-equipo-tecnico" title="Permanent link">&para;</a></h3>
+<p>No todo lo tienes que resolver tú. Llama o pide ayuda cuando:
+- el volumen de ejecuciones crece mucho (costo o límites de la plataforma),
+- necesitas conectarte a sistemas internos que requieren permisos especiales,
+- quieres exponer tu flujo como servicio para otras áreas,
+- hay que guardar logs de forma más seria (auditoría, cumplimiento),
+- o cuando la seguridad no te deja usar una credencial personal.</p>
+<p><strong>Frase útil:</strong>  </p>
+<blockquote>
+<p>“El caso de uso ya está validado en no-code. Necesitamos una versión más estable / compartida / integrada. Os paso el flujo y los ejemplos de entrada y salida.”</p>
+</blockquote>
+<p>Con eso estás haciendo tu parte.</p>
+<hr />
+<h3 id="8-errores-y-malentendidos-comunes">8. Errores y malentendidos comunes<a class="headerlink" href="#8-errores-y-malentendidos-comunes" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>“Ya funciona, lo olvido.”</strong> → la IA y las APIs cambian, hay que revisar.</li>
+<li><strong>“No hace falta documentar porque es visual.”</strong> → sí hace falta; la otra persona no sabe qué prompt pusiste.</li>
+<li><strong>“Los usuarios siempre van a usarlo bien.”</strong> → no, harán preguntas raras al GPT o subirán documentos equivocados. Pon instrucciones en el propio GPT.</li>
+<li><strong>“Si falla, me avisará la herramienta.”</strong> → no siempre. Pon un paso de notificación o revisa el historial de ejecuciones.</li>
+<li><strong>“Si otro lo copia en su cuenta ya vale.”</strong> → eso fragmenta. Mejor una versión única que todos usen.</li>
+</ul>
+<hr />
+<h3 id="9-cierre-y-aprendizajes-clave">9. Cierre y aprendizajes clave<a class="headerlink" href="#9-cierre-y-aprendizajes-clave" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Evaluar y mantener</strong> es lo que convierte tu experimento en una práctica estable del equipo.</li>
+<li>Un <strong>checklist de pruebas</strong> evita la mayoría de frustraciones.</li>
+<li>Con <strong>4 métricas sencillas</strong> puedes demostrar valor sin montar un dashboard.</li>
+<li>Documentar el flujo y centralizar las credenciales permite que otros lo usen.</li>
+<li>Saber <strong>cuándo escalarlo al equipo técnico</strong> te hace más creíble y profesional.</li>
+</ul>
+<p><strong>Mini-resumen final:</strong>  </p>
+<blockquote>
+<p>“Sé probar, medir y mantener un caso de uso de IA hecho con herramientas no-code, y sé cómo pasarlo del ámbito personal al del equipo sin perder seguridad ni control.”</p>
+</blockquote>
+<p>Con esto cierras el itinerario 1 como <strong>Estratega de IA</strong>: sabes usar, configurar, explicar y mantener un caso de uso real en tu entorno.</p>
+<p>No olvides hacer un repaso final del curso en el capítulo de <a href="../resumen/">Resumen</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.sections", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>

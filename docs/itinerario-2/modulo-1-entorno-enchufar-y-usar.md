@@ -53,19 +53,19 @@ Vamos a dejarlo claro, porque lo vas a repetir en todos los módulos:
 
 1. **Clonar o descargar el repo**
 
-   - Si usas GitHub: `git clone <url-del-repo>`
-   - Si no usas Git: botón "Download ZIP" y lo descomprimes.
+    - Si usas GitHub: `git clone <url-del-repo>`
+    - Si no usas Git: botón "Download ZIP" y lo descomprimes.
 
 2. **Abrir en VS Code / Codespace**
 
-   - Abre la carpeta del proyecto.
-   - Asegúrate de que ves los archivos (`requirements.txt`, `README.md`, etc.).
+    - Abre la carpeta del proyecto.
+    - Asegúrate de que ves los archivos (`requirements.txt`, `README.md`, etc.).
 
 3. **Crear el entorno de claves**
 
-   - Copia `.env.example` a `.env`.
-   - En `.env` pega tu API key de OpenAI (u otro proveedor).
-   - No subas ese `.env` a GitHub.
+    - Copia `.env.example` a `.env`.
+    - En `.env` pega tu API key de OpenAI (u otro proveedor).
+    - No subas ese `.env` a GitHub.
 
 4. **Instalar dependencias**
 
@@ -75,12 +75,12 @@ Vamos a dejarlo claro, porque lo vas a repetir en todos los módulos:
 
 5. **Ejecutar el script de prueba**
 
-	`python test_llm.py`
+    `python test_llm.py`
     Debes ver una respuesta del modelo.
 
 6. **Apuntar lo que hiciste**
 
-   - En un `notas.md` o en Obsidian: versión del repo, fecha, modelo usado, API key cargada.  
+    - En un `notas.md` o en Obsidian: versión del repo, fecha, modelo usado, API key cargada.  
 
 **Mini-resumen:** clonar → abrir → `.env` → instalar → ejecutar → anotar.
 

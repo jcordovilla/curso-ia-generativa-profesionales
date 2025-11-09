@@ -12,10 +12,10 @@ El objetivo no es que te conviertas en desarrollador, sino que seas capaz de **m
 
 Capacitarte para **tomar un caso de uso ya validado en no-code** y construir una versión más controlada que:
 
-1. llame directamente a una **API de LLM**,
-2. pueda incorporar **documentos propios** mediante un RAG simple,
-3. se pueda **compartir o publicar** (GitHub, endpoint mínimo, conexión desde n8n),
-4. y esté **documentada de forma técnica y de negocio**.
+1.  llame directamente a una **API de LLM**,
+2.  pueda incorporar **documentos propios** mediante un RAG simple,
+3.  se pueda **compartir o publicar** (GitHub, endpoint mínimo, conexión desde n8n),
+4.  y esté **documentada de forma técnica y de negocio**.
 
 ---
 
@@ -43,23 +43,23 @@ Si vienes “en frío” sin pasar por el primer itinerario, podrás seguirlo, p
 
 1. **[Módulo 1 – Entorno "enchufar y usar"](modulo-1-entorno-enchufar-y-usar.md)**
 
-   Te damos un repo/proyecto ya preparado (`requirements`, `env.example`, script de prueba). Tu trabajo es hacerlo andar en tu equipo o en un Codespace. Aquí aprendes la secuencia: *clonar → instalar → configurar → probar*.
+    Te damos un repo/proyecto ya preparado (`requirements`, `env.example`, script de prueba). Tu trabajo es hacerlo andar en tu equipo o en un Codespace. Aquí aprendes la secuencia: *clonar → instalar → configurar → probar*.
 
 2. **[Módulo 2 – Llamar a APIs de modelos](modulo-2-llamar-a-apis-de-modelos.md)**
 
-   Aprendes a hablarle directamente al modelo: dónde va la API key, cómo cambiar el modelo/temperatura y cómo formatear la respuesta para que luego la consuma otra pieza.
+    Aprendes a hablarle directamente al modelo: dónde va la API key, cómo cambiar el modelo/temperatura y cómo formatear la respuesta para que luego la consuma otra pieza.
 
 3. **[Módulo 3 – RAG práctico con LangChain](modulo-3-rag-practico.md)**
 
-   Sigues el tutorial oficial para montar un RAG sencillo: cargas documentos, creas el índice y haces preguntas sobre ellos. Lo conectamos mentalmente con el itinerario 1 para que veas que es la misma idea, pero en código.
+    Sigues el tutorial oficial para montar un RAG sencillo: cargas documentos, creas el índice y haces preguntas sobre ellos. Lo conectamos mentalmente con el itinerario 1 para que veas que es la misma idea, pero en código.
 
 4. **[Módulo 4 – Agentes y orquestación (lo necesario)](modulo-4-agentes-y-orquestacion-minima.md)**
 
-   Ves un ejemplo de agente que puede llamar a una tool (buscar, resumir, leer docs). No entramos en grafos complejos: lo justo para que puedas leer ejemplos de LangChain y adaptarlos.
+    Ves un ejemplo de agente que puede llamar a una tool (buscar, resumir, leer docs). No entramos en grafos complejos: lo justo para que puedas leer ejemplos de LangChain y adaptarlos.
 
 5. **[Módulo 5 – Publicar y compartir](modulo-5-publicar-y-compartir.md)**
 
-   Opciones realistas: subir a GitHub para que otros lo usen, exponer una ruta con FastAPI, o consumirlo desde n8n/Make como si fuera un servicio. Docker lo dejamos como extra y no como obligación.
+    Opciones realistas: subir a GitHub para que otros lo usen, exponer una ruta con FastAPI, o consumirlo desde n8n/Make como si fuera un servicio. Docker lo dejamos como extra y no como obligación.
 
 ---
 

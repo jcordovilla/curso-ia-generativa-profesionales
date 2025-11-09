@@ -9,17 +9,19 @@ Lo que sigue es el cierre: qué te llevas, cómo se conectan los módulos y cuá
 ## 1. Qué te llevas del itinerario
 
 ### Competencias prácticas
+
 - **Moverte en una plataforma no-code/low-code** (n8n, Make, Zapier…) entendiendo cuentas, credenciales y conexiones.
-- **Montar un flujo “de verdad”** del tipo: entrada (email/formulario) → IA que resume/clasifica → salida al equipo o sistema.
+- **Montar un flujo "de verdad"** del tipo: entrada (email/formulario) → IA que resume/clasifica → salida al equipo o sistema.
 - **Crear un asistente/GPT con documentos propios** con reglas claras de seguridad y comportamiento.
 - **Explicar tu solución a un técnico** usando el vocabulario correcto (API, endpoint, repo, contenedor) sin programar.
 - **Documentar y entregar** el caso de uso para que lo pueda mantener otra persona.
 
 ### Competencias de criterio
+
 - Distinguir cuándo basta con no-code y cuándo es mejor escalarlo al equipo técnico.
 - Evaluar si un caso de uso tiene impacto (¿lo usan?, ¿ahorra tiempo?, ¿es claro?).
 - Reconocer documentos que **no** debes subir a un GPT.
-- Formular prompts más rígidos para automatización (no “charlas creativas”, sino respuestas previsibles).
+- Formular prompts más rígidos para automatización (no "charlas creativas", sino respuestas previsibles).
 
 ---
 
@@ -47,12 +49,14 @@ En conjunto forman el recorrido: **aprender → aplicar → asegurar → explica
 ## 3. Qué hemos resuelto (y qué dejamos fuera a propósito)
 
 ### Lo que sí resolvimos
+
 - Que puedas **poner en marcha 1 caso de uso real** en tu entorno.
 - Que puedas **controlar los documentos** que usas con IA.
 - Que tengas **un formato de documentación único** (muy útil si publicas luego con MkDocs u Obsidian).
 - Que puedas **hablar con IT** sin que te traduzcan todo.
 
 ### Lo que dejamos fuera (porque es del itinerario intermedio)
+
 - Programación en Python.
 - Despliegues complejos y automatizados.
 - RAG avanzado y agentes orquestados.
@@ -68,21 +72,21 @@ Tienes tres caminos naturales:
 
 1. **Profundizar en tu caso de uso actual**
 
-   - Añadir más condiciones.
-   - Conectar más fuentes de datos.
-   - Mejorar el prompt para que responda exactamente como tu equipo necesita.
+    - Añadir más condiciones.
+    - Conectar más fuentes de datos.
+    - Mejorar el prompt para que responda exactamente como tu equipo necesita.
 
 2. **Pasar al itinerario intermedio**
 
-   - Llegas con ventaja: ya sabes qué quieres automatizar.
-   - El itinerario 2 te enseñará a hacerlo con APIs, código y despliegue mínimo.
-   - Podrás convertir tu flujo no-code en un servicio más estable.
+    - Llegas con ventaja: ya sabes qué quieres automatizar.
+    - El itinerario 2 te enseñará a hacerlo con APIs, código y despliegue mínimo.
+    - Podrás convertir tu flujo no-code en un servicio más estable.
 
 3. **Convertirte en la persona de referencia del área**
 
-   - Ayudar a otros a crear sus primeros flujos.
-   - Establecer el vocabulario común que hemos usado aquí.
-   - Velar por la parte de seguridad (qué se sube y qué no).
+    - Ayudar a otros a crear sus primeros flujos.
+    - Establecer el vocabulario común que hemos usado aquí.
+    - Velar por la parte de seguridad (qué se sube y qué no).
 
 ---
 

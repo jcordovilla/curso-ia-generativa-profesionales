@@ -31,31 +31,31 @@ Capacitarte para **usar la IA donde de verdad trabajas** —correo, CRM, documen
 
 1. **Comprensión funcional de la GenAI**
 
-   - Distinguir entre "usar un chat" y "diseñar una interacción" estable.
-   - Reconocer patrones de uso frecuentes: **resumir, clasificar, extraer datos, conversar sobre docs**.
-   - Adoptar un vocabulario compartido: *modelo, contexto, herramienta, flujo, conector, fuente de datos*.
+    - Distinguir entre "usar un chat" y "diseñar una interacción" estable.
+    - Reconocer patrones de uso frecuentes: **resumir, clasificar, extraer datos, conversar sobre docs**.
+    - Adoptar un vocabulario compartido: *modelo, contexto, herramienta, flujo, conector, fuente de datos*.
 
 2. **Alfabetización digital mínima**
 
-   - Identificar los componentes básicos de un flujo no-code: **trigger → tarea → salida**.
-   - Saber qué es una **credencial** y por qué a veces hay que pedirla a IT.
-   - Probar un flujo con datos de ejemplo **sin romper nada**.
+    - Identificar los componentes básicos de un flujo no-code: **trigger → tarea → salida**.
+    - Saber qué es una **credencial** y por qué a veces hay que pedirla a IT.
+    - Probar un flujo con datos de ejemplo **sin romper nada**.
 
 3. **Asistentes sobre información propia**
 
-   - Configurar un GPT/chatbot con documentos de la empresa.
-   - Aplicar reglas de seguridad básicas: qué no subir, cómo limitar la respuesta.
+    - Configurar un GPT/chatbot con documentos de la empresa.
+    - Aplicar reglas de seguridad básicas: qué no subir, cómo limitar la respuesta.
 
 4. **Documentar y comunicar**
 
-   - Redactar una ficha de caso de uso con propósito, entradas, salidas, restricciones y responsables.
-   - Explicar qué parte hiciste tú en no-code y qué parte requiere soporte técnico.
+    - Redactar una ficha de caso de uso con propósito, entradas, salidas, restricciones y responsables.
+    - Explicar qué parte hiciste tú en no-code y qué parte requiere soporte técnico.
 
 5. **Evaluar y mejorar**
 
-   - Definir ejemplos de prueba.
-   - Medir si el caso de uso aporta valor (tiempo, claridad, pasos eliminados).
-   - Iterar sin empezar de cero.
+    - Definir ejemplos de prueba.
+    - Medir si el caso de uso aporta valor (tiempo, claridad, pasos eliminados).
+    - Iterar sin empezar de cero.
 
 ---
 
@@ -63,27 +63,27 @@ Capacitarte para **usar la IA donde de verdad trabajas** —correo, CRM, documen
 
 1. **[Módulo 1 – Alfabetización digital para IA](modulo-1-alfabetizacion-digital-ia.md)**
 
-   Primer contacto con las plataformas no-code/low-code: qué es una cuenta, qué es una credencial, qué es un webhook, y cómo hacer una prueba controlada. Aquí bajamos la ansiedad técnica.
+    Primer contacto con las plataformas no-code/low-code: qué es una cuenta, qué es una credencial, qué es un webhook, y cómo hacer una prueba controlada. Aquí bajamos la ansiedad técnica.
 
 2. **[Módulo 2 – Automatización visual con IA para tareas de negocio](modulo-2-automatizacion-visual-negocio.md)**
 
-   Llevamos la IA a tareas reales: "email → IA resume → canal/CRM", con opción de añadir condiciones. Es el caso de uso mínimo viable.
+    Llevamos la IA a tareas reales: "email → IA resume → canal/CRM", con opción de añadir condiciones. Es el caso de uso mínimo viable.
 
 3. **[Módulo 3 – Creación de asistentes seguros con documentación propia](modulo-3-asistentes-seguros-con-docs-propias.md)**
 
-   Cómo crear un GPT interno con tono, instrucciones y documentos de la organización, indicando qué no subir.
+    Cómo crear un GPT interno con tono, instrucciones y documentos de la organización, indicando qué no subir.
 
 4. **[Módulo 4 – Puente hacia lo técnico (conceptual)](modulo-4-puente-hacia-lo-tecnico-conceptual.md)**
 
-   API, endpoint, Git, Docker explicados en lenguaje de negocio, para que puedas pedir al equipo técnico una versión más estable.
+    API, endpoint, Git, Docker explicados en lenguaje de negocio, para que puedas pedir al equipo técnico una versión más estable.
 
 5. **[Módulo 5 – Evaluación, documentación y handover](modulo-5-evaluacion-documentacion-handover.md)**
 
-   Checklist de pruebas, métricas sencillas y cómo pasar de "mi flujo" a "flujo del equipo".
+    Checklist de pruebas, métricas sencillas y cómo pasar de "mi flujo" a "flujo del equipo".
 
 6. **[Resumen](resumen.md)**
 
-   Recapitulación y siguientes pasos (profundizar o pasar al itinerario intermedio).
+    Recapitulación y siguientes pasos (profundizar o pasar al itinerario intermedio).
 
 ---
 

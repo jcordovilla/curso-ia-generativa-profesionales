@@ -93,18 +93,18 @@ Si ya te funcionó el flujo básico, puedes darle un poco de “inteligencia de 
 
 1. **Añadir condición por asunto o remitente**
 
-   - Si el email viene de "clientes@…", mándalo al canal del equipo comercial.
-   - Si no, mándalo a otro canal.
+    - Si el email viene de "clientes@…", mándalo al canal del equipo comercial.
+    - Si no, mándalo a otro canal.
 
 2. **Segunda IA que clasifica**
 
-   - Primera IA: resume.
-   - Segunda IA: "clasifica este contenido como: propuesta, queja, consulta, otra".
-   - Según la clasificación, el flujo envía a una persona diferente.
+    - Primera IA: resume.
+    - Segunda IA: "clasifica este contenido como: propuesta, queja, consulta, otra".
+    - Según la clasificación, el flujo envía a una persona diferente.
 
 3. **Enriquecer con fecha o autor**
 
-   - Añades campos para que quien lo recibe sepa de dónde viene.
+    - Añades campos para que quien lo recibe sepa de dónde viene.
 
 Esto no es obligatorio, pero sí **demuestra que ya controlas la herramienta** y que puedes adaptar el flujo al proceso real de tu organización.
 

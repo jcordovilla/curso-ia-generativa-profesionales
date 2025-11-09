@@ -10,16 +10,18 @@ El objetivo ya no era “hacer que funcione”, sino **entender cómo funciona**
 ## 1. Qué te llevas de este itinerario
 
 ### Competencias prácticas
-- **Poner en marcha un entorno técnico** con un repo ya configurado (VS Code, Codespaces o local).  
-- **Llamar directamente a una API de modelo** (OpenAI, Anthropic, etc.) controlando temperatura, modelo y formato.  
-- **Construir un RAG básico con LangChain**, capaz de responder sobre tus documentos.  
-- **Crear un agente funcional**, con una o varias herramientas (por ejemplo, tu RAG o una búsqueda web).  
+
+- **Poner en marcha un entorno técnico** con un repo ya configurado (VS Code, Codespaces o local).
+- **Llamar directamente a una API de modelo** (OpenAI, Anthropic, etc.) controlando temperatura, modelo y formato.
+- **Construir un RAG básico con LangChain**, capaz de responder sobre tus documentos.
+- **Crear un agente funcional**, con una o varias herramientas (por ejemplo, tu RAG o una búsqueda web).
 - **Publicar tu prototipo** en GitHub, como API con FastAPI o integrado en un flujo no-code.
 
 ### Competencias de criterio
-- Saber cuándo basta con un flujo no-code y cuándo conviene pasar a un entorno técnico.  
-- Entender qué significa cada parámetro de una API y cómo influye en los resultados.  
-- Evaluar la fiabilidad de las respuestas: distinguir entre errores del modelo y fallos del flujo.  
+
+- Saber cuándo basta con un flujo no-code y cuándo conviene pasar a un entorno técnico.
+- Entender qué significa cada parámetro de una API y cómo influye en los resultados.
+- Evaluar la fiabilidad de las respuestas: distinguir entre errores del modelo y fallos del flujo.
 - Comunicarte mejor con desarrolladores y equipos de IT, usando el mismo vocabulario técnico.
 
 **Mini-resumen:** ahora eres capaz de construir, probar y compartir un prototipo de IA funcional, sin necesidad de escribir grandes volúmenes de código.
@@ -50,15 +52,17 @@ En conjunto, los módulos forman el camino **de usuario a constructor**.
 ## 3. Qué has resuelto (y qué dejamos fuera a propósito)
 
 ### Lo que sí resolviste
-- Entender cómo se estructura una llamada a un modelo.  
-- Crear y usar embeddings para tus propios textos.  
-- Añadir autonomía básica mediante agentes.  
-- Publicar tu trabajo de forma segura y reproducible.  
+
+- Entender cómo se estructura una llamada a un modelo.
+- Crear y usar embeddings para tus propios textos.
+- Añadir autonomía básica mediante agentes.
+- Publicar tu trabajo de forma segura y reproducible.
 - Conectar piezas técnicas y no-técnicas en un mismo flujo.
 
 ### Lo que dejamos fuera
-- Programación avanzada o reentrenamiento de modelos.  
-- Integraciones complejas con bases de datos o contenedores Docker.  
+
+- Programación avanzada o reentrenamiento de modelos.
+- Integraciones complejas con bases de datos o contenedores Docker.
 - Escalabilidad y despliegues productivos.  
 
 No son omisiones, sino **límites intencionados**: este itinerario busca consolidar tu autonomía sin convertirte en desarrollador.
@@ -71,21 +75,21 @@ Tienes tres caminos posibles:
 
 1. **Consolidar tu prototipo actual**
 
-   - Añadir más documentos al RAG.
-   - Incorporar nuevas herramientas al agente.
-   - Conectar tu API con flujos reales en n8n o Slack.
+    - Añadir más documentos al RAG.
+    - Incorporar nuevas herramientas al agente.
+    - Conectar tu API con flujos reales en n8n o Slack.
 
 2. **Pasar a un nivel técnico más profundo**
 
-   - Aprender sobre **RAG avanzado**, bases vectoriales externas y LangGraph.
-   - Automatizar el despliegue con Docker o Render.
-   - Usar bases de conocimiento en la nube (Chroma, Pinecone, Qdrant).
+    - Aprender sobre **RAG avanzado**, bases vectoriales externas y LangGraph.
+    - Automatizar el despliegue con Docker o Render.
+    - Usar bases de conocimiento en la nube (Chroma, Pinecone, Qdrant).
 
 3. **Convertirte en referente interno**
 
-   - Guiar a otros profesionales para que repliquen tu proceso.
-   - Documentar y estandarizar los pasos para futuros proyectos.
-   - Coordinar con IT para transformar prototipos en productos.
+    - Guiar a otros profesionales para que repliquen tu proceso.
+    - Documentar y estandarizar los pasos para futuros proyectos.
+    - Coordinar con IT para transformar prototipos en productos.
 
 **Mini-resumen:** el itinerario 2 no termina en un “proyecto final”, sino en una **nueva capacidad profesional**: convertir ideas en prototipos reproducibles.
 

@@ -53,30 +53,36 @@ En la práctica esto significa: **si tú puedes montar un asistente funcional si
 
 Tomemos como referencia los constructores tipo OpenAI porque son los más directos para no técnicos. El flujo mental es casi siempre este:
 
-1. **Define el propósito**  
-   - “Eres un asistente para el departamento de operaciones.”
-   - “Respondes preguntas sobre el manual de contratación.”
-   - “Si la información no está en los documentos, lo dices.”
+1. **Define el propósito**
 
-2. **Sube o enlaza los documentos**  
-   - PDF, Word, FAQs, procedimientos.
-   - Mejor pocos y relevantes que muchos y desordenados.
-   - Pon nombres claros: `procedimiento_vacaciones_2025.pdf`, no `docfinal2.pdf`.
+    - "Eres un asistente para el departamento de operaciones."
+    - "Respondes preguntas sobre el manual de contratación."
+    - "Si la información no está en los documentos, lo dices."
 
-3. **Escribe las instrucciones del sistema** (a veces se llaman “instructions” o “behavior”)  
-   - Aquí mandas tú. Ejemplo:
-     > “Responde únicamente basándote en los documentos cargados. Si la respuesta no está, di ‘No está en la documentación’. Responde en español profesional y en máximo 120 palabras.”
+2. **Sube o enlaza los documentos**
 
-4. **Define el estilo de respuesta**  
-   - Breve, con pasos, con referencias.
+    - PDF, Word, FAQs, procedimientos.
+    - Mejor pocos y relevantes que muchos y desordenados.
+    - Pon nombres claros: `procedimiento_vacaciones_2025.pdf`, no `docfinal2.pdf`.
 
-5. **Prueba con preguntas reales**  
-   - No preguntes “¿quién eres?”. Pregunta lo que preguntaría tu equipo: “¿Qué plazo tiene el cliente para reclamar?”, “¿Qué documento hay que enviar primero?”.
+3. **Escribe las instrucciones del sistema** (a veces se llaman "instructions" o "behavior")
 
-6. **Decide cómo compartirlo**  
-   - Solo para ti.
-   - Con el equipo.
-   - Público (ojo aquí).
+    - Aquí mandas tú. Ejemplo:
+      > "Responde únicamente basándote en los documentos cargados. Si la respuesta no está, di 'No está en la documentación'. Responde en español profesional y en máximo 120 palabras."
+
+4. **Define el estilo de respuesta**
+
+    - Breve, con pasos, con referencias.
+
+5. **Prueba con preguntas reales**
+
+    - No preguntes "¿quién eres?". Pregunta lo que preguntaría tu equipo: "¿Qué plazo tiene el cliente para reclamar?", "¿Qué documento hay que enviar primero?".
+
+6. **Decide cómo compartirlo**
+
+    - Solo para ti.
+    - Con el equipo.
+    - Público (ojo aquí).
 
 **Mini-resumen:** propósito claro + documentos adecuados + instrucciones firmes + prueba real = GPT útil.
 

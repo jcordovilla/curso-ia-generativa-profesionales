@@ -55,13 +55,13 @@ Puedes elegir solo una opción o combinarlas.
 
 2. Añade tu proyecto:
 
-   - `call_model.py`, `rag_simple.py`, `agente_simple.py`, etc.
-   - Un archivo `.gitignore` (para excluir `.env` y `/__pycache__/`).
-   - Un `README.md` con instrucciones claras:
-     - Qué hace el proyecto.
-     - Cómo instalar dependencias.
-     - Cómo configurarlo.
-     - Cómo probarlo.  
+    - `call_model.py`, `rag_simple.py`, `agente_simple.py`, etc.
+    - Un archivo `.gitignore` (para excluir `.env` y `/__pycache__/`).
+    - Un `README.md` con instrucciones claras:
+        - Qué hace el proyecto.
+        - Cómo instalar dependencias.
+        - Cómo configurarlo.
+        - Cómo probarlo.  
 
 Ejemplo de resumen para el README:
 

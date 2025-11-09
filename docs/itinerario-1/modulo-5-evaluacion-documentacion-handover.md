@@ -38,23 +38,27 @@ En la práctica esto significa: **si no tienes una forma de revisar tu caso de u
 
 Cada vez que toques un prompt, una conexión o un documento, pasa por esta lista:
 
-1. **Prueba de entrada**  
-   - [ ] El flujo sigue recibiendo el dato (email, formulario, webhook).
-   - [ ] La conexión sigue autorizada (no ha caducado la cuenta).
+1. **Prueba de entrada**
 
-2. **Prueba de IA**  
-   - [ ] La IA responde en el idioma correcto.
-   - [ ] La IA devuelve el formato esperado (lista, párrafo, JSON).
-   - [ ] La IA responde algo razonable con un caso real.
+    - [ ] El flujo sigue recibiendo el dato (email, formulario, webhook).
+    - [ ] La conexión sigue autorizada (no ha caducado la cuenta).
 
-3. **Prueba de salida**  
-   - [ ] El mensaje llega al canal/equipo correcto.
-   - [ ] Se guarda en el sistema previsto (CRM, Sheets).
-   - [ ] Se ve quién lo ha generado (trazabilidad mínima).
+2. **Prueba de IA**
 
-4. **Prueba de error**  
-   - [ ] Si la IA falla, el flujo no se queda colgado sin avisar.
-   - [ ] Existe algún sitio donde se ve el error (log, email de aviso).
+    - [ ] La IA responde en el idioma correcto.
+    - [ ] La IA devuelve el formato esperado (lista, párrafo, JSON).
+    - [ ] La IA responde algo razonable con un caso real.
+
+3. **Prueba de salida**
+
+    - [ ] El mensaje llega al canal/equipo correcto.
+    - [ ] Se guarda en el sistema previsto (CRM, Sheets).
+    - [ ] Se ve quién lo ha generado (trazabilidad mínima).
+
+4. **Prueba de error**
+
+    - [ ] Si la IA falla, el flujo no se queda colgado sin avisar.
+    - [ ] Existe algún sitio donde se ve el error (log, email de aviso).
 
 **En la práctica esto significa:** no des por hecho que “como funcionó ayer, funcionará hoy”. Haz una prueba corta.
 

@@ -1,0 +1,1210 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Curso práctico de IA generativa para perfiles no técnicos, basado en flujos no-code y asistentes sobre documentación propia.">
+      
+      
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../modulo-2-automatizacion-visual-negocio/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>Módulo 1 – Alfabetización digital para IA - IA Generativa para Profesionales</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../style.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#itinerario-1-modulo-1" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../.." title="IA Generativa para Profesionales" class="md-header__button md-logo" aria-label="IA Generativa para Profesionales" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6V5a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v1h-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v1H3v14h10.09a5.5 5.5 0 0 1-.09-1 6 6 0 0 1 8-5.66V6m-1 9v3h3v2h-3v3h-2v-3h-3v-2h3v-3Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IA Generativa para Profesionales
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Módulo 1 – Alfabetización digital para IA
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="IA Generativa para Profesionales" class="md-nav__button md-logo" aria-label="IA Generativa para Profesionales" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6V5a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v1h-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v1H3v14h10.09a5.5 5.5 0 0 1-.09-1 6 6 0 0 1 8-5.66V6m-1 9v3h3v2h-3v3h-2v-3h-3v-2h3v-3Z"/></svg>
+
+    </a>
+    IA Generativa para Profesionales
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bienvenida
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Itinerario 1 – No Code
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Itinerario 1 – No Code
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Módulo 1 – Alfabetización digital para IA
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 1 – Alfabetización digital para IA
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#alfabetizacion-digital-para-ia-poner-las-bases-sin-volverse-tecnico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alfabetización digital para IA: poner las bases sin volverse técnico
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Alfabetización digital para IA: poner las bases sin volverse técnico">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-que-vamos-a-ver-en-este-modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. ¿Qué vamos a ver en este módulo?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-por-que-es-relevante-para-tu-trabajo-con-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. ¿Por qué es relevante para tu trabajo con IA generativa?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-cuentas-credenciales-y-conexiones-las-3-palabras-que-mas-confundan" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Cuentas, credenciales y conexiones: las 3 palabras que más confundan
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Cuentas, credenciales y conexiones: las 3 palabras que más confundan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-cuenta" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1. Cuenta
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-credencial-o-api-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2. Credencial (o API key)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-conexion" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3. Conexión
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-y-eso-del-webhook-que-es" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. ¿Y eso del webhook qué es?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-como-funciona-un-flujo-sencillo-vision-desde-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Cómo funciona un flujo sencillo (visión desde negocio)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-micro-practica-guiada-leer-una-fila-en-google-sheets" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Micro-práctica guiada: leer una fila en Google Sheets
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-errores-y-malentendidos-comunes" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Errores y malentendidos comunes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-aplicacion-directa-en-tu-entorno" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Aplicación directa en tu entorno
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-conclusiones-y-aprendizajes-clave" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Conclusiones y aprendizajes clave
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-2-automatizacion-visual-negocio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 2 – Automatización visual con IA para tareas de negocio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-3-asistentes-seguros-con-docs-propias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 3 – Creación de asistentes seguros con documentación propia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-4-puente-hacia-lo-tecnico-conceptual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 4 – Puente hacia lo técnico (conceptual)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-5-evaluacion-documentacion-handover/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 5 – Evaluación, documentación y handover
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resumen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resumen y cierre
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../itinerario-2/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    itinerario-2 – Low Code
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            itinerario-2 – Low Code
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-2/modulo-1-entorno-enchufar-y-usar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 1 – Entorno enchufar y usar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-2/modulo-2-llamar-a-apis-de-modelos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 2 – Llamar a APIs de modelos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-2/modulo-3-rag-practico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 3 – RAG práctico con LangChain
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-2/modulo-4-agentes-y-orquestacion-minima/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 4 – Agentes y orquestación mínima
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-2/modulo-5-publicar-y-compartir/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Módulo 5 – Publicar y compartir
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../itinerario-2/resumen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resumen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#alfabetizacion-digital-para-ia-poner-las-bases-sin-volverse-tecnico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alfabetización digital para IA: poner las bases sin volverse técnico
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Alfabetización digital para IA: poner las bases sin volverse técnico">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-que-vamos-a-ver-en-este-modulo" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. ¿Qué vamos a ver en este módulo?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-por-que-es-relevante-para-tu-trabajo-con-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. ¿Por qué es relevante para tu trabajo con IA generativa?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-cuentas-credenciales-y-conexiones-las-3-palabras-que-mas-confundan" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Cuentas, credenciales y conexiones: las 3 palabras que más confundan
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Cuentas, credenciales y conexiones: las 3 palabras que más confundan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-cuenta" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1. Cuenta
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-credencial-o-api-key" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2. Credencial (o API key)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-conexion" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3. Conexión
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-y-eso-del-webhook-que-es" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. ¿Y eso del webhook qué es?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-como-funciona-un-flujo-sencillo-vision-desde-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Cómo funciona un flujo sencillo (visión desde negocio)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-micro-practica-guiada-leer-una-fila-en-google-sheets" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Micro-práctica guiada: leer una fila en Google Sheets
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-errores-y-malentendidos-comunes" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Errores y malentendidos comunes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-aplicacion-directa-en-tu-entorno" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Aplicación directa en tu entorno
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-conclusiones-y-aprendizajes-clave" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Conclusiones y aprendizajes clave
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="itinerario-1-modulo-1">Itinerario 1 · Módulo 1<a class="headerlink" href="#itinerario-1-modulo-1" title="Permanent link">&para;</a></h1>
+<h2 id="alfabetizacion-digital-para-ia-poner-las-bases-sin-volverse-tecnico">Alfabetización digital para IA: poner las bases sin volverse técnico<a class="headerlink" href="#alfabetizacion-digital-para-ia-poner-las-bases-sin-volverse-tecnico" title="Permanent link">&para;</a></h2>
+<p>En los capítulos comunes ya vimos que <strong>la IA generativa solo tiene sentido si la conectamos con un caso de uso real</strong> y si reducimos la ansiedad técnica. Aquí empezamos justamente por ahí: antes de “hacer magia” con IA, necesitamos entender <strong>las piezas básicas</strong> que usan todas las plataformas no-code (n8n, Make, Zapier…) cuando las conectamos con un CRM, con un gestor de documentos o con un modelo de IA.<br />
+Si entiendes estas piezas, el resto del itinerario será más fácil y podrás seguir los vídeos paso a paso sin quedarte atascado en detalles técnicos.</p>
+<hr />
+<h3 id="1-que-vamos-a-ver-en-este-modulo">1. ¿Qué vamos a ver en este módulo?<a class="headerlink" href="#1-que-vamos-a-ver-en-este-modulo" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Qué significa “automatizar con IA” cuando no eres programador.</li>
+<li>Qué son <strong>cuentas, credenciales y conexiones</strong> y por qué siempre te las piden.</li>
+<li>Qué es un <strong>webhook</strong> explicado en lenguaje de negocio.</li>
+<li>Cómo se ve un <strong>flujo sencillo</strong> tipo “toma datos → pásalos por IA → guarda el resultado”.</li>
+<li>Una micro-práctica: <strong>conectar Google Sheets y leer una fila</strong>.</li>
+<li>Errores típicos que hacen perder tiempo y cómo evitarlos.</li>
+</ol>
+<p><strong>Idea clave:</strong> este módulo no busca que memorices vocabulario técnico, sino que <strong>pierdas el miedo</strong> y puedas decir con propiedad: “esto es una conexión”, “esto necesita credenciales”, “esto es la parte de entrada de datos”.</p>
+<hr />
+<h3 id="2-por-que-es-relevante-para-tu-trabajo-con-ia-generativa">2. ¿Por qué es relevante para tu trabajo con IA generativa?<a class="headerlink" href="#2-por-que-es-relevante-para-tu-trabajo-con-ia-generativa" title="Permanent link">&para;</a></h3>
+<p>Porque la IA por sí sola <strong>no conoce tu negocio</strong>. Para que una IA resuma un email, clasifique un ticket o genere una respuesta estándar, alguien tiene que decirle de dónde sacar los datos y dónde dejarlos.<br />
+En la práctica esto significa: <strong>sin una mínima alfabetización digital, acabarás dependiendo siempre de un técnico</strong> para cosas muy pequeñas (cambiar una cuenta, actualizar una clave, probar un flujo). Y eso ralentiza la adopción.</p>
+<p>Piensa en este ejemplo:  </p>
+<blockquote>
+<p>“Quiero que cada vez que llegue un correo con una propuesta, la IA me haga un resumen y lo mande al canal del equipo.”  </p>
+</blockquote>
+<p>Para hacerlo, la herramienta necesita:
+- leer correos (cuenta y permisos),
+- llamar a la IA (credencial de IA),
+- enviar el resumen al equipo (otra conexión).<br />
+Si sabes nombrar estas tres piezas, sabes pedir ayuda, sabes documentarlo y sabes probarlo sin romper nada.</p>
+<p><strong>Mini-resumen:</strong> aprender IA generativa no es solo hablar con un chatbot; <strong>es saber cómo se conectan los sistemas donde están tus datos</strong>.</p>
+<hr />
+<h3 id="3-cuentas-credenciales-y-conexiones-las-3-palabras-que-mas-confundan">3. Cuentas, credenciales y conexiones: las 3 palabras que más confundan<a class="headerlink" href="#3-cuentas-credenciales-y-conexiones-las-3-palabras-que-mas-confundan" title="Permanent link">&para;</a></h3>
+<p>Vamos por partes.</p>
+<h4 id="31-cuenta">3.1. Cuenta<a class="headerlink" href="#31-cuenta" title="Permanent link">&para;</a></h4>
+<p>Es tu <strong>identidad en un servicio</strong>: tu cuenta de Google, de Microsoft 365, de OpenAI, de la plataforma de automatización.<br />
+En la práctica esto significa: cada vez que una herramienta te pide “conéctate con Google”, está usando tu cuenta para pedir permiso.</p>
+<h4 id="32-credencial-o-api-key">3.2. Credencial (o API key)<a class="headerlink" href="#32-credencial-o-api-key" title="Permanent link">&para;</a></h4>
+<p>Es un <strong>código de acceso</strong> que autoriza a una herramienta a usar un servicio en tu nombre.<br />
+- En IA suele ser la “API key” de OpenAI, Anthropic, etc.
+- Se pega en un campo de configuración y <strong>no se comparte</strong> por email ni por chat del equipo.
+- Si te roban la credencial, pueden usar tu cuota.</p>
+<p>En la práctica esto significa: <strong>sin credencial no hay llamada a la IA</strong>.</p>
+<h4 id="33-conexion">3.3. Conexión<a class="headerlink" href="#33-conexion" title="Permanent link">&para;</a></h4>
+<p>Es cuando la plataforma (n8n, Make…) guarda esa credencial y la usa en los flujos.<br />
+- A veces es “conexión a Google Sheets”.
+- Otras veces es “conexión a Slack”.
+- Tú la creas una vez y luego la reutilizas.</p>
+<p><strong>Comparación útil:</strong><br />
+- <em>Cuenta</em> → “Soy yo.”<br />
+- <em>Credencial</em> → “Esta es mi llave.”<br />
+- <em>Conexión</em> → “Guarda mi llave para usarla en los flujos.”</p>
+<p><strong>Error común:</strong> pensar que “ya tengo cuenta en Google” y por eso el flujo debería funcionar. No: <strong>la plataforma que automatiza necesita su propia conexión</strong>, aunque tú ya tengas tu cuenta abierta en el navegador.</p>
+<hr />
+<h3 id="4-y-eso-del-webhook-que-es">4. ¿Y eso del webhook qué es?<a class="headerlink" href="#4-y-eso-del-webhook-que-es" title="Permanent link">&para;</a></h3>
+<p>La palabra asusta, pero el concepto es simple.</p>
+<ul>
+<li>Un <strong>webhook</strong> es <strong>una dirección (URL) que recibe información</strong>.</li>
+<li>Sirve para que otro sistema “toque a la puerta” y diga: “ha pasado algo”.</li>
+<li>Por ejemplo: “ha entrado un formulario”, “alguien ha pagado”, “se ha creado un ticket”.</li>
+</ul>
+<p>En la práctica esto significa:  </p>
+<blockquote>
+<p>“Cuando alguien envía el formulario de contacto, dispara el flujo y mándame un resumen por IA.”</p>
+</blockquote>
+<p><strong>Esto no es</strong> una base de datos ni un archivo.<br />
+<strong>Se parece a</strong> una bandeja de entrada muy pequeña que solo está esperando que llegue un mensaje para activar el resto del flujo.</p>
+<p><strong>Error común:</strong> creer que el webhook guarda datos. No guarda; <strong>solo dispara</strong>.</p>
+<hr />
+<h3 id="5-como-funciona-un-flujo-sencillo-vision-desde-negocio">5. Cómo funciona un flujo sencillo (visión desde negocio)<a class="headerlink" href="#5-como-funciona-un-flujo-sencillo-vision-desde-negocio" title="Permanent link">&para;</a></h3>
+<p>Vamos a describir el flujo tipo que usarás varias veces en el itinerario:</p>
+<ol>
+<li>
+<p><strong>Entrada de datos</strong></p>
+</li>
+<li>
+<p>Email recibido / fila de Excel / webhook.</p>
+</li>
+<li>
+<p><strong>Procesamiento IA</strong></p>
+</li>
+<li>
+<p>Llamada al modelo con un prompt: "resume en 5 puntos", "clasifica", "extrae nombre y teléfono".</p>
+</li>
+<li>
+<p><strong>Salida</strong></p>
+</li>
+<li>
+<p>Guardar en Google Sheets, enviar a Slack/Teams, crear registro en CRM.</p>
+</li>
+</ol>
+<p>La mayor parte de las plataformas no-code te lo muestran como bloques. Por eso en este módulo queremos que puedas decir:<br />
+- “Aquí entra la información.”<br />
+- “Aquí está la IA.”<br />
+- “Aquí lo envío al negocio.”</p>
+<p><strong>Mini-resumen:</strong> si puedes dibujar el flujo, puedes construirlo o pedir que te lo construyan.</p>
+<hr />
+<h3 id="6-micro-practica-guiada-leer-una-fila-en-google-sheets">6. Micro-práctica guiada: leer una fila en Google Sheets<a class="headerlink" href="#6-micro-practica-guiada-leer-una-fila-en-google-sheets" title="Permanent link">&para;</a></h3>
+<p>Este es el ejercicio que te quitará el miedo. No es “IA todavía”, es <strong>aprender a conectar</strong>.</p>
+<p><strong>Objetivo:</strong> que la plataforma pueda leer una hoja de cálculo tuya.</p>
+<p><strong>Pasos esenciales:</strong>
+1. Entra a la plataforma (n8n, Make o la que use tu organización).
+2. Elige el bloque “Google Sheets” o similar.
+3. Cuando te pida permiso, <strong>crea la conexión</strong> con tu cuenta de Google.
+4. Selecciona el documento y la hoja.
+5. Pide “Get row” / “Leer fila”.
+6. Mira el resultado en la vista previa.</p>
+<p>Si esto funciona, ya hiciste lo difícil: <strong>autorizar un servicio externo y traer datos reales</strong>. En el módulo siguiente, ese mismo dato se lo pasaremos a la IA.</p>
+<p><strong>Señal de alerta:</strong> si no te deja conectar, suele ser por permisos de la organización o porque estás con la cuenta equivocada. Antes de pensar “no sé”, piensa “¿estoy con la cuenta correcta?”.</p>
+<hr />
+<h3 id="7-errores-y-malentendidos-comunes">7. Errores y malentendidos comunes<a class="headerlink" href="#7-errores-y-malentendidos-comunes" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>“No entiendo por qué me pide otra vez login”</strong> → porque la plataforma necesita su propia autorización, no la del navegador.</li>
+<li><strong>“No me aparece mi archivo”</strong> → porque estás en otra cuenta o porque el archivo no está compartido con esa identidad.</li>
+<li><strong>“La IA no me contesta”</strong> → muchas veces no es la IA, es que <strong>no hay API key</strong> o está mal escrita.</li>
+<li><strong>“El flujo se ejecuta pero no veo nada”</strong> → porque no configuraste la salida (guardar, enviar, mostrar). El flujo sin salida es como una llamada sin colgar: pasó, pero nadie lo vio.</li>
+<li><strong>“Subo documentos sensibles al GPT”</strong> → aquí pondremos la alerta de privacidad más adelante: <strong>no todo se sube</strong>. En este módulo quédate con la frase: <em>“si no lo enviarías por email sin cifrar, no lo subas a un GPT público”</em>.</li>
+</ul>
+<hr />
+<h3 id="8-aplicacion-directa-en-tu-entorno">8. Aplicación directa en tu entorno<a class="headerlink" href="#8-aplicacion-directa-en-tu-entorno" title="Permanent link">&para;</a></h3>
+<p>Para que esto no se quede en teoría, piensa en tu día a día:</p>
+<ul>
+<li>¿Qué tarea repetitiva podrías convertir en <strong>entrada → IA → salida</strong>?</li>
+<li>¿Qué sistema usas siempre (correo, SharePoint, Google Drive, CRM) que te pueda servir como “fuente de datos”?</li>
+<li>¿Quién en tu equipo tiene que revisar siempre los mismos correos o reportes y podría recibirlos ya resumidos?</li>
+</ul>
+<p><strong>Preguntas de reflexión:</strong>
+- ¿Sé identificar qué parte del proceso es “entrada”, cuál es “IA” y cuál es “salida”?
+- ¿Sé decir qué credenciales voy a necesitar?
+- ¿Sé a quién pedir el permiso si la plataforma no me deja conectar?</p>
+<p>Responder a estas preguntas te prepara para hablar con TI sin pedir “ayuda genérica”. Podrás decir: <strong>“necesito habilitar la conexión de n8n con Google Sheets para leer este archivo”</strong>. Eso sí se resuelve.</p>
+<hr />
+<h3 id="9-conclusiones-y-aprendizajes-clave">9. Conclusiones y aprendizajes clave<a class="headerlink" href="#9-conclusiones-y-aprendizajes-clave" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>La automatización con IA no empieza en la IA, empieza en la conexión.</strong></li>
+<li><strong>Cuentas, credenciales y conexiones</strong> son conceptos distintos; si los confundes, te atascas.</li>
+<li>Un <strong>webhook</strong> es solo un disparador, no un almacén.</li>
+<li>Si puedes <strong>traer una fila de Google Sheets</strong>, ya estás listo para pasar esa información a la IA en el siguiente módulo.</li>
+<li>El objetivo de este módulo es que <strong>pierdas el miedo a “tocar” las plataformas</strong> y que tengas el lenguaje para explicar lo que estás haciendo.</li>
+</ul>
+<p><strong>Mini-resumen final:</strong>  </p>
+<blockquote>
+<p>“Puedo identificar las piezas básicas de un flujo no-code con IA, sé por qué me piden claves y permisos, y sé hacer una prueba sin romper nada.”  </p>
+</blockquote>
+<p>Con esto, pasamos al <a href="../modulo-2-automatizacion-visual-negocio/">Módulo 2</a>, donde ya veremos <strong>la automatización visual con IA</strong> y construiremos el primer flujo útil: entrada de email → IA resume → envío al canal del equipo.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.sections", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>

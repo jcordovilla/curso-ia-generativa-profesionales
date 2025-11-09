@@ -92,15 +92,15 @@ Vamos a describir el flujo tipo que usarás varias veces en el itinerario:
 
 1. **Entrada de datos**
 
-   - Email recibido / fila de Excel / webhook.
+    - Email recibido / fila de Excel / webhook.
 
 2. **Procesamiento IA**
 
-   - Llamada al modelo con un prompt: "resume en 5 puntos", "clasifica", "extrae nombre y teléfono".
+    - Llamada al modelo con un prompt: "resume en 5 puntos", "clasifica", "extrae nombre y teléfono".
 
 3. **Salida**
 
-   - Guardar en Google Sheets, enviar a Slack/Teams, crear registro en CRM.
+    - Guardar en Google Sheets, enviar a Slack/Teams, crear registro en CRM.
 
 La mayor parte de las plataformas no-code te lo muestran como bloques. Por eso en este módulo queremos que puedas decir:  
 - “Aquí entra la información.”  
