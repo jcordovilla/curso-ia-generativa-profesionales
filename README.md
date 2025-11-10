@@ -82,7 +82,3 @@ git commit -m "Stop tracking generated site/"
 - Edita o añade contenido en `docs/` (o en tu flujo de Obsidian que luego exporte a `docs/`).
 - Prueba localmente con `mkdocs serve`.
 - Haz un Pull Request cuando estés listo.
-
----
-
-Archivo generado automáticamente por una tarea de mantenimiento: añadidos `.gitignore` y `README.md`.
