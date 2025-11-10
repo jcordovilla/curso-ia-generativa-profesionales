@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# MkDocs / site build output
+site/
+/site/
+
+# Obsidian
+.obsidian/
+
+# Node
+node_modules/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Coverage
+.coverage
+htmlcov/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# pytest
+.cache/
+
+# Others
+*.py~
+*.swp
