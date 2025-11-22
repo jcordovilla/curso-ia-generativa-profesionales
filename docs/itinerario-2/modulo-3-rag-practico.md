@@ -188,6 +188,7 @@ Estos son pasos naturales para consolidar tu caso de uso.
 ---
 
 > [!info] Para profundizar
+> - [LangChain Crash Course for Beginners](https://youtu.be/lG7Uxts9SXs) - Vídeo de freeCodeCamp (1h 40min) que explica desde cero LLMs, prompts, tools y agentes con ejemplos prácticos en Python.
 > - [LangChain Academy](https://academy.langchain.com/) - Plataforma oficial de aprendizaje de LangChain con cursos estructurados sobre cadenas, agentes, RAG y patrones de producción.
 > - [LangChain Explained in 13 Minutes](https://www.youtube.com/watch?v=aywZrzNaKjs) - Vídeo de Rabbitmetrics que explica los conceptos clave de LangChain de forma visual: cadenas, memoria, agentes y herramientas.
 > - [Build a RAG Chatbot](https://docs.pinecone.io/guides/get-started/build-a-rag-chatbot) - Tutorial paso a paso de Pinecone para construir un chatbot RAG completo: desde embeddings hasta búsqueda semántica y generación.

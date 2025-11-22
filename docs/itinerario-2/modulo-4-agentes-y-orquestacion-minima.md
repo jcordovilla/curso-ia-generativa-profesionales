@@ -197,6 +197,7 @@ Empieza con uno: *“consulta documentos internos o, si no hay, haz resumen del 
 ---
 
 > [!info] Para profundizar
+> - [A Practical Guide to Building Agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) - Guía oficial de OpenAI con recomendaciones prácticas para diseñar, construir y desplegar agentes en entornos empresariales.
 > - [AI Agents in LangGraph](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/) - Curso gratuito de DeepLearning.AI sobre construcción de agentes con LangGraph: estados, transiciones y control de flujo.
 > - [HuggingFace Agents Course](https://huggingface.co/learn/agents-course/en/unit0/introduction) - Curso completo y gratuito de Hugging Face cubriendo desde fundamentos hasta agentes multi-herramienta y evaluación.
 > - [Reflection Agents](https://blog.langchain.dev/reflection-agents/) - Artículo técnico de LangChain sobre agentes con capacidad de reflexión: cómo hacer que revisen y mejoren sus propias respuestas.

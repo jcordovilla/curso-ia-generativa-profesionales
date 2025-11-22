@@ -175,6 +175,7 @@ Con eso estás haciendo tu parte.
 > - [Why AI Projects Fail](https://hbr.org/2023/11/keep-your-ai-projects-on-track) - Artículo de Harvard Business Review analizando por qué fracasan los proyectos de IA y qué prácticas distinguen a los que tienen éxito.
 > - [Prompt Engineering Guide](https://www.promptingguide.ai/) - Guía completa y gratuita de DAIR.AI sobre técnicas de prompting, desde básicas hasta avanzadas, con ejemplos y casos de uso.
 > - [OpenAI Evals](https://github.com/openai/evals) - Framework open-source de OpenAI para evaluar sistemáticamente modelos de lenguaje, útil para medir calidad y detectar regresiones.
+> - [Promptfoo](https://www.promptfoo.dev/) - Herramienta open-source para probar y asegurar aplicaciones LLM, permitiendo comparar prompts, detectar regresiones y validar respuestas de forma sistemática.
 
 ---
 
