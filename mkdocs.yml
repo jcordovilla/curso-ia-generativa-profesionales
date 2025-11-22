@@ -13,14 +13,25 @@ theme:
     - navigation.instant
     - navigation.sections
     - navigation.indexes
-#    - navigation.path
-#    - navigation.expand
-#    - navigation.tabs
-#    - toc.integrate
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - content.code.copy
+    - search.suggest
+    - search.highlight
   palette:
     - scheme: default
       primary: custom
       accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
 
 extra_css:
   - style.css
@@ -72,7 +83,7 @@ nav:
       - "Módulo 4 – Puente hacia lo técnico (conceptual)": itinerario-1/modulo-4-puente-hacia-lo-tecnico-conceptual.md
       - "Módulo 5 – Evaluación, documentación y handover": itinerario-1/modulo-5-evaluacion-documentacion-handover.md
       - "Resumen y cierre": itinerario-1/resumen.md
-  - "itinerario-2 – Low Code":
+  - "Itinerario-2 – Low Code":
       - "Introducción y objetivos": "itinerario-2/index.md"
       - "Módulo 1 – Entorno enchufar y usar": "itinerario-2/modulo-1-entorno-enchufar-y-usar.md"
       - "Módulo 2 – Llamar a APIs de modelos": "itinerario-2/modulo-2-llamar-a-apis-de-modelos.md"

@@ -1,22 +1,261 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
+/* ===========================================
+   COLOR SCHEME - Light Mode (Default)
+   =========================================== */
+
+:root {
+    /* Primary colors */
+    --md-primary-fg-color: #485e69;
+    --md-primary-fg-color--light: #6a8290;
+    --md-primary-fg-color--dark: #2d3d45;
+
+    /* Accent color */
+    --md-accent-fg-color: #69485e;
+    --md-accent-fg-color--transparent: rgba(105, 72, 94, 0.1);
+
+    /* Custom course colors */
+    --course-heading-color: #485e69;
+    --course-link-color: #69485e;
+    --course-code-bg: #f5f7f8;
+    --course-blockquote-border: #485e69;
+}
+
+/* ===========================================
+   COLOR SCHEME - Dark Mode (Slate)
+   =========================================== */
+
+[data-md-color-scheme="slate"] {
+    /* Primary colors for dark mode */
+    --md-primary-fg-color: #7a9bab;
+    --md-primary-fg-color--light: #9bb5c2;
+    --md-primary-fg-color--dark: #5a7b8b;
+
+    /* Accent color for dark mode */
+    --md-accent-fg-color: #ab7a9b;
+    --md-accent-fg-color--transparent: rgba(171, 122, 155, 0.15);
+
+    /* Custom course colors - dark mode */
+    --course-heading-color: #9bb5c2;
+    --course-link-color: #ab7a9b;
+    --course-code-bg: #1e2a30;
+    --course-blockquote-border: #7a9bab;
+}
+
+/* ===========================================
+   TYPOGRAPHY - Headings
+   =========================================== */
+
 h1 {
     font-family: 'Roboto', sans-serif;
-    color: #485e69;
+    color: var(--course-heading-color);
     font-weight: 900;
 }
+
 h2 {
     font-family: 'Roboto', sans-serif;
-    color: #485e69;
+    color: var(--course-heading-color);
     font-weight: 700;
 }
+
 h3 {
     font-family: 'Roboto', sans-serif;
-    color:   #485e69;
+    color: var(--course-heading-color);
     font-weight: 400;
 }
 
-:root  > * {
-    --md-primary-fg-color:        #485e69;
-    --md-accent-fg-color:        #69485e;
-  }
+h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--course-heading-color);
+}
+
+/* ===========================================
+   CODE BLOCKS
+   =========================================== */
+
+/* Inline code */
+.md-typeset code {
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    background-color: var(--course-code-bg);
+}
+
+/* Code blocks with syntax highlighting */
+.md-typeset pre {
+    border-radius: 8px;
+}
+
+.highlight {
+    border-radius: 8px;
+}
+
+/* Copy button styling */
+.md-typeset .md-clipboard {
+    color: var(--md-primary-fg-color--light);
+}
+
+.md-typeset .md-clipboard:hover {
+    color: var(--md-accent-fg-color);
+}
+
+/* ===========================================
+   ADMONITIONS / CALLOUTS
+   =========================================== */
+
+/* Info admonition - used for "Para profundizar" */
+.md-typeset .admonition.info,
+.md-typeset details.info {
+    border-left-color: var(--md-primary-fg-color);
+}
+
+.md-typeset .admonition.info > .admonition-title,
+.md-typeset details.info > summary {
+    background-color: var(--md-accent-fg-color--transparent);
+    border-left-color: var(--md-primary-fg-color);
+}
+
+.md-typeset .admonition.info > .admonition-title::before,
+.md-typeset details.info > summary::before {
+    background-color: var(--md-primary-fg-color);
+}
+
+/* Tip admonition */
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+    border-left-color: var(--md-accent-fg-color);
+}
+
+.md-typeset .admonition.tip > .admonition-title,
+.md-typeset details.tip > summary {
+    background-color: var(--md-accent-fg-color--transparent);
+}
+
+/* Note admonition */
+.md-typeset .admonition.note,
+.md-typeset details.note {
+    border-left-color: var(--md-primary-fg-color--light);
+}
+
+/* Abstract admonition - used for glossary */
+.md-typeset .admonition.abstract,
+.md-typeset details.abstract {
+    border-left-color: var(--md-primary-fg-color);
+}
+
+.md-typeset .admonition.abstract > .admonition-title,
+.md-typeset details.abstract > summary {
+    background-color: var(--md-accent-fg-color--transparent);
+}
+
+/* ===========================================
+   NAVIGATION
+   =========================================== */
+
+/* Back to top button */
+.md-top {
+    background-color: var(--md-primary-fg-color);
+}
+
+.md-top:hover {
+    background-color: var(--md-primary-fg-color--dark);
+}
+
+/* Footer navigation */
+.md-footer {
+    background-color: var(--md-primary-fg-color--dark);
+}
+
+/* Active navigation item */
+.md-nav__item--active > .md-nav__link {
+    color: var(--md-accent-fg-color);
+    font-weight: 600;
+}
+
+/* ===========================================
+   LINKS
+   =========================================== */
+
+.md-typeset a {
+    color: var(--course-link-color);
+}
+
+.md-typeset a:hover {
+    color: var(--md-primary-fg-color);
+}
+
+/* Links inside admonitions */
+.md-typeset .admonition a {
+    color: var(--course-link-color);
+    text-decoration: underline;
+    text-decoration-color: var(--md-accent-fg-color--transparent);
+    text-underline-offset: 2px;
+}
+
+.md-typeset .admonition a:hover {
+    text-decoration-color: var(--course-link-color);
+}
+
+/* ===========================================
+   BLOCKQUOTES
+   =========================================== */
+
+.md-typeset blockquote {
+    border-left: 4px solid var(--course-blockquote-border);
+    padding-left: 1em;
+    color: var(--md-typeset-color);
+    font-style: italic;
+}
+
+/* ===========================================
+   TABLES
+   =========================================== */
+
+.md-typeset table:not([class]) {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+    background-color: var(--md-primary-fg-color);
+    color: white;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
+    background-color: var(--md-primary-fg-color--dark);
+}
+
+/* ===========================================
+   SEARCH
+   =========================================== */
+
+.md-search__input {
+    border-radius: 8px;
+}
+
+/* Search highlight */
+.md-typeset mark {
+    background-color: var(--md-accent-fg-color--transparent);
+    color: inherit;
+    padding: 0.1em 0.2em;
+    border-radius: 2px;
+}
+
+/* ===========================================
+   MISCELLANEOUS
+   =========================================== */
+
+/* Horizontal rule */
+.md-typeset hr {
+    border-color: var(--md-primary-fg-color--light);
+    opacity: 0.3;
+}
+
+/* Task list checkboxes */
+.md-typeset .task-list-indicator::before {
+    background-color: var(--md-accent-fg-color);
+}
+
+/* Smooth transitions for color scheme changes */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
