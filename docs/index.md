@@ -1,4 +1,4 @@
-# 🧰 IA Generativa para Profesionales  
+# IA Generativa para Profesionales  
 
 **Un itinerario de aprendizaje adaptado a perfiles no técnicos y con experiencia profesional**
 

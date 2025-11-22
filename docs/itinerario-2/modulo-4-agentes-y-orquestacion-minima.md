@@ -198,6 +198,8 @@ Empieza con uno: *“consulta documentos internos o, si no hay, haz resumen del 
 
 > [!info] Para profundizar
 > - [A Practical Guide to Building Agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) - Guía oficial de OpenAI con recomendaciones prácticas para diseñar, construir y desplegar agentes en entornos empresariales.
+> - [AI Agents, Clearly Explained](https://www.youtube.com/watch?v=FwOTs4UxQS4) - Vídeo de Jeff Su que explica de forma clara y visual qué son los agentes de IA, cómo funcionan y casos de uso prácticos en el día a día.
+> - [Andrew Ng on AI Agents and Agentic Reasoning](https://www.youtube.com/watch?v=KrRD7r7y7NY) - Keynote de Andrew Ng en Snowflake BUILD 2024 explorando el auge de los agentes de IA y el razonamiento agéntico.
 > - [AI Agents in LangGraph](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/) - Curso gratuito de DeepLearning.AI sobre construcción de agentes con LangGraph: estados, transiciones y control de flujo.
 > - [HuggingFace Agents Course](https://huggingface.co/learn/agents-course/en/unit0/introduction) - Curso completo y gratuito de Hugging Face cubriendo desde fundamentos hasta agentes multi-herramienta y evaluación.
 > - [Reflection Agents](https://blog.langchain.dev/reflection-agents/) - Artículo técnico de LangChain sobre agentes con capacidad de reflexión: cómo hacer que revisen y mejoren sus propias respuestas.

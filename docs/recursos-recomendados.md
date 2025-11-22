@@ -137,9 +137,29 @@ Recursos transversales útiles a lo largo de todo el curso:
 
 ---
 
+## Vídeos de YouTube Adicionales
+
+Selección de vídeos de YouTube sobre IA generativa, agentes, RAG y herramientas relacionadas:
+
+| Tipo | Título | Canal | URL |
+|------|--------|-------|-----|
+| Vídeo | "AI Agents, Clearly Explained" | Jeff Su | https://www.youtube.com/watch?v=FwOTs4UxQS4 |
+| Vídeo | "Andrew Ng Explores The Rise Of AI Agents And Agentic Reasoning" (BUILD 2024 Keynote) | Snowflake Inc. | https://www.youtube.com/watch?v=KrRD7r7y7NY |
+| Vídeo | "Prompt Engineering Tutorial – Master ChatGPT and LLM Responses" | freeCodeCamp.org | https://www.youtube.com/watch?v=_ZvnD73m40o |
+| Vídeo | "Using ChatGPT with YOUR OWN Data" (LangChain OpenAI API) | TechLead | https://www.youtube.com/watch?v=9AXP7tCI9PI |
+| Vídeo | "The ULTIMATE n8n RAG AI Agent Template - Local AI Edition" | Cole Medin | https://www.youtube.com/watch?v=T2QWhXpnT5I |
+| Vídeo | "You need to learn MCP RIGHT NOW!!" (Model Context Protocol) | NetworkChuck | https://www.youtube.com/watch?v=GuTcle5edjk |
+| Vídeo | "Introducing Align Evals: Streamlining LLM Application Evaluation" | LangChain | https://www.youtube.com/watch?v=-9o94oj4x0A |
+| Vídeo | "Obsidian + AI: How to Do It The Right Way" | Linking Your Thinking (Nick Milo) | https://www.youtube.com/watch?v=a1FDaoF8Jog |
+| Vídeo | "How I Set Up My AI-Powered Second Brain in Obsidian" | John Mavrick Ch. | https://www.youtube.com/watch?v=xHY3OHUNOrQ |
+| Vídeo | "You're Not Behind: Become AI-Native (without the overwhelm)" | Jeff Su | https://www.youtube.com/watch?v=j63bBK_ct-M |
+| Vídeo | "The A.I. Dilemma" (March 2023) | Center for Humane Technology | https://www.youtube.com/watch?v=xoVJKj8lcNQ |
+
+---
+
 ## Resumen
 
-**Total de recursos curados: 45**
+**Total de recursos curados: 56**
 
 - Todos públicamente accesibles
 - De fuentes reputadas: OpenAI, Anthropic, DeepLearning.AI, MIT, Stanford, McKinsey, O'Reilly, LangChain, Hugging Face, IBM, Google, etc.
@@ -147,7 +167,7 @@ Recursos transversales útiles a lo largo de todo el curso:
   - Cursos: 10
   - Documentación: 12
   - Artículos: 8
-  - Vídeos: 8
+  - Vídeos: 19
   - Herramientas: 5
   - Informes: 2
 
