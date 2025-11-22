@@ -158,7 +158,18 @@ Con esta información el desarrollador no tiene que adivinar.
 - Entiendes que tu rol es **definir el proceso y validar el resultado**, no instalar servidores.
 - Este módulo completa el puente: ahora puedes ir del “lo he montado yo en una tarde” al “esto lo puede usar el equipo”.
 
-**Mini-resumen final:**  
-> “Soy capaz de hablar con el equipo técnico sobre mi flujo de IA usando el vocabulario adecuado (API, repo, endpoint, contenedor) y sé qué pedirles para llevarlo a producción sin tener que programar.”
+**Mini-resumen final:**
+> "Soy capaz de hablar con el equipo técnico sobre mi flujo de IA usando el vocabulario adecuado (API, repo, endpoint, contenedor) y sé qué pedirles para llevarlo a producción sin tener que programar."
+
+---
+
+> [!info] Para profundizar
+> - [Building Effective AI Agents](https://www.anthropic.com/engineering/building-effective-agents) - Guía del equipo de ingeniería de Anthropic sobre patrones de diseño de agentes: workflows, routing, orquestación y cuándo usar cada patrón.
+> - [What is an API?](https://www.ibm.com/topics/api) - Explicación de IBM sobre qué es una API, cómo funciona y por qué es fundamental para conectar sistemas y servicios de IA.
+> - [Git Explained in 100 Seconds](https://www.youtube.com/watch?v=hwP7WQkmECE) - Vídeo ultra-conciso de Fireship que explica Git y control de versiones de forma visual y accesible.
+> - [Docker in 100 Seconds](https://www.youtube.com/watch?v=Gjnup-PuquQ) - Mismo formato de Fireship explicando contenedores Docker: qué son, para qué sirven y por qué los técnicos los usan.
+> - [MCP Explained](https://medium.com/@elisowski/mcp-explained-the-new-standard-connecting-ai-to-everything-79c5a1c98288) - Artículo sobre Model Context Protocol, el nuevo estándar de Anthropic para conectar modelos de IA con herramientas y fuentes de datos externas.
+
+---
 
 En el [Módulo 5](modulo-5-evaluacion-documentacion-handover.md) veremos **cómo evaluar y mantener tu caso de uso**, para que no se quede en una demo puntual y puedas convertirlo en una aplicación viva.

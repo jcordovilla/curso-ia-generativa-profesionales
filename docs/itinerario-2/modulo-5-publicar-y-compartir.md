@@ -172,10 +172,21 @@ Esto forma parte de la entrega final del itinerario.
 - **Sabes documentar para que otros puedan reproducirlo.**  
 - **Has convertido un flujo experimental en una pieza conectable.**
 
-**Mini-resumen final:**  
-> “Puedo publicar mi prototipo de IA en un entorno reproducible, conectarlo a herramientas externas y mantenerlo sin depender de IT.”
+**Mini-resumen final:**
+> "Puedo publicar mi prototipo de IA en un entorno reproducible, conectarlo a herramientas externas y mantenerlo sin depender de IT."
 
-Con esto cierras el **Itinerario 2 – Constructor de Prototipos**.  
+---
+
+> [!info] Para profundizar
+> - [FastAPI Documentation](https://fastapi.tiangolo.com/) - Documentación del framework Python más popular para crear APIs modernas, con tutoriales interactivos y generación automática de documentación.
+> - [Deploying ML Models on Render](https://render.com/docs/deploy-a-python-web-service) - Guía de Render para desplegar servicios Python en la nube de forma gratuita, incluyendo configuración de variables de entorno.
+> - [FastAPI in 5 Minutes](https://www.youtube.com/watch?v=0sOvCWFmrtA) - Vídeo rápido de Tech With Tim mostrando cómo crear una API funcional con FastAPI en minutos.
+> - [Model Context Protocol](https://modelcontextprotocol.io/introduction) - Documentación oficial de MCP, el protocolo de Anthropic para conectar modelos de IA con herramientas, bases de datos y servicios externos.
+> - [GitHub README Best Practices](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) - Guía de GitHub sobre cómo escribir READMEs efectivos que documenten tu proyecto para otros usuarios.
+
+---
+
+Con esto cierras el **Itinerario 2 – Constructor de Prototipos**.
 Tu siguiente paso puede ser **mejorar tu prototipo** (más documentos, más herramientas, mejor interfaz) o **unir fuerzas con tu equipo técnico** para transformarlo en una solución completa.
 
 No olvides hacer un repaso final del curso en el capítulo de [Resumen](resumen.md).

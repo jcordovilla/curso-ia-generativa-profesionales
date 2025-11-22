@@ -165,8 +165,18 @@ Con eso estás haciendo tu parte.
 - Documentar el flujo y centralizar las credenciales permite que otros lo usen.
 - Saber **cuándo escalarlo al equipo técnico** te hace más creíble y profesional.
 
-**Mini-resumen final:**  
-> “Sé probar, medir y mantener un caso de uso de IA hecho con herramientas no-code, y sé cómo pasarlo del ámbito personal al del equipo sin perder seguridad ni control.”
+**Mini-resumen final:**
+> "Sé probar, medir y mantener un caso de uso de IA hecho con herramientas no-code, y sé cómo pasarlo del ámbito personal al del equipo sin perder seguridad ni control."
+
+---
+
+> [!info] Para profundizar
+> - [The State of AI in 2024](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai) - Informe anual de McKinsey con datos sobre adopción de IA generativa, casos de uso más comunes, ROI observado y retos de implementación.
+> - [Why AI Projects Fail](https://hbr.org/2023/11/keep-your-ai-projects-on-track) - Artículo de Harvard Business Review analizando por qué fracasan los proyectos de IA y qué prácticas distinguen a los que tienen éxito.
+> - [Prompt Engineering Guide](https://www.promptingguide.ai/) - Guía completa y gratuita de DAIR.AI sobre técnicas de prompting, desde básicas hasta avanzadas, con ejemplos y casos de uso.
+> - [OpenAI Evals](https://github.com/openai/evals) - Framework open-source de OpenAI para evaluar sistemáticamente modelos de lenguaje, útil para medir calidad y detectar regresiones.
+
+---
 
 Con esto cierras el itinerario 1 como **Estratega de IA**: sabes usar, configurar, explicar y mantener un caso de uso real en tu entorno.
 

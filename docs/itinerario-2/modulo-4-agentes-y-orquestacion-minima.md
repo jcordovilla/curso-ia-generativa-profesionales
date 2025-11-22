@@ -191,7 +191,18 @@ Empieza con uno: *“consulta documentos internos o, si no hay, haz resumen del 
 - **Sabes conectar tu propio RAG como una herramienta.**  
 - **Puedes ver y entender el razonamiento interno del modelo.**
 
-**Mini-resumen final:**  
-> “Puedo construir un agente que elige entre varias herramientas (como mi RAG o una búsqueda), y entiendo cómo se orquesta su razonamiento sin programar flujos complejos.”
+**Mini-resumen final:**
+> "Puedo construir un agente que elige entre varias herramientas (como mi RAG o una búsqueda), y entiendo cómo se orquesta su razonamiento sin programar flujos complejos."
+
+---
+
+> [!info] Para profundizar
+> - [AI Agents in LangGraph](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/) - Curso gratuito de DeepLearning.AI sobre construcción de agentes con LangGraph: estados, transiciones y control de flujo.
+> - [HuggingFace Agents Course](https://huggingface.co/learn/agents-course/en/unit0/introduction) - Curso completo y gratuito de Hugging Face cubriendo desde fundamentos hasta agentes multi-herramienta y evaluación.
+> - [Reflection Agents](https://blog.langchain.dev/reflection-agents/) - Artículo técnico de LangChain sobre agentes con capacidad de reflexión: cómo hacer que revisen y mejoren sus propias respuestas.
+> - [ReAct: Synergizing Reasoning and Acting](https://arxiv.org/abs/2210.03629) - Paper fundacional de Yao et al. que introduce el patrón ReAct, base de muchos agentes modernos que combinan razonamiento con acciones.
+> - [LangGraph Documentation](https://langchain-ai.github.io/langgraph/) - Documentación oficial de LangGraph para construir agentes con grafos de estado, control de flujo y persistencia.
+
+---
 
 En el próximo módulo, **[Módulo 5 – Publicar y compartir](modulo-5-publicar-y-compartir.md)**, aprenderás cómo exponer tu prototipo: subirlo a GitHub, ejecutarlo como servicio o conectarlo con una automatización no-code.

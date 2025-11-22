@@ -166,7 +166,17 @@ Responder a estas preguntas te prepara para hablar con TI sin pedir “ayuda gen
 - Si puedes **traer una fila de Google Sheets**, ya estás listo para pasar esa información a la IA en el siguiente módulo.
 - El objetivo de este módulo es que **pierdas el miedo a “tocar” las plataformas** y que tengas el lenguaje para explicar lo que estás haciendo.
 
-**Mini-resumen final:**  
-> “Puedo identificar las piezas básicas de un flujo no-code con IA, sé por qué me piden claves y permisos, y sé hacer una prueba sin romper nada.”  
+**Mini-resumen final:**
+> "Puedo identificar las piezas básicas de un flujo no-code con IA, sé por qué me piden claves y permisos, y sé hacer una prueba sin romper nada."
+
+---
+
+> [!info] Para profundizar
+> - [Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g) - Andrej Karpathy, ex-director de IA en Tesla, explica en una hora cómo funcionan los LLMs, sus capacidades y limitaciones, sin requerir conocimientos técnicos previos.
+> - [How to use AI to do practical stuff](https://www.oneusefulthing.org/p/how-to-use-ai-to-do-practical-stuff) - Guía práctica del profesor Ethan Mollick (Wharton) con casos de uso concretos para profesionales: escritura, análisis, brainstorming y más.
+> - [Generative AI for Everyone](https://www.deeplearning.ai/courses/generative-ai-for-everyone/) - Curso gratuito de Andrew Ng en Coursera que cubre los fundamentos de la IA generativa para audiencias no técnicas, incluyendo impacto en negocios y sociedad.
+> - [The AI Transformation Playbook](https://landing.ai/wp-content/uploads/2020/05/LandingAI_Transformation_Playbook_11-19.pdf) - Documento estratégico de Andrew Ng con un framework de 5 pasos para que las organizaciones adopten IA de forma efectiva.
+
+---
 
 Con esto, pasamos al [Módulo 2](modulo-2-automatizacion-visual-negocio.md), donde ya veremos **la automatización visual con IA** y construiremos el primer flujo útil: entrada de email → IA resume → envío al canal del equipo.

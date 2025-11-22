@@ -152,7 +152,17 @@ Piensa en tu contexto real:
 - Añadir **condiciones o una segunda IA** te permite acercarte a procesos reales sin programar.
 - A partir de aquí, el siguiente módulo (chatbots/GPTs con tus documentos) será más fácil porque **ya sabes cómo orquestar datos y salidas**.
 
-**Mini-resumen final:**  
-> “Puedo construir un flujo visual que toma una información, la pasa por IA con un prompt claro y la entrega en el canal correcto. Sé dónde suelen fallar estos flujos y cómo explicarlos a mi equipo.”
+**Mini-resumen final:**
+> "Puedo construir un flujo visual que toma una información, la pasa por IA con un prompt claro y la entrega en el canal correcto. Sé dónde suelen fallar estos flujos y cómo explicarlos a mi equipo."
+
+---
+
+> [!info] Para profundizar
+> - [What We Learned from a Year of Building with LLMs](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/) - Artículo de O'Reilly escrito por seis profesionales de IA con lecciones prácticas sobre prompting, evaluación y errores comunes en producción.
+> - [n8n Documentation](https://docs.n8n.io/) - Documentación oficial de n8n, plataforma de automatización visual open-source que permite conectar APIs y modelos de IA sin programar.
+> - [Make Help Center](https://www.make.com/en/help) - Centro de ayuda de Make (antes Integromat), alternativa visual para crear flujos de automatización con integraciones de IA.
+> - [What are AI Agents?](https://www.youtube.com/watch?v=F8NKVhkZZWI) - Vídeo de IBM Technology que explica de forma clara qué son los agentes de IA, cómo funcionan y sus aplicaciones empresariales.
+
+---
 
 En el [Módulo 3](modulo-3-asistentes-seguros-con-docs-propias.md) veremos cómo **llevar esta lógica al mundo de los chatbots/GPTs con documentos propios**, añadiendo la capa de seguridad y privacidad que las empresas necesitan.

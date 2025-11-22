@@ -163,7 +163,18 @@ Con 6 líneas te ahorrarás 40 minutos dentro de dos semanas.
 - **Ya sabes qué mirar cuando algo falla** (terminal, README, nombre de la variable).  
 - **Ya tienes tu máquina lista** para empezar a cambiar parámetros de la llamada al modelo.  
 
-**Mini-resumen final:**  
-> “Puedo ejecutar un proyecto de ejemplo de IA con mi API key, sin escribir código desde cero, y sé repetir este proceso con otros repositorios.”
+**Mini-resumen final:**
+> "Puedo ejecutar un proyecto de ejemplo de IA con mi API key, sin escribir código desde cero, y sé repetir este proceso con otros repositorios."
+
+---
+
+> [!info] Para profundizar
+> - [Python for Beginners](https://learn.microsoft.com/en-us/training/paths/beginner-python/) - Ruta de aprendizaje gratuita de Microsoft Learn que cubre los fundamentos de Python necesarios para trabajar con APIs de IA.
+> - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) - Libro completo disponible gratis online de Al Sweigart, enfocado en automatización práctica: archivos, web scraping, emails y más.
+> - [VS Code Tutorial for Beginners](https://www.youtube.com/watch?v=WPqXP_kLzpo) - Tutorial de freeCodeCamp de 30 minutos cubriendo instalación, configuración y uso efectivo de Visual Studio Code.
+> - [GitHub Codespaces](https://github.com/features/codespaces) - Entorno de desarrollo en la nube de GitHub que permite ejecutar código sin configurar nada localmente, ideal para empezar rápido.
+> - [Ollama](https://ollama.ai/) - Herramienta para ejecutar modelos de lenguaje localmente en tu máquina, sin depender de APIs externas ni enviar datos a terceros.
+
+---
 
 A partir de aquí pasamos al **[Módulo 2 – Llamar a APIs de modelos](modulo-2-llamar-a-apis-de-modelos.md)**, donde ya dejaremos de usar scripts "mágicos" y empezaremos a controlar qué le pedimos al modelo y cómo.

@@ -182,7 +182,18 @@ Estos son pasos naturales para consolidar tu caso de uso.
 - **Sabes probarlo con tus documentos reales** y ajustar parámetros.  
 - **Tienes la base para un asistente verdaderamente contextual.**
 
-**Mini-resumen final:**  
-> “Puedo montar un RAG simple que responde sobre mis documentos, entender cómo busca la información y adaptar los parámetros para que funcione en mi entorno.”
+**Mini-resumen final:**
+> "Puedo montar un RAG simple que responde sobre mis documentos, entender cómo busca la información y adaptar los parámetros para que funcione en mi entorno."
+
+---
+
+> [!info] Para profundizar
+> - [LangChain Academy](https://academy.langchain.com/) - Plataforma oficial de aprendizaje de LangChain con cursos estructurados sobre cadenas, agentes, RAG y patrones de producción.
+> - [LangChain Explained in 13 Minutes](https://www.youtube.com/watch?v=aywZrzNaKjs) - Vídeo de Rabbitmetrics que explica los conceptos clave de LangChain de forma visual: cadenas, memoria, agentes y herramientas.
+> - [Build a RAG Chatbot](https://docs.pinecone.io/guides/get-started/build-a-rag-chatbot) - Tutorial paso a paso de Pinecone para construir un chatbot RAG completo: desde embeddings hasta búsqueda semántica y generación.
+> - [What is Agentic RAG](https://weaviate.io/blog/what-is-agentic-rag) - Artículo de Weaviate explicando la evolución de RAG básico a RAG agéntico, donde el modelo decide cuándo y cómo buscar información.
+> - [LangChain Documentation](https://python.langchain.com/docs/) - Documentación completa del framework con guías, tutoriales y referencia de API para todos los componentes.
+
+---
 
 En el próximo módulo, **[Módulo 4 – Agentes y orquestación mínima](modulo-4-agentes-y-orquestacion-minima.md)**, aprenderás cómo añadir una capa de "razonamiento" para que el modelo pueda decidir qué herramienta usar o cuándo buscar información adicional.

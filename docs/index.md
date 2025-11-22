@@ -7,7 +7,7 @@
 ## Bienvenida
 
 Bienvenido/a a este programa formativo sobre **IA Generativa para Profesionales Senior**.  
-Si trabajas en consultoría, dirección, análisis o cualquier rol donde tomas decisiones y coordinas equipos, este curso está pensado para ti.
+Si trabajas en consultoría, dirección, marketing, ventas, análisis o cualquier rol donde tomas decisiones y coordinas equipos, y quieres aprender a usar la IA para tu provecho, este curso está pensado para ti.
 
 El punto de partida es claro: **no necesitas ser programador** para usar la inteligencia artificial de forma eficaz, pero sí necesitas **entender cómo funciona, para qué sirve y cómo integrarla con criterio** en tu entorno de trabajo.  
 
@@ -32,17 +32,15 @@ Dicho de forma simple: aprenderás a **usar la IA con cabeza y método**, no por
 
 ## Metodología adaptada a profesionales senior
 
-El programa se ha diseñado con un principio rector: *la experiencia previa es tu mejor punto de partida*.  
-No partimos de cero, partimos de lo que ya sabes hacer —analizar, comunicar, decidir— y te damos herramientas para amplificarlo con IA.
+> [!INFO] Punto de partida
+El programa se ha diseñado con un principio rector: *la experiencia previa es tu mejor punto de partida*. No partimos de cero, partimos de lo que ya sabes hacer —analizar, comunicar, decidir— y te damos herramientas para amplificarlo con IA.
 
 ### Cómo lo haremos
-- **Relevancia primero:** cada concepto nace de un caso de uso real (gestión de correos, informes, CRM, planificación de tareas).
+- **Relevancia primero:** lo importante es el caso de uso real (simplificación de tareas, gestión de correos, informes, CRM, planificación de tareas).
 - **Ritmo pausado, pasos claros:** verás el proceso completo, no solo el resultado.
 - **Lenguaje común:** las palabras clave se repiten y se explican siempre igual.
 - **Demostración + práctica:** cada módulo termina con una pequeña acción que puedes probar tú mismo.
 - **Aprendizaje seguro:** trabajamos con entornos controlados y buenas prácticas de privacidad.
-
-Al final, tendrás **una guía documentada y reutilizable** en formato Markdown que podrás mantener, ampliar o compartir con tu equipo.
 
 ---
 
@@ -136,7 +134,7 @@ La IA genera valor cuando se usa con prudencia. Por eso aprenderás a:
 - **Citar y documentar** las fuentes de información utilizadas.
 - Reconocer los **límites del modelo** y cuándo pedir supervisión humana.
 
-> [!Tip] En la práctica esto significa que podrás aplicar la IA sin poner en riesgo la reputación ni la información de tu organización.
+> [!note] En la práctica esto significa que podrás aplicar la IA sin poner en riesgo la reputación ni la información de tu organización.
 
 ---
 
@@ -157,9 +155,26 @@ Cada participante termina el curso con **un caso de uso real funcionando** y una
 1. Comienza por la introducción del [Itinerario 1 – No Code](itinerario-1/index.md) para familiarizarte con el enfoque no-code.  
 2. Si ya te sientes cómodo con conceptos técnicos o trabajas con equipos de desarrollo, pasa al [Itinerario 2 – Low Code](itinerario-2/index.md).  
 
-> [!tip] La IA no sustituye la experiencia: la amplifica.
-> Este programa no te enseña a competir con la máquina, sino a **hacer que trabaje contigo**.
+La IA no sustituye la experiencia: la amplifica.
+Este programa no te enseña a competir con la máquina, sino a **hacer que trabaje contigo**.
 
 Prepárate para aprender con ritmo, sentido y propósito. Tu experiencia profesional es el punto de partida; la IA es el nuevo instrumento.  
 
 Ahora te toca a ti ponerlo en práctica.
+
+>[!abstract] Glosario de términos del capítulo
+>
+>- **API:** Interfaz de Programación de Aplicaciones. Es un conjunto de herramientas y especificaciones que permiten a los desarrolladores interactuar con diferentes aplicaciones y servicios. 
+>- **Asistente personalizado:** Un sistema de IA diseñado para realizar tareas específicas según las necesidades y preferencias del usuario.
+>- **Autonomía digital:** La capacidad de utilizar la IA de forma independiente para resolver problemas y tomar decisiones en el entorno laboral.
+>- **Checklist de seguridad:** Una lista de verificación para garantizar que las prácticas de seguridad se siguen al utilizar la IA.
+>- **Constructor de Prototipos (Low Code):** Un itinerario de aprendizaje que se enfoca en la construcción de prototipos de herramientas de IA utilizando código.
+>- **Criterio técnico:** La capacidad de entender las capacidades y limitaciones de las herramientas de IA.
+>- **IA Generativa:** Inteligencia Artificial que puede generar nuevo contenido, como texto, imágenes o código.
+>- **Itinerario 1 – No Code:** Un itinerario de aprendizaje que se enfoca en el uso de herramientas de IA sin necesidad de programar.
+>- **Itinerario 2 – Low Code:** Un itinerario de aprendizaje que se enfoca en la construcción de prototipos de herramientas de IA utilizando código.
+>- **RAG (Retrieval Augmented Generation):** Sistema que combina conjuntos de documentos con modelos de lenguaje para aumentar la relevancia de las respuestas.
+>- **Secuencias de Flujo de Trabajo:** Flujos de trabajo automatizados que utilizan la IA para realizar tareas específicas.
+>- **Sesgos:** Tendencias o prejuicios que pueden estar presentes en los datos utilizados para entrenar los modelos de IA, lo que puede afectar a los resultados.
+>- **Verificación:** Proceso de comprobación de la exactitud y fiabilidad de las respuestas generadas por la IA.
+>- **White List:** Lista de elementos permitidos.

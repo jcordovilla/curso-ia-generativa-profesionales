@@ -180,7 +180,17 @@ Con esto el técnico ya sabe:
 - Un GPT bien definido es una gran pieza para tu caso de uso final: puedes conectar este GPT con un flujo (como el del módulo 2) y tener un circuito completo.
 - Con este módulo ya cumples uno de los objetivos del itinerario: **configurar un agente con documentación propia sin exponer datos sensibles**.
 
-**Mini-resumen final:**  
-> “Puedo crear un GPT/chatbot que responda sobre documentos internos, sé qué documentos puedo subir y cuáles no, sé qué instrucciones ponerle para que no invente y sé cómo explicarlo dentro de la empresa.”
+**Mini-resumen final:**
+> "Puedo crear un GPT/chatbot que responda sobre documentos internos, sé qué documentos puedo subir y cuáles no, sé qué instrucciones ponerle para que no invente y sé cómo explicarlo dentro de la empresa."
+
+---
+
+> [!info] Para profundizar
+> - [GPT Best Practices](https://platform.openai.com/docs/guides/gpt-best-practices) - Guía oficial de OpenAI con recomendaciones para obtener mejores resultados: cómo escribir instrucciones claras, proporcionar contexto y estructurar conversaciones.
+> - [Navigating the Challenges of AI Governance](https://sloanreview.mit.edu/article/navigating-the-challenges-of-ai-governance/) - Artículo del MIT Sloan sobre los retos de gobernanza en IA: privacidad, sesgos, responsabilidad y marcos de decisión para organizaciones.
+> - [Data Privacy and ChatGPT](https://help.openai.com/en/articles/7039943-data-usage-for-consumer-services-faq) - FAQ oficial de OpenAI explicando cómo se usan los datos, qué se almacena y cómo desactivar el entrenamiento con tus conversaciones.
+> - [What-If Tool](https://pair-code.github.io/what-if-tool/) - Herramienta de Google PAIR para explorar modelos de ML, detectar sesgos y entender el comportamiento de sistemas de IA sin escribir código.
+
+---
 
 En el [Módulo 4](modulo-4-puente-hacia-lo-tecnico-conceptual.md) a continuación veremos el **"puente" hacia lo técnico**: cómo se habla de APIs, Git o Docker sin entrar a programar, para que puedas trabajar mejor con los equipos que sí desarrollan.

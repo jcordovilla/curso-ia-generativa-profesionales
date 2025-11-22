@@ -174,7 +174,18 @@ Esto te servirá para justificar luego qué modelo o configuración usas en tu f
 - **Sabes interpretar la respuesta** y usar solo la parte útil.  
 - **Entiendes que esto es lo que hacen todas las herramientas no-code por debajo.**
 
-**Mini-resumen final:**  
-> “Puedo escribir o entender un script que llama a un modelo de IA por API, ajustar temperatura y formato, y aprovechar la respuesta en mis propios flujos.”
+**Mini-resumen final:**
+> "Puedo escribir o entender un script que llama a un modelo de IA por API, ajustar temperatura y formato, y aprovechar la respuesta en mis propios flujos."
+
+---
+
+> [!info] Para profundizar
+> - [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) - Curso gratuito de DeepLearning.AI con Isa Fulford (OpenAI) que enseña a usar la API de OpenAI con ejemplos de código en Python.
+> - [Brex Prompt Engineering Guide](https://github.com/brexhq/prompt-engineering) - Guía técnica de Brex cubriendo estrategias de prompting, seguridad, límites de tokens y patrones para producción.
+> - [OpenAI API Documentation](https://platform.openai.com/docs/) - Documentación oficial con referencia completa de endpoints, parámetros (temperature, max_tokens, etc.) y ejemplos de uso.
+> - [Anthropic API Documentation](https://docs.anthropic.com/) - Documentación de la API de Claude con guías de integración, mejores prácticas y diferencias respecto a otros proveedores.
+> - [Artificial Analysis](https://artificialanalysis.ai/models) - Comparador independiente de modelos de IA que muestra precio, velocidad, calidad y características de cada proveedor.
+
+---
 
 En el próximo módulo, **[Módulo 3 – RAG práctico con LangChain](modulo-3-rag-practico.md)**, aprenderás a combinar esta llamada con tus propios documentos: cómo cargarlos, indexarlos y hacerles preguntas.
