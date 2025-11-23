@@ -170,6 +170,7 @@ Con esta información el desarrollador no tiene que adivinar.
 > - [Docker in 100 Seconds](https://www.youtube.com/watch?v=Gjnup-PuquQ) - Mismo formato de Fireship explicando contenedores Docker: qué son, para qué sirven y por qué los técnicos los usan.
 > - [MCP Explained](https://medium.com/@elisowski/mcp-explained-the-new-standard-connecting-ai-to-everything-79c5a1c98288) - Artículo sobre Model Context Protocol, el nuevo estándar de Anthropic para conectar modelos de IA con herramientas y fuentes de datos externas.
 > - [You Need to Learn MCP RIGHT NOW!!](https://www.youtube.com/watch?v=GuTcle5edjk) - Vídeo de NetworkChuck explicando de forma práctica y accesible qué es Model Context Protocol y por qué es importante para conectar IA con herramientas externas.
+> - [Command Line Crash Course for Beginners](https://www.youtube.com/watch?v=uwAqEzhyjtw) - Tutorial de terminal para principiantes compatible con Windows, macOS y Linux, cubriendo los comandos básicos necesarios para usar Git y Docker.
 
 ---
 

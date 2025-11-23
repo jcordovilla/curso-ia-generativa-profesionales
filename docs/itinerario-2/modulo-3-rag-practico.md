@@ -194,6 +194,7 @@ Estos son pasos naturales para consolidar tu caso de uso.
 > - [Build a RAG Chatbot](https://docs.pinecone.io/guides/get-started/build-a-rag-chatbot) - Tutorial paso a paso de Pinecone para construir un chatbot RAG completo: desde embeddings hasta búsqueda semántica y generación.
 > - [What is Agentic RAG](https://weaviate.io/blog/what-is-agentic-rag) - Artículo de Weaviate explicando la evolución de RAG básico a RAG agéntico, donde el modelo decide cuándo y cómo buscar información.
 > - [LangChain Documentation](https://python.langchain.com/docs/) - Documentación completa del framework con guías, tutoriales y referencia de API para todos los componentes.
+> - [Build an Open-Source RAG App with Milvus and Hugging Face](https://medium.com/gitconnected/build-an-open-source-rag-app-with-milvus-hugging-face-d95cc99cd093) - Tutorial práctico para construir un RAG completamente open-source usando Milvus como base vectorial y modelos de Hugging Face, con notebook de Colab incluido.
 
 ---
 

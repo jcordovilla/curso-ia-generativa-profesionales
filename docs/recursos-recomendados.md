@@ -25,6 +25,8 @@
 | Docs | n8n Documentation | n8n.io | https://docs.n8n.io/ |
 | Docs | Make (Integromat) Help Center | Make.com | https://www.make.com/en/help |
 | Vídeo | "What are AI Agents?" | IBM Technology | https://www.youtube.com/watch?v=F8NKVhkZZWI |
+| Vídeo | "Local AI Automation with n8n, Docker, and MCP" | YouTube | https://youtu.be/DUE56G0fF5s |
+| Repo | "n8n-mcp: MCP for Claude to build n8n workflows" | GitHub | https://github.com/czlonkowski/n8n-mcp |
 
 ---
 
@@ -36,6 +38,7 @@
 | Artículo | "Navigating the Challenges of AI Governance" | MIT Sloan Management Review | https://sloanreview.mit.edu/article/navigating-the-challenges-of-ai-governance/ |
 | Herramienta | "What-If Tool" (ML Fairness) | Google PAIR | https://pair-code.github.io/what-if-tool/ |
 | Guía | "Data Privacy and ChatGPT" | OpenAI Help Center | https://help.openai.com/en/articles/7039943-data-usage-for-consumer-services-faq |
+| Guía | "Prototype AI-powered Apps with Claude Artifacts" | Anthropic | https://support.anthropic.com/en/articles/11649438-prototype-ai-powered-apps-with-claude-artifacts |
 
 ---
 
@@ -48,6 +51,7 @@
 | Vídeo | "Git Explained in 100 Seconds" | Fireship | https://www.youtube.com/watch?v=hwP7WQkmECE |
 | Vídeo | "Docker in 100 Seconds" | Fireship | https://www.youtube.com/watch?v=Gjnup-PuquQ |
 | Guía | "What is an API?" | IBM | https://www.ibm.com/topics/api |
+| Vídeo | "Command Line Crash Course for Beginners" | YouTube | https://www.youtube.com/watch?v=uwAqEzhyjtw |
 
 ---
 
@@ -59,6 +63,7 @@
 | Herramienta | OpenAI Evals Framework | OpenAI (GitHub) | https://github.com/openai/evals |
 | Artículo | "Why AI Projects Fail" | Harvard Business Review | https://hbr.org/2023/11/keep-your-ai-projects-on-track |
 | Guía | Prompt Engineering Guide | DAIR.AI | https://www.promptingguide.ai/ |
+| Informe | "The GenAI Divide: State of AI in Business 2025" | MIT NANDA | https://nanda.media.mit.edu/ai_report_2025.pdf |
 
 ---
 
@@ -73,6 +78,7 @@
 | Herramienta | Ollama (LLMs locales) | Ollama | https://ollama.ai/ |
 | Herramienta | GitHub Codespaces | GitHub | https://github.com/features/codespaces |
 | Vídeo | "VS Code Tutorial for Beginners" | freeCodeCamp | https://www.youtube.com/watch?v=WPqXP_kLzpo |
+| Guía | "Install Windows Subsystem for Linux (WSL)" | Microsoft Learn | https://learn.microsoft.com/en-us/windows/wsl/install |
 
 ---
 
@@ -85,6 +91,7 @@
 | Docs | OpenAI API Documentation | OpenAI | https://platform.openai.com/docs/ |
 | Docs | Anthropic API Documentation | Anthropic | https://docs.anthropic.com/ |
 | Herramienta | Artificial Analysis (Comparador de modelos) | Artificial Analysis | https://artificialanalysis.ai/models |
+| Artículo | "4 Free Methods to Use LLM APIs in Development" | Dev.to | https://dev.to/this-is-learning/4-free-methods-to-use-llm-apis-in-development-45f6 |
 
 ---
 
@@ -97,6 +104,7 @@
 | Guía | "Build a RAG Chatbot" | Pinecone | https://docs.pinecone.io/guides/get-started/build-a-rag-chatbot |
 | Artículo | "What is Agentic RAG" | Weaviate | https://weaviate.io/blog/what-is-agentic-rag |
 | Docs | LangChain Documentation | LangChain | https://python.langchain.com/docs/ |
+| Tutorial | "Build an Open-Source RAG App with Milvus and Hugging Face" | Medium | https://medium.com/gitconnected/build-an-open-source-rag-app-with-milvus-hugging-face-d95cc99cd093 |
 
 ---
 
@@ -159,18 +167,20 @@ Selección de vídeos de YouTube sobre IA generativa, agentes, RAG y herramienta
 
 ## Resumen
 
-**Total de recursos curados: 56**
+**Total de recursos curados: 64**
 
 - Todos públicamente accesibles
-- De fuentes reputadas: OpenAI, Anthropic, DeepLearning.AI, MIT, Stanford, McKinsey, O'Reilly, LangChain, Hugging Face, IBM, Google, etc.
+- De fuentes reputadas: OpenAI, Anthropic, DeepLearning.AI, MIT, Stanford, McKinsey, O'Reilly, LangChain, Hugging Face, IBM, Google, Microsoft, etc.
 - Distribución por tipo:
   - Cursos: 10
   - Documentación: 12
-  - Artículos: 8
-  - Vídeos: 19
+  - Artículos: 10
+  - Vídeos: 22
   - Herramientas: 5
-  - Informes: 2
+  - Informes: 3
+  - Guías: 1
+  - Repositorios: 1
 
 ---
 
-*Última actualización: 2025-11-22*
+*Última actualización: 2025-11-24*

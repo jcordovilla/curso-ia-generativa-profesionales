@@ -185,6 +185,7 @@ Esto te servirá para justificar luego qué modelo o configuración usas en tu f
 > - [OpenAI API Documentation](https://platform.openai.com/docs/) - Documentación oficial con referencia completa de endpoints, parámetros (temperature, max_tokens, etc.) y ejemplos de uso.
 > - [Anthropic API Documentation](https://docs.anthropic.com/) - Documentación de la API de Claude con guías de integración, mejores prácticas y diferencias respecto a otros proveedores.
 > - [Artificial Analysis](https://artificialanalysis.ai/models) - Comparador independiente de modelos de IA que muestra precio, velocidad, calidad y características de cada proveedor.
+> - [4 Free Methods to Use LLM APIs in Development](https://dev.to/this-is-learning/4-free-methods-to-use-llm-apis-in-development-45f6) - Artículo práctico que explica cómo usar Ollama (local), GitHub Models, OpenRouter y Groq para experimentar con LLMs sin costes.
 
 ---
 

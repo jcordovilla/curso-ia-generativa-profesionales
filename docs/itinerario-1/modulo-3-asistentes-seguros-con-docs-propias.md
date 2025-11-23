@@ -190,6 +190,7 @@ Con esto el técnico ya sabe:
 > - [Navigating the Challenges of AI Governance](https://sloanreview.mit.edu/article/navigating-the-challenges-of-ai-governance/) - Artículo del MIT Sloan sobre los retos de gobernanza en IA: privacidad, sesgos, responsabilidad y marcos de decisión para organizaciones.
 > - [Data Privacy and ChatGPT](https://help.openai.com/en/articles/7039943-data-usage-for-consumer-services-faq) - FAQ oficial de OpenAI explicando cómo se usan los datos, qué se almacena y cómo desactivar el entrenamiento con tus conversaciones.
 > - [What-If Tool](https://pair-code.github.io/what-if-tool/) - Herramienta de Google PAIR para explorar modelos de ML, detectar sesgos y entender el comportamiento de sistemas de IA sin escribir código.
+> - [Prototype AI-powered Apps with Claude Artifacts](https://support.anthropic.com/en/articles/11649438-prototype-ai-powered-apps-with-claude-artifacts) - Guía de Anthropic para crear prototipos de aplicaciones IA sin necesidad de claves API ni costes, ideal para experimentar antes de producción.
 
 ---
 

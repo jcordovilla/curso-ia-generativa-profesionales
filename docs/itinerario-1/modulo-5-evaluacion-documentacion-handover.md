@@ -176,6 +176,7 @@ Con eso estás haciendo tu parte.
 > - [Prompt Engineering Guide](https://www.promptingguide.ai/) - Guía completa y gratuita de DAIR.AI sobre técnicas de prompting, desde básicas hasta avanzadas, con ejemplos y casos de uso.
 > - [OpenAI Evals](https://github.com/openai/evals) - Framework open-source de OpenAI para evaluar sistemáticamente modelos de lenguaje, útil para medir calidad y detectar regresiones.
 > - [Promptfoo](https://www.promptfoo.dev/) - Herramienta open-source para probar y asegurar aplicaciones LLM, permitiendo comparar prompts, detectar regresiones y validar respuestas de forma sistemática.
+> - [The GenAI Divide: State of AI in Business 2025](https://nanda.media.mit.edu/ai_report_2025.pdf) - Informe del MIT NANDA que revela por qué el 95% de las organizaciones no obtienen ROI medible de GenAI, con recomendaciones prácticas para el handover y la evaluación.
 
 ---
 

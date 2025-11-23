@@ -163,6 +163,8 @@ Piensa en tu contexto real:
 > - [The ULTIMATE n8n RAG AI Agent Template](https://www.youtube.com/watch?v=T2QWhXpnT5I) - Vídeo tutorial de Cole Medin mostrando cómo construir un agente RAG completo en n8n con IA local, paso a paso.
 > - [Make Help Center](https://www.make.com/en/help) - Centro de ayuda de Make (antes Integromat), alternativa visual para crear flujos de automatización con integraciones de IA.
 > - [What are AI Agents?](https://www.youtube.com/watch?v=F8NKVhkZZWI) - Vídeo de IBM Technology que explica de forma clara qué son los agentes de IA, cómo funcionan y sus aplicaciones empresariales.
+> - [Local AI Automation with n8n, Docker, and MCP](https://youtu.be/DUE56G0fF5s) - Tutorial sobre cómo construir un stack de automatización IA local usando n8n, Docker y Model Context Protocol (MCP) para flujos agénticos y RAG.
+> - [n8n-mcp: MCP for Claude to build n8n workflows](https://github.com/czlonkowski/n8n-mcp) - Repositorio que permite a Claude generar flujos de n8n usando lenguaje natural a través de Model Context Protocol.
 
 ---
 

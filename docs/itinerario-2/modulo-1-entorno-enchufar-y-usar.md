@@ -174,6 +174,7 @@ Con 6 líneas te ahorrarás 40 minutos dentro de dos semanas.
 > - [VS Code Tutorial for Beginners](https://www.youtube.com/watch?v=WPqXP_kLzpo) - Tutorial de freeCodeCamp de 30 minutos cubriendo instalación, configuración y uso efectivo de Visual Studio Code.
 > - [GitHub Codespaces](https://github.com/features/codespaces) - Entorno de desarrollo en la nube de GitHub que permite ejecutar código sin configurar nada localmente, ideal para empezar rápido.
 > - [Ollama](https://ollama.ai/) - Herramienta para ejecutar modelos de lenguaje localmente en tu máquina, sin depender de APIs externas ni enviar datos a terceros.
+> - [Install Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install) - Guía oficial de Microsoft para instalar WSL, esencial para usuarios de Windows que necesitan ejecutar comandos Linux en proyectos de IA.
 
 ---
 
