@@ -17,8 +17,9 @@ Cada módulo está pensado para que puedas aplicar lo aprendido en tu entorno pr
 
 El objetivo no es memorizar conceptos, sino aprender a **usar la IA con criterio y autonomía**, integrándola en tus procesos y comunicando con equipos técnicos de forma efectiva. Al finalizar, tendrás casos de uso reales documentados y listos para compartir o escalar en tu organización.
 
-## ¿Cómo empezar?
+La estructura, los itinerarios y los recursos reflejan aprendizajes y buenas prácticas compartidas por profesionales de la comunidad, con el objetivo de acercar la IA generativa a perfiles no técnicos y facilitar su adopción en entornos reales.
 
+## ¿Cómo empezar?
 
 1. Explora la [introducción del itinerario 1 (No Code)](https://jcordovilla.github.io/curso-ia-generativa-profesionales/itinerario-1/) si quieres comenzar sin programación.
 2. Si ya tienes experiencia técnica o curiosidad por el código, revisa el [itinerario 2 (Low Code)](https://jcordovilla.github.io/curso-ia-generativa-profesionales/itinerario-2/) .
@@ -27,14 +28,9 @@ Tu experiencia profesional es el punto de partida; la IA es el nuevo instrumento
 
 ---
 
-
-
-
 ## Autoría y agradecimientos
 
-Este curso ha sido creado por [**José Cordovilla**](https://www.linkedin.com/in/josecordovilla/), inspirado en el trabajo colaborativo del equipo de **AgentOps** de la comunidad [**GenAI Global**](https://www.linkedin.com/company/gen-ai-global/): Arturo Cuevas, Cristian Ursan, Jhen Cano, Ralph Eisenhardt y Frédérique Lambers, gracias por vuestra colaboración, siempre. 
-
-La estructura, los itinerarios y los recursos reflejan aprendizajes y buenas prácticas compartidas por profesionales de la comunidad, con el objetivo de acercar la IA generativa a perfiles no técnicos y facilitar su adopción en entornos reales.
+Este curso ha sido ideado y creado por [**José Cordovilla**](https://www.linkedin.com/in/josecordovilla/), inspirado y enriquecido por las contribuciones del fantástico equipo de **AgentOps** [**GenAI Global**](https://www.linkedin.com/company/gen-ai-global/): [Arturo Cuevas](https://www.linkedin.com/in/arturo-cuevas-gomez/), [Cristian Ursan](https://www.linkedin.com/in/cristianursan/), [Jhen Cano](https://www.linkedin.com/in/jhenaynacano/), [Ralph Eisenhardt](https://www.linkedin.com/in/ralph-eisenhardt-15169a39/) y [Frédérique Lambers](https://www.linkedin.com/in/frederique-lambers/). Su trabajo colaborativo ha sido la base para los casos prácticos y la autoevaluación que nutren este contenido. Gracias por vuestra colaboración y vuestro talante, siempre. 
 
 ---
 

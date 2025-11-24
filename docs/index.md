@@ -161,20 +161,3 @@ Este programa no te enseña a competir con la máquina, sino a **hacer que traba
 Prepárate para aprender con ritmo, sentido y propósito. Tu experiencia profesional es el punto de partida; la IA es el nuevo instrumento.  
 
 Ahora te toca a ti ponerlo en práctica.
-
->[!abstract] Glosario de términos del capítulo
->
->- **API:** Interfaz de Programación de Aplicaciones. Es un conjunto de herramientas y especificaciones que permiten a los desarrolladores interactuar con diferentes aplicaciones y servicios. 
->- **Asistente personalizado:** Un sistema de IA diseñado para realizar tareas específicas según las necesidades y preferencias del usuario.
->- **Autonomía digital:** La capacidad de utilizar la IA de forma independiente para resolver problemas y tomar decisiones en el entorno laboral.
->- **Checklist de seguridad:** Una lista de verificación para garantizar que las prácticas de seguridad se siguen al utilizar la IA.
->- **Constructor de Prototipos (Low Code):** Un itinerario de aprendizaje que se enfoca en la construcción de prototipos de herramientas de IA utilizando código.
->- **Criterio técnico:** La capacidad de entender las capacidades y limitaciones de las herramientas de IA.
->- **IA Generativa:** Inteligencia Artificial que puede generar nuevo contenido, como texto, imágenes o código.
->- **Itinerario 1 – No Code:** Un itinerario de aprendizaje que se enfoca en el uso de herramientas de IA sin necesidad de programar.
->- **Itinerario 2 – Low Code:** Un itinerario de aprendizaje que se enfoca en la construcción de prototipos de herramientas de IA utilizando código.
->- **RAG (Retrieval Augmented Generation):** Sistema que combina conjuntos de documentos con modelos de lenguaje para aumentar la relevancia de las respuestas.
->- **Secuencias de Flujo de Trabajo:** Flujos de trabajo automatizados que utilizan la IA para realizar tareas específicas.
->- **Sesgos:** Tendencias o prejuicios que pueden estar presentes en los datos utilizados para entrenar los modelos de IA, lo que puede afectar a los resultados.
->- **Verificación:** Proceso de comprobación de la exactitud y fiabilidad de las respuestas generadas por la IA.
->- **White List:** Lista de elementos permitidos.
