@@ -3,7 +3,7 @@
 
 Hasta aquí ya sabes **usar una plataforma no-code**, **automatizar un flujo con IA** y **crear un GPT con tus documentos**. Eso te coloca en un punto muy valioso: ya tienes algo funcionando.  
 Ahora viene una pregunta que muchos profesionales se hacen: **“¿cómo hablo de esto con el equipo técnico sin quedarme corto ni parecer que no sé?”**  
-Este módulo es justo para eso: **traducir** lo que haces en no-code al lenguaje que usan los desarrolladores, sin pedirte que programes.
+Este módulo es justo para eso: **traducir** lo que haces en no-code al lenguaje que usan los desarrolladores, _sin pedirte que programes_.
 
 ---
 

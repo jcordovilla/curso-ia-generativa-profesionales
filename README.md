@@ -74,6 +74,52 @@ git rm -r --cached site
 git commit -m "Stop tracking generated site/"
 ```
 
+### Publicar en GitHub Pages
+
+Este repositorio está configurado para publicar automáticamente en GitHub Pages usando GitHub Actions. El workflow se ejecuta cada vez que haces push a la rama `main`.
+
+#### Configuración inicial (solo la primera vez)
+
+1. **Habilita GitHub Pages en tu repositorio:**
+   - Ve a **Settings** → **Pages** en tu repositorio de GitHub
+   - En **Source**, selecciona **GitHub Actions** (no "Deploy from a branch")
+   - Guarda los cambios
+
+2. **Asegúrate de que el workflow está en el repositorio:**
+   - El archivo `.github/workflows/ci.yml` ya está creado y configurado
+   - Hace commit y push de este archivo si aún no está en el repositorio
+
+3. **Primera publicación:**
+   - Haz push de cualquier cambio a `main` (o edita y guarda cualquier archivo)
+   - El workflow se ejecutará automáticamente
+   - Puedes ver el progreso en la pestaña **Actions** de tu repositorio
+   - Una vez completado, tu sitio estará disponible en `https://[tu-usuario].github.io/[nombre-repo]/`
+
+#### Publicaciones automáticas
+
+Después de la configuración inicial, cada vez que hagas push a `main`:
+- El workflow se ejecutará automáticamente
+- Construirá el sitio con MkDocs
+- Lo publicará en GitHub Pages
+- El sitio se actualizará en unos minutos
+
+#### Publicación manual (alternativa)
+
+Si prefieres publicar manualmente sin GitHub Actions:
+
+```zsh
+# Construir el sitio
+mkdocs build
+
+# Instalar gh-pages (si no lo tienes)
+pip install ghp-import
+
+# Publicar en la rama gh-pages
+ghp-import -n -p -f site/
+```
+
+Luego configura GitHub Pages para usar la rama `gh-pages` como fuente.
+
 ### Contribuir
 - Edita o añade contenido en `docs/` (o en tu flujo de Obsidian que luego exporte a `docs/`).
 - Prueba localmente con `mkdocs serve`.
