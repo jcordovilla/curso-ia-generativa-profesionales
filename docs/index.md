@@ -1,6 +1,6 @@
 # IA Generativa para Profesionales  
 
-**Un itinerario de aprendizaje adaptado a perfiles no técnicos y con experiencia profesional**
+**Un itinerario de aprendizaje adaptado a perfiles no técnicos y con experiencia profesional**.
 
 ---
 
@@ -8,6 +8,8 @@
 
 Bienvenido/a a este programa formativo sobre **IA Generativa para Profesionales Senior**.  
 Si trabajas en consultoría, dirección, marketing, ventas, análisis o cualquier rol donde tomas decisiones y coordinas equipos, y quieres aprender a usar la IA para tu provecho, este curso está pensado para ti.
+
+He creado este curso con dos propósitos: 1) recopilar y poner en orden los muchos y variados conceptos que he aprendido en los últimos dos años experimentando con la IA Generativa en distintos frentes, y 2) compartirlo para que otras personas puedan aprovecharlo, porque la IA puede ser una herramienta increíblemente potente para cualquier profesional, con unos conocimientos mínimos y un poco de paciencia. 
 
 El punto de partida es claro: **no necesitas ser programador** para usar la inteligencia artificial de forma eficaz, pero sí necesitas **entender cómo funciona, para qué sirve y cómo integrarla con criterio** en tu entorno de trabajo.  
 
