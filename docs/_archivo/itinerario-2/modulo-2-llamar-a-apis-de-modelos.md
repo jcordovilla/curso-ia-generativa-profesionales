@@ -1,3 +1,14 @@
+---
+date: "2026-01-08"
+title: "Itinerario 2 · Módulo 2"
+tags:
+  - lang/es
+  - topic/ai
+  - topic/automation
+  - type/course
+usefulness: 0.9
+---
+
 # Itinerario 2 · Módulo 2
 ## Llamar a APIs de modelos: entender qué pasa “detrás del botón”
 
@@ -189,4 +200,4 @@ Esto te servirá para justificar luego qué modelo o configuración usas en tu f
 
 ---
 
-En el próximo módulo, **[Módulo 3 – RAG práctico con LangChain](modulo-3-rag-practico.md)**, aprenderás a combinar esta llamada con tus propios documentos: cómo cargarlos, indexarlos y hacerles preguntas.
+En el próximo módulo, **[[modulo-3-rag-practico|Módulo 3 – RAG práctico con LangChain]]**, aprenderás a combinar esta llamada con tus propios documentos: cómo cargarlos, indexarlos y hacerles preguntas.

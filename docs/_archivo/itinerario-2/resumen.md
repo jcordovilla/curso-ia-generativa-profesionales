@@ -1,3 +1,14 @@
+---
+date: "2026-01-08"
+title: "Resumen del Itinerario 2 – Low Code (intermedio)"
+tags:
+  - lang/es
+  - topic/ai
+  - topic/automation
+  - type/course
+usefulness: 0.9
+---
+
 # Resumen del Itinerario 2 – Low Code (intermedio)
 
 Este itinerario fue diseñado para dar el paso natural después del Itinerario 1, orientado a aquellos que quieren un poco más allá y convertirse en **constructores de prototipos de IA generativa**.
@@ -30,19 +41,19 @@ El objetivo ya no era “hacer que funcione”, sino **entender cómo funciona**
 
 ## 2. Recordatorio de los módulos
 
-**[Módulo 1 – Entorno "enchufar y usar"](modulo-1-entorno-enchufar-y-usar.md)**
+**[[modulo-1-entorno-enchufar-y-usar|Módulo 1 – Entorno "enchufar y usar"]]**
 Aprendiste a ejecutar un repo existente, crear el `.env` con tu API key y verificar que todo funcione.
 
-**[Módulo 2 – Llamar a APIs de modelos](modulo-2-llamar-a-apis-de-modelos.md)**
+**[[modulo-2-llamar-a-apis-de-modelos|Módulo 2 – Llamar a APIs de modelos]]**
 Viste cómo funciona una llamada directa a un modelo y cómo ajustar parámetros clave.
 
-**[Módulo 3 – RAG práctico con LangChain](modulo-3-rag-practico.md)**
+**[[modulo-3-rag-practico|Módulo 3 – RAG práctico con LangChain]]**
 Construiste un pipeline que combina tus documentos con la IA para obtener respuestas contextualizadas.
 
-**[Módulo 4 – Agentes y orquestación mínima](modulo-4-agentes-y-orquestacion-minima.md)**
+**[[modulo-4-agentes-y-orquestacion-minima|Módulo 4 – Agentes y orquestación mínima]]**
 Aprendiste a crear un agente capaz de decidir qué herramienta usar (tu RAG, una búsqueda, un resumen).
 
-**[Módulo 5 – Publicar y compartir](modulo-5-publicar-y-compartir.md)**
+**[[modulo-5-publicar-y-compartir|Módulo 5 – Publicar y compartir]]**
 Convertiste tu trabajo en algo que otros pueden probar, revisar o conectar.
 
 En conjunto, los módulos forman el camino **de usuario a constructor**.

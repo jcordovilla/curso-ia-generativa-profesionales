@@ -1,3 +1,14 @@
+---
+date: "2026-01-08"
+title: "Itinerario 1 · Módulo 2"
+tags:
+  - lang/es
+  - topic/ai
+  - topic/automation
+  - type/course
+usefulness: 0.9
+---
+
 # Itinerario 1 · Módulo 2  
 ## Automatización visual con IA: de los datos a un resultado útil
 
@@ -168,4 +179,4 @@ Piensa en tu contexto real:
 
 ---
 
-En el [Módulo 3](modulo-3-asistentes-seguros-con-docs-propias.md) veremos cómo **llevar esta lógica al mundo de los chatbots/GPTs con documentos propios**, añadiendo la capa de seguridad y privacidad que las empresas necesitan.
+En el [[modulo-3-asistentes-seguros-con-docs-propias|Módulo 3]] veremos cómo **llevar esta lógica al mundo de los chatbots/GPTs con documentos propios**, añadiendo la capa de seguridad y privacidad que las empresas necesitan.

@@ -1,3 +1,14 @@
+---
+date: "2026-01-08"
+title: "Itinerario 1 · Módulo 4"
+tags:
+  - lang/es
+  - topic/ai
+  - topic/automation
+  - type/course
+usefulness: 0.9
+---
+
 # Itinerario 1 · Módulo 4  
 ## Puente hacia lo técnico (sin programar y sin miedo)
 
@@ -174,4 +185,4 @@ Con esta información el desarrollador no tiene que adivinar.
 
 ---
 
-En el [Módulo 5](modulo-5-evaluacion-documentacion-handover.md) veremos **cómo evaluar y mantener tu caso de uso**, para que no se quede en una demo puntual y puedas convertirlo en una aplicación viva.
+En el [[modulo-5-evaluacion-documentacion-handover|Módulo 5]] veremos **cómo evaluar y mantener tu caso de uso**, para que no se quede en una demo puntual y puedas convertirlo en una aplicación viva.

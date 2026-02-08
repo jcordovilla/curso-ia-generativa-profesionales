@@ -1,3 +1,14 @@
+---
+date: "2026-01-08"
+title: "Itinerario 1 · Módulo 1"
+tags:
+  - lang/es
+  - topic/ai
+  - topic/automation
+  - type/course
+usefulness: 0.9
+---
+
 # Itinerario 1 · Módulo 1  
 ## Alfabetización digital para IA: poner las bases sin volverse técnico
 
@@ -179,4 +190,4 @@ Responder a estas preguntas te prepara para hablar con TI sin pedir “ayuda gen
 
 ---
 
-Con esto, pasamos al [Módulo 2](modulo-2-automatizacion-visual-negocio.md), donde ya veremos **la automatización visual con IA** y construiremos el primer flujo útil: entrada de email → IA resume → envío al canal del equipo.
+Con esto, pasamos al [[modulo-2-automatizacion-visual-negocio|Módulo 2]], donde ya veremos **la automatización visual con IA** y construiremos el primer flujo útil: entrada de email → IA resume → envío al canal del equipo.

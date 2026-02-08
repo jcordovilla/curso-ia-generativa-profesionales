@@ -1,5 +1,5 @@
 site_name: IA Generativa para Profesionales
-site_description: Curso práctico de IA generativa para perfiles no técnicos, basado en flujos no-code y asistentes sobre documentación propia.
+site_description: "Curso práctico de IA generativa para profesionales senior. 7 módulos progresivos: desde entender la IA hasta construir tu propio sistema con AI coding assistants y MCP."
 
 theme:
   name: material
@@ -70,29 +70,22 @@ markdown_extensions:
       custom_checkbox: true
       clickable_checkbox: false
   - pymdownx.tilde
-  - pymdownx.superfences:
-      
-  
+
 nav:
   - "Bienvenida": index.md
-  - "Itinerario 1 – No Code":
-      - "Introducción y Objetivos": "itinerario-1/index.md"
-      - "Módulo 1 – Alfabetización digital para IA": itinerario-1/modulo-1-alfabetizacion-digital-ia.md
-      - "Módulo 2 – Automatización visual con IA para tareas de negocio": itinerario-1/modulo-2-automatizacion-visual-negocio.md
-      - "Módulo 3 – Creación de asistentes seguros con documentación propia": itinerario-1/modulo-3-asistentes-seguros-con-docs-propias.md
-      - "Módulo 4 – Puente hacia lo técnico (conceptual)": itinerario-1/modulo-4-puente-hacia-lo-tecnico-conceptual.md
-      - "Módulo 5 – Evaluación, documentación y handover": itinerario-1/modulo-5-evaluacion-documentacion-handover.md
-      - "Resumen y cierre": itinerario-1/resumen.md
-  - "Itinerario-2 – Low Code":
-      - "Introducción y objetivos": "itinerario-2/index.md"
-      - "Módulo 1 – Entorno enchufar y usar": "itinerario-2/modulo-1-entorno-enchufar-y-usar.md"
-      - "Módulo 2 – Llamar a APIs de modelos": "itinerario-2/modulo-2-llamar-a-apis-de-modelos.md"
-      - "Módulo 3 – RAG práctico con LangChain": "itinerario-2/modulo-3-rag-practico.md"
-      - "Módulo 4 – Agentes y orquestación mínima": "itinerario-2/modulo-4-agentes-y-orquestacion-minima.md"
-      - "Módulo 5 – Publicar y compartir": "itinerario-2/modulo-5-publicar-y-compartir.md"
-      - "Resumen": "itinerario-2/resumen.md"
+  - "Módulo 1 – Entender la IA generativa": modulo-1-entender-ia-generativa.md
+  - "Módulo 2 – Automatizar con IA": modulo-2-automatizar-con-ia.md
+  - "Módulo 3 – Asistentes con documentos": modulo-3-asistentes-con-documentos.md
+  - "Módulo 4 – IA que programa por ti": modulo-4-ia-que-programa.md
+  - "Módulo 5 – Construir tu sistema": modulo-5-construir-sistema.md
+  - "Módulo 6 – Evaluar y escalar": modulo-6-evaluar-y-escalar.md
+  - "Módulo 7 – Tu caso de uso": modulo-7-caso-uso-final.md
+  - "Recursos": recursos.md
 
 
 plugins:
   - search
   - callouts
+
+exclude_docs: |
+  _archivo/

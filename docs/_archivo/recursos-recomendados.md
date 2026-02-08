@@ -1,3 +1,15 @@
+---
+date: "2026-01-08"
+title: "Recursos Recomendados"
+tags:
+  - lang/en
+  - source/web
+  - topic/ai
+  - topic/automation
+  - type/course
+usefulness: 0.9
+---
+
 # Recursos Recomendados
 
 > Colección curada de recursos públicos y de fuentes reputadas para complementar cada módulo del curso.

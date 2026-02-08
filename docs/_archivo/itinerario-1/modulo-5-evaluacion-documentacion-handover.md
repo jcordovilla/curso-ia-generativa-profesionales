@@ -1,3 +1,14 @@
+---
+date: "2026-01-08"
+title: "Itinerario 1 · Módulo 5"
+tags:
+  - lang/es
+  - topic/ai
+  - topic/automation
+  - type/course
+usefulness: 0.9
+---
+
 # Itinerario 1 · Módulo 5  
 ## Evaluar y mantener tu caso de uso de IA: Más allá de la demo
 
@@ -182,4 +193,4 @@ Con eso estás haciendo tu parte.
 
 Con esto cierras el itinerario 1 como **Estratega de IA**: sabes usar, configurar, explicar y mantener un caso de uso real en tu entorno.
 
-No olvides hacer un repaso final del curso en el capítulo de [Resumen](resumen.md).
+No olvides hacer un repaso final del curso en el capítulo de [[resumen]].

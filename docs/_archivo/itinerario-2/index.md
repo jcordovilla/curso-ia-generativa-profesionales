@@ -1,3 +1,14 @@
+---
+date: "2026-01-08"
+title: "IA Generativa para Profesionales: Itinerario 2 – Low Code (intermedio)"
+tags:
+  - lang/es
+  - topic/ai
+  - topic/automation
+  - type/course
+usefulness: 0.9
+---
+
 # IA Generativa para Profesionales: Itinerario 2 – Low Code (intermedio)
 
 Este segundo itinerario parte de una situación distinta al primero: **ya sabes qué caso de uso quieres** (porque lo has probado en no-code) y ahora quieres **tener más control** sobre cómo se llama al modelo, cómo se cargan los documentos y cómo se comparte el resultado. Estás en camino de convertirte en un **constructor de prototipos de IA generativa**.
@@ -41,23 +52,23 @@ Si vienes “en frío” sin pasar por el primer itinerario, podrás seguirlo, p
 
 ## Estructura del itinerario
 
-1. **[Módulo 1 – Entorno "enchufar y usar"](modulo-1-entorno-enchufar-y-usar.md)**
+1. **[[modulo-1-entorno-enchufar-y-usar|Módulo 1 – Entorno "enchufar y usar"]]**
 
     Te damos un repo/proyecto ya preparado (`requirements`, `env.example`, script de prueba). Tu trabajo es hacerlo andar en tu equipo o en un Codespace. Aquí aprendes la secuencia: *clonar → instalar → configurar → probar*.
 
-2. **[Módulo 2 – Llamar a APIs de modelos](modulo-2-llamar-a-apis-de-modelos.md)**
+2. **[[modulo-2-llamar-a-apis-de-modelos|Módulo 2 – Llamar a APIs de modelos]]**
 
     Aprendes a hablarle directamente al modelo: dónde va la API key, cómo cambiar el modelo/temperatura y cómo formatear la respuesta para que luego la consuma otra pieza.
 
-3. **[Módulo 3 – RAG práctico con LangChain](modulo-3-rag-practico.md)**
+3. **[[modulo-3-rag-practico|Módulo 3 – RAG práctico con LangChain]]**
 
     Sigues el tutorial oficial para montar un RAG sencillo: cargas documentos, creas el índice y haces preguntas sobre ellos. Lo conectamos mentalmente con el itinerario 1 para que veas que es la misma idea, pero en código.
 
-4. **[Módulo 4 – Agentes y orquestación (lo necesario)](modulo-4-agentes-y-orquestacion-minima.md)**
+4. **[[modulo-4-agentes-y-orquestacion-minima|Módulo 4 – Agentes y orquestación (lo necesario)]]**
 
     Ves un ejemplo de agente que puede llamar a una tool (buscar, resumir, leer docs). No entramos en grafos complejos: lo justo para que puedas leer ejemplos de LangChain y adaptarlos.
 
-5. **[Módulo 5 – Publicar y compartir](modulo-5-publicar-y-compartir.md)**
+5. **[[modulo-5-publicar-y-compartir|Módulo 5 – Publicar y compartir]]**
 
     Opciones realistas: subir a GitHub para que otros lo usen, exponer una ruta con FastAPI, o consumirlo desde n8n/Make como si fuera un servicio. Docker lo dejamos como extra y no como obligación.
 
@@ -92,7 +103,7 @@ Dicho de otro modo: aquí creas el “motor” (llamada al modelo, RAG, agente) 
 
 ## Siguientes pasos
 
-1. Lee la intro del **[Módulo 1 – Entorno "enchufar y usar"](modulo-1-entorno-enchufar-y-usar.md)**.
+1. Lee la intro del **[[modulo-1-entorno-enchufar-y-usar|Módulo 1 – Entorno "enchufar y usar"]]**.
 2. Clona el repo de ejemplo y ejecuta el script de prueba.
 3. Una vez que tengas consola + respuesta del modelo, el resto de módulos serán mucho más sencillos.
 

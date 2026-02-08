@@ -1,3 +1,14 @@
+---
+date: "2026-01-08"
+title: "IA Generativa para Profesionales: Itinerario 1 – No Code (principiante)"
+tags:
+  - lang/es
+  - topic/ai
+  - topic/automation
+  - type/course
+usefulness: 0.9
+---
+
 # IA Generativa para Profesionales: Itinerario 1 – No Code (principiante)
 
 Bienvenido/a 👋
@@ -61,27 +72,27 @@ Capacitarte para **usar la IA donde de verdad trabajas** —correo, CRM, documen
 
 ## Estructura del itinerario
 
-1. **[Módulo 1 – Alfabetización digital para IA](modulo-1-alfabetizacion-digital-ia.md)**
+1. **[[modulo-1-alfabetizacion-digital-ia|Módulo 1 – Alfabetización digital para IA]]**
 
     Primer contacto con las plataformas no-code/low-code: qué es una cuenta, qué es una credencial, qué es un webhook, y cómo hacer una prueba controlada. Aquí bajamos la ansiedad técnica.
 
-2. **[Módulo 2 – Automatización visual con IA para tareas de negocio](modulo-2-automatizacion-visual-negocio.md)**
+2. **[[modulo-2-automatizacion-visual-negocio|Módulo 2 – Automatización visual con IA para tareas de negocio]]**
 
     Llevamos la IA a tareas reales: "email → IA resume → canal/CRM", con opción de añadir condiciones. Es el caso de uso mínimo viable.
 
-3. **[Módulo 3 – Creación de asistentes seguros con documentación propia](modulo-3-asistentes-seguros-con-docs-propias.md)**
+3. **[[modulo-3-asistentes-seguros-con-docs-propias|Módulo 3 – Creación de asistentes seguros con documentación propia]]**
 
     Cómo crear un GPT interno con tono, instrucciones y documentos de la organización, indicando qué no subir.
 
-4. **[Módulo 4 – Puente hacia lo técnico (conceptual)](modulo-4-puente-hacia-lo-tecnico-conceptual.md)**
+4. **[[modulo-4-puente-hacia-lo-tecnico-conceptual|Módulo 4 – Puente hacia lo técnico (conceptual)]]**
 
     API, endpoint, Git, Docker explicados en lenguaje de negocio, para que puedas pedir al equipo técnico una versión más estable.
 
-5. **[Módulo 5 – Evaluación, documentación y handover](modulo-5-evaluacion-documentacion-handover.md)**
+5. **[[modulo-5-evaluacion-documentacion-handover|Módulo 5 – Evaluación, documentación y handover]]**
 
     Checklist de pruebas, métricas sencillas y cómo pasar de "mi flujo" a "flujo del equipo".
 
-6. **[Resumen](resumen.md)**
+6. **[[resumen]]**
 
     Recapitulación y siguientes pasos (profundizar o pasar al itinerario intermedio).
 
@@ -98,7 +109,7 @@ Ese es el puente que luego usará el equipo técnico.
 
 ## Cómo avanzar
 
-1. Comienza por el [Módulo 1 - Alfabetización digital](modulo-1-alfabetizacion-digital-ia.md).
+1. Comienza por el [[modulo-1-alfabetizacion-digital-ia|Módulo 1 - Alfabetización digital]].
 2. Recorre los módulos en orden: están pensados como peldaños.
 3. En cada módulo haz **al menos la actividad mínima**: un flujo, un asistente, una ficha.
 4. Guarda tus prompts y tus conexiones: los volverás a usar.

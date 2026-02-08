@@ -1,3 +1,14 @@
+---
+date: "2026-01-08"
+title: "Itinerario 2 · Módulo 5"
+tags:
+  - lang/es
+  - topic/ai
+  - topic/automation
+  - type/course
+usefulness: 0.9
+---
+
 # Itinerario 2 · Módulo 5  
 ## Publicar y compartir: convertir tu prototipo en algo que otros puedan usar
 
@@ -189,4 +200,4 @@ Esto forma parte de la entrega final del itinerario.
 Con esto cierras el **Itinerario 2 – Constructor de Prototipos**.
 Tu siguiente paso puede ser **mejorar tu prototipo** (más documentos, más herramientas, mejor interfaz) o **unir fuerzas con tu equipo técnico** para transformarlo en una solución completa.
 
-No olvides hacer un repaso final del curso en el capítulo de [Resumen](resumen.md).
+No olvides hacer un repaso final del curso en el capítulo de [[resumen]].

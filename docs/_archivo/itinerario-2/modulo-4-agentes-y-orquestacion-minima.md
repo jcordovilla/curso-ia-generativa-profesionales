@@ -1,3 +1,14 @@
+---
+date: "2026-01-08"
+title: "Itinerario 2 · Módulo 4"
+tags:
+  - lang/es
+  - topic/ai
+  - topic/automation
+  - type/course
+usefulness: 0.9
+---
+
 # Itinerario 2 · Módulo 4  
 ## Agentes y orquestación mínima: cuando la IA “decide” qué herramienta usar
 
@@ -208,4 +219,4 @@ Empieza con uno: *“consulta documentos internos o, si no hay, haz resumen del 
 
 ---
 
-En el próximo módulo, **[Módulo 5 – Publicar y compartir](modulo-5-publicar-y-compartir.md)**, aprenderás cómo exponer tu prototipo: subirlo a GitHub, ejecutarlo como servicio o conectarlo con una automatización no-code.
+En el próximo módulo, **[[modulo-5-publicar-y-compartir|Módulo 5 – Publicar y compartir]]**, aprenderás cómo exponer tu prototipo: subirlo a GitHub, ejecutarlo como servicio o conectarlo con una automatización no-code.

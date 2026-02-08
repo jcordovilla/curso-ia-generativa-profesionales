@@ -1,3 +1,14 @@
+---
+date: "2026-01-08"
+title: "Itinerario 2 · Módulo 1"
+tags:
+  - lang/es
+  - topic/ai
+  - topic/automation
+  - type/course
+usefulness: 0.9
+---
+
 # Itinerario 2 · Módulo 1  
 ## Entorno “enchufar y usar”: ejecutar primero, entender después
 
@@ -112,7 +123,7 @@ Eso implica que:
 - la API key está en el sitio correcto,  
 - el entorno (VS Code, Python) está bien configurado.  
 
-Si esto está, ya puedes pasar al **[Módulo 2 – Llamar a APIs de modelos](modulo-2-llamar-a-apis-de-modelos.md)** sin miedo.
+Si esto está, ya puedes pasar al **[[modulo-2-llamar-a-apis-de-modelos|Módulo 2 – Llamar a APIs de modelos]]** sin miedo.
 
 ---
 
@@ -150,8 +161,8 @@ Con 6 líneas te ahorrarás 40 minutos dentro de dos semanas.
 
 ### 9. Cómo se conecta con los siguientes módulos
 
-- En el **[Módulo 2](modulo-2-llamar-a-apis-de-modelos.md)** vamos a abrir ese mismo repo o uno muy parecido y cambiar parámetros de la llamada al modelo. Si el módulo 1 no está funcionando, el 2 tampoco.
-- En el **[Módulo 3](modulo-3-rag-practico.md)** usaremos el mismo patrón de "clonar → `.env` → ejecutar", pero añadiendo carga de documentos.  
+- En el **[[modulo-2-llamar-a-apis-de-modelos|Módulo 2]]** vamos a abrir ese mismo repo o uno muy parecido y cambiar parámetros de la llamada al modelo. Si el módulo 1 no está funcionando, el 2 tampoco.
+- En el **[[modulo-3-rag-practico|Módulo 3]]** usaremos el mismo patrón de "clonar → `.env` → ejecutar", pero añadiendo carga de documentos.  
 - Por eso este módulo es **obligatorio**: resuelve lo que luego se repetirá.
 
 ---
@@ -178,4 +189,4 @@ Con 6 líneas te ahorrarás 40 minutos dentro de dos semanas.
 
 ---
 
-A partir de aquí pasamos al **[Módulo 2 – Llamar a APIs de modelos](modulo-2-llamar-a-apis-de-modelos.md)**, donde ya dejaremos de usar scripts "mágicos" y empezaremos a controlar qué le pedimos al modelo y cómo.
+A partir de aquí pasamos al **[[modulo-2-llamar-a-apis-de-modelos|Módulo 2 – Llamar a APIs de modelos]]**, donde ya dejaremos de usar scripts "mágicos" y empezaremos a controlar qué le pedimos al modelo y cómo.

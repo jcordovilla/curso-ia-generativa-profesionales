@@ -1,3 +1,14 @@
+---
+date: "2026-01-08"
+title: "Itinerario 1 · Módulo 3"
+tags:
+  - lang/es
+  - topic/ai
+  - topic/automation
+  - type/course
+usefulness: 0.9
+---
+
 # Itinerario 1 · Módulo 3  
 ## Crear chatbots/GPTs seguros con tus documentos
 
@@ -147,12 +158,12 @@ En la práctica esto significa: **le estás dando el criterio que luego tendría
 
 Usa esto como lista rápida:
 
-- [ ] He revisado los documentos y no contienen datos sensibles.
-- [ ] El GPT tiene instrucciones claras de **no inventar**.
-- [ ] El GPT indica qué hacer si la información no está.
-- [ ] Sé exactamente con quién lo voy a compartir.
-- [ ] He probado preguntas reales del equipo.
-- [ ] He documentado (aunque sea en 5 líneas) qué hace este GPT.
+- He revisado los documentos y no contienen datos sensibles.
+- El GPT tiene instrucciones claras de **no inventar**.
+- El GPT indica qué hacer si la información no está.
+- Sé exactamente con quién lo voy a compartir.
+- He probado preguntas reales del equipo.
+- He documentado (aunque sea en 5 líneas) qué hace este GPT.
 
 Si marcas todo, ya tienes algo enseñable a tu organización.
 
@@ -194,4 +205,4 @@ Con esto el técnico ya sabe:
 
 ---
 
-En el [Módulo 4](modulo-4-puente-hacia-lo-tecnico-conceptual.md) a continuación veremos el **"puente" hacia lo técnico**: cómo se habla de APIs, Git o Docker sin entrar a programar, para que puedas trabajar mejor con los equipos que sí desarrollan.
+En el [[modulo-4-puente-hacia-lo-tecnico-conceptual|Módulo 4]] a continuación veremos el **"puente" hacia lo técnico**: cómo se habla de APIs, Git o Docker sin entrar a programar, para que puedas trabajar mejor con los equipos que sí desarrollan.

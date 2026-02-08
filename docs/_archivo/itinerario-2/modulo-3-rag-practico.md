@@ -1,3 +1,14 @@
+---
+date: "2026-01-08"
+title: "Itinerario 2 · Módulo 3"
+tags:
+  - lang/es
+  - topic/ai
+  - topic/automation
+  - type/course
+usefulness: 0.9
+---
+
 # Itinerario 2 · Módulo 3  
 ## RAG práctico con LangChain: hacer que el modelo lea tus documentos
 
@@ -198,4 +209,4 @@ Estos son pasos naturales para consolidar tu caso de uso.
 
 ---
 
-En el próximo módulo, **[Módulo 4 – Agentes y orquestación mínima](modulo-4-agentes-y-orquestacion-minima.md)**, aprenderás cómo añadir una capa de "razonamiento" para que el modelo pueda decidir qué herramienta usar o cuándo buscar información adicional.
+En el próximo módulo, **[[modulo-4-agentes-y-orquestacion-minima|Módulo 4 – Agentes y orquestación mínima]]**, aprenderás cómo añadir una capa de "razonamiento" para que el modelo pueda decidir qué herramienta usar o cuándo buscar información adicional.

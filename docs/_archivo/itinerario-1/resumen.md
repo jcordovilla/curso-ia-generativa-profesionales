@@ -1,3 +1,14 @@
+---
+date: "2026-01-08"
+title: "Resumen del Itinerario 1 – No Code (principiante)"
+tags:
+  - lang/es
+  - topic/ai
+  - topic/automation
+  - type/course
+usefulness: 0.9
+---
+
 # Resumen del Itinerario 1 – No Code (principiante)
 
 Este itinerario se diseñó con una intención muy concreta: **que un profesional senior pueda incorporar IA generativa a su trabajo real, usando herramientas no-code, sin convertirse en desarrollador y sin poner en riesgo información sensible**. Para lograrlo hemos ido subiendo la rampa de forma progresiva: primero bajar la ansiedad técnica, luego automatizar algo útil, después crear un asistente con documentación propia, más tarde hablar con técnicos, y finalmente dejarlo todo documentado.
@@ -27,19 +38,19 @@ Lo que sigue es el cierre: qué te llevas, cómo se conectan los módulos y cuá
 
 ## 2. Recordatorio de los módulos
 
-**[Módulo 1 – Alfabetización digital para IA](modulo-1-alfabetizacion-digital-ia.md)**
+**[[modulo-1-alfabetizacion-digital-ia|Módulo 1 – Alfabetización digital para IA]]**
 Quitamos el miedo: cuentas, credenciales, webhooks y la primera prueba controlada. Sin esto, lo demás se atasca.
 
-**[Módulo 2 – Automatización visual con IA para tareas de negocio](modulo-2-automatizacion-visual-negocio.md)**
+**[[modulo-2-automatizacion-visual-negocio|Módulo 2 – Automatización visual con IA para tareas de negocio]]**
 Pasamos a un caso de uso mínimo viable: "email → IA resume → canal/CRM", con opción de añadir condiciones.
 
-**[Módulo 3 – Creación de asistentes seguros con documentación propia](modulo-3-asistentes-seguros-con-docs-propias.md)**
+**[[modulo-3-asistentes-seguros-con-docs-propias|Módulo 3 – Creación de asistentes seguros con documentación propia]]**
 Construimos un GPT/chatbot interno con tus documentos, con instrucciones claras y alerta de privacidad.
 
-**[Módulo 4 – Puente hacia lo técnico (conceptual)](modulo-4-puente-hacia-lo-tecnico-conceptual.md)**
+**[[modulo-4-puente-hacia-lo-tecnico-conceptual|Módulo 4 – Puente hacia lo técnico (conceptual)]]**
 Tradujimos lo que haces en no-code al lenguaje de los desarrolladores: API, GitHub, Docker, endpoint.
 
-**[Módulo 5 – Evaluación, documentación y handover](modulo-5-evaluacion-documentacion-handover.md)**
+**[[modulo-5-evaluacion-documentacion-handover|Módulo 5 – Evaluación, documentación y handover]]**
 Cerramos el ciclo: checklist de pruebas, métricas sencillas y cómo pasar de "mi flujo" a "flujo del equipo".
 
 En conjunto forman el recorrido: **aprender → aplicar → asegurar → explicar → entregar**.
