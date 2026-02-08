@@ -1,0 +1,1229 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Curso práctico de IA generativa para profesionales senior. 7 módulos progresivos: desde entender la IA hasta construir tu propio sistema con AI coding assistants y MCP.">
+      
+      
+      
+      
+        <link rel="prev" href="../modulo-3-asistentes-con-documentos/">
+      
+      
+        <link rel="next" href="../modulo-5-construir-sistema/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Módulo 4 – IA que programa por ti - IA Generativa para Profesionales</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../style.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#modulo-4-ia-que-programa-por-ti" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="IA Generativa para Profesionales" class="md-header__button md-logo" aria-label="IA Generativa para Profesionales" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6V5a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v1h-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v1H3v14h10.09a5.5 5.5 0 0 1-.09-1 6 6 0 0 1 8-5.66V6m-1 9v3h3v2h-3v3h-2v-3h-3v-2h3v-3Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IA Generativa para Profesionales
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Módulo 4 – IA que programa por ti
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="IA Generativa para Profesionales" class="md-nav__button md-logo" aria-label="IA Generativa para Profesionales" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6V5a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v1h-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v1H3v14h10.09a5.5 5.5 0 0 1-.09-1 6 6 0 0 1 8-5.66V6m-1 9v3h3v2h-3v3h-2v-3h-3v-2h3v-3Z"/></svg>
+
+    </a>
+    IA Generativa para Profesionales
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bienvenida
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-1-entender-ia-generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 1 – Entender la IA generativa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-2-automatizar-con-ia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 2 – Automatizar con IA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-3-asistentes-con-documentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 3 – Asistentes con documentos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 4 – IA que programa por ti
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 4 – IA que programa por ti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#el-cambio-de-paradigma-que-ningun-curso-te-ha-contado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        El cambio de paradigma que ningún curso te ha contado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-que-ha-cambiado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Qué ha cambiado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-los-ai-coding-assistants-que-son-y-como-funcionan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Los AI coding assistants: qué son y cómo funcionan
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Los AI coding assistants: qué son y cómo funcionan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#las-herramientas-principales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Las herramientas principales
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-mcp-el-estandar-que-conecta-la-ia-con-tus-herramientas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. MCP: el estándar que conecta la IA con tus herramientas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-que-puede-hacer-un-profesional-hoy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Qué puede hacer un profesional hoy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-lo-que-los-ai-coding-assistants-no-resuelven" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Lo que los AI coding assistants NO resuelven
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Lo que los AI coding assistants NO resuelven">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterio-profesional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Criterio profesional
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seguridad-y-privacidad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Seguridad y privacidad
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mantenimiento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mantenimiento
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-implicaciones-para-tu-rol-profesional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Implicaciones para tu rol profesional
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-el-ejemplo-completo-de-la-idea-al-sistema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. El ejemplo completo: de la idea al sistema
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-modelos-locales-la-ia-que-no-sale-de-tu-ordenador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Modelos locales: la IA que no sale de tu ordenador
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-cierre-y-aprendizajes-clave" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Cierre y aprendizajes clave
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-5-construir-sistema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 5 – Construir tu sistema
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-6-evaluar-y-escalar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 6 – Evaluar y escalar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-7-caso-uso-final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 7 – Tu caso de uso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recursos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recursos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#el-cambio-de-paradigma-que-ningun-curso-te-ha-contado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        El cambio de paradigma que ningún curso te ha contado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-que-ha-cambiado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Qué ha cambiado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-los-ai-coding-assistants-que-son-y-como-funcionan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Los AI coding assistants: qué son y cómo funcionan
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Los AI coding assistants: qué son y cómo funcionan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#las-herramientas-principales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Las herramientas principales
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-mcp-el-estandar-que-conecta-la-ia-con-tus-herramientas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. MCP: el estándar que conecta la IA con tus herramientas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-que-puede-hacer-un-profesional-hoy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Qué puede hacer un profesional hoy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-lo-que-los-ai-coding-assistants-no-resuelven" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Lo que los AI coding assistants NO resuelven
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Lo que los AI coding assistants NO resuelven">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterio-profesional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Criterio profesional
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seguridad-y-privacidad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Seguridad y privacidad
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mantenimiento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mantenimiento
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-implicaciones-para-tu-rol-profesional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Implicaciones para tu rol profesional
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-el-ejemplo-completo-de-la-idea-al-sistema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. El ejemplo completo: de la idea al sistema
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-modelos-locales-la-ia-que-no-sale-de-tu-ordenador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Modelos locales: la IA que no sale de tu ordenador
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-cierre-y-aprendizajes-clave" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Cierre y aprendizajes clave
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="modulo-4-ia-que-programa-por-ti">Módulo 4 – IA que programa por ti<a class="headerlink" href="#modulo-4-ia-que-programa-por-ti" title="Permanent link">&para;</a></h1>
+<h2 id="el-cambio-de-paradigma-que-ningun-curso-te-ha-contado">El cambio de paradigma que ningún curso te ha contado<a class="headerlink" href="#el-cambio-de-paradigma-que-ningun-curso-te-ha-contado" title="Permanent link">&para;</a></h2>
+<p>Hasta ahora hemos trabajado con herramientas que ya existen: plataformas no-code, GPTs personalizados, flujos visuales. Todo eso sigue siendo válido. Pero hay algo que ha cambiado de forma radical en el último año y que la mayoría de cursos de IA todavía no recoge: <strong>la frontera entre "saber programar" y "no saber programar" se ha desdibujado</strong>.</p>
+<p>Esto no es una exageración ni una promesa de marketing. Es un cambio real que afecta directamente a lo que un profesional puede hacer por sí mismo.</p>
+<hr />
+<h2 id="1-que-ha-cambiado">1. Qué ha cambiado<a class="headerlink" href="#1-que-ha-cambiado" title="Permanent link">&para;</a></h2>
+<p>Hasta hace poco, si querías construir una herramienta propia — un script que leyese tus correos y te hiciera un resumen, un sistema de búsqueda sobre tus documentos, un flujo que conectase tu base de datos con un modelo de IA — necesitabas aprender a programar. Semanas o meses de Python, frameworks, configuraciones. O pagarle a alguien que lo hiciera.</p>
+<p>Hoy existen los <strong>AI coding assistants</strong>: herramientas como Claude Code, Cursor o GitHub Copilot que escriben código a partir de lo que les describes en lenguaje natural. Tú dices qué necesitas; la IA genera el código, lo ejecuta, corrige los errores y te entrega algo funcional.</p>
+<p>Esto no significa que programar sea irrelevante. Significa que <strong>la barrera de entrada ha bajado radicalmente</strong>. Un profesional con criterio y contexto de negocio puede pasar de "tengo una idea" a "tengo un prototipo funcionando" sin escribir código desde cero.</p>
+<div class="admonition tip">
+<p class="admonition-title">Observación práctica</p>
+<p>La mayoría de profesionales que fracasan intentando automatizar con IA no fracasan por falta de inteligencia ni de esfuerzo. Fracasan porque se enfrentan a frameworks como LangChain con tutoriales de hace seis meses que ya no funcionan. Con un AI coding assistant, el mismo resultado se consigue en días, no en semanas. La diferencia no es la persona, es la herramienta.</p>
+</div>
+<hr />
+<h2 id="2-los-ai-coding-assistants-que-son-y-como-funcionan">2. Los AI coding assistants: qué son y cómo funcionan<a class="headerlink" href="#2-los-ai-coding-assistants-que-son-y-como-funcionan" title="Permanent link">&para;</a></h2>
+<p>Un AI coding assistant es un entorno donde le describes lo que necesitas y la IA genera, ejecuta y depura el código por ti.</p>
+<p><strong>Cómo es una sesión típica:</strong></p>
+<ol>
+<li>Le dices: "Quiero un script que lea mis correos de la última semana y me haga un resumen por remitente."</li>
+<li>La IA genera el código en Python (o el lenguaje que corresponda).</li>
+<li>Lo ejecuta. Si falla, analiza el error y corrige.</li>
+<li>Te entrega el resultado: un archivo, una salida en pantalla, un servicio funcionando.</li>
+</ol>
+<p>Tú no necesitas entender cada línea de código. Necesitas saber <strong>qué pedirle, cómo validar el resultado y cuándo decirle que algo no está bien</strong>.</p>
+<h3 id="las-herramientas-principales">Las herramientas principales<a class="headerlink" href="#las-herramientas-principales" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Herramienta</th>
+<th>Qué es</th>
+<th>Para quién</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Claude Code</strong></td>
+<td>Terminal que escribe y ejecuta código autónomamente</td>
+<td>Profesionales que quieren construir herramientas propias</td>
+</tr>
+<tr>
+<td><strong>Cursor</strong></td>
+<td>Editor de código con IA integrada</td>
+<td>Quien quiere trabajar dentro de un proyecto de código</td>
+</tr>
+<tr>
+<td><strong>GitHub Copilot</strong></td>
+<td>Autocompletado de código con IA en VS Code</td>
+<td>Desarrolladores y semi-técnicos</td>
+</tr>
+<tr>
+<td><strong>Replit Agent</strong></td>
+<td>Entorno web que genera aplicaciones desde instrucciones</td>
+<td>Prototipos rápidos sin instalación local</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Alerta de privacidad</p>
+<p>Cuidado con lo que le pasas a estos asistentes. Si le pides que procese un archivo con datos de clientes, ese archivo puede acabar en los servidores del proveedor. Antes de trabajar con datos reales, verifica las políticas de privacidad y usa datos de prueba cuando estés experimentando.</p>
+</div>
+<hr />
+<h2 id="3-mcp-el-estandar-que-conecta-la-ia-con-tus-herramientas">3. MCP: el estándar que conecta la IA con tus herramientas<a class="headerlink" href="#3-mcp-el-estandar-que-conecta-la-ia-con-tus-herramientas" title="Permanent link">&para;</a></h2>
+<p>Hay un segundo cambio de paradigma que viene de la mano del primero: <strong>MCP (Model Context Protocol)</strong>.</p>
+<p>MCP es un estándar abierto creado por Anthropic que permite a los modelos de IA conectarse con herramientas externas: tu correo electrónico, tus documentos, tu base de datos, tu calendario, tu CRM.</p>
+<p><strong>Por qué es importante:</strong> antes, cada integración entre la IA y una herramienta requería programación a medida. Con MCP, las conexiones se estandarizan. Un modelo de IA que soporte MCP puede usar cualquier servidor MCP disponible — y ya hay cientos, desde Google Drive hasta Slack, Notion, bases de datos SQL y muchos más.</p>
+<p><strong>En la práctica esto significa:</strong></p>
+<ul>
+<li>Puedes tener un asistente que lee tus correos, busca en tus documentos y escribe informes — todo conectado mediante MCP.</li>
+<li>No necesitas programar cada conexión desde cero.</li>
+<li>El ecosistema crece rápidamente: lo que hoy no existe, probablemente existirá en meses.</li>
+</ul>
+<details class="example">
+<summary>Profundiza: cómo funciona MCP</summary>
+<p>MCP define un protocolo cliente-servidor donde:</p>
+<ul>
+<li>El <strong>cliente</strong> es el modelo de IA (Claude, GPT, etc.).</li>
+<li>El <strong>servidor</strong> es un programa que expone herramientas (leer email, buscar documentos, escribir archivos).</li>
+<li>El cliente descubre las herramientas disponibles y las usa según lo que necesite.</li>
+</ul>
+<p>Piensa en ello como un enchufe universal: en vez de un cable distinto para cada electrodoméstico, un estándar que funciona para todo.</p>
+<p>Recursos:</p>
+<ul>
+<li><a href="https://modelcontextprotocol.io/introduction">Model Context Protocol — Documentación oficial</a></li>
+<li><a href="https://github.com/modelcontextprotocol/servers">MCP Servers — Repositorio comunitario</a></li>
+</ul>
+</details>
+<hr />
+<h2 id="4-que-puede-hacer-un-profesional-hoy">4. Qué puede hacer un profesional hoy<a class="headerlink" href="#4-que-puede-hacer-un-profesional-hoy" title="Permanent link">&para;</a></h2>
+<p>Con AI coding assistants y MCP combinados, las posibilidades se amplían enormemente. Ya no estás limitado a lo que ofrecen las plataformas no-code. Puedes construir herramientas a tu medida.</p>
+<p><strong>Ejemplos concretos por sector:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Sector</th>
+<th>Lo que puedes construir</th>
+<th>Herramientas implicadas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Consultoría</td>
+<td>Sistema que lee tus emails, identifica temas por proyecto y genera informes semanales</td>
+<td>AI coding assistant + MCP (correo)</td>
+</tr>
+<tr>
+<td>Legal</td>
+<td>Buscador semántico sobre contratos que responde preguntas en lenguaje natural</td>
+<td>AI coding assistant + RAG + base vectorial</td>
+</tr>
+<tr>
+<td>Marketing</td>
+<td>Flujo que analiza menciones en redes, clasifica sentimiento y genera un briefing diario</td>
+<td>AI coding assistant + APIs de redes sociales</td>
+</tr>
+<tr>
+<td>RRHH</td>
+<td>Asistente que responde preguntas de empleados sobre políticas internas</td>
+<td>AI coding assistant + GPT personalizado + documentos</td>
+</tr>
+<tr>
+<td>Finanzas</td>
+<td>Dashboard que extrae datos clave de informes mensuales y detecta desviaciones</td>
+<td>AI coding assistant + procesamiento de PDFs</td>
+</tr>
+<tr>
+<td>Operaciones</td>
+<td>Sistema de alertas que monitoriza KPIs y notifica al equipo cuando algo se desvía</td>
+<td>AI coding assistant + MCP (base de datos)</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Observación práctica</p>
+<p>El error más común es pensar en grande demasiado pronto. Los proyectos de IA que funcionan empiezan con un caso de uso pequeño y bien definido: "quiero que la IA me resuma los correos largos" es mejor punto de partida que "quiero un asistente que gestione toda mi información". Empieza por lo que te duele más y expande desde ahí.</p>
+</div>
+<hr />
+<h2 id="5-lo-que-los-ai-coding-assistants-no-resuelven">5. Lo que los AI coding assistants NO resuelven<a class="headerlink" href="#5-lo-que-los-ai-coding-assistants-no-resuelven" title="Permanent link">&para;</a></h2>
+<p>Es importante ser honesto sobre los límites. Los AI coding assistants son herramientas extraordinarias, pero no sustituyen tres cosas:</p>
+<h3 id="criterio-profesional">Criterio profesional<a class="headerlink" href="#criterio-profesional" title="Permanent link">&para;</a></h3>
+<p>La IA escribe código, pero no sabe si el código resuelve el problema correcto. Tú decides qué construir, por qué y para quién. Sin criterio de negocio, la herramienta más potente del mundo genera basura sofisticada.</p>
+<h3 id="seguridad-y-privacidad">Seguridad y privacidad<a class="headerlink" href="#seguridad-y-privacidad" title="Permanent link">&para;</a></h3>
+<p>La IA generará código funcional, pero no necesariamente seguro. No validará si los datos que procesas están protegidos, si la conexión es cifrada o si cumples la normativa de tu sector. Eso sigue siendo tu responsabilidad.</p>
+<h3 id="mantenimiento">Mantenimiento<a class="headerlink" href="#mantenimiento" title="Permanent link">&para;</a></h3>
+<p>Un prototipo construido con IA en una tarde sigue necesitando mantenimiento. Las APIs cambian, los modelos se actualizan, los datos evolucionan. Si nadie revisa y actualiza lo que construiste, dejará de funcionar.</p>
+<div class="admonition warning">
+<p class="admonition-title">Alerta de privacidad</p>
+<p>Antes de conectar cualquier sistema a tus datos reales (correo, documentos, base de datos), responde a estas preguntas:</p>
+<ul>
+<li>¿Dónde se procesan los datos? ¿En tu máquina local o en un servidor externo?</li>
+<li>¿El proveedor de IA tiene acceso a los datos que le envías?</li>
+<li>¿Cumple tu organización con la normativa aplicable (RGPD, LOPD)?</li>
+</ul>
+<p>Si no puedes responder, no conectes todavía.</p>
+</div>
+<hr />
+<h2 id="6-implicaciones-para-tu-rol-profesional">6. Implicaciones para tu rol profesional<a class="headerlink" href="#6-implicaciones-para-tu-rol-profesional" title="Permanent link">&para;</a></h2>
+<p>Este cambio de paradigma tiene consecuencias prácticas para cómo trabajas y cómo lideras:</p>
+<p><strong>Para evaluar proveedores de IA:</strong> ahora puedes preguntarles con propiedad: "¿Soportáis MCP?", "¿Se puede conectar con nuestro CRM?", "¿Usáis modelos que podamos ejecutar localmente?". Ya no dependes de traducciones imprecisas.</p>
+<p><strong>Para pedir a IT con vocabulario adecuado:</strong> en vez de "quiero que la IA haga algo con mis correos", puedes decir: "necesito un servidor MCP para Apple Mail conectado a Claude, ejecutándose en local". Eso se resuelve.</p>
+<p><strong>Para liderar proyectos de IA:</strong> entiendes qué es posible, cuánto cuesta y dónde están los riesgos. No necesitas programar, pero puedes dirigir a quien lo haga.</p>
+<hr />
+<h2 id="7-el-ejemplo-completo-de-la-idea-al-sistema">7. El ejemplo completo: de la idea al sistema<a class="headerlink" href="#7-el-ejemplo-completo-de-la-idea-al-sistema" title="Permanent link">&para;</a></h2>
+<p>Veamos cómo se ve un proyecto típico de principio a fin, usando las herramientas de este módulo:</p>
+<p><strong>La idea:</strong> "Quiero que cada lunes mi IA lea los correos de la semana pasada y me genere un resumen por proyecto."</p>
+<p><strong>El camino sin AI coding assistants:</strong>
+1. Aprender Python (semanas).
+2. Aprender a conectar con APIs de correo (días).
+3. Configurar procesamiento de texto (más días).
+4. Integrar un modelo de IA (más configuración).
+5. Depurar errores (frustración).
+6. Resultado: abandono en el paso 2 o 3.</p>
+<p><strong>El camino con AI coding assistants:</strong>
+1. Abrir Claude Code o Cursor.
+2. Describir: "Necesito un script que lea mis correos de la última semana desde Apple Mail, los agrupe por asunto de proyecto y genere un resumen ejecutivo de cada grupo."
+3. El asistente genera el código, lo prueba, corrige errores.
+4. Revisas el resultado, pides ajustes ("hazlo más conciso", "añade las fechas").
+5. Resultado: prototipo funcionando en una tarde.</p>
+<p>Luego puedes añadir MCP para que el asistente tenga acceso permanente a tu correo, y un cron job para que se ejecute cada lunes. Lo que antes era un proyecto de semanas se convierte en una sesión de trabajo.</p>
+<hr />
+<h2 id="8-modelos-locales-la-ia-que-no-sale-de-tu-ordenador">8. Modelos locales: la IA que no sale de tu ordenador<a class="headerlink" href="#8-modelos-locales-la-ia-que-no-sale-de-tu-ordenador" title="Permanent link">&para;</a></h2>
+<p>Hay una tercera pieza del puzle que complementa a las dos anteriores: los <strong>modelos locales</strong>.</p>
+<p>Herramientas como <strong>Ollama</strong> o <strong>LM Studio</strong> permiten ejecutar modelos de IA directamente en tu ordenador, sin enviar datos a ningún servidor externo. Modelos como Llama 3, Mistral o Qwen funcionan razonablemente bien para muchas tareas y son completamente privados.</p>
+<p><strong>Cuándo usarlos:</strong>
+- Cuando trabajas con datos sensibles que no pueden salir de tu máquina.
+- Cuando quieres experimentar sin costes de API.
+- Cuando necesitas que el sistema funcione sin conexión a internet.</p>
+<p><strong>Cuándo no son suficientes:</strong>
+- Para tareas que requieren el máximo rendimiento (GPT-4o, Claude Opus siguen siendo superiores).
+- Para procesamiento masivo de documentos (los modelos locales son más lentos).</p>
+<details class="example">
+<summary>Profundiza: primeros pasos con Ollama</summary>
+<ol>
+<li>Instala Ollama: <a href="https://ollama.com">ollama.com</a></li>
+<li>Descarga un modelo: <code>ollama pull llama3.2</code></li>
+<li>Ejecuta: <code>ollama run llama3.2</code></li>
+<li>Ya tienes un modelo local funcionando en tu terminal.</li>
+</ol>
+<p>Puedes conectarlo con AI coding assistants y con servidores MCP para tener un sistema completamente local.</p>
+</details>
+<hr />
+<h2 id="9-cierre-y-aprendizajes-clave">9. Cierre y aprendizajes clave<a class="headerlink" href="#9-cierre-y-aprendizajes-clave" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>La frontera entre programar y no programar se ha desdibujado.</strong> Los AI coding assistants permiten construir herramientas describiendo lo que necesitas.</li>
+<li><strong>MCP estandariza las conexiones</strong> entre la IA y tus herramientas de trabajo.</li>
+<li><strong>Un profesional con criterio y un AI coding assistant puede construir en días lo que antes requería semanas.</strong></li>
+<li><strong>Los límites siguen estando en el criterio, la seguridad y el mantenimiento</strong>, no en la tecnología.</li>
+<li><strong>Los modelos locales ofrecen privacidad total</strong> para datos sensibles.</li>
+</ul>
+<div class="admonition abstract">
+<p class="admonition-title">Resumen del módulo</p>
+<p>Los AI coding assistants y MCP cambian lo que un profesional puede construir por sí mismo. No necesitas aprender a programar, pero sí necesitas entender qué es posible, cómo pedirlo y dónde están los riesgos. Este conocimiento te convierte en un profesional capaz de evaluar, dirigir y participar activamente en proyectos de IA.</p>
+</div>
+<hr />
+<div class="admonition info">
+<p class="admonition-title">Para profundizar</p>
+<ul>
+<li><a href="https://docs.anthropic.com/en/docs/claude-code/overview">Claude Code — Documentación oficial</a> — Referencia completa del AI coding assistant de Anthropic.</li>
+<li><a href="https://www.cursor.com/">Cursor — Editor con IA integrada</a> — Editor de código con IA para construir software conversacionalmente.</li>
+<li><a href="https://modelcontextprotocol.io/introduction">Model Context Protocol — Documentación oficial</a> — Especificación del estándar MCP para conectar IA con herramientas.</li>
+<li><a href="https://ollama.com/">Ollama — Modelos locales</a> — Ejecuta modelos de IA en tu ordenador sin enviar datos a terceros.</li>
+<li><a href="https://www.oneusefulthing.org/">Ethan Mollick — "What just happened with AI is stunning"</a> — Blog del profesor de Wharton con análisis accesible sobre el impacto real de la IA.</li>
+</ul>
+</div>
+<hr />
+<p>En el <a href="../modulo-5-construir-sistema/">Módulo 5</a> exploraremos la capa técnica para quienes quieran ir más allá: RAG, agentes y APIs, todo a través del prisma de AI-assisted development.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
+        
+          
+          <a href="../modulo-3-asistentes-con-documentos/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Módulo 3 – Asistentes con documentos">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Módulo 3 – Asistentes con documentos
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../modulo-5-construir-sistema/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Módulo 5 – Construir tu sistema">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                Módulo 5 – Construir tu sistema
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.sections", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "content.code.copy", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

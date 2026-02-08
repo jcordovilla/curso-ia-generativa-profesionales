@@ -1,0 +1,1214 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Curso práctico de IA generativa para profesionales senior. 7 módulos progresivos: desde entender la IA hasta construir tu propio sistema con AI coding assistants y MCP.">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../modulo-2-automatizar-con-ia/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Módulo 1 – Entender la IA generativa - IA Generativa para Profesionales</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../style.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#modulo-1-entender-la-ia-generativa" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="IA Generativa para Profesionales" class="md-header__button md-logo" aria-label="IA Generativa para Profesionales" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6V5a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v1h-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v1H3v14h10.09a5.5 5.5 0 0 1-.09-1 6 6 0 0 1 8-5.66V6m-1 9v3h3v2h-3v3h-2v-3h-3v-2h3v-3Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IA Generativa para Profesionales
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Módulo 1 – Entender la IA generativa
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="IA Generativa para Profesionales" class="md-nav__button md-logo" aria-label="IA Generativa para Profesionales" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6V5a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v1h-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v1H3v14h10.09a5.5 5.5 0 0 1-.09-1 6 6 0 0 1 8-5.66V6m-1 9v3h3v2h-3v3h-2v-3h-3v-2h3v-3Z"/></svg>
+
+    </a>
+    IA Generativa para Profesionales
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bienvenida
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 1 – Entender la IA generativa
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 1 – Entender la IA generativa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-es-para-que-sirve-y-como-elegir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué es, para qué sirve y cómo elegir
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-que-es-la-ia-generativa-y-que-no-es" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Qué es la IA generativa (y qué no es)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-los-4-patrones-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Los 4 patrones de uso
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-elegir-modelo-el-mapa-actual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Elegir modelo: el mapa actual
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Elegir modelo: el mapa actual">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#como-elegir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cómo elegir
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-privacidad-y-seguridad-que-puedes-compartir-con-la-ia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Privacidad y seguridad: qué puedes compartir con la IA
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Privacidad y seguridad: qué puedes compartir con la IA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lo-que-si-puedes-compartir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lo que SÍ puedes compartir
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lo-que-no-debes-compartir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lo que NO debes compartir
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preguntas-que-debes-hacerte-antes-de-usar-una-herramienta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preguntas que debes hacerte antes de usar una herramienta
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-cuentas-credenciales-y-conexiones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Cuentas, credenciales y conexiones
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-multimodalidad-la-ia-que-ve-y-escucha" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Multimodalidad: la IA que ve y escucha
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-errores-comunes-al-empezar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Errores comunes al empezar
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-cierre-y-aprendizajes-clave" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Cierre y aprendizajes clave
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-2-automatizar-con-ia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 2 – Automatizar con IA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-3-asistentes-con-documentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 3 – Asistentes con documentos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-4-ia-que-programa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 4 – IA que programa por ti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-5-construir-sistema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 5 – Construir tu sistema
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-6-evaluar-y-escalar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 6 – Evaluar y escalar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-7-caso-uso-final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 7 – Tu caso de uso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recursos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recursos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-es-para-que-sirve-y-como-elegir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué es, para qué sirve y cómo elegir
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-que-es-la-ia-generativa-y-que-no-es" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Qué es la IA generativa (y qué no es)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-los-4-patrones-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Los 4 patrones de uso
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-elegir-modelo-el-mapa-actual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Elegir modelo: el mapa actual
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Elegir modelo: el mapa actual">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#como-elegir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cómo elegir
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-privacidad-y-seguridad-que-puedes-compartir-con-la-ia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Privacidad y seguridad: qué puedes compartir con la IA
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Privacidad y seguridad: qué puedes compartir con la IA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lo-que-si-puedes-compartir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lo que SÍ puedes compartir
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lo-que-no-debes-compartir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lo que NO debes compartir
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preguntas-que-debes-hacerte-antes-de-usar-una-herramienta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preguntas que debes hacerte antes de usar una herramienta
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-cuentas-credenciales-y-conexiones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Cuentas, credenciales y conexiones
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-multimodalidad-la-ia-que-ve-y-escucha" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Multimodalidad: la IA que ve y escucha
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-errores-comunes-al-empezar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Errores comunes al empezar
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-cierre-y-aprendizajes-clave" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Cierre y aprendizajes clave
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="modulo-1-entender-la-ia-generativa">Módulo 1 – Entender la IA generativa<a class="headerlink" href="#modulo-1-entender-la-ia-generativa" title="Permanent link">&para;</a></h1>
+<h2 id="que-es-para-que-sirve-y-como-elegir">Qué es, para qué sirve y cómo elegir<a class="headerlink" href="#que-es-para-que-sirve-y-como-elegir" title="Permanent link">&para;</a></h2>
+<p>Antes de automatizar nada, necesitas entender las piezas básicas. No para convertirte en técnico, sino para <strong>tomar decisiones con criterio</strong>: qué herramienta usar, qué puedes compartir con la IA, qué modelo elegir y cómo plantear tus primeras peticiones de forma eficaz.</p>
+<p>Este módulo te da las bases para todo lo que viene después.</p>
+<hr />
+<h2 id="1-que-es-la-ia-generativa-y-que-no-es">1. Qué es la IA generativa (y qué no es)<a class="headerlink" href="#1-que-es-la-ia-generativa-y-que-no-es" title="Permanent link">&para;</a></h2>
+<p>La IA generativa es un tipo de inteligencia artificial que <strong>produce contenido nuevo</strong> — texto, imágenes, código, audio — a partir de instrucciones en lenguaje natural. Los modelos de lenguaje (LLMs) son su forma más extendida: les das una instrucción y te devuelven una respuesta elaborada.</p>
+<p><strong>Lo que sí es:</strong>
+- Un asistente que procesa, resume, clasifica y genera texto con rapidez.
+- Una herramienta que mejora con instrucciones claras.
+- Un acelerador de tareas repetitivas.</p>
+<p><strong>Lo que no es:</strong>
+- No es infalible: inventa datos con seguridad aparente (lo que se llaman "alucinaciones").
+- No es una base de datos: no "sabe" lo que hay en tus archivos a menos que se lo des.
+- No sustituye el criterio profesional: amplifica lo que ya sabes, pero no piensa por ti.</p>
+<div class="admonition tip">
+<p class="admonition-title">Observación práctica</p>
+<p>La mayoría de profesionales empiezan usando la IA como un chatbot para hacer preguntas y no pasan de ahí. Lo interesante empieza cuando dejas de usarla como buscador y empiezas a usarla como herramienta de proceso: que resuma, clasifique, extraiga y transforme la información con la que ya trabajas.</p>
+</div>
+<hr />
+<h2 id="2-los-4-patrones-de-uso">2. Los 4 patrones de uso<a class="headerlink" href="#2-los-4-patrones-de-uso" title="Permanent link">&para;</a></h2>
+<p>Prácticamente todo lo que puedes hacer con IA generativa en un entorno profesional se reduce a cuatro patrones:</p>
+<table>
+<thead>
+<tr>
+<th>Patrón</th>
+<th>Qué hace</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Resumir</strong></td>
+<td>Condensa información larga en lo esencial</td>
+<td>Email largo del cliente → 5 puntos clave para el equipo</td>
+</tr>
+<tr>
+<td><strong>Clasificar</strong></td>
+<td>Asigna categorías o niveles a contenido</td>
+<td>Consulta de cliente → urgente / normal / informativa</td>
+</tr>
+<tr>
+<td><strong>Extraer</strong></td>
+<td>Saca datos concretos de un texto</td>
+<td>Contrato de 40 páginas → partes, plazos, penalizaciones</td>
+</tr>
+<tr>
+<td><strong>Conversar</strong></td>
+<td>Responde preguntas sobre un tema o documento</td>
+<td>"¿Qué dice el procedimiento sobre las vacaciones?"</td>
+</tr>
+</tbody>
+</table>
+<p>Cuando pienses en un caso de uso, pregúntate: <strong>¿estoy resumiendo, clasificando, extrayendo o conversando?</strong> Si puedes nombrarlo, puedes construirlo.</p>
+<p><strong>Ejemplos por sector:</strong></p>
+<ul>
+<li><strong>Consultoría:</strong> un informe de 30 páginas llega por email → la IA extrae los 5 riesgos principales y los resume para el socio director.</li>
+<li><strong>Legal:</strong> un contrato nuevo → la IA extrae las cláusulas de penalización y las compara con la plantilla estándar.</li>
+<li><strong>Marketing:</strong> 200 respuestas a una encuesta de satisfacción → la IA clasifica por sentimiento y genera un resumen por temas.</li>
+<li><strong>RRHH:</strong> preguntas frecuentes de empleados sobre políticas internas → un asistente que conversa sobre el manual de la empresa.</li>
+<li><strong>Finanzas:</strong> informes mensuales de 15 páginas → la IA extrae los KPIs y señala desviaciones respecto al mes anterior.</li>
+</ul>
+<hr />
+<h2 id="3-elegir-modelo-el-mapa-actual">3. Elegir modelo: el mapa actual<a class="headerlink" href="#3-elegir-modelo-el-mapa-actual" title="Permanent link">&para;</a></h2>
+<p>No existe "la mejor IA". Existen modelos con distintas capacidades, precios y políticas de privacidad. Aquí tienes un mapa orientativo:</p>
+<table>
+<thead>
+<tr>
+<th>Proveedor</th>
+<th>Modelo destacado</th>
+<th>Fortaleza</th>
+<th>Privacidad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>OpenAI</strong></td>
+<td>GPT-4o</td>
+<td>Versatilidad general, multimodal</td>
+<td>Datos en nube, opción de no entrenar</td>
+</tr>
+<tr>
+<td><strong>Anthropic</strong></td>
+<td>Claude Sonnet / Opus</td>
+<td>Análisis extenso, instrucciones complejas</td>
+<td>No entrena con datos de usuario</td>
+</tr>
+<tr>
+<td><strong>Google</strong></td>
+<td>Gemini</td>
+<td>Integración con Google Workspace</td>
+<td>Datos en nube de Google</td>
+</tr>
+<tr>
+<td><strong>Meta</strong></td>
+<td>Llama 3 (vía Ollama)</td>
+<td>Gratuito, ejecutable en local</td>
+<td>Completamente privado si es local</td>
+</tr>
+<tr>
+<td><strong>Mistral</strong></td>
+<td>Mistral / Mixtral</td>
+<td>Buen rendimiento, empresa europea</td>
+<td>Opción local o en nube</td>
+</tr>
+<tr>
+<td><strong>Alibaba</strong></td>
+<td>Qwen</td>
+<td>Multilingüe, buen rendimiento</td>
+<td>Opción local o en nube</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Observación práctica</p>
+<p>Para la mayoría de los casos de uso profesionales, Claude Sonnet o GPT-4o son la mejor relación entre calidad y coste. Si necesitas privacidad total, los modelos locales vía Ollama han mejorado enormemente — Llama 3 y Qwen 2.5 son sorprendentemente capaces para tareas de resumen, clasificación y extracción.</p>
+</div>
+<h3 id="como-elegir">Cómo elegir<a class="headerlink" href="#como-elegir" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>¿Necesitas máxima calidad?</strong> → GPT-4o o Claude Opus.</li>
+<li><strong>¿Necesitas buen rendimiento a bajo coste?</strong> → Claude Sonnet o GPT-4o-mini.</li>
+<li><strong>¿Trabajas con datos sensibles?</strong> → Modelos locales (Ollama + Llama 3 / Mistral).</li>
+<li><strong>¿Tu organización usa Google Workspace?</strong> → Gemini tiene integración directa.</li>
+</ul>
+<hr />
+<h2 id="4-privacidad-y-seguridad-que-puedes-compartir-con-la-ia">4. Privacidad y seguridad: qué puedes compartir con la IA<a class="headerlink" href="#4-privacidad-y-seguridad-que-puedes-compartir-con-la-ia" title="Permanent link">&para;</a></h2>
+<p>Esta es la sección que más profesionales ignoran y la que más problemas causa.</p>
+<div class="admonition warning">
+<p class="admonition-title">Alerta de privacidad</p>
+<p><strong>Regla de oro:</strong> si no lo enviarías por email sin cifrar a un desconocido, no se lo des a una IA en la nube.</p>
+</div>
+<h3 id="lo-que-si-puedes-compartir">Lo que SÍ puedes compartir<a class="headerlink" href="#lo-que-si-puedes-compartir" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Textos genéricos sin datos personales.</li>
+<li>Procedimientos internos ya publicados o públicos.</li>
+<li>Datos anonimizados o sintéticos.</li>
+<li>Borradores propios para revisión.</li>
+</ul>
+<h3 id="lo-que-no-debes-compartir">Lo que NO debes compartir<a class="headerlink" href="#lo-que-no-debes-compartir" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Datos personales (nombres + DNI, teléfonos, direcciones).</li>
+<li>Información financiera sensible de clientes.</li>
+<li>Contratos con cláusulas de confidencialidad.</li>
+<li>Datos de terceros que tu organización no tiene derecho a procesar fuera de su entorno.</li>
+<li>Credenciales, contraseñas o claves de API.</li>
+</ul>
+<h3 id="preguntas-que-debes-hacerte-antes-de-usar-una-herramienta">Preguntas que debes hacerte antes de usar una herramienta<a class="headerlink" href="#preguntas-que-debes-hacerte-antes-de-usar-una-herramienta" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>¿Dónde se procesan mis datos?</strong> ¿En los servidores del proveedor o en mi máquina?</li>
+<li><strong>¿El proveedor usa mis datos para entrenar?</strong> (OpenAI: sí por defecto salvo opt-out; Anthropic: no; Ollama: local, sin envío).</li>
+<li><strong>¿Puedo usar una versión empresarial?</strong> (ChatGPT Enterprise, Claude for Teams — no entrenan con datos).</li>
+<li><strong>¿Mi organización tiene una política de IA?</strong> Si no la tiene, es buen momento para proponerla.</li>
+</ol>
+<hr />
+<h2 id="5-cuentas-credenciales-y-conexiones">5. Cuentas, credenciales y conexiones<a class="headerlink" href="#5-cuentas-credenciales-y-conexiones" title="Permanent link">&para;</a></h2>
+<p>Cuando empiezas a conectar herramientas con IA, aparecen tres conceptos que confunden a todo el mundo. Merece la pena aclararlos una vez:</p>
+<table>
+<thead>
+<tr>
+<th>Concepto</th>
+<th>Qué es</th>
+<th>Analogía</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Cuenta</strong></td>
+<td>Tu identidad en un servicio (Google, OpenAI, Microsoft)</td>
+<td>"Soy yo"</td>
+</tr>
+<tr>
+<td><strong>Credencial (API key)</strong></td>
+<td>Un código que autoriza a una herramienta a usar un servicio en tu nombre</td>
+<td>"Esta es mi llave"</td>
+</tr>
+<tr>
+<td><strong>Conexión</strong></td>
+<td>Cuando la plataforma guarda tu credencial para usarla en flujos automáticos</td>
+<td>"Guarda mi llave para no tener que sacarla cada vez"</td>
+</tr>
+</tbody>
+</table>
+<p><strong>La credencial es lo más importante.</strong> Sin ella, no hay llamada a la IA. Se pega una vez en el campo de configuración de la herramienta y no se comparte por email ni por chat.</p>
+<div class="admonition tip">
+<p class="admonition-title">Observación práctica</p>
+<p>En la práctica, la mayoría de los atascos no están en la IA sino en las credenciales. "No funciona" suele significar "no hay API key" o "la cuenta no tiene permisos". Antes de pensar que la IA falla, revisa que la llave esté en su sitio.</p>
+</div>
+<hr />
+<h2 id="6-multimodalidad-la-ia-que-ve-y-escucha">6. Multimodalidad: la IA que ve y escucha<a class="headerlink" href="#6-multimodalidad-la-ia-que-ve-y-escucha" title="Permanent link">&para;</a></h2>
+<p>Los modelos actuales no solo procesan texto. Los más avanzados pueden:</p>
+<ul>
+<li><strong>Ver imágenes:</strong> le pasas una foto de una pizarra con notas de una reunión y te devuelve un resumen estructurado.</li>
+<li><strong>Procesar documentos escaneados:</strong> un PDF con tablas escaneadas → la IA extrae los datos.</li>
+<li><strong>Transcribir audio:</strong> la grabación de una reunión de una hora → acta resumida en 5 minutos (usando modelos como Whisper).</li>
+</ul>
+<p>Esto no es futuro: es presente. GPT-4o, Claude Sonnet y Gemini ya procesan imágenes. La transcripción de audio funciona con herramientas gratuitas.</p>
+<p><strong>Ejemplo práctico:</strong> un consultor graba una reunión con el cliente en su móvil. Al volver a la oficina, la IA transcribe la grabación y genera un acta con los puntos de acción. Total: 10 minutos en vez de 45.</p>
+<hr />
+<h2 id="7-errores-comunes-al-empezar">7. Errores comunes al empezar<a class="headerlink" href="#7-errores-comunes-al-empezar" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>"Uso ChatGPT para todo"</strong> → Cada modelo tiene fortalezas distintas. Prueba al menos dos para comparar.</li>
+<li><strong>"La IA me da siempre la razón"</strong> → Los modelos son complacientes por diseño. Pídele explícitamente que señale errores o debilidades en tu planteamiento.</li>
+<li><strong>"Copio el prompt de un tutorial"</strong> → Los prompts funcionan cuando se adaptan a tu contexto. Di el rol, el formato, el idioma y el público.</li>
+<li><strong>"No sé por dónde empezar"</strong> → Empieza por lo que más te duele: ¿qué tarea repetitiva haces cada semana que podrías delegarle a la IA?</li>
+<li><strong>"Subo todos mis documentos al GPT"</strong> → Menos es más. Empieza con 3-5 documentos bien seleccionados.</li>
+</ul>
+<hr />
+<h2 id="8-cierre-y-aprendizajes-clave">8. Cierre y aprendizajes clave<a class="headerlink" href="#8-cierre-y-aprendizajes-clave" title="Permanent link">&para;</a></h2>
+<ul>
+<li>La IA generativa <strong>no es un buscador ni un oráculo</strong>: es una herramienta de proceso que necesita instrucciones claras.</li>
+<li>Todo lo que harás con IA se reduce a <strong>4 patrones</strong>: resumir, clasificar, extraer, conversar.</li>
+<li><strong>Elegir modelo es elegir compromiso</strong> entre calidad, coste y privacidad.</li>
+<li><strong>La privacidad no es opcional</strong>: saber qué compartir y qué no es tan importante como saber usar la herramienta.</li>
+<li><strong>Las credenciales son la puerta de entrada</strong>: si no las entiendes, te atascas antes de empezar.</li>
+</ul>
+<div class="admonition abstract">
+<p class="admonition-title">Resumen del módulo</p>
+<p>Ya puedes identificar los patrones de uso de la IA, elegir un modelo adecuado para tu contexto, evaluar los riesgos de privacidad y configurar tus primeras herramientas con criterio. Eso es todo lo que necesitas para pasar al siguiente módulo.</p>
+</div>
+<hr />
+<div class="admonition info">
+<p class="admonition-title">Para profundizar</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=zjkBMFhNj_g">Intro to Large Language Models</a> — Andrej Karpathy explica en una hora cómo funcionan los LLMs sin requerir conocimientos técnicos.</li>
+<li><a href="https://www.oneusefulthing.org/p/how-to-use-ai-to-do-practical-stuff">How to use AI to do practical stuff</a> — Guía del profesor Ethan Mollick (Wharton) con casos de uso concretos.</li>
+<li><a href="https://www.deeplearning.ai/courses/generative-ai-for-everyone/">Generative AI for Everyone</a> — Curso gratuito de Andrew Ng que cubre los fundamentos para audiencias no técnicas.</li>
+<li><a href="https://artificialanalysis.ai/models">Artificial Analysis — Comparador de modelos</a> — Comparativa independiente de modelos por precio, velocidad y calidad.</li>
+<li><a href="https://ollama.com/">Ollama</a> — Ejecuta modelos de IA en tu máquina, sin enviar datos a terceros.</li>
+</ul>
+</div>
+<hr />
+<p>En el <a href="../modulo-2-automatizar-con-ia/">Módulo 2</a> construirás tu primer flujo automatizado: entrada de datos → IA procesa → resultado útil para tu equipo.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
+        
+          
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Anterior: Bienvenida">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Bienvenida
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../modulo-2-automatizar-con-ia/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Módulo 2 – Automatizar con IA">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                Módulo 2 – Automatizar con IA
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.sections", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "content.code.copy", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

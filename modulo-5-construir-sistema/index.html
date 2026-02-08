@@ -1,0 +1,989 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Curso práctico de IA generativa para profesionales senior. 7 módulos progresivos: desde entender la IA hasta construir tu propio sistema con AI coding assistants y MCP.">
+      
+      
+      
+      
+        <link rel="prev" href="../modulo-4-ia-que-programa/">
+      
+      
+        <link rel="next" href="../modulo-6-evaluar-y-escalar/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Módulo 5 – Construir tu sistema - IA Generativa para Profesionales</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../style.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#modulo-5-construir-tu-sistema" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="IA Generativa para Profesionales" class="md-header__button md-logo" aria-label="IA Generativa para Profesionales" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6V5a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v1h-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v1H3v14h10.09a5.5 5.5 0 0 1-.09-1 6 6 0 0 1 8-5.66V6m-1 9v3h3v2h-3v3h-2v-3h-3v-2h3v-3Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IA Generativa para Profesionales
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Módulo 5 – Construir tu sistema
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="IA Generativa para Profesionales" class="md-nav__button md-logo" aria-label="IA Generativa para Profesionales" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6V5a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v1h-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v1H3v14h10.09a5.5 5.5 0 0 1-.09-1 6 6 0 0 1 8-5.66V6m-1 9v3h3v2h-3v3h-2v-3h-3v-2h3v-3Z"/></svg>
+
+    </a>
+    IA Generativa para Profesionales
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bienvenida
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-1-entender-ia-generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 1 – Entender la IA generativa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-2-automatizar-con-ia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 2 – Automatizar con IA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-3-asistentes-con-documentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 3 – Asistentes con documentos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-4-ia-que-programa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 4 – IA que programa por ti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 5 – Construir tu sistema
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 5 – Construir tu sistema
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rag-agentes-y-apis-la-capa-tecnica-para-quienes-quieran-ir-mas-alla" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RAG, agentes y APIs: la capa técnica para quienes quieran ir más allá
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-rag-hacer-que-la-ia-lea-tus-documentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. RAG: hacer que la IA lea TUS documentos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-agentes-ia-que-decide-que-herramienta-usar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Agentes: IA que decide qué herramienta usar
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-apis-conectar-tu-sistema-al-mundo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. APIs: conectar tu sistema al mundo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-lo-que-se-puede-construir-hoy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Lo que se puede construir hoy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-publicar-y-compartir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Publicar y compartir
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-cierre-y-aprendizajes-clave" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Cierre y aprendizajes clave
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-6-evaluar-y-escalar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 6 – Evaluar y escalar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-7-caso-uso-final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 7 – Tu caso de uso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recursos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recursos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rag-agentes-y-apis-la-capa-tecnica-para-quienes-quieran-ir-mas-alla" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RAG, agentes y APIs: la capa técnica para quienes quieran ir más allá
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-rag-hacer-que-la-ia-lea-tus-documentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. RAG: hacer que la IA lea TUS documentos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-agentes-ia-que-decide-que-herramienta-usar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Agentes: IA que decide qué herramienta usar
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-apis-conectar-tu-sistema-al-mundo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. APIs: conectar tu sistema al mundo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-lo-que-se-puede-construir-hoy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Lo que se puede construir hoy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-publicar-y-compartir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Publicar y compartir
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-cierre-y-aprendizajes-clave" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Cierre y aprendizajes clave
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="modulo-5-construir-tu-sistema">Módulo 5 – Construir tu sistema<a class="headerlink" href="#modulo-5-construir-tu-sistema" title="Permanent link">&para;</a></h1>
+<h2 id="rag-agentes-y-apis-la-capa-tecnica-para-quienes-quieran-ir-mas-alla">RAG, agentes y APIs: la capa técnica para quienes quieran ir más allá<a class="headerlink" href="#rag-agentes-y-apis-la-capa-tecnica-para-quienes-quieran-ir-mas-alla" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Este módulo es una profundización opcional</p>
+<p>Todo lo que necesitas para usar IA de forma profesional ya lo cubrieron los módulos 1 a 4. Este módulo es para quienes quieran entender — y eventualmente construir — la infraestructura técnica que hay detrás de los asistentes y los flujos automáticos. Lo presentamos a través del prisma de AI-assisted development: no se escribe código a mano, se le describe al asistente lo que se necesita.</p>
+</div>
+<hr />
+<h2 id="1-rag-hacer-que-la-ia-lea-tus-documentos">1. RAG: hacer que la IA lea TUS documentos<a class="headerlink" href="#1-rag-hacer-que-la-ia-lea-tus-documentos" title="Permanent link">&para;</a></h2>
+<p>En el módulo 3 creaste un asistente con documentos usando plataformas como GPTs o Claude Projects. Eso funciona, pero tiene limitaciones: dependes del proveedor, no controlas cómo se indexa la información y no puedes conectarlo con tus propios sistemas.</p>
+<p>Un <strong>RAG</strong> (<em>Retrieval-Augmented Generation</em>) es la forma profesional de resolver esto. El concepto es sencillo:</p>
+<ol>
+<li><strong>Ingesta:</strong> tomas tus documentos (PDFs, Word, emails) y los divides en fragmentos.</li>
+<li><strong>Indexación:</strong> cada fragmento se convierte en una representación numérica (embedding) y se guarda en una base de datos vectorial.</li>
+<li><strong>Consulta:</strong> cuando haces una pregunta, se buscan los fragmentos más relevantes.</li>
+<li><strong>Generación:</strong> esos fragmentos se envían al modelo junto con tu pregunta, para que responda basándose en ellos.</li>
+</ol>
+<p>Es como tener un asistente que <strong>primero busca en tu archivador y luego te responde con lo que encontró</strong>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Observación práctica</p>
+<p>Lo que distingue un RAG útil de un RAG frustrante es la calidad de la indexación, no la potencia del modelo. Si los fragmentos están mal cortados o los documentos son demasiado genéricos, la búsqueda devuelve ruido. Empieza con documentos bien estructurados y fragmentos pequeños (300-500 palabras).</p>
+</div>
+<details class="example">
+<summary>Profundiza: ejemplo de flujo RAG</summary>
+<p>Con un AI coding assistant como Claude Code, puedes describir:</p>
+<p>"Quiero un sistema que lea todos los PDFs de la carpeta <code>informes/</code>, los indexe en una base vectorial local y me permita hacerles preguntas en lenguaje natural."</p>
+<p>El asistente generará el código necesario: carga de documentos, division en fragmentos, generación de embeddings (con OpenAI o con un modelo local), almacenamiento en una base como FAISS o LanceDB, y una interfaz de consulta.</p>
+<p>Tecnologías habituales:</p>
+<ul>
+<li><strong>Embeddings:</strong> OpenAI, Ollama (local), Sentence Transformers</li>
+<li><strong>Base vectorial:</strong> FAISS, LanceDB, Chroma, Pinecone</li>
+<li><strong>Frameworks:</strong> LangChain, LlamaIndex (opcionales — con AI coding assistants muchas veces es más directo ir sin framework)</li>
+</ul>
+</details>
+<hr />
+<h2 id="2-agentes-ia-que-decide-que-herramienta-usar">2. Agentes: IA que decide qué herramienta usar<a class="headerlink" href="#2-agentes-ia-que-decide-que-herramienta-usar" title="Permanent link">&para;</a></h2>
+<p>Un <strong>agente</strong> no es un modelo más inteligente. Es un modelo con <strong>permiso para actuar</strong>: puede elegir entre varias herramientas según lo que le pidas.</p>
+<p><strong>Ejemplo:</strong>
+- Le preguntas: "¿Qué dice el contrato sobre las penalizaciones?"
+  → El agente decide usar la herramienta "buscar en documentos" (RAG).
+- Le preguntas: "¿Cuál es el tipo de cambio EUR/USD hoy?"
+  → El agente decide usar la herramienta "buscar en web".</p>
+<p>El agente analiza tu instrucción, elige la herramienta adecuada, la ejecuta y te devuelve el resultado. Esto es lo que hay detrás de los "agentes de IA" de los que habla todo el mundo.</p>
+<p><strong>Aplicaciones prácticas:</strong>
+- Un asistente de proyecto que decide si buscar un dato en los informes internos o en el correo del cliente.
+- Un chatbot de soporte que primero consulta el RAG y, si no encuentra, escala a un humano.
+- Un gestor de tareas que clasifica la entrada y la redirige al flujo correcto.</p>
+<details class="example">
+<summary>Profundiza: cómo funciona un agente</summary>
+<p>El patrón básico de un agente:</p>
+<ol>
+<li>El modelo recibe tu instrucción.</li>
+<li>Analiza las herramientas disponibles (cada una tiene una descripción).</li>
+<li>Elige una y la ejecuta.</li>
+<li>Recibe el resultado y genera la respuesta final.</li>
+</ol>
+<p>Con AI coding assistants, puedes construir un agente describiendo:
+"Quiero un agente que tenga acceso a dos herramientas: buscar en mis documentos y buscar en la web. Que elija la correcta según la pregunta."</p>
+<p>Tecnologías habituales:</p>
+<ul>
+<li><strong>MCP (Model Context Protocol):</strong> el estándar para conectar herramientas al modelo.</li>
+<li><strong>Claude Agent SDK:</strong> framework de Anthropic para construir agentes.</li>
+<li><strong>LangGraph:</strong> framework de LangChain para agentes con flujo de estado.</li>
+</ul>
+</details>
+<hr />
+<h2 id="3-apis-conectar-tu-sistema-al-mundo">3. APIs: conectar tu sistema al mundo<a class="headerlink" href="#3-apis-conectar-tu-sistema-al-mundo" title="Permanent link">&para;</a></h2>
+<p>Una <strong>API</strong> es la forma de hacer que tu sistema sea accesible desde otros programas. En la práctica, si quieres que tu RAG o tu agente sea utilizable desde n8n, Make o cualquier otra herramienta, necesitas exponerlo como una API.</p>
+<p>El concepto es simple:
+- Creas un servicio que escucha peticiones en una URL.
+- Alguien (una persona, un flujo, otra aplicación) envía una pregunta a esa URL.
+- Tu sistema procesa la pregunta y devuelve la respuesta.</p>
+<details class="example">
+<summary>Profundiza: ejemplo con FastAPI</summary>
+<p>Con un AI coding assistant, puedes describir:</p>
+<p>"Quiero exponer mi RAG como una API. Que tenga un endpoint <code>/query</code> que reciba una pregunta y devuelva la respuesta en JSON."</p>
+<p>El asistente generará algo así:
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">fastapi</span><span class="w"> </span><span class="kn">import</span> <span class="n">FastAPI</span><span class="p">,</span> <span class="n">Query</span>
+<span class="n">app</span> <span class="o">=</span> <span class="n">FastAPI</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">&quot;RAG API&quot;</span><span class="p">)</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;/query&quot;</span><span class="p">)</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">query_docs</span><span class="p">(</span><span class="n">q</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="n">Query</span><span class="p">(</span><span class="o">...</span><span class="p">)):</span>
+    <span class="n">answer</span> <span class="o">=</span> <span class="n">rag_pipeline</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="n">q</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;question&quot;</span><span class="p">:</span> <span class="n">q</span><span class="p">,</span> <span class="s2">&quot;answer&quot;</span><span class="p">:</span> <span class="n">answer</span><span class="p">}</span>
+</code></pre></div></p>
+<p>Ejecutas con <code>python main.py</code> y ya tienes un servicio al que puedes llamar desde n8n con un nodo HTTP Request.</p>
+</details>
+<hr />
+<h2 id="4-lo-que-se-puede-construir-hoy">4. Lo que se puede construir hoy<a class="headerlink" href="#4-lo-que-se-puede-construir-hoy" title="Permanent link">&para;</a></h2>
+<p>Combinando RAG, agentes y APIs, un profesional con un AI coding assistant puede construir sistemas que antes requerían un equipo de desarrollo:</p>
+<ul>
+<li><strong>Búsqueda semántica sobre correos y documentos</strong> — todo indexado localmente, sin subir datos a la nube.</li>
+<li><strong>Asistente de proyecto</strong> que conoce los entregables, el contrato, las actas de reunión y los correos del cliente.</li>
+<li><strong>Sistema de alertas</strong> que monitoriza KPIs desde una base de datos y notifica cuando algo se desvía.</li>
+<li><strong>Dashboard conversacional</strong> donde preguntas en lenguaje natural sobre los datos de tu organización.</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Observación práctica</p>
+<p>La tentación es construir "el sistema completo" desde el principio. En la práctica, los sistemas que funcionan se construyen pieza a pieza: primero un RAG simple sobre 10 documentos, luego un agente que elige entre el RAG y otra fuente, luego una API para conectarlo con el flujo de n8n. Cada pieza se prueba antes de añadir la siguiente.</p>
+</div>
+<hr />
+<h2 id="5-publicar-y-compartir">5. Publicar y compartir<a class="headerlink" href="#5-publicar-y-compartir" title="Permanent link">&para;</a></h2>
+<p>Una vez que tienes un prototipo funcionando, las formas más comunes de compartirlo son:</p>
+<table>
+<thead>
+<tr>
+<th>Nivel</th>
+<th>Qué haces</th>
+<th>Cuándo usarlo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>GitHub</strong></td>
+<td>Subes el proyecto con README e instrucciones</td>
+<td>Para revisión o trabajo en equipo</td>
+</tr>
+<tr>
+<td><strong>API local</strong></td>
+<td>Lo expones como servicio en tu máquina</td>
+<td>Para conectarlo con n8n, Make o Zapier</td>
+</tr>
+<tr>
+<td><strong>Despliegue</strong></td>
+<td>Lo pones en un servidor (Render, Railway)</td>
+<td>Si necesitas acceso externo permanente</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Reglas esenciales:</strong>
+- Nunca publiques tu <code>.env</code> ni tus credenciales.
+- Usa datos de prueba o anonimizados en los ejemplos.
+- Documenta cómo replicarlo: qué instalar, qué configurar, cómo probar.</p>
+<div class="admonition warning">
+<p class="admonition-title">Alerta de privacidad</p>
+<p>Si despliegas un RAG con documentos reales en un servidor externo, esos documentos están fuera de tu control. Para datos sensibles, mantén todo local o usa infraestructura de tu organización.</p>
+</div>
+<hr />
+<h2 id="6-cierre-y-aprendizajes-clave">6. Cierre y aprendizajes clave<a class="headerlink" href="#6-cierre-y-aprendizajes-clave" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>RAG es la forma profesional</strong> de hacer que la IA responda sobre tus documentos, con control total sobre la indexación y la privacidad.</li>
+<li><strong>Los agentes</strong> añaden una capa de decisión: la IA elige qué herramienta usar según la pregunta.</li>
+<li><strong>Las APIs</strong> permiten conectar tu sistema con el resto del mundo.</li>
+<li><strong>Con AI coding assistants</strong>, todo esto se construye describiendo lo que necesitas, no escribiendo código desde cero.</li>
+<li><strong>La clave es ir pieza a pieza</strong>, probando cada componente antes de añadir el siguiente.</li>
+</ul>
+<div class="admonition abstract">
+<p class="admonition-title">Resumen del módulo</p>
+<p>Entiendes los tres pilares técnicos de un sistema de IA profesional: RAG (dar contexto), agentes (dar capacidad de acción) y APIs (dar acceso). Sabes que con un AI coding assistant puedes construir estos componentes sin programar desde cero, y conoces las decisiones de privacidad y arquitectura que implica cada uno.</p>
+</div>
+<hr />
+<div class="admonition info">
+<p class="admonition-title">Para profundizar</p>
+<ul>
+<li><a href="https://www.anthropic.com/engineering/building-effective-agents">Building Effective AI Agents — Anthropic</a> — Patrones de diseño de agentes desde la perspectiva del equipo de Anthropic.</li>
+<li><a href="https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf">A Practical Guide to Building Agents — OpenAI</a> — Guía oficial de OpenAI para agentes empresariales.</li>
+<li><a href="https://academy.langchain.com/">LangChain Academy</a> — Cursos estructurados sobre cadenas, RAG y agentes.</li>
+<li><a href="https://fastapi.tiangolo.com/">FastAPI Documentation</a> — Framework para crear APIs en Python.</li>
+<li><a href="https://modelcontextprotocol.io/introduction">Model Context Protocol</a> — Estándar para conectar modelos con herramientas externas.</li>
+<li><a href="https://youtu.be/lG7Uxts9SXs">LangChain Crash Course — freeCodeCamp</a> — Tutorial de 1h 40min con LLMs, prompts, tools y agentes.</li>
+</ul>
+</div>
+<hr />
+<p>En el <a href="../modulo-6-evaluar-y-escalar/">Módulo 6</a> veremos cómo evaluar, documentar y escalar lo que has construido para que funcione más allá de tu portátil.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
+        
+          
+          <a href="../modulo-4-ia-que-programa/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Módulo 4 – IA que programa por ti">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Módulo 4 – IA que programa por ti
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../modulo-6-evaluar-y-escalar/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Módulo 6 – Evaluar y escalar">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                Módulo 6 – Evaluar y escalar
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.sections", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "content.code.copy", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

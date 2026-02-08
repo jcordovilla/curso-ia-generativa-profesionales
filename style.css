@@ -136,7 +136,29 @@ h4, h5, h6 {
     border-left-color: var(--md-primary-fg-color--light);
 }
 
-/* Abstract admonition - used for glossary */
+/* Warning admonition - used for "Alerta de privacidad" */
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+    border-left-color: #d4a017;
+}
+
+.md-typeset .admonition.warning > .admonition-title,
+.md-typeset details.warning > summary {
+    background-color: rgba(212, 160, 23, 0.1);
+}
+
+/* Example admonition - used for "Profundiza" */
+.md-typeset .admonition.example,
+.md-typeset details.example {
+    border-left-color: var(--md-accent-fg-color);
+}
+
+.md-typeset .admonition.example > .admonition-title,
+.md-typeset details.example > summary {
+    background-color: var(--md-accent-fg-color--transparent);
+}
+
+/* Abstract admonition - used for module summaries */
 .md-typeset .admonition.abstract,
 .md-typeset details.abstract {
     border-left-color: var(--md-primary-fg-color);
