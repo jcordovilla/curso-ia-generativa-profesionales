@@ -119,12 +119,12 @@ Además:
 
 Usa esta lista cada vez que vayas a compartir un asistente:
 
-- [ ] He revisado los documentos y no contienen datos sensibles.
-- [ ] El asistente tiene instrucciones claras de no inventar.
-- [ ] Indica qué hacer si la información no está.
-- [ ] Sé exactamente con quién lo voy a compartir.
-- [ ] He probado preguntas reales del equipo.
-- [ ] He documentado (aunque sea en 5 líneas) qué hace este asistente y qué documentos usa.
+- He revisado los documentos y no contienen datos sensibles.
+- El asistente tiene instrucciones claras de no inventar.
+- Indica qué hacer si la información no está.
+- Sé exactamente con quién lo voy a compartir.
+- He probado preguntas reales del equipo.
+- He documentado (aunque sea en 5 líneas) qué hace este asistente y qué documentos usa.
 
 Si marcas todo, ya tienes algo enseñable a tu organización.
 

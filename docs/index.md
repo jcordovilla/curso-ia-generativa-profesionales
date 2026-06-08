@@ -17,7 +17,7 @@ usefulness: 0.9
 
 ## Sobre el autor
 
-Soy **José Cordovilla**, consultor senior de infraestructuras con más de 15 años de experiencia en gestión de proyectos internacionales. En los últimos dos años he recorrido el camino completo con la IA generativa: desde las primeras conversaciones con ChatGPT hasta construir un sistema profesional completo con agentes, búsqueda semántica sobre mis propios documentos y herramientas conectadas a mi correo y mis archivos de trabajo. Y lo hice sin ser programador. Este curso recoge lo que aprendí por el camino: lo que funciona, lo que no, las trampas y los atajos reales.
+Soy **José Cordovilla**, ingeniero especializado en financiación y gestión de infraestructuras. En los últimos dos años he recorrido el camino completo con la IA generativa: desde las primeras conversaciones con ChatGPT hasta construir un sistema profesional completo con agentes, búsqueda semántica sobre mis propios documentos y herramientas conectadas a mi correo y mis archivos de trabajo. Y lo hice sin ser programador. Este curso recoge lo que aprendí por el camino: lo que funciona, lo que no, las trampas y los atajos reales.
 
 ---
 

@@ -32,10 +32,10 @@ Copia esta plantilla y rellénala con tu proyecto. No hace falta que esté perfe
 **Destinatario:** ¿Quién va a usar el resultado? ¿Dirección? ¿Equipo comercial? ¿Operaciones?
 
 **Patrón de IA:** *(elige uno o varios)*
-- [ ] Resumir
-- [ ] Clasificar
-- [ ] Extraer
-- [ ] Conversar
+- Resumir
+- Clasificar
+- Extraer
+- Conversar
 
 **Entradas:**
 - ¿De dónde vienen los datos? *(correo, CRM, SharePoint, formulario…)*
@@ -64,10 +64,10 @@ Copia esta plantilla y rellénala con tu proyecto. No hace falta que esté perfe
 - Otros servicios: *(Google Sheets, Slack, CRM…)*
 
 **Credenciales necesarias:**
-- [ ] API key del modelo de IA
-- [ ] Conexión al servicio de entrada *(email, CRM…)*
-- [ ] Conexión al servicio de salida *(Slack, Sheets…)*
-- [ ] Otras: ___
+- API key del modelo de IA
+- Conexión al servicio de entrada *(email, CRM…)*
+- Conexión al servicio de salida *(Slack, Sheets…)*
+- Otras: ___
 
 **Métricas de éxito:**
 1. Uso: *(ejecuciones esperadas por semana)*

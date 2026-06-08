@@ -27,24 +27,24 @@ Este es el módulo que marca la diferencia entre un experimento que impresiona u
 Cada vez que cambies un prompt, una conexión, un documento o una credencial, pasa por esta lista:
 
 **Entrada:**
-- [ ] El flujo sigue recibiendo el dato (email, formulario, webhook).
-- [ ] La conexión sigue autorizada (no ha caducado la cuenta).
-- [ ] Los filtros funcionan (no envía a la IA contenido que no debería).
+- El flujo sigue recibiendo el dato (email, formulario, webhook).
+- La conexión sigue autorizada (no ha caducado la cuenta).
+- Los filtros funcionan (no envía a la IA contenido que no debería).
 
 **Procesamiento IA:**
-- [ ] La IA responde en el idioma correcto.
-- [ ] Devuelve el formato esperado (lista, párrafo, JSON).
-- [ ] Responde algo razonable con un caso real.
-- [ ] Ante una pregunta que no puede responder, lo indica en vez de inventar.
+- La IA responde en el idioma correcto.
+- Devuelve el formato esperado (lista, párrafo, JSON).
+- Responde algo razonable con un caso real.
+- Ante una pregunta que no puede responder, lo indica en vez de inventar.
 
 **Salida:**
-- [ ] El resultado llega al canal/equipo correcto.
-- [ ] Se guarda en el sistema previsto (CRM, Sheets, Slack).
-- [ ] Se ve quién o qué lo ha generado (trazabilidad mínima).
+- El resultado llega al canal/equipo correcto.
+- Se guarda en el sistema previsto (CRM, Sheets, Slack).
+- Se ve quién o qué lo ha generado (trazabilidad mínima).
 
 **Errores:**
-- [ ] Si la IA falla, el flujo no se queda colgado sin avisar.
-- [ ] Existe algún sitio donde se ve el error (log, email de aviso, historial de la plataforma).
+- Si la IA falla, el flujo no se queda colgado sin avisar.
+- Existe algún sitio donde se ve el error (log, email de aviso, historial de la plataforma).
 
 > [!warning] Alerta de privacidad
 > Al probar, usa datos de ejemplo o anonimizados. No envíes datos reales de clientes a través de un flujo que todavía estás depurando — un error de configuración podría enviar información sensible a un canal equivocado.
