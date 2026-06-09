@@ -1,6 +1,6 @@
 ---
 date: "2026-02-08"
-title: "Módulo 2 – Automatizar con IA"
+title: "Módulo 2 - Automatizar con IA"
 tags:
   - lang/es
   - topic/ai
@@ -9,13 +9,15 @@ tags:
 usefulness: 0.9
 ---
 
-# Módulo 2 – Automatizar con IA
+# Módulo 2 - Automatizar con IA
 
 ## Tu primer flujo: de los datos a un resultado útil
 
 Ya entiendes qué es la IA generativa, qué modelos existen y qué puedes compartir con ellos. Ahora vamos a dar el paso que la mayoría quiere ver desde el principio: **construir un flujo real que procese información con IA y la entregue a tu equipo o a tu sistema**.
 
 El patrón que aprenderás aquí es el más repetido en el trabajo con IA: **algo llega, la IA lo procesa y alguien o algún sistema lo recibe**. Es la base sobre la que construirás todo lo demás.
+
+Para que no quede abstracto: uno de los primeros flujos que monté para mí mismo lee cada mañana varios boletines y alertas de noticias, descarta el ruido, puntúa lo que tiene que ver con infraestructuras y me deja un resumen ordenado en el correo antes de desayunar. Entrada (los boletines), IA (filtra y puntúa), salida (el correo). Ese es todo el secreto, y es justo lo que vas a construir en este módulo.
 
 ---
 
@@ -28,6 +30,13 @@ Casi toda automatización con IA se reduce a tres bloques:
 3. **Salida:** el resultado se envía a un canal (Slack, Teams, email), se guarda en un CRM o se escribe en una hoja de cálculo.
 
 **Si puedes dibujar estos tres bloques para tu caso de uso, puedes construirlo.** Las herramientas visuales como n8n, Make o Zapier te permiten conectar estos bloques sin escribir código.
+
+> [!tip] ¿Merece la pena automatizar esto?
+> Antes de montar nada, pasa tu idea por cuatro preguntas. Si falla la primera, espera:
+> - **¿Es repetitivo?** Una tarea que haces una vez al trimestre rara vez compensa el esfuerzo de automatizarla.
+> - **¿Es estable?** Si el proceso cambia cada semana, automatizarlo es construir sobre arena.
+> - **¿Tolera algún error?** La IA acierta mucho, aunque no siempre. En tareas de cero tolerancia (nóminas, cláusulas legales firmes), el resultado lo valida siempre una persona.
+> - **¿Sabes describir la entrada y la salida?** Si no tienes claro qué entra ni qué tiene que salir, todavía es momento de pensar, no de automatizar.
 
 **Ejemplos por sector:**
 
@@ -49,7 +58,7 @@ Elige qué activa el flujo: "cuando llega un email", "cuando se crea una fila", 
 
 ### Paso 2: obtener el contenido
 
-Extraes el texto que quieres procesar: el cuerpo del email, la descripción del ticket, el mensaje del formulario. Verifica que el campo no venga vacío — si no hay contenido, no tiene sentido llamar a la IA.
+Extraes el texto que quieres procesar: el cuerpo del email, la descripción del ticket, el mensaje del formulario. Verifica que el campo no venga vacío: si no hay contenido, no tiene sentido llamar a la IA.
 
 ### Paso 3: llamada a la IA
 
@@ -85,13 +94,16 @@ Las reglas:
 - **Di qué hacer si falta información:** "Si no hay fecha, indícalo."
 - **Di para quién es:** "El resumen lo leerá un jefe de proyecto con 30 segundos."
 
-¿Por qué? Porque el resultado lo va a leer otra persona o lo va a consumir otra herramienta. **No quieres respuestas creativas, quieres respuestas previsibles.**
+¿Por qué? Porque el resultado lo va a leer otra persona o lo va a consumir otra herramienta. **En un flujo quieres respuestas previsibles**: la sorpresa, que en una conversación es una virtud, aquí es un fallo.
+
+> [!tip] El contexto manda
+> Hay un principio que está por encima de cualquier truco de prompt: el modelo solo sabe lo que le pones delante. Puedes pulir la instrucción todo lo que quieras, pero si no le das el material adecuado, responde a ciegas. Antes de afinar **cómo** pides, asegúrate de haber reunido **qué** le das: el documento correcto, un ejemplo de cómo quieres la salida, el dato que falta. La mitad de los malos resultados nacen de un contexto pobre antes que de un prompt pobre.
 
 === "n8n"
     En n8n, el bloque "AI Agent" o "OpenAI" te permite pegar el prompt directamente. Usa `{{ $json.campo }}` para insertar variables del flujo.
 
 === "Make"
-    En Make, el módulo "OpenAI — Create a Completion" te pide el prompt como texto. Usa los campos dinámicos del escenario para insertar variables.
+    En Make, el módulo "OpenAI: Create a Completion" te pide el prompt como texto. Usa los campos dinámicos del escenario para insertar variables.
 
 === "Zapier"
     En Zapier, el paso "ChatGPT" tiene un campo de instrucciones donde defines el prompt con variables del trigger.
@@ -142,7 +154,14 @@ Un flujo que funciona una vez no es un flujo útil. Para que pase de "mi experim
 
 ---
 
-## 7. Cierre y aprendizajes clave
+## 7. Aplícalo
+
+> [!example] Aplícalo
+> Coge la tarea repetitiva que identificaste en el módulo anterior y dibújala en tres cajas: qué entra, qué hace la IA, dónde va el resultado. Si puedes dibujarla, puedes construirla. Monta una primera versión en n8n o Make con un único caso real y un prompt que diga el papel, el formato y el idioma. No busques que quede perfecto: busca que funcione una vez de principio a fin. Lo demás es pulir.
+
+---
+
+## 8. Cierre y aprendizajes clave
 
 - **El patrón entrada → IA → salida es la base de toda automatización con IA.** Si lo dominas, solo cambias las piezas.
 - **El prompt es lo que marca la diferencia**, no la plataforma.
@@ -155,11 +174,11 @@ Un flujo que funciona una vez no es un flujo útil. Para que pase de "mi experim
 ---
 
 > [!info] Para profundizar
-> - [What We Learned from a Year of Building with LLMs](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/) — Lecciones de O'Reilly sobre prompting y errores en producción.
-> - [n8n Documentation](https://docs.n8n.io/) — Plataforma open-source de automatización visual con integraciones de IA.
-> - [Make Help Center](https://www.make.com/en/help) — Alternativa visual para flujos de automatización.
-> - [Prompt Engineering Guide](https://www.promptingguide.ai/) — Guía completa de DAIR.AI sobre técnicas de prompting.
-> - [The ULTIMATE n8n RAG AI Agent Template](https://www.youtube.com/watch?v=T2QWhXpnT5I) — Tutorial paso a paso de un agente RAG en n8n.
+> - [What We Learned from a Year of Building with LLMs](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/): Lecciones de O'Reilly sobre prompting y errores en producción.
+> - [n8n Documentation](https://docs.n8n.io/): Plataforma open-source de automatización visual con integraciones de IA.
+> - [Make Help Center](https://www.make.com/en/help): Alternativa visual para flujos de automatización.
+> - [Prompt Engineering Guide](https://www.promptingguide.ai/): Guía completa de DAIR.AI sobre técnicas de prompting.
+> - [The ULTIMATE n8n RAG AI Agent Template](https://www.youtube.com/watch?v=T2QWhXpnT5I): Tutorial paso a paso de un agente RAG en n8n.
 
 ---
 

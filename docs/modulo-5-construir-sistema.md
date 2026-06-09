@@ -1,6 +1,6 @@
 ---
 date: "2026-02-08"
-title: "Módulo 5 – Construir tu sistema"
+title: "Módulo 5 - Construir tu sistema"
 tags:
   - lang/es
   - topic/ai
@@ -9,12 +9,12 @@ tags:
 usefulness: 0.9
 ---
 
-# Módulo 5 – Construir tu sistema
+# Módulo 5 - Construir tu sistema
 
 ## RAG, agentes y APIs: la capa técnica para quienes quieran ir más allá
 
 > [!note] Este módulo es una profundización opcional
-> Todo lo que necesitas para usar IA de forma profesional ya lo cubrieron los módulos 1 a 4. Este módulo es para quienes quieran entender — y eventualmente construir — la infraestructura técnica que hay detrás de los asistentes y los flujos automáticos. Lo presentamos a través del prisma de AI-assisted development: no se escribe código a mano, se le describe al asistente lo que se necesita.
+> Todo lo que necesitas para usar IA de forma profesional ya lo cubrieron los módulos 1 a 4. Este módulo es para quienes quieran entender (y eventualmente construir) la infraestructura técnica que hay detrás de los asistentes y los flujos automáticos. Lo presentamos a través del prisma de AI-assisted development: no se escribe código a mano, se le describe al asistente lo que se necesita.
 
 ---
 
@@ -39,18 +39,18 @@ Es como tener un asistente que **primero busca en tu archivador y luego te respo
 >
 > "Quiero un sistema que lea todos los PDFs de la carpeta `informes/`, los indexe en una base vectorial local y me permita hacerles preguntas en lenguaje natural."
 >
-> El asistente generará el código necesario: carga de documentos, division en fragmentos, generación de embeddings (con OpenAI o con un modelo local), almacenamiento en una base como FAISS o LanceDB, y una interfaz de consulta.
+> El asistente generará el código necesario: carga de documentos, división en fragmentos, generación de embeddings (con OpenAI o con un modelo local), almacenamiento en una base como FAISS o LanceDB, y una interfaz de consulta.
 >
 > Tecnologías habituales:
 > - **Embeddings:** OpenAI, Ollama (local), Sentence Transformers
 > - **Base vectorial:** FAISS, LanceDB, Chroma, Pinecone
-> - **Frameworks:** LangChain, LlamaIndex (opcionales — con AI coding assistants muchas veces es más directo ir sin framework)
+> - **Frameworks:** LangChain, LlamaIndex (opcionales: con AI coding assistants muchas veces es más directo ir sin framework)
 
 ---
 
 ## 2. Agentes: IA que decide qué herramienta usar
 
-Un **agente** no es un modelo más inteligente. Es un modelo con **permiso para actuar**: puede elegir entre varias herramientas según lo que le pidas.
+Un **agente** es un modelo con **permiso para actuar**: puede elegir entre varias herramientas según lo que le pidas. Su valor está en lo que puede hacer, no en cuánto sabe.
 
 **Ejemplo:**
 - Le preguntas: "¿Qué dice el contrato sobre las penalizaciones?"
@@ -116,13 +116,16 @@ El concepto es simple:
 
 Combinando RAG, agentes y APIs, un profesional con un AI coding assistant puede construir sistemas que antes requerían un equipo de desarrollo:
 
-- **Búsqueda semántica sobre correos y documentos** — todo indexado localmente, sin subir datos a la nube.
+- **Búsqueda semántica sobre correos y documentos**: todo indexado localmente, sin subir datos a la nube.
 - **Asistente de proyecto** que conoce los entregables, el contrato, las actas de reunión y los correos del cliente.
 - **Sistema de alertas** que monitoriza KPIs desde una base de datos y notifica cuando algo se desvía.
 - **Dashboard conversacional** donde preguntas en lenguaje natural sobre los datos de tu organización.
 
 > [!tip] Observación práctica
 > La tentación es construir "el sistema completo" desde el principio. En la práctica, los sistemas que funcionan se construyen pieza a pieza: primero un RAG simple sobre 10 documentos, luego un agente que elige entre el RAG y otra fuente, luego una API para conectarlo con el flujo de n8n. Cada pieza se prueba antes de añadir la siguiente.
+
+> [!tip] Lo viví así
+> Esto no es teoría para mí: el sistema que uso a diario es exactamente esto. Una búsqueda semántica sobre miles de documentos y correos propios, indexados en local, con agentes que deciden dónde buscar y un par de APIs que conectan las piezas. Lo fui construyendo pieza a pieza con un asistente de código, probando cada componente por separado antes de unirlo al siguiente. Nada de esto requirió formación de programador; sí mucha paciencia y método.
 
 ---
 
@@ -146,7 +149,14 @@ Una vez que tienes un prototipo funcionando, las formas más comunes de comparti
 
 ---
 
-## 6. Cierre y aprendizajes clave
+## 6. Aplícalo
+
+> [!example] Aplícalo
+> Si te pica la curiosidad técnica, pídele a un asistente de código esto: "toma los PDF de esta carpeta, indéxalos en una base vectorial local y déjame hacerles preguntas en lenguaje natural". Tendrás un RAG mínimo funcionando sobre tus propios documentos en una tarde. No te preocupes por entender cada línea: preocúpate de comprobar si responde bien a tres preguntas cuya respuesta ya conoces. Esa prueba vale más que cualquier explicación teórica.
+
+---
+
+## 7. Cierre y aprendizajes clave
 
 - **RAG es la forma profesional** de hacer que la IA responda sobre tus documentos, con control total sobre la indexación y la privacidad.
 - **Los agentes** añaden una capa de decisión: la IA elige qué herramienta usar según la pregunta.
@@ -160,12 +170,12 @@ Una vez que tienes un prototipo funcionando, las formas más comunes de comparti
 ---
 
 > [!info] Para profundizar
-> - [Building Effective AI Agents — Anthropic](https://www.anthropic.com/engineering/building-effective-agents) — Patrones de diseño de agentes desde la perspectiva del equipo de Anthropic.
-> - [A Practical Guide to Building Agents — OpenAI](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) — Guía oficial de OpenAI para agentes empresariales.
-> - [LangChain Academy](https://academy.langchain.com/) — Cursos estructurados sobre cadenas, RAG y agentes.
-> - [FastAPI Documentation](https://fastapi.tiangolo.com/) — Framework para crear APIs en Python.
-> - [Model Context Protocol](https://modelcontextprotocol.io/introduction) — Estándar para conectar modelos con herramientas externas.
-> - [LangChain Crash Course — freeCodeCamp](https://youtu.be/lG7Uxts9SXs) — Tutorial de 1h 40min con LLMs, prompts, tools y agentes.
+> - [Building Effective AI Agents: Anthropic](https://www.anthropic.com/engineering/building-effective-agents): Patrones de diseño de agentes desde la perspectiva del equipo de Anthropic.
+> - [A Practical Guide to Building Agents: OpenAI](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf): Guía oficial de OpenAI para agentes empresariales.
+> - [LangChain Academy](https://academy.langchain.com/): Cursos estructurados sobre cadenas, RAG y agentes.
+> - [FastAPI Documentation](https://fastapi.tiangolo.com/): Framework para crear APIs en Python.
+> - [Model Context Protocol](https://modelcontextprotocol.io/introduction): Estándar para conectar modelos con herramientas externas.
+> - [LangChain Crash Course: freeCodeCamp](https://youtu.be/lG7Uxts9SXs): Tutorial de 1h 40min con LLMs, prompts, tools y agentes.
 
 ---
 

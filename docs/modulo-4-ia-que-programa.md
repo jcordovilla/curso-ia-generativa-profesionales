@@ -1,6 +1,6 @@
 ---
 date: "2026-02-08"
-title: "Módulo 4 – IA que programa por ti"
+title: "Módulo 4 - IA que programa por ti"
 tags:
   - lang/es
   - topic/ai
@@ -9,26 +9,29 @@ tags:
 usefulness: 0.9
 ---
 
-# Módulo 4 – IA que programa por ti
+# Módulo 4 - IA que programa por ti
 
 ## El cambio de paradigma que ningún curso te ha contado
 
 Hasta ahora hemos trabajado con herramientas que ya existen: plataformas no-code, GPTs personalizados, flujos visuales. Todo eso sigue siendo válido. Pero hay algo que ha cambiado de forma radical en el último año y que la mayoría de cursos de IA todavía no recoge: **la frontera entre "saber programar" y "no saber programar" se ha desdibujado**.
 
-Esto no es una exageración ni una promesa de marketing. Es un cambio real que afecta directamente a lo que un profesional puede hacer por sí mismo.
+Es un cambio real que afecta directamente a lo que un profesional puede hacer por sí mismo, por mucho que el sector lo envuelva en lenguaje de marketing.
 
 ---
 
 ## 1. Qué ha cambiado
 
-Hasta hace poco, si querías construir una herramienta propia — un script que leyese tus correos y te hiciera un resumen, un sistema de búsqueda sobre tus documentos, un flujo que conectase tu base de datos con un modelo de IA — necesitabas aprender a programar. Semanas o meses de Python, frameworks, configuraciones. O pagarle a alguien que lo hiciera.
+Hasta hace poco, si querías construir una herramienta propia (un script que leyese tus correos y te hiciera un resumen, un sistema de búsqueda sobre tus documentos, un flujo que conectase tu base de datos con un modelo de IA), necesitabas aprender a programar. Semanas o meses de Python, frameworks, configuraciones. O pagarle a alguien que lo hiciera.
 
 Hoy existen los **AI coding assistants**: herramientas como Claude Code, Cursor o GitHub Copilot que escriben código a partir de lo que les describes en lenguaje natural. Tú dices qué necesitas; la IA genera el código, lo ejecuta, corrige los errores y te entrega algo funcional.
 
-Esto no significa que programar sea irrelevante. Significa que **la barrera de entrada ha bajado radicalmente**. Un profesional con criterio y contexto de negocio puede pasar de "tengo una idea" a "tengo un prototipo funcionando" sin escribir código desde cero.
+Programar sigue importando, pero **la barrera de entrada ha bajado radicalmente**. Un profesional con criterio y contexto de negocio puede pasar de "tengo una idea" a "tengo un prototipo funcionando" sin escribir código desde cero.
 
 > [!tip] Observación práctica
-> La mayoría de profesionales que fracasan intentando automatizar con IA no fracasan por falta de inteligencia ni de esfuerzo. Fracasan porque se enfrentan a frameworks como LangChain con tutoriales de hace seis meses que ya no funcionan. Con un AI coding assistant, el mismo resultado se consigue en días, no en semanas. La diferencia no es la persona, es la herramienta.
+> La mayoría de profesionales que fracasan intentando automatizar con IA fracasan por una razón concreta: se enfrentan a frameworks como LangChain con tutoriales de hace seis meses que ya no funcionan. Con un asistente de código, el mismo resultado se consigue en días en vez de semanas. Lo que marca la diferencia es la herramienta, no el talento de la persona.
+
+> [!tip] Lo viví así
+> Cuento esto porque lo he vivido. Empecé, como casi todos, usando la IA en el navegador para preguntas sueltas. En algún momento quise que leyera mi correo de verdad, que buscara en mis notas, que me preparara las reuniones. Con un asistente de código fui montando, pieza a pieza y sin ser programador, conectores a mi correo y mis documentos, asistentes que me sintetizan información y pequeños programas que se ocupan de lo tedioso. No salió a la primera ni a la décima: reconstruí casi todo varias veces. Pero el salto, de "uso ChatGPT" a "tengo un sistema que trabaja conmigo", es real y está al alcance de cualquiera con criterio y paciencia.
 
 ---
 
@@ -63,13 +66,13 @@ Tú no necesitas entender cada línea de código. Necesitas saber **qué pedirle
 
 Hay un segundo cambio de paradigma que viene de la mano del primero: **MCP (Model Context Protocol)**.
 
-MCP es un estándar abierto creado por Anthropic que permite a los modelos de IA conectarse con herramientas externas: tu correo electrónico, tus documentos, tu base de datos, tu calendario, tu CRM.
+MCP es un estándar abierto que permite a los modelos de IA conectarse con herramientas externas: tu correo electrónico, tus documentos, tu base de datos, tu calendario, tu CRM. Lo que empezó como una propuesta de Anthropic se ha convertido en un estándar que adoptan los principales proveedores, así que aprenderlo hoy es una apuesta segura.
 
-**Por qué es importante:** antes, cada integración entre la IA y una herramienta requería programación a medida. Con MCP, las conexiones se estandarizan. Un modelo de IA que soporte MCP puede usar cualquier servidor MCP disponible — y ya hay cientos, desde Google Drive hasta Slack, Notion, bases de datos SQL y muchos más.
+**Por qué es importante:** antes, cada integración entre la IA y una herramienta requería programación a medida. Con MCP, las conexiones se estandarizan. Un modelo de IA que soporte MCP puede usar cualquier servidor MCP disponible: y ya hay cientos, desde Google Drive hasta Slack, Notion, bases de datos SQL y muchos más.
 
 **En la práctica esto significa:**
 
-- Puedes tener un asistente que lee tus correos, busca en tus documentos y escribe informes — todo conectado mediante MCP.
+- Puedes tener un asistente que lee tus correos, busca en tus documentos y escribe informes: todo conectado mediante MCP.
 - No necesitas programar cada conexión desde cero.
 - El ecosistema crece rápidamente: lo que hoy no existe, probablemente existirá en meses.
 
@@ -83,8 +86,8 @@ MCP es un estándar abierto creado por Anthropic que permite a los modelos de IA
 > Piensa en ello como un enchufe universal: en vez de un cable distinto para cada electrodoméstico, un estándar que funciona para todo.
 >
 > Recursos:
-> - [Model Context Protocol — Documentación oficial](https://modelcontextprotocol.io/introduction)
-> - [MCP Servers — Repositorio comunitario](https://github.com/modelcontextprotocol/servers)
+> - [Model Context Protocol: Documentación oficial](https://modelcontextprotocol.io/introduction)
+> - [MCP Servers: Repositorio comunitario](https://github.com/modelcontextprotocol/servers)
 
 ---
 
@@ -145,7 +148,7 @@ Este cambio de paradigma tiene consecuencias prácticas para cómo trabajas y c�
 
 ## 7. El ejemplo completo: de la idea al sistema
 
-Veamos cómo se ve un proyecto típico de principio a fin, usando las herramientas de este módulo:
+El ejemplo que sigue no es hipotético: es, más o menos, cómo nació el sistema que uso hoy a diario. Veamos cómo se ve un proyecto así de principio a fin, con las herramientas de este módulo:
 
 **La idea:** "Quiero que cada lunes mi IA lea los correos de la semana pasada y me genere un resumen por proyecto."
 
@@ -164,7 +167,7 @@ Veamos cómo se ve un proyecto típico de principio a fin, usando las herramient
 4. Revisas el resultado, pides ajustes ("hazlo más conciso", "añade las fechas").
 5. Resultado: prototipo funcionando en una tarde.
 
-Luego puedes añadir MCP para que el asistente tenga acceso permanente a tu correo, y un cron job para que se ejecute cada lunes. Lo que antes era un proyecto de semanas se convierte en una sesión de trabajo.
+Luego puedes añadir MCP para que el asistente tenga acceso permanente a tu correo, y un programador horario para que se ejecute cada lunes. Lo que antes era un proyecto de semanas se convierte en una sesión de trabajo. Eso fue, casi literalmente, mi primer proyecto serio con un asistente de código. El segundo ya fue más ambicioso, y cada uno me costó menos que el anterior.
 
 ---
 
@@ -172,7 +175,7 @@ Luego puedes añadir MCP para que el asistente tenga acceso permanente a tu corr
 
 Hay una tercera pieza del puzle que complementa a las dos anteriores: los **modelos locales**.
 
-Herramientas como **Ollama** o **LM Studio** permiten ejecutar modelos de IA directamente en tu ordenador, sin enviar datos a ningún servidor externo. Modelos como Llama 3, Mistral o Qwen funcionan razonablemente bien para muchas tareas y son completamente privados.
+Herramientas como **Ollama** o **LM Studio** permiten ejecutar modelos de IA directamente en tu ordenador, sin enviar datos a ningún servidor externo. Modelos como Llama 4, Gemma 4, Mistral o Qwen 3 funcionan razonablemente bien para muchas tareas y son completamente privados.
 
 **Cuándo usarlos:**
 - Cuando trabajas con datos sensibles que no pueden salir de tu máquina.
@@ -180,20 +183,27 @@ Herramientas como **Ollama** o **LM Studio** permiten ejecutar modelos de IA dir
 - Cuando necesitas que el sistema funcione sin conexión a internet.
 
 **Cuándo no son suficientes:**
-- Para tareas que requieren el máximo rendimiento (GPT-4o, Claude Opus siguen siendo superiores).
+- Para tareas que requieren el máximo rendimiento (GPT-5.5, Claude Opus 4.8 siguen siendo superiores).
 - Para procesamiento masivo de documentos (los modelos locales son más lentos).
 
 > [!example]- Profundiza: primeros pasos con Ollama
 > 1. Instala Ollama: [ollama.com](https://ollama.com)
-> 2. Descarga un modelo: `ollama pull llama3.2`
-> 3. Ejecuta: `ollama run llama3.2`
+> 2. Descarga un modelo: `ollama pull qwen3` (o el que prefieras: `llama4`, `gemma3`, `mistral`; los nombres cambian cada pocos meses, consulta el catálogo en ollama.com)
+> 3. Ejecuta: `ollama run qwen3`
 > 4. Ya tienes un modelo local funcionando en tu terminal.
 >
 > Puedes conectarlo con AI coding assistants y con servidores MCP para tener un sistema completamente local.
 
 ---
 
-## 9. Cierre y aprendizajes clave
+## 9. Aplícalo
+
+> [!example] Aplícalo
+> No hace falta que construyas nada todavía. Abre un asistente de código (Claude Code o Cursor tienen versiones de prueba) y descríbele en una frase una tarea pequeña y real: "lee este archivo de texto con notas de reunión y sácame una lista de tareas con responsable". Mira cómo genera el código, lo ejecuta y corrige sus propios errores. Lo que buscas con esto es perderle el miedo a la herramienta y entender qué se siente al describir en lugar de programar. El resultado da igual.
+
+---
+
+## 10. Cierre y aprendizajes clave
 
 - **La frontera entre programar y no programar se ha desdibujado.** Los AI coding assistants permiten construir herramientas describiendo lo que necesitas.
 - **MCP estandariza las conexiones** entre la IA y tus herramientas de trabajo.
@@ -207,11 +217,11 @@ Herramientas como **Ollama** o **LM Studio** permiten ejecutar modelos de IA dir
 ---
 
 > [!info] Para profundizar
-> - [Claude Code — Documentación oficial](https://docs.anthropic.com/en/docs/claude-code/overview) — Referencia completa del AI coding assistant de Anthropic.
-> - [Cursor — Editor con IA integrada](https://www.cursor.com/) — Editor de código con IA para construir software conversacionalmente.
-> - [Model Context Protocol — Documentación oficial](https://modelcontextprotocol.io/introduction) — Especificación del estándar MCP para conectar IA con herramientas.
-> - [Ollama — Modelos locales](https://ollama.com/) — Ejecuta modelos de IA en tu ordenador sin enviar datos a terceros.
-> - [Ethan Mollick — "What just happened with AI is stunning"](https://www.oneusefulthing.org/) — Blog del profesor de Wharton con análisis accesible sobre el impacto real de la IA.
+> - [Claude Code: Documentación oficial](https://docs.anthropic.com/en/docs/claude-code/overview): Referencia completa del AI coding assistant de Anthropic.
+> - [Cursor: Editor con IA integrada](https://www.cursor.com/): Editor de código con IA para construir software conversacionalmente.
+> - [Model Context Protocol: Documentación oficial](https://modelcontextprotocol.io/introduction): Especificación del estándar MCP para conectar IA con herramientas.
+> - [Ollama: Modelos locales](https://ollama.com/): Ejecuta modelos de IA en tu ordenador sin enviar datos a terceros.
+> - [Ethan Mollick: "What just happened with AI is stunning"](https://www.oneusefulthing.org/): Blog del profesor de Wharton con análisis accesible sobre el impacto real de la IA.
 
 ---
 

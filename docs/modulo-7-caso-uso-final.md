@@ -1,6 +1,6 @@
 ---
 date: "2026-02-08"
-title: "Módulo 7 – Tu caso de uso"
+title: "Módulo 7 - Tu caso de uso"
 tags:
   - lang/es
   - topic/ai
@@ -9,17 +9,17 @@ tags:
 usefulness: 0.9
 ---
 
-# Módulo 7 – Tu caso de uso
+# Módulo 7 - Tu caso de uso
 
 ## Diseñar, documentar y ejecutar tu propio proyecto
 
-Este es el módulo de cierre. No es teórico: es una plantilla de trabajo para que diseñes tu propio caso de uso de principio a fin, con toda la información necesaria para implementarlo tú mismo o entregarlo a un equipo técnico.
+Este es el módulo de cierre, y es puro trabajo de mesa: una plantilla para que diseñes tu propio caso de uso de principio a fin, con toda la información necesaria para implementarlo tú mismo o entregarlo a un equipo técnico.
 
 ---
 
 ## 1. Plantilla completa de caso de uso
 
-Copia esta plantilla y rellénala con tu proyecto. No hace falta que esté perfecto al primer intento — es un documento vivo que irás refinando.
+Copia esta plantilla y rellénala con tu proyecto. No hace falta que esté perfecto al primer intento: es un documento vivo que irás refinando.
 
 ---
 
@@ -43,7 +43,7 @@ Copia esta plantilla y rellénala con tu proyecto. No hace falta que esté perfe
 - ¿Con qué frecuencia llegan? *(continuo, diario, semanal…)*
 
 **Procesamiento IA:**
-- ¿Qué modelo usarás? *(GPT-4o, Claude Sonnet, modelo local…)*
+- ¿Qué modelo usarás? *(GPT-5.5, Claude Sonnet 4.6, modelo local…)*
 - ¿Cuál es el prompt? *(escríbelo completo, con rol, formato, idioma y comportamiento ante información faltante)*
 - ¿Necesita acceso a documentos? *(si es así, ¿cuáles?)*
 
@@ -102,16 +102,16 @@ Con esta información, el equipo técnico no tiene que adivinar nada.
 La IA generativa evoluciona rápidamente. Estas son las tendencias que vale la pena seguir:
 
 ### Modelos locales cada vez más capaces
-Modelos como Llama 3, Mistral y Qwen ya compiten con los modelos comerciales en muchas tareas. Ejecutarlos en tu máquina da privacidad total y elimina costes de API. La brecha de calidad se reduce cada trimestre.
+Modelos como Llama 4, Gemma 4, Mistral y Qwen 3 ya compiten con los modelos comerciales en muchas tareas, y los más ligeros corren en un portátil reciente. Ejecutarlos en tu máquina da privacidad total y elimina costes de API. La brecha de calidad se reduce cada trimestre.
 
 ### Multimodalidad madura
 Los modelos ya procesan texto, imágenes, audio y documentos escaneados. La transcripción de reuniones, el análisis de fotos de obra y la extracción de datos de facturas escaneadas son posibilidades reales hoy.
 
 ### Agentes autónomos
-Sistemas que no solo responden preguntas sino que ejecutan acciones: reservar una reunión, actualizar un CRM, generar un informe y enviarlo. Estamos en los primeros pasos, pero la dirección es clara.
+Sistemas que ejecutan acciones, no solo responden preguntas: reservar una reunión, actualizar un CRM, generar un informe y enviarlo. Ya son una realidad cotidiana, aunque conviene vigilarlos de cerca: cuanta más autonomía les das, más importa el criterio con que defines lo que pueden y no pueden hacer.
 
-### MCP como estándar universal
-El Model Context Protocol está siendo adoptado rápidamente como la forma estándar de conectar modelos con herramientas. En un futuro cercano, elegir un asistente de IA será como elegir un navegador: todos acceden a los mismos servicios.
+### MCP como estándar de hecho
+El Model Context Protocol ya es la forma estándar de conectar modelos con herramientas, y lo soportan los principales proveedores. Elegir un asistente de IA empieza a parecerse a elegir un navegador: todos acceden a los mismos servicios, y la diferencia está en cómo los usas.
 
 ### Voz como interfaz
 La interacción por voz con modelos de IA ya funciona razonablemente. "Oye asistente, resúmeme los correos del proyecto Madrid" será una forma habitual de trabajar.
@@ -135,7 +135,15 @@ Un resumen de herramientas y cuándo usar cada una:
 
 ---
 
-## 5. Cierre del curso
+## 5. Lleva un registro de tu propio avance
+
+Una última idea, quizá la más fácil de pasar por alto. Lleva un registro de lo que vas construyendo y aprendiendo: qué probaste, qué funcionó, qué te atascó. No hace falta nada sofisticado, un documento basta.
+
+El salto de "uso ChatGPT" a "tengo un sistema que trabaja conmigo" se ve cuando miras atrás, no mientras ocurre. Y solo puedes mirar atrás si lo has registrado. Yo no me di cuenta de cuánto había avanzado hasta que un día leí mis propias notas de unos meses antes y no reconocí al que las había escrito. Tu propia trayectoria es un activo: trátala como tal.
+
+---
+
+## 6. Cierre del curso
 
 Tres competencias que ya tienes:
 
@@ -146,12 +154,12 @@ Tres competencias que ya tienes:
 3. **Capacidad de transferencia:** tienes un caso de uso documentado, listo para compartir, escalar o entregar a IT.
 
 > [!abstract] Cierre
-> La IA no sustituye la experiencia: la amplifica. Lo que has aprendido en estos 7 módulos no es una moda ni una habilidad pasajera. Es una nueva forma de trabajar que premia a quienes combinan criterio profesional con curiosidad técnica. Y esa combinación, la tienes tú.
+> La IA amplifica tu experiencia profesional. Lo que has aprendido en estos siete módulos es una forma nueva de trabajar que premia a quienes combinan criterio profesional con curiosidad técnica. Y esa combinación la tienes tú. El resto es ponerse: elige una tarea que te duela, móntala y mejórala. Así empezó todo lo que hoy te he contado.
 
 ---
 
 > [!info] Para profundizar
-> - [The GenAI Divide: State of AI in Business 2025 — MIT NANDA](https://nanda.media.mit.edu/ai_report_2025.pdf) — Por qué el 95% de las organizaciones no obtienen ROI medible de GenAI.
-> - [AI Index Report — Stanford HAI](https://aiindex.stanford.edu/report/) — Datos anuales del panorama global de IA.
-> - [What We Learned from a Year of Building with LLMs — O'Reilly](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/) — Lecciones de seis profesionales sobre lo que funciona y lo que no en producción.
-> - [Ethan Mollick — One Useful Thing](https://www.oneusefulthing.org/) — El blog más accesible y actualizado sobre el impacto real de la IA en el trabajo.
+> - [The GenAI Divide: State of AI in Business 2025: MIT NANDA](https://nanda.media.mit.edu/ai_report_2025.pdf): Por qué el 95% de las organizaciones no obtienen ROI medible de GenAI.
+> - [AI Index Report: Stanford HAI](https://aiindex.stanford.edu/report/): Datos anuales del panorama global de IA.
+> - [What We Learned from a Year of Building with LLMs: O'Reilly](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/): Lecciones de seis profesionales sobre lo que funciona y lo que no en producción.
+> - [Ethan Mollick: One Useful Thing](https://www.oneusefulthing.org/): El blog más accesible y actualizado sobre el impacto real de la IA en el trabajo.

@@ -73,14 +73,15 @@ markdown_extensions:
 
 nav:
   - "Bienvenida": index.md
-  - "Módulo 1 – Entender la IA generativa": modulo-1-entender-ia-generativa.md
-  - "Módulo 2 – Automatizar con IA": modulo-2-automatizar-con-ia.md
-  - "Módulo 3 – Asistentes con documentos": modulo-3-asistentes-con-documentos.md
-  - "Módulo 4 – IA que programa por ti": modulo-4-ia-que-programa.md
-  - "Módulo 5 – Construir tu sistema": modulo-5-construir-sistema.md
-  - "Módulo 6 – Evaluar y escalar": modulo-6-evaluar-y-escalar.md
-  - "Módulo 7 – Tu caso de uso": modulo-7-caso-uso-final.md
+  - "Módulo 1 - Entender la IA generativa": modulo-1-entender-ia-generativa.md
+  - "Módulo 2 - Automatizar con IA": modulo-2-automatizar-con-ia.md
+  - "Módulo 3 - Asistentes con documentos": modulo-3-asistentes-con-documentos.md
+  - "Módulo 4 - IA que programa por ti": modulo-4-ia-que-programa.md
+  - "Módulo 5 - Construir tu sistema": modulo-5-construir-sistema.md
+  - "Módulo 6 - Evaluar y escalar": modulo-6-evaluar-y-escalar.md
+  - "Módulo 7 - Tu caso de uso": modulo-7-caso-uso-final.md
   - "Recursos": recursos.md
+  - "Glosario": glosario.md
 
 
 plugins:

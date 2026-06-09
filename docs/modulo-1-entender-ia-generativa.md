@@ -1,6 +1,6 @@
 ---
 date: "2026-02-08"
-title: "Módulo 1 – Entender la IA generativa"
+title: "Módulo 1 - Entender la IA generativa"
 tags:
   - lang/es
   - topic/ai
@@ -9,19 +9,19 @@ tags:
 usefulness: 0.9
 ---
 
-# Módulo 1 – Entender la IA generativa
+# Módulo 1 - Entender la IA generativa
 
 ## Qué es, para qué sirve y cómo elegir
 
-Antes de automatizar nada, necesitas entender las piezas básicas. No para convertirte en técnico, sino para **tomar decisiones con criterio**: qué herramienta usar, qué puedes compartir con la IA, qué modelo elegir y cómo plantear tus primeras peticiones de forma eficaz.
+¿Cuántas aplicaciones de IA has abierto este último año sin tener claro cuál usar, para qué, ni qué podías escribir en ellas sin meter la pata? Es una confusión habitual, y casi siempre nace de empezar por las herramientas en lugar de por los conceptos.
 
-Este módulo te da las bases para todo lo que viene después.
+Antes de automatizar nada conviene entender las piezas básicas, las justas para **decidir con criterio**: qué herramienta usar, qué puedes compartir con la IA, qué modelo elegir y cómo plantear tus primeras peticiones. Este módulo te da esas bases. Todo lo demás se construye encima.
 
 ---
 
 ## 1. Qué es la IA generativa (y qué no es)
 
-La IA generativa es un tipo de inteligencia artificial que **produce contenido nuevo** — texto, imágenes, código, audio — a partir de instrucciones en lenguaje natural. Los modelos de lenguaje (LLMs) son su forma más extendida: les das una instrucción y te devuelven una respuesta elaborada.
+La IA generativa es un tipo de inteligencia artificial que **produce contenido nuevo** (texto, imágenes, código, audio) a partir de instrucciones en lenguaje natural. Los modelos de lenguaje (LLMs) son su forma más extendida: les das una instrucción y te devuelven una respuesta elaborada.
 
 **Lo que sí es:**
 - Un asistente que procesa, resume, clasifica y genera texto con rapidez.
@@ -35,6 +35,22 @@ La IA generativa es un tipo de inteligencia artificial que **produce contenido n
 
 > [!tip] Observación práctica
 > La mayoría de profesionales empiezan usando la IA como un chatbot para hacer preguntas y no pasan de ahí. Lo interesante empieza cuando dejas de usarla como buscador y empiezas a usarla como herramienta de proceso: que resuma, clasifique, extraiga y transforme la información con la que ya trabajas.
+
+### Verificar siempre: la trampa de la precisión plausible
+
+De todos los riesgos al usar IA, el más traicionero es el que no se ve venir. La IA te dará una cifra, una fecha, el nombre de una norma o una sigla con una seguridad impecable, y sonará tan verosímil que cuela sin que lo cuestiones. A eso se le llama **precisión plausible**, y es la forma más habitual en que la IA mete a un profesional en un problema.
+
+Lo he visto de cerca: un informe de casi 7.000 palabras que necesitó quince correcciones, casi todas del mismo tipo. Cifras que la IA había redondeado, nombres que había atribuido mal, siglas que había expandido a su manera. Ninguna saltaba a la vista. Las cazó la revisión humana, una a una.
+
+La defensa es un hábito, no una herramienta:
+
+- **Exige la fuente.** "¿De dónde sale ese dato? Cítame el documento." Si no puede, trátalo como sospechoso.
+- **Que copie, no que recuerde.** Cuando trabajes sobre un documento, pídele que extraiga del texto, en vez de contestar de memoria.
+- **Desconfía de lo redondo.** Una cifra exacta y bonita sin fuente es la más peligrosa de todas.
+- **Pide el rango.** Si dos fuentes discrepan, que te dé las dos y diga cuál es cuál, en lugar de elegir una por ti.
+
+> [!warning] La regla práctica
+> Trata cada dato concreto que produzca la IA (una cifra, una fecha, un nombre propio, una sigla) como un borrador que tú tienes que verificar antes de firmarlo. La IA redacta; la responsabilidad de que sea cierto sigue siendo tuya.
 
 ---
 
@@ -67,22 +83,26 @@ No existe "la mejor IA". Existen modelos con distintas capacidades, precios y po
 
 | Proveedor | Modelo destacado | Fortaleza | Privacidad |
 |-----------|-----------------|-----------|-----------|
-| **OpenAI** | GPT-4o | Versatilidad general, multimodal | Datos en nube, opción de no entrenar |
-| **Anthropic** | Claude Sonnet / Opus | Análisis extenso, instrucciones complejas | No entrena con datos de usuario |
-| **Google** | Gemini | Integración con Google Workspace | Datos en nube de Google |
-| **Meta** | Llama 3 (vía Ollama) | Gratuito, ejecutable en local | Completamente privado si es local |
-| **Mistral** | Mistral / Mixtral | Buen rendimiento, empresa europea | Opción local o en nube |
-| **Alibaba** | Qwen | Multilingüe, buen rendimiento | Opción local o en nube |
+| **OpenAI** | GPT-5.5 | Versatilidad general, multimodal | Datos en nube, opción de no entrenar |
+| **Anthropic** | Claude Opus 4.8 / Sonnet 4.6 | Análisis extenso, instrucciones complejas, código | No entrena con datos de usuario |
+| **Google** | Gemini 3.5 | Integración con Google Workspace, multimodal | Datos en nube de Google |
+| **Meta** | Llama 4 (vía Ollama) | Gratuito, ejecutable en local | Completamente privado si es local |
+| **Mistral** | Mistral (empresa europea) | Buen rendimiento, opción europea | Opción local o en nube |
+| **Alibaba** | Qwen 3 | Multilingüe, licencia abierta | Opción local o en nube |
+| **Google (abierto)** | Gemma 4 | Ligero, ideal para ejecutar en local | Completamente privado si es local |
+
+> [!note] Los nombres caducan; el mapa no
+> Esta tabla es de mediados de 2026 y para cuando la leas algún nombre habrá cambiado: estos modelos sacan versión nueva cada pocos meses. Lo que se mantiene es el mapa de proveedores y, sobre todo, el criterio para elegir. Fíjate en las columnas de fortaleza y privacidad más que en el número de versión.
 
 > [!tip] Observación práctica
-> Para la mayoría de los casos de uso profesionales, Claude Sonnet o GPT-4o son la mejor relación entre calidad y coste. Si necesitas privacidad total, los modelos locales vía Ollama han mejorado enormemente — Llama 3 y Qwen 2.5 son sorprendentemente capaces para tareas de resumen, clasificación y extracción.
+> Para la mayoría de los casos de uso profesionales, Claude Sonnet 4.6 o GPT-5.5 dan la mejor relación entre calidad y coste. Si necesitas privacidad total, los modelos locales vía Ollama han mejorado enormemente: Llama 4, Qwen 3 y Gemma 4 son sorprendentemente capaces para tareas de resumen, clasificación y extracción, y corren en un portátil reciente sin enviar nada a la nube.
 
 ### Cómo elegir
 
-- **¿Necesitas máxima calidad?** → GPT-4o o Claude Opus.
-- **¿Necesitas buen rendimiento a bajo coste?** → Claude Sonnet o GPT-4o-mini.
-- **¿Trabajas con datos sensibles?** → Modelos locales (Ollama + Llama 3 / Mistral).
-- **¿Tu organización usa Google Workspace?** → Gemini tiene integración directa.
+- **¿Necesitas máxima calidad?** → GPT-5.5 o Claude Opus 4.8.
+- **¿Necesitas buen rendimiento a bajo coste?** → Claude Sonnet 4.6 o una versión ligera de GPT.
+- **¿Trabajas con datos sensibles?** → Modelos locales (Ollama + Llama 4 / Gemma 4 / Mistral).
+- **¿Tu organización usa Google Workspace?** → Gemini 3.5 tiene integración directa.
 
 ---
 
@@ -110,7 +130,7 @@ Esta es la sección que más profesionales ignoran y la que más problemas causa
 
 1. **¿Dónde se procesan mis datos?** ¿En los servidores del proveedor o en mi máquina?
 2. **¿El proveedor usa mis datos para entrenar?** (OpenAI: sí por defecto salvo opt-out; Anthropic: no; Ollama: local, sin envío).
-3. **¿Puedo usar una versión empresarial?** (ChatGPT Enterprise, Claude for Teams — no entrenan con datos).
+3. **¿Puedo usar una versión empresarial?** (ChatGPT Enterprise, Claude for Teams: no entrenan con datos).
 4. **¿Mi organización tiene una política de IA?** Si no la tiene, es buen momento para proponerla.
 
 ---
@@ -128,7 +148,7 @@ Cuando empiezas a conectar herramientas con IA, aparecen tres conceptos que conf
 **La credencial es lo más importante.** Sin ella, no hay llamada a la IA. Se pega una vez en el campo de configuración de la herramienta y no se comparte por email ni por chat.
 
 > [!tip] Observación práctica
-> En la práctica, la mayoría de los atascos no están en la IA sino en las credenciales. "No funciona" suele significar "no hay API key" o "la cuenta no tiene permisos". Antes de pensar que la IA falla, revisa que la llave esté en su sitio.
+> En la práctica, la mayoría de los atascos están en las credenciales, no en la IA. "No funciona" suele significar "no hay API key" o "la cuenta no tiene permisos". Antes de pensar que la IA falla, revisa que la llave esté en su sitio.
 
 ---
 
@@ -140,7 +160,7 @@ Los modelos actuales no solo procesan texto. Los más avanzados pueden:
 - **Procesar documentos escaneados:** un PDF con tablas escaneadas → la IA extrae los datos.
 - **Transcribir audio:** la grabación de una reunión de una hora → acta resumida en 5 minutos (usando modelos como Whisper).
 
-Esto no es futuro: es presente. GPT-4o, Claude Sonnet y Gemini ya procesan imágenes. La transcripción de audio funciona con herramientas gratuitas.
+Esto ya es presente. GPT-5.5, Claude y Gemini 3.5 procesan imágenes con soltura, y la transcripción de audio funciona con herramientas gratuitas.
 
 **Ejemplo práctico:** un consultor graba una reunión con el cliente en su móvil. Al volver a la oficina, la IA transcribe la grabación y genera un acta con los puntos de acción. Total: 10 minutos en vez de 45.
 
@@ -156,9 +176,16 @@ Esto no es futuro: es presente. GPT-4o, Claude Sonnet y Gemini ya procesan imág
 
 ---
 
-## 8. Cierre y aprendizajes clave
+## 8. Aplícalo
 
-- La IA generativa **no es un buscador ni un oráculo**: es una herramienta de proceso que necesita instrucciones claras.
+> [!example] Aplícalo
+> Piensa en una tarea repetitiva de tu semana que te robe tiempo: leer correos largos, clasificar consultas que entran, sacar datos de informes. Ponle nombre con uno de los cuatro patrones: ¿estás resumiendo, clasificando, extrayendo o conversando? Después abre dos modelos distintos (por ejemplo Claude y ChatGPT), dales la misma tarea con un dato real ya anonimizado y compara las respuestas. Quédate con el que mejor entienda tu contexto. Ese pequeño experimento te enseña más que cualquier tabla comparativa.
+
+---
+
+## 9. Cierre y aprendizajes clave
+
+- La IA generativa es **una herramienta de proceso que necesita instrucciones claras**: tratarla como un buscador o un oráculo es la vía rápida a la decepción.
 - Todo lo que harás con IA se reduce a **4 patrones**: resumir, clasificar, extraer, conversar.
 - **Elegir modelo es elegir compromiso** entre calidad, coste y privacidad.
 - **La privacidad no es opcional**: saber qué compartir y qué no es tan importante como saber usar la herramienta.
@@ -170,11 +197,11 @@ Esto no es futuro: es presente. GPT-4o, Claude Sonnet y Gemini ya procesan imág
 ---
 
 > [!info] Para profundizar
-> - [Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g) — Andrej Karpathy explica en una hora cómo funcionan los LLMs sin requerir conocimientos técnicos.
-> - [How to use AI to do practical stuff](https://www.oneusefulthing.org/p/how-to-use-ai-to-do-practical-stuff) — Guía del profesor Ethan Mollick (Wharton) con casos de uso concretos.
-> - [Generative AI for Everyone](https://www.deeplearning.ai/courses/generative-ai-for-everyone/) — Curso gratuito de Andrew Ng que cubre los fundamentos para audiencias no técnicas.
-> - [Artificial Analysis — Comparador de modelos](https://artificialanalysis.ai/models) — Comparativa independiente de modelos por precio, velocidad y calidad.
-> - [Ollama](https://ollama.com/) — Ejecuta modelos de IA en tu máquina, sin enviar datos a terceros.
+> - [Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g): Andrej Karpathy explica en una hora cómo funcionan los LLMs sin requerir conocimientos técnicos.
+> - [How to use AI to do practical stuff](https://www.oneusefulthing.org/p/how-to-use-ai-to-do-practical-stuff): Guía del profesor Ethan Mollick (Wharton) con casos de uso concretos.
+> - [Generative AI for Everyone](https://www.deeplearning.ai/courses/generative-ai-for-everyone/): Curso gratuito de Andrew Ng que cubre los fundamentos para audiencias no técnicas.
+> - [Artificial Analysis: Comparador de modelos](https://artificialanalysis.ai/models): Comparativa independiente de modelos por precio, velocidad y calidad.
+> - [Ollama](https://ollama.com/): Ejecuta modelos de IA en tu máquina, sin enviar datos a terceros.
 
 ---
 

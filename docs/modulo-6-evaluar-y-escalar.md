@@ -1,6 +1,6 @@
 ---
 date: "2026-02-08"
-title: "Módulo 6 – Evaluar y escalar"
+title: "Módulo 6 - Evaluar y escalar"
 tags:
   - lang/es
   - topic/ai
@@ -9,7 +9,7 @@ tags:
 usefulness: 0.9
 ---
 
-# Módulo 6 – Evaluar y escalar
+# Módulo 6 - Evaluar y escalar
 
 ## De "mi prototipo" a "herramienta del equipo"
 
@@ -47,7 +47,7 @@ Cada vez que cambies un prompt, una conexión, un documento o una credencial, pa
 - Existe algún sitio donde se ve el error (log, email de aviso, historial de la plataforma).
 
 > [!warning] Alerta de privacidad
-> Al probar, usa datos de ejemplo o anonimizados. No envíes datos reales de clientes a través de un flujo que todavía estás depurando — un error de configuración podría enviar información sensible a un canal equivocado.
+> Al probar, usa datos de ejemplo o anonimizados. No envíes datos reales de clientes a través de un flujo que todavía estás depurando: un error de configuración podría enviar información sensible a un canal equivocado.
 
 ---
 
@@ -64,7 +64,7 @@ No necesitas un dashboard completo. Con 4 métricas puedes saber si tu caso de u
 *Ejemplo:* "El flujo de resumen automático procesó 46 correos en la última semana, con un ahorro estimado de 3,8 horas de lectura."
 
 ### Calidad percibida
-¿Las personas que reciben el resultado lo usan o lo ignoran? Una mini-encuesta basta: "¿Te sirve tal como llega?" — Sí / No / A medias.
+¿Las personas que reciben el resultado lo usan o lo ignoran? Una mini-encuesta basta: "¿Te sirve tal como llega?": Sí / No / A medias.
 
 ### Errores o reintentos
 ¿Cuántas veces falla por credenciales caducadas, formatos inesperados o cambios en el modelo? Menos errores = más confianza del equipo.
@@ -127,6 +127,8 @@ No tiene que ser técnico. Su trabajo es revisar que el resultado siga siendo ú
 
 Si solo tú sabes cómo funciona, **no está listo**. Si otros lo pueden probar, usar y reportar fallos, **sí está listo**.
 
+Hay un cambio de mentalidad detrás de todo esto: cada vez que resuelves bien una tarea con IA, tienes un activo entre manos. Un prompt que funciona, una plantilla, un asistente bien definido. Guárdalos donde tu equipo los encuentre y dejarás de reinventar la rueda cada lunes. Así se construye, pieza a pieza, una pequeña biblioteca de capacidades propias. Es lo que separa usar la IA de tener un sistema.
+
 ---
 
 ## 5. Cuándo llamar al equipo técnico
@@ -146,11 +148,16 @@ No todo lo tienes que resolver tú. Escala cuando:
 
 La IA generativa no es estática: cambian las APIs, cambian los modelos, cambian los documentos que subiste, cambian las personas que lo usan. Sin mantenimiento, todo se rompe en silencio.
 
+Lo aprendí por las malas. Tenía un flujo que daba por sentado y un día dejó de devolver resultados: el proveedor había cambiado la API y nadie se enteró hasta que alguien preguntó por qué ya no llegaba el resumen. El mantenimiento aburre, y es justo lo que separa un experimento de una herramienta en la que el equipo confía.
+
+> [!tip] Observabilidad: que los fallos hagan ruido
+> Los ingenieros de sistemas tienen una palabra para esto: observabilidad. Significa montar las cosas de modo que puedas ver qué hacen y, sobre todo, enterarte cuando fallan. Un flujo sin observabilidad falla en silencio: deja de funcionar y nadie lo sabe hasta que alguien echa de menos el resultado. Uno con observabilidad te avisa, con un mensaje a un canal, un correo de error o una línea en un registro. La regla es sencilla: si algo se rompe, más vale que haga ruido. Diséñalo para enterarte tú antes de que lo note el cliente.
+
 **Reglas simples:**
 - **Documento actualizado → asistente actualizado.** Si cambias el procedimiento, cambia el documento del asistente.
 - **Versión visible.** Nombra los archivos con fecha o versión: `procedimiento_onboarding_v3_2026.pdf`.
 - **Prompt documentado.** Guarda la versión exacta del prompt en un sitio compartido.
-- **No mezclar objetivos.** Si el prompt hace "resumir", no le metas "además traduce y clasifica" — eso aumenta las respuestas raras.
+- **No mezclar objetivos.** Si el prompt hace "resumir", no le metas "además traduce y clasifica": eso aumenta las respuestas raras.
 
 **Señal de alerta:** si la gente dice "ya no responde igual" o "ahora contesta cosas raras", revisa:
 1. ¿Cambiaron los documentos?
@@ -169,7 +176,14 @@ La IA generativa no es estática: cambian las APIs, cambian los modelos, cambian
 
 ---
 
-## 8. Cierre y aprendizajes clave
+## 8. Aplícalo
+
+> [!example] Aplícalo
+> Coge el flujo o el asistente que montaste en los módulos anteriores y escribe su ficha en media página: qué hace, cuándo se ejecuta, qué prompt usa (la versión exacta), quién mantiene las credenciales y a quién se avisa si falla. Si no eres capaz de rellenarla, ahí tienes el trabajo pendiente antes de enseñárselo a nadie. Esa media página es lo que convierte "mi experimento" en "herramienta del equipo".
+
+---
+
+## 9. Cierre y aprendizajes clave
 
 - **Evaluar y mantener** es lo que convierte un experimento en una práctica estable del equipo.
 - Con **4 métricas sencillas** puedes demostrar valor sin montar un dashboard.
@@ -183,11 +197,11 @@ La IA generativa no es estática: cambian las APIs, cambian los modelos, cambian
 ---
 
 > [!info] Para profundizar
-> - [Why AI Projects Fail — Harvard Business Review](https://hbr.org/2023/11/keep-your-ai-projects-on-track) — Análisis de por qué fracasan los proyectos de IA y qué los distingue de los exitosos.
-> - [OpenAI Evals](https://github.com/openai/evals) — Framework para evaluar modelos de lenguaje de forma sistemática.
-> - [Promptfoo](https://www.promptfoo.dev/) — Herramienta para probar y comparar prompts, detectar regresiones y validar respuestas.
-> - [What is an API? — IBM](https://www.ibm.com/topics/api) — Explicación accesible de qué es una API y por qué es fundamental.
-> - [Git Explained in 100 Seconds — Fireship](https://www.youtube.com/watch?v=hwP7WQkmECE) — Vídeo ultra-conciso sobre control de versiones.
+> - [Why AI Projects Fail: Harvard Business Review](https://hbr.org/2023/11/keep-your-ai-projects-on-track): Análisis de por qué fracasan los proyectos de IA y qué los distingue de los exitosos.
+> - [OpenAI Evals](https://github.com/openai/evals): Framework para evaluar modelos de lenguaje de forma sistemática.
+> - [Promptfoo](https://www.promptfoo.dev/): Herramienta para probar y comparar prompts, detectar regresiones y validar respuestas.
+> - [What is an API?: IBM](https://www.ibm.com/topics/api): Explicación accesible de qué es una API y por qué es fundamental.
+> - [Git Explained in 100 Seconds: Fireship](https://www.youtube.com/watch?v=hwP7WQkmECE): Vídeo ultra-conciso sobre control de versiones.
 
 ---
 

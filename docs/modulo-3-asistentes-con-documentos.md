@@ -1,6 +1,6 @@
 ---
 date: "2026-02-08"
-title: "Módulo 3 – Asistentes con documentos"
+title: "Módulo 3 - Asistentes con documentos"
 tags:
   - lang/es
   - topic/ai
@@ -9,7 +9,7 @@ tags:
 usefulness: 0.9
 ---
 
-# Módulo 3 – Asistentes con documentos
+# Módulo 3 - Asistentes con documentos
 
 ## Crear asistentes propios que responden sobre tu información
 
@@ -48,7 +48,7 @@ Hoy existen varios entornos para crear asistentes con documentos sin programar. 
 Los tres funcionan con el mismo principio: subes documentos, escribes instrucciones de sistema y el asistente responde basándose en ese material.
 
 > [!tip] Observación práctica
-> Muchos profesionales se quedan en GPTs personalizados sin saber que existen alternativas. Claude Projects, por ejemplo, permite trabajar con documentos mucho más extensos y tiene una política de privacidad más estricta: no usa tus datos para entrenar. Vale la pena probar al menos dos plataformas antes de decidir.
+> Muchos profesionales se quedan en los GPTs personalizados sin saber que existen alternativas. Yo tengo montado un Claude Project sobre mi propia documentación de proyectos: le he subido procedimientos, actas y fichas, y le pregunto en lenguaje natural cosas que antes me obligaban a abrir diez archivos. Claude Projects trabaja bien con documentos largos y no usa tus datos para entrenar. Vale la pena probar al menos dos plataformas antes de decidir.
 
 ---
 
@@ -58,7 +58,7 @@ El flujo mental es casi siempre el mismo, independientemente de la plataforma:
 
 ### Paso 1: define el propósito
 
-Sé específico. No "un asistente de mi empresa", sino:
+Sé específico. En vez de "un asistente de mi empresa", algo como:
 - "Eres un asistente para el departamento de operaciones."
 - "Respondes preguntas sobre el manual de contratación."
 - "Si la información no está en los documentos, lo dices."
@@ -155,7 +155,14 @@ Con esto el técnico ya sabe:
 
 ---
 
-## 8. Cierre y aprendizajes clave
+## 8. Aplícalo
+
+> [!example] Aplícalo
+> Elige un tema sobre el que tu equipo te pregunta una y otra vez: un procedimiento interno, la política de gastos, las preguntas frecuentes de un producto. Reúne tres o cuatro documentos buenos sobre ese tema (los justos, bien nombrados), crea un asistente en Claude Projects o en un GPT y dale instrucciones de no inventar y de avisar cuando algo no esté en la documentación. Pruébalo con cinco preguntas reales del equipo. Si responde bien a esas cinco, ya tienes algo que enseñar.
+
+---
+
+## 9. Cierre y aprendizajes clave
 
 - **Ya sabes crear un asistente con tus propios documentos sin programar.**
 - La parte crítica no es técnica: es **selección de documentos e instrucciones claras**.
@@ -169,11 +176,11 @@ Con esto el técnico ya sabe:
 ---
 
 > [!info] Para profundizar
-> - [GPT Best Practices — OpenAI](https://platform.openai.com/docs/guides/gpt-best-practices) — Guía oficial para obtener mejores resultados de los GPTs.
-> - [Claude Projects — Anthropic](https://support.anthropic.com/en/articles/9517075-what-are-projects) — Documentación de Claude Projects para crear asistentes con documentos propios.
-> - [Gemini Gems — Google](https://gemini.google.com/) — Asistentes personalizados integrados con Google Workspace.
-> - [Data Privacy and ChatGPT — OpenAI](https://help.openai.com/en/articles/7039943-data-usage-for-consumer-services-faq) — FAQ sobre cómo OpenAI usa los datos y cómo desactivar el entrenamiento.
-> - [Prototype AI-powered Apps with Claude Artifacts](https://support.anthropic.com/en/articles/11649438-prototype-ai-powered-apps-with-claude-artifacts) — Guía para crear prototipos sin API key.
+> - [GPT Best Practices: OpenAI](https://platform.openai.com/docs/guides/gpt-best-practices): Guía oficial para obtener mejores resultados de los GPTs.
+> - [Claude Projects: Anthropic](https://support.anthropic.com/en/articles/9517075-what-are-projects): Documentación de Claude Projects para crear asistentes con documentos propios.
+> - [Gemini Gems: Google](https://gemini.google.com/): Asistentes personalizados integrados con Google Workspace.
+> - [Data Privacy and ChatGPT: OpenAI](https://help.openai.com/en/articles/7039943-data-usage-for-consumer-services-faq): FAQ sobre cómo OpenAI usa los datos y cómo desactivar el entrenamiento.
+> - [Prototype AI-powered Apps with Claude Artifacts](https://support.anthropic.com/en/articles/11649438-prototype-ai-powered-apps-with-claude-artifacts): Guía para crear prototipos sin API key.
 
 ---
 

@@ -17,7 +17,9 @@ usefulness: 0.9
 
 ## Sobre el autor
 
-Soy **José Cordovilla**, ingeniero especializado en financiación y gestión de infraestructuras. En los últimos dos años he recorrido el camino completo con la IA generativa: desde las primeras conversaciones con ChatGPT hasta construir un sistema profesional completo con agentes, búsqueda semántica sobre mis propios documentos y herramientas conectadas a mi correo y mis archivos de trabajo. Y lo hice sin ser programador. Este curso recoge lo que aprendí por el camino: lo que funciona, lo que no, las trampas y los atajos reales.
+Soy **José Cordovilla**, ingeniero especializado en financiación y gestión de infraestructuras. Llegué a la IA generativa como casi todo el mundo: abriendo ChatGPT en 2023 para ver de qué iba aquello. Lo que empezó como curiosidad acabó convertido en herramienta de trabajo y, casi sin darme cuenta, en un sistema completo: varios conectores que leen mi correo y mis notas, asistentes que me preparan las reuniones, búsqueda semántica sobre miles de documentos propios y pequeños programas que se ocupan de lo tedioso. Todo ello sin ser programador.
+
+Conviene que sea honesto sobre el camino, porque es la parte que los cursos suelen ocultar. La primera versión de casi todo lo que uso a diario no funcionó. Reconstruí cada pieza varias veces, me peleé con credenciales mal puestas y con tutoriales caducados, y aprendí más de los atascos que de los aciertos. Este curso recoge ese recorrido: lo que funciona, lo que no, las trampas reales y los atajos que de verdad ahorran tiempo. Es un momento fascinante para trabajar con estas herramientas. Y, según el día, bastante incómodo.
 
 ---
 
@@ -25,7 +27,7 @@ Soy **José Cordovilla**, ingeniero especializado en financiación y gestión de
 
 Para **profesionales senior que toman decisiones**: consultores, directivos, responsables de equipo, gestores de proyecto. Personas que trabajan con información dispersa, procesos repetitivos y poco tiempo para experimentar.
 
-No necesitas saber programar. Necesitas saber **qué es posible, cómo se hace y dónde están los límites**.
+Te basta con saber **qué es posible, cómo se hace y dónde están los límites**. Programar no hace falta.
 
 ---
 
@@ -54,25 +56,31 @@ El curso tiene **7 módulos progresivos**. Cada módulo tiene una **vía rápida
 | [6](modulo-6-evaluar-y-escalar.md) | Evaluar y escalar | Medir impacto, documentar y pasar al equipo |
 | [7](modulo-7-caso-uso-final.md) | Tu caso de uso | Diseñar tu propio proyecto con plantilla completa |
 
-Además encontrarás una página de [recursos](recursos.md) actualizados para seguir aprendiendo.
+Además encontrarás una página de [recursos](recursos.md) actualizados para seguir aprendiendo y un [glosario](glosario.md) que explica en lenguaje llano los términos que van apareciendo.
+
+---
+
+## Cómo usar este curso
+
+Los módulos se leen en orden, pero no hace falta hacerlo todo de una sentada. La vía rápida (los apartados numerados) te da lo esencial; las secciones **Profundiza** son opcionales y puedes saltarlas sin perder el hilo. Cada módulo termina con un apartado **«Aplícalo»** para que pruebes lo aprendido sobre un caso tuyo, que es donde de verdad se aprende. Si te topas con una palabra que no conoces, el [glosario](glosario.md) la aclara sin tecnicismos.
 
 ---
 
 ## Metodología
 
 > [!note] Punto de partida
-> Tu experiencia profesional es tu mejor activo. No partimos de cero: partimos de lo que ya sabes hacer — analizar, comunicar, decidir — y te damos herramientas para amplificarlo.
+> Tu experiencia profesional es tu mejor activo. Partimos de lo que ya sabes hacer (analizar, comunicar, decidir) y te damos herramientas para amplificarlo.
 
 - **Relevancia primero:** cada módulo resuelve un problema real de tu día a día.
 - **Ritmo pausado, pasos claros:** verás el proceso completo, no solo el resultado.
 - **Lenguaje común:** los conceptos se explican siempre igual, sin jerga innecesaria.
-- **Práctica:** cada módulo tiene ejercicios que puedes probar en tu entorno.
+- **Práctica:** cada módulo termina con un apartado «Aplícalo» que puedes probar en tu entorno.
 - **Seguridad desde el principio:** qué compartir con la IA y qué no.
 
 ---
 
 ## Empieza aquí
 
-La IA no sustituye la experiencia: la amplifica. Este curso no te enseña a competir con la máquina, sino a **hacer que trabaje contigo**.
+Tu experiencia profesional es el activo que la IA amplifica. El objetivo de este curso es que la máquina **trabaje contigo**: que delegues lo tedioso y conserves el criterio, que es lo único que no se automatiza.
 
 Comienza por el [Módulo 1](modulo-1-entender-ia-generativa.md) para familiarizarte con los conceptos fundamentales y elegir tus herramientas.
