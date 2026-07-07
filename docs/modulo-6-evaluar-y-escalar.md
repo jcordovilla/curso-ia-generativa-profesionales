@@ -27,7 +27,7 @@ El camino de este módulo es un ciclo de cuatro pasos, y conviene verlo entero a
 
 ---
 
-## 1. Testing: checklist de pruebas para flujos y asistentes
+## 1. Pruebas: lista de comprobación para flujos y asistentes
 
 Cada vez que cambies un prompt, una conexión, un documento o una credencial, pasa por esta lista:
 
@@ -49,7 +49,7 @@ Cada vez que cambies un prompt, una conexión, un documento o una credencial, pa
 
 **Errores:**
 - Si la IA falla, el flujo no se queda colgado sin avisar.
-- Existe algún sitio donde se ve el error (log, email de aviso, historial de la plataforma).
+- Existe algún sitio donde se ve el error (un registro, un correo de aviso, el historial de la plataforma).
 
 > [!warning] Alerta de privacidad
 > Al probar, usa datos de ejemplo o anonimizados. No envíes datos reales de clientes a través de un flujo que todavía estás depurando: un error de configuración podría enviar información sensible a un canal equivocado.
@@ -58,7 +58,7 @@ Cada vez que cambies un prompt, una conexión, un documento o una credencial, pa
 
 ## 2. Cuatro métricas sencillas que demuestran valor
 
-No necesitas un dashboard completo. Con 4 métricas puedes saber si tu caso de uso merece seguir vivo y, lo que es más importante, puedes justificarlo ante dirección:
+No necesitas un panel de control completo. Con 4 métricas puedes saber si tu caso de uso merece seguir vivo y, lo que es más importante, puedes justificarlo ante dirección:
 
 ### Uso
 ¿Cuántas ejecuciones ha tenido esta semana? ¿Quién lo está usando realmente? Si nadie lo usa, no importa lo sofisticado que sea.
@@ -126,11 +126,11 @@ Incluye:
 ### Define un responsable funcional
 No tiene que ser técnico. Su trabajo es revisar que el resultado siga siendo útil y que la gente lo use.
 
-### Explica cómo reportar un fallo
+### Explica cómo avisar de un fallo
 - "Si no te llega el resumen, avisa en este canal."
 - "Si la respuesta del asistente no es correcta, copia la pregunta y la respuesta y mándamela."
 
-Si solo tú sabes cómo funciona, **no está listo**. Si otros lo pueden probar, usar y reportar fallos, **sí está listo**.
+Si solo tú sabes cómo funciona, **todavía no está listo**; lo estará cuando otros puedan probarlo, usarlo y avisar de los fallos.
 
 Hay un cambio de mentalidad detrás de todo esto: cada vez que resuelves bien una tarea con IA, tienes un activo entre manos. Un prompt que funciona, una plantilla, un asistente bien definido. Guárdalos donde tu equipo los encuentre y dejarás de reinventar la rueda cada lunes. Así se construye, pieza a pieza, una pequeña biblioteca de capacidades propias. Es lo que separa usar la IA de tener un sistema.
 
@@ -143,7 +143,7 @@ No todo lo tienes que resolver tú. Escala cuando:
 - El volumen de ejecuciones crece mucho (costes o límites de la plataforma).
 - Necesitas conectarte a sistemas internos con permisos especiales.
 - Quieres exponer tu flujo como servicio para otras áreas.
-- Hay que guardar logs de forma seria (auditoría, cumplimiento normativo).
+- Hay que guardar registros de forma seria (auditoría, cumplimiento normativo).
 - La seguridad no permite usar una credencial personal.
 - Necesitas alta disponibilidad (que funcione 24/7 sin caerse).
 
@@ -155,10 +155,12 @@ La IA generativa no es estática: cambian las APIs, cambian los modelos, cambian
 
 Lo aprendí por las malas. Tenía un flujo que daba por sentado y un día dejó de devolver resultados: el proveedor había cambiado la API y nadie se enteró hasta que alguien preguntó por qué ya no llegaba el resumen. El mantenimiento aburre, y es justo lo que separa un experimento de una herramienta en la que el equipo confía.
 
-**¿Y cuánto tiempo es, en la práctica?** Te doy mis datos, que para esto valen más que una teoría. Mi sistema es de los grandes (varios flujos, conectores, búsqueda propia) y aun así el mantenimiento activo es una revisión semanal de media hora: comprobar que las rutinas corrieron, hojear los registros, actualizar lo que cambió. A eso se suman las averías: en mis primeras 25 semanas conté cinco, cada una con su diagnóstico y su arreglo documentados, todas del estilo de la que te acabo de contar (algo externo cambió y una pieza dejó de encajar). Para un flujo o un asistente como los de este curso, la escala es menor: unos minutos a la semana de comprobar que corre y que el resultado sigue siendo útil, y asumir desde el principio que alguna vez al año algo se romperá y te pedirá una tarde. Quien presupuesta ese tiempo mantiene la herramienta; quien no, la abandona en el primer susto.
+**¿Y cuánto tiempo es, en la práctica?** Te doy mis datos, que para esto valen más que una teoría. Mi sistema es de los grandes (varios flujos, conectores, búsqueda propia) y aun así el mantenimiento activo es una revisión semanal de media hora: comprobar que las rutinas corrieron, hojear los registros, actualizar lo que cambió. A eso se suman las averías: en mis primeras 25 semanas conté cinco, cada una con su diagnóstico y su arreglo documentados, todas del estilo de la que te acabo de contar (algo externo cambió y una pieza dejó de encajar).
+
+Para un flujo o un asistente como los de este curso, la escala es menor: unos minutos a la semana de comprobar que corre y que el resultado sigue siendo útil, y asumir desde el principio que alguna vez al año algo se romperá y te pedirá una tarde. Quien presupuesta ese tiempo mantiene la herramienta; quien no, la abandona en el primer susto.
 
 > [!tip] Observabilidad: que los fallos hagan ruido
-> Los ingenieros de sistemas tienen una palabra para esto: observabilidad. Significa montar las cosas de modo que puedas ver qué hacen y, sobre todo, enterarte cuando fallan. Un flujo sin observabilidad falla en silencio: deja de funcionar y nadie lo sabe hasta que alguien echa de menos el resultado. Uno con observabilidad te avisa, con un mensaje a un canal, un correo de error o una línea en un registro. La regla es sencilla: si algo se rompe, más vale que haga ruido. Diséñalo para enterarte tú antes de que lo note el cliente.
+> Los ingenieros de sistemas tienen una palabra para esto: [observabilidad](glosario.md). Significa montar las cosas de modo que puedas ver qué hacen y, sobre todo, enterarte cuando fallan. Un flujo sin observabilidad falla en silencio: deja de funcionar y nadie lo sabe hasta que alguien echa de menos el resultado. Uno con observabilidad te avisa, con un mensaje a un canal, un correo de error o una línea en un registro. La regla es sencilla: si algo se rompe, más vale que haga ruido. Diséñalo para enterarte tú antes de que lo note el cliente.
 
 **Reglas simples:**
 - **Documento actualizado → asistente actualizado.** Si cambias el procedimiento, cambia el documento del asistente.
@@ -193,7 +195,7 @@ Lo aprendí por las malas. Tenía un flujo que daba por sentado y un día dejó 
 ## 9. Cierre y aprendizajes clave
 
 - **Evaluar y mantener** es lo que convierte un experimento en una práctica estable del equipo.
-- Con **4 métricas sencillas** puedes demostrar valor sin montar un dashboard.
+- Con **4 métricas sencillas** puedes demostrar valor sin montar un panel de control.
 - **El vocabulario técnico mínimo** (API, endpoint, repo, contenedor) te permite seguir participando cuando el proyecto pasa a la fase seria.
 - **Documentar, centralizar credenciales y definir un responsable** es la diferencia entre "mi flujo" y "flujo del equipo".
 - **Saber cuándo escalar** al equipo técnico te hace más creíble y profesional.

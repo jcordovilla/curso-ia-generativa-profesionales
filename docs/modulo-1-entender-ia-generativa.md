@@ -45,7 +45,7 @@ De todos los riesgos al usar IA, el más traicionero es el que no se ve venir. L
 
 Lo he visto de cerca: un informe de casi 7.000 palabras que necesitó quince correcciones, casi todas del mismo tipo. Cifras que la IA había redondeado, nombres que había atribuido mal, siglas que había expandido a su manera. Ninguna saltaba a la vista. Las cazó la revisión humana, una a una.
 
-La defensa es un hábito, no una herramienta:
+La defensa es cuestión de hábito, y se reduce a cuatro reflejos:
 
 - **Exige la fuente.** "¿De dónde sale ese dato? Cítame el documento." Si no puede, trátalo como sospechoso.
 - **Que copie, no que recuerde.** Cuando trabajes sobre un documento, pídele que extraiga del texto, en vez de contestar de memoria.
@@ -111,7 +111,7 @@ No existe "la mejor IA". Existen modelos con distintas capacidades, precios y po
 
 ## 4. ¿Cuánto cuesta esto?
 
-La pregunta que todo el mundo se hace y casi ningún curso responde con cifras. Las de esta sección son de junio de 2026; los precios concretos cambian, pero los órdenes de magnitud llevan años estables.
+La pregunta que todo el mundo se hace y casi nadie responde con cifras. Las de esta sección son de junio de 2026; los precios concretos cambian, pero los órdenes de magnitud llevan años estables.
 
 **Suscripciones de chat** (precios oficiales en dólares, sin impuestos; el cargo en euros varía con el cambio y el IVA):
 

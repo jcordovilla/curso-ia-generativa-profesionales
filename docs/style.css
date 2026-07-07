@@ -281,3 +281,33 @@ h4, h5, h6 {
 body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+/* ===========================================
+   LEGIBILIDAD (v2) - lectura en pantalla
+   para el público del curso
+   =========================================== */
+
+/* Cuerpo de texto algo mayor y con más aire entre líneas */
+.md-typeset {
+    font-size: 0.85rem;
+    line-height: 1.65;
+}
+
+/* Los callouts llevan los ejercicios y avisos: mismo tamaño que el cuerpo,
+   no la letra reducida por defecto del tema */
+.md-typeset .admonition,
+.md-typeset details {
+    font-size: 0.8rem;
+}
+
+/* Tablas legibles, sin letra encogida */
+.md-typeset table:not([class]) {
+    font-size: 0.78rem;
+}
+
+/* Las imágenes y diagramas ocupan el ancho disponible sin desbordar */
+.md-typeset img,
+.md-typeset svg {
+    max-width: 100%;
+    height: auto;
+}

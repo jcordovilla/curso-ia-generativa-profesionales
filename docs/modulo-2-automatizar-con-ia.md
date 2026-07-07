@@ -16,7 +16,7 @@ links_woven: true
 
 En [Antes de empezar](antes-de-empezar.md) subiste los tres primeros escalones de la escalera: pedir trabajo, estructurar la instrucción, iterar. En el [módulo 1](modulo-1-entender-ia-generativa.md) te paraste en el descansillo de los conceptos. Ahora retomamos la escalera por donde la dejaste.
 
-Casi todo el mundo, y casi todos los cursos, dan aquí un salto demasiado largo: pasan de escribir prompts sueltos a montar automatizaciones complejas, y por el camino se saltan tres habilidades que se practican todavía con el chat que ya tienes. Este módulo recorre primero esos tres escalones (encadenar pasos, adjuntar documentos, pedir formatos reutilizables) y solo después monta una automatización de verdad, una sola, de principio a fin. Si haces la primera mitad con calma, la segunda se entiende sin esfuerzo.
+Casi todo el mundo, y casi todos los cursos, dan aquí un salto demasiado largo: pasan de escribir [prompts](glosario.md) sueltos a montar automatizaciones complejas, y por el camino se saltan tres habilidades que se practican todavía con el chat que ya tienes. Este módulo recorre primero esos tres escalones (encadenar pasos, adjuntar documentos, pedir formatos reutilizables) y solo después monta una automatización de verdad, una sola, de principio a fin. Si haces la primera mitad con calma, la segunda se entiende sin esfuerzo.
 
 ---
 

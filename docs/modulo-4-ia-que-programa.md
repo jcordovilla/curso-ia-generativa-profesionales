@@ -12,7 +12,7 @@ links_woven: true
 
 # Módulo 4 - IA que programa por ti
 
-## El cambio de paradigma que ningún curso te ha contado
+## El cambio de paradigma que conviene entender ahora
 
 Hasta ahora hemos trabajado con herramientas que ya existen: plataformas no-code, GPTs personalizados, flujos visuales. Todo eso sigue siendo válido. Pero hay algo que ha cambiado de forma radical en el último año y que la mayoría de cursos de IA todavía no recoge: **la frontera entre "saber programar" y "no saber programar" se ha desdibujado**.
 
@@ -33,7 +33,7 @@ Hoy existen los **AI coding assistants**: herramientas como Claude Code, Cursor 
 Programar sigue importando, pero **la barrera de entrada ha bajado radicalmente**. Un profesional con criterio y contexto de negocio puede pasar de "tengo una idea" a "tengo un prototipo funcionando" sin escribir código desde cero.
 
 > [!tip] Observación práctica
-> La mayoría de profesionales que fracasan intentando automatizar con IA fracasan por una razón concreta: se enfrentan a frameworks como LangChain con tutoriales de hace seis meses que ya no funcionan. Con un asistente de código, el mismo resultado se consigue en días en vez de semanas. Lo que marca la diferencia es la herramienta, no el talento de la persona.
+> La mayoría de profesionales que fracasan intentando automatizar con IA fracasan por una razón concreta: se enfrentan a frameworks como LangChain con tutoriales de hace seis meses que ya no funcionan. Con un asistente de código, el mismo resultado se consigue en días en vez de semanas. Lo que marca la diferencia es la herramienta más que el talento de la persona.
 
 > [!note] Lo viví así
 > Cuento esto porque lo he vivido. Empecé, como casi todos, usando la IA en el navegador para preguntas sueltas. En algún momento quise que leyera mi correo de verdad, que buscara en mis notas, que me preparara las reuniones. Con un asistente de código fui montando, pieza a pieza y sin ser programador, conectores a mi correo y mis documentos, asistentes que me sintetizan información y pequeños programas que se ocupan de lo tedioso. No salió a la primera ni a la décima: reconstruí casi todo varias veces. Pero el salto, de "uso ChatGPT" a "tengo un sistema que trabaja conmigo", es real y está al alcance de cualquiera con criterio y paciencia.
@@ -71,7 +71,7 @@ Tú no necesitas entender cada línea de código. Necesitas saber **qué pedirle
 > **Lo que sí necesitas:**
 > - Criterio de negocio: saber qué construir, para qué y para quién. Es lo que la IA no tiene.
 > - Saber describir lo que quieres con la precisión de los seis escalones de la escalera.
-> - Comodidad mínima con una terminal (la ventana de texto del glosario). Intimida el primer día y se le pierde el miedo en una tarde.
+> - Comodidad mínima con una terminal (la ventana de texto del [glosario](glosario.md)). Intimida el primer día y se le pierde el miedo en una tarde.
 > - Paciencia para iterar: nada de esto sale a la primera, y ese es el trabajo, no un contratiempo.
 >
 > **Lo que no necesitas:**
@@ -84,9 +84,9 @@ Tú no necesitas entender cada línea de código. Necesitas saber **qué pedirle
 
 ## 3. MCP: el estándar que conecta la IA con tus herramientas
 
-Hay un segundo cambio de paradigma que viene de la mano del primero: **MCP (Model Context Protocol)**.
+Hay un segundo cambio de fondo que viene de la mano del primero: **MCP (Model Context Protocol)**.
 
-MCP es un estándar abierto que permite a los modelos de IA conectarse con herramientas externas: tu correo electrónico, tus documentos, tu base de datos, tu calendario, tu CRM. Lo que empezó como una propuesta de Anthropic se ha convertido en un estándar que adoptan los principales proveedores, así que aprenderlo hoy es una apuesta segura.
+MCP es un estándar abierto que permite a los modelos de IA conectarse con herramientas externas: tu correo electrónico, tus documentos, tu base de datos, tu calendario, tu CRM. Lo que empezó como una propuesta de Anthropic se ha convertido en un estándar que adoptan los principales proveedores, así que merece la pena aprenderlo hoy.
 
 **Por qué es importante:** antes, cada integración entre la IA y una herramienta requería programación a medida. Con MCP, las conexiones se estandarizan. Un modelo de IA que soporte MCP puede usar cualquier servidor MCP disponible: y ya hay cientos, desde Google Drive hasta Slack, Notion, bases de datos SQL y muchos más.
 
@@ -121,9 +121,9 @@ Con AI coding assistants y MCP combinados, las posibilidades se amplían enormem
 |--------|------------------------|------------------------|
 | Consultoría | Sistema que lee tus emails, identifica temas por proyecto y genera informes semanales | AI coding assistant + MCP (correo) |
 | Legal | Buscador semántico sobre contratos que responde preguntas en lenguaje natural | AI coding assistant + [RAG](glosario.md) + base vectorial |
-| Marketing | Flujo que analiza menciones en redes, clasifica sentimiento y genera un briefing diario | AI coding assistant + APIs de redes sociales |
+| Marketing | Flujo que analiza menciones en redes, clasifica sentimiento y genera un informe breve diario | AI coding assistant + APIs de redes sociales |
 | RRHH | Asistente que responde preguntas de empleados sobre políticas internas | AI coding assistant + GPT personalizado + documentos |
-| Finanzas | Dashboard que extrae datos clave de informes mensuales y detecta desviaciones | AI coding assistant + procesamiento de PDFs |
+| Finanzas | Panel que extrae los datos clave de informes mensuales y detecta desviaciones | AI coding assistant + procesamiento de PDFs |
 | Operaciones | Sistema de alertas que monitoriza KPIs y notifica al equipo cuando algo se desvía | AI coding assistant + MCP (base de datos) |
 
 > [!tip] Observación práctica
@@ -193,7 +193,7 @@ Luego puedes añadir MCP para que el asistente tenga acceso permanente a tu corr
 
 Lo que acabo de contar es la versión limpia. La de verdad tuvo más tropiezos, y conviene contarla entera, porque la frontera honesta del curso es justo esto. Aquel sistema que lee mi correo perdió mensajes durante semanas sin que yo lo supiera: un problema de tiempos entre cuándo llegaba un correo y cuándo lo veía el flujo hacía que algunos se saltaran para siempre. Lo descubrí por casualidad, buscando un correo que sabía que existía y no aparecía. La búsqueda sobre mis miles de notas se quedó pequeña y empezó a fallar, y hubo que rehacerla entera sobre otra base. Los conectores se rompían con las carpetas anidadas del correo y devolvían errores que no decían nada. Cada uno de esos atascos fue una tarde perdida y una reconstrucción.
 
-Ninguno de esos problemas era de programación en el sentido clásico: eran detalles de cómo encajan las piezas, y los resolví describiéndoselos al asistente de código una y otra vez hasta que funcionaron. Esa es la destreza real, y no aparece en ningún tutorial: no escribir código, sino tener la paciencia de volver a explicar el problema cuando la primera solución no sirve.
+Ninguno de esos problemas era de programación en el sentido clásico: eran detalles de cómo encajan las piezas, y los resolví describiéndoselos al asistente de código una y otra vez hasta que funcionaron. Esa es la destreza real, y no aparece en ningún tutorial: la paciencia de volver a explicar el problema cuando la primera solución no sirve, que importa más que saber escribir código.
 
 > [!note] A dónde lleva el camino
 > Para que el destino no quede en abstracto, unos números propios. Entre diciembre de 2025 y junio de 2026, en 25 semanas, ese sistema acumuló más de 500 sesiones de trabajo con la IA, unos 420 archivos creados y más de 1.200 modificados, tres conectores que enlazan la IA con mi correo, mis documentos y mis notas, y una veintena de pequeñas habilidades reutilizables que automatizan lo repetido. No lo cuento como hazaña ni como meta: cada pieza nació de una necesidad concreta y se añadió cuando la anterior ya funcionaba, y nadie necesita llegar hasta aquí. La mayor parte del valor te la daban ya los tres primeros escalones de la escalera; todo lo demás es opcional y se recorre al paso que quieras. (Cifras de mi sistema a mediados de 2026, como orden de magnitud.)

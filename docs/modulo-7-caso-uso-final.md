@@ -14,7 +14,7 @@ links_woven: true
 
 ## Diseñar, documentar y ejecutar tu propio proyecto
 
-Este es el módulo de cierre, y es puro trabajo de mesa: una plantilla para que diseñes tu propio caso de uso de principio a fin, con toda la información necesaria para implementarlo tú mismo o entregarlo a un equipo técnico, y una ruta de 30 días para pasar del papel a la práctica.
+Este es el módulo de cierre, y es puro trabajo de mesa: una plantilla para que diseñes tu propio caso de uso de principio a fin, con toda la información necesaria para ponerlo en marcha tú mismo o entregarlo a un equipo técnico, y una ruta de 30 días para pasar del papel a la práctica.
 
 ---
 
@@ -65,7 +65,7 @@ Copia esta plantilla y rellénala con tu proyecto. No hace falta que esté perfe
 - Otros servicios: *(Google Sheets, Slack, CRM…)*
 
 **Credenciales necesarias:**
-- API key del modelo de IA
+- [API key](glosario.md) del modelo de IA
 - Conexión al servicio de entrada *(email, CRM…)*
 - Conexión al servicio de salida *(Slack, Sheets…)*
 - Otras: ___
@@ -143,13 +143,13 @@ La interacción por voz con modelos de IA ya funciona razonablemente. "Oye asist
 
 ---
 
-## 5. El toolkit del profesional en 2026
+## 5. La caja de herramientas del profesional en 2026
 
 Un resumen de herramientas y cuándo usar cada una:
 
 | Necesidad | Herramienta | Cuándo |
 |-----------|-------------|--------|
-| Chatear con IA | ChatGPT, Claude, Gemini | Consultas rápidas, brainstorming, redacción |
+| Chatear con IA | ChatGPT, Claude, Gemini | Consultas rápidas, lluvia de ideas, redacción |
 | Automatizar sin código | n8n, Make, Zapier | Flujos repetitivos entrada → IA → salida |
 | Asistente con documentos | GPTs, Claude Projects, Gemini Gems | Consultas sobre procedimientos, FAQ internas |
 | Construir herramientas | Claude Code, Cursor | Prototipos, scripts, sistemas personalizados |
@@ -174,7 +174,7 @@ Tres competencias que ya tienes:
 
 1. **Autonomía digital:** sabes usar la IA para resolver problemas reales de tu entorno laboral, elegir las herramientas adecuadas y proteger la información.
 
-2. **Criterio técnico:** entiendes qué te ofrecen los proveedores, cómo evaluar si lo necesitas y cómo hablar con los equipos que implementan.
+2. **Criterio técnico:** entiendes qué te ofrecen los proveedores, cómo evaluar si lo necesitas y cómo hablar con los equipos que lo implantan.
 
 3. **Capacidad de transferencia:** tienes un caso de uso documentado, listo para compartir, escalar o entregar a IT.
 

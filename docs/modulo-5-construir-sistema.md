@@ -72,7 +72,7 @@ Por dentro son tres piezas; por fuera, lo que se ve es una jornada de trabajo co
 | Redactar entregables | Estructura, contexto, verificación de datos | Los párrafos de fondo, los números, la aprobación |
 | Mantener el archivo | Clasifica, etiqueta, conecta notas relacionadas | Los casos dudosos |
 
-La fila que más cuesta interiorizar es la primera: por mucha automatización que haya debajo, **nada sale de mi nombre sin pasar por mí**. Esa regla no es una limitación técnica sino una decisión de diseño, y es la que recomiendo copiar antes que ninguna otra.
+La fila que más cuesta interiorizar es la primera: por mucha automatización que haya debajo, **nada sale de mi nombre sin pasar por mí**. Esa regla es una decisión de diseño deliberada, y es la que recomiendo copiar antes que ninguna otra.
 
 ---
 

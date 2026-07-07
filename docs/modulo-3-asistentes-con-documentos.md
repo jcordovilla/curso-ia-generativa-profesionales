@@ -48,7 +48,7 @@ Hoy existen varios entornos para crear asistentes con documentos sin programar. 
 | **Anthropic** | Claude Projects | Excelente para documentos largos, no entrena con datos | Menos integraciones que OpenAI |
 | **Google** | Gemini Gems | Integración directa con Google Workspace | Menor control sobre instrucciones |
 
-Los tres funcionan con el mismo principio: subes documentos, escribes instrucciones de sistema y el asistente responde basándose en ese material.
+Los tres funcionan con el mismo principio: subes documentos, escribes [instrucciones de sistema](glosario.md) y el asistente responde basándose en ese material.
 
 **El coste comparado** es fácil de recordar: crear asistentes es, con carácter general, función de los planes de pago que ya viste en el módulo 1 (ChatGPT Plus 20 $, Claude Pro 20 $ o 17 $ en anual, Google AI Pro 19,99 $, a junio de 2026; las excepciones en los planes gratuitos cambian cada pocos meses). La parte buena: crear el asistente no añade coste sobre la suscripción, así que la decisión de plataforma es la misma del módulo 1, y si ya pagas una, esta función viene con ella.
 
@@ -113,14 +113,14 @@ No preguntes "¿quién eres?". Pregunta lo que preguntaría tu equipo:
 >
 > **Regla simple:** si el documento no podrías enviarlo por un canal externo no controlado, no lo subas al asistente.
 
-Además:
+A lo anterior se añaden tres comprobaciones:
 - Revisa si el proveedor usa los datos para entrenar. Si es así y no tienes autorización, no lo subas.
 - Mantén una carpeta "apta para IA" con documentos ya filtrados.
 - Revisa las opciones de quién puede ver/usar el asistente.
 
 ---
 
-## 5. Checklist de seguridad antes de compartir
+## 5. Lista de comprobación de seguridad antes de compartir
 
 Usa esta lista cada vez que vayas a compartir un asistente:
 

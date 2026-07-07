@@ -20,7 +20,7 @@ links_woven: true
 
 Soy **José Cordovilla**, ingeniero especializado en financiación y gestión de infraestructuras. Llegué a la IA generativa como casi todo el mundo: abriendo ChatGPT en 2023 para ver de qué iba aquello. Lo que empezó como curiosidad acabó convertido en herramienta de trabajo y, casi sin darme cuenta, en un sistema completo: varios conectores que leen mi correo y mis notas, asistentes que me preparan las reuniones, búsqueda semántica sobre miles de documentos propios y pequeños programas que se ocupan de lo tedioso. Todo ello sin ser programador.
 
-Conviene que sea honesto sobre el camino, porque es la parte que los cursos suelen ocultar. La primera versión de casi todo lo que uso a diario no funcionó. Reconstruí cada pieza varias veces, me peleé con credenciales mal puestas y con tutoriales caducados, y aprendí más de los atascos que de los aciertos. Este curso recoge ese recorrido: lo que funciona, lo que no, las trampas reales y los atajos que de verdad ahorran tiempo. Es un momento fascinante para trabajar con estas herramientas. Y, según el día, bastante incómodo.
+Conviene que sea honesto sobre el camino, porque es la parte que rara vez se cuenta. La primera versión de casi todo lo que uso a diario no funcionó. Reconstruí cada pieza varias veces, me peleé con credenciales mal puestas y con tutoriales caducados, y aprendí más de los atascos que de los aciertos. Este curso recoge ese recorrido: lo que funciona, lo que no, las trampas reales y los atajos que de verdad ahorran tiempo. Es un momento fascinante para trabajar con estas herramientas. Y, según el día, bastante incómodo.
 
 ---
 
@@ -65,6 +65,23 @@ Además encontrarás una página de [recursos](recursos.md) actualizados para se
 ## Cómo usar este curso
 
 Los módulos se leen en orden, pero no hace falta hacerlo todo de una sentada. La vía rápida (los apartados numerados) te da lo esencial; las secciones **Profundiza** son opcionales y puedes saltarlas sin perder el hilo. Cada pieza incluye ejercicios sobre material tuyo y un apartado **«Aplícalo»** de cierre, que es donde de verdad se aprende. Si te topas con una palabra que no conoces, el [glosario](glosario.md) la aclara sin tecnicismos.
+
+---
+
+## Rutas de lectura por rol
+
+El orden completo funciona para todo el mundo, y aun así cada perfil tiene módulos donde el retorno llega antes. Todas las rutas comparten el arranque ([Antes de empezar](antes-de-empezar.md) y el módulo 1) y el cierre (el módulo 7); la columna del medio señala dónde conviene que tu perfil se detenga más.
+
+| Rol | Detente más en | Primer caso de uso sugerido |
+|-----|----------------|------------------------------|
+| Consultoría | Módulos 2 y 3 | Un flujo que resume los informes largos que llegan por correo |
+| Dirección y equipos | Módulos 3 y 6 | Un asistente sobre procedimientos internos que responde las preguntas repetidas del equipo |
+| Jurídico | Módulo 3 | Extraer las cláusulas clave de un contrato y compararlas con la plantilla estándar |
+| Financiero | Módulos 2 y 6 | Extraer los KPI de los informes mensuales y señalar desviaciones |
+| RRHH | Módulo 3 | Un asistente de preguntas frecuentes sobre las políticas internas |
+| Comercial y marketing | Módulo 2 | Clasificar las consultas entrantes (consulta, presupuesto, queja) y derivarlas |
+
+Los módulos 4 y 5 son la ventana opcional para todos los perfiles: entender el cambio de paradigma y saber qué se puede encargar, a quién y con qué palabras.
 
 ---
 

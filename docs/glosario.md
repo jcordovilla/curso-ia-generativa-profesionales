@@ -58,9 +58,9 @@ links_woven: true
 
 **RAG (generación aumentada por recuperación).** La forma de hacer que la IA responda sobre tus documentos: primero busca los fragmentos relevantes en tu material y luego redacta la respuesta con ellos delante. Como un asistente que consulta el archivador antes de contestar.
 
-**Embedding.** La representación numérica de un fragmento de texto que permite buscar por significado y no solo por palabras exactas. Es lo que hace que una búsqueda encuentre "vacaciones" cuando preguntas por "días libres".
+**Embedding.** La representación numérica de un fragmento de texto que permite buscar por significado y no solo por palabras exactas. Es lo que hace que una búsqueda encuentre "vacaciones" cuando preguntas por "días libres". En el módulo 5 lo llamamos "huella de significado", que es lo mismo dicho en llano.
 
-**Base vectorial.** El almacén donde se guardan esos embeddings para poder buscarlos rápido. FAISS, LanceDB o Chroma son ejemplos.
+**Base vectorial.** El almacén donde se guardan esos embeddings para poder buscarlos rápido. FAISS, LanceDB o Chroma son ejemplos. Es la pieza que en el módulo 5 aparece como "índice de significado".
 
 **Agente.** Un modelo con permiso para elegir herramienta según lo que le pidas: buscar en tus documentos, consultar la web, escribir un archivo. Analiza la petición, decide qué usar y lo ejecuta.
 
