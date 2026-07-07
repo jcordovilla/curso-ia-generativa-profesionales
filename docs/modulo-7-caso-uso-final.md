@@ -1,5 +1,5 @@
 ---
-date: "2026-02-08"
+date: "2026-07-07"
 title: "Módulo 7 - Tu caso de uso"
 tags:
   - lang/es
@@ -14,7 +14,7 @@ links_woven: true
 
 ## Diseñar, documentar y ejecutar tu propio proyecto
 
-Este es el módulo de cierre, y es puro trabajo de mesa: una plantilla para que diseñes tu propio caso de uso de principio a fin, con toda la información necesaria para implementarlo tú mismo o entregarlo a un equipo técnico.
+Este es el módulo de cierre, y es puro trabajo de mesa: una plantilla para que diseñes tu propio caso de uso de principio a fin, con toda la información necesaria para implementarlo tú mismo o entregarlo a un equipo técnico, y una ruta de 30 días para pasar del papel a la práctica.
 
 ---
 
@@ -70,6 +70,17 @@ Copia esta plantilla y rellénala con tu proyecto. No hace falta que esté perfe
 - Conexión al servicio de salida *(Slack, Sheets…)*
 - Otras: ___
 
+**Coste mensual estimado:**
+- Suscripción de chat o de plataforma: *(€/mes; la tabla del módulo 1 y el orden de coste del módulo 2)*
+- Uso por API si el flujo corre solo: *(céntimos a pocos euros/mes en casos personales)*
+- Total estimado: ___ €/mes, frente a un ahorro estimado de ___ horas/mes
+
+**Plan de hábito:** *(lo que separa la herramienta viva del experimento olvidado)*
+- ¿Cuándo corre o cuándo se usa? *(cada mañana, cada lunes, al llegar un correo…)*
+- ¿Quién revisa el resultado y con qué frecuencia?
+- ¿Cuánto mantenimiento asumes? *(la referencia del módulo 6: minutos a la semana y alguna tarde al año)*
+- ¿Cómo se avisa si deja de funcionar?
+
 **Métricas de éxito:**
 1. Uso: *(ejecuciones esperadas por semana)*
 2. Ahorro estimado: *(horas/semana o euros/mes)*
@@ -98,7 +109,20 @@ Con esta información, el equipo técnico no tiene que adivinar nada.
 
 ---
 
-## 3. Qué viene después
+## 3. La ruta de los 30 días
+
+La plantilla dice qué construir; esta ruta dice cuándo. Es el recorrido del curso convertido en calendario, para quien prefiere avanzar con hitos a la vista. Cada semana termina con algo comprobable, y la regla de oro es no saltarse el orden: las dos primeras semanas no usan más herramienta que el chat, y son las que hacen fáciles las dos últimas.
+
+![La ruta de los 30 días en cuatro semanas: la base con el chat, el criterio y la elección de tarea, la construcción del asistente o el flujo, y la prueba con casos reales, métricas y decisión](assets/ruta-30-dias.svg)
+
+- **Semana 1, la base.** Los tres ejercicios de "Antes de empezar" sobre material tuyo, la regla de privacidad en tres preguntas y la elección de modelo. Hito: una tarea real resuelta con una instrucción estructurada e iterada.
+- **Semana 2, el criterio.** Los escalones 4-6 (encadenar, adjuntar, formatos) y la elección de tu tarea candidata, pasada por la matriz del módulo 2. Hito: la tarea elegida, dibujada en tres cajas y con veredicto de "merece la pena".
+- **Semana 3, la construcción.** El asistente con documentos del módulo 3 o el primer flujo del módulo 2, uno de los dos; ambos a la vez es la receta clásica del abandono. Hito: funciona una vez de principio a fin.
+- **Semana 4, la prueba.** Casos reales, las cuatro métricas del módulo 6, la evaluación de cinco preguntas si es un asistente, y la plantilla de este módulo rellenada. Hito: la decisión informada de seguir, ajustar o parar, con datos.
+
+---
+
+## 4. Qué viene después
 
 La IA generativa evoluciona rápidamente. Estas son las tendencias que vale la pena seguir:
 
@@ -119,7 +143,7 @@ La interacción por voz con modelos de IA ya funciona razonablemente. "Oye asist
 
 ---
 
-## 4. El toolkit del profesional en 2026
+## 5. El toolkit del profesional en 2026
 
 Un resumen de herramientas y cuándo usar cada una:
 
@@ -136,7 +160,7 @@ Un resumen de herramientas y cuándo usar cada una:
 
 ---
 
-## 5. Lleva un registro de tu propio avance
+## 6. Lleva un registro de tu propio avance
 
 Una última idea, quizá la más fácil de pasar por alto. Lleva un registro de lo que vas construyendo y aprendiendo: qué probaste, qué funcionó, qué te atascó. No hace falta nada sofisticado, un documento basta.
 
@@ -144,7 +168,7 @@ El salto de "uso ChatGPT" a "tengo un sistema que trabaja conmigo" se ve cuando 
 
 ---
 
-## 6. Cierre del curso
+## 7. Cierre del curso
 
 Tres competencias que ya tienes:
 

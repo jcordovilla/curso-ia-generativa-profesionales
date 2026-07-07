@@ -54,7 +54,7 @@ El curso tiene **7 módulos progresivos**, precedidos por una pieza de base sin 
 | [2](modulo-2-automatizar-con-ia.md) | Encadenar y adjuntar antes que automatizar | Subir los escalones 4-6 y montar tu primer flujo sin código |
 | [3](modulo-3-asistentes-con-documentos.md) | Asistentes con documentos | Crear un asistente que responde sobre tus propios archivos |
 | [4](modulo-4-ia-que-programa.md) | IA que programa por ti | Entender los AI coding assistants y MCP |
-| [5](modulo-5-construir-sistema.md) | Construir tu sistema | RAG, agentes y APIs (profundización opcional) |
+| [5](modulo-5-construir-sistema.md) | Mirar dentro de un sistema real | Entender las piezas de un sistema y decidir qué replicar, encargar o dejar estar |
 | [6](modulo-6-evaluar-y-escalar.md) | Evaluar y escalar | Medir impacto, documentar y pasar al equipo |
 | [7](modulo-7-caso-uso-final.md) | Tu caso de uso | Diseñar tu propio proyecto con plantilla completa |
 

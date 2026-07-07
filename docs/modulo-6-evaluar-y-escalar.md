@@ -1,5 +1,5 @@
 ---
-date: "2026-02-08"
+date: "2026-07-07"
 title: "Módulo 6 - Evaluar y escalar"
 tags:
   - lang/es
@@ -20,6 +20,10 @@ Este es el módulo que marca la diferencia entre un experimento que impresiona u
 
 > [!tip] Observación práctica
 > Lo que distingue un piloto exitoso de un piloto que se olvida en dos semanas no es la tecnología que usa. Es si alguien documentó el prompt, centralizó las credenciales y definió quién revisa que el resultado siga siendo útil. La parte aburrida es la que sostiene todo.
+
+El camino de este módulo es un ciclo de cuatro pasos, y conviene verlo entero antes de entrar en cada uno:
+
+![El ciclo de cuatro pasos que convierte un experimento en herramienta del equipo: prototipo, medir, documentar y escalar, y vuelta a empezar con mejoras](assets/ciclo-evaluacion.svg)
 
 ---
 
@@ -93,7 +97,7 @@ En algún momento, lo que construiste necesitará pasar a las manos del equipo t
 
 Con eso estás haciendo tu parte. Y el técnico tiene lo que necesita para actuar.
 
-> [!example]- Profundiza: qué mirar cuando te pasan un repo de GitHub
+> [!note]- Profundiza: qué mirar cuando te pasan un repo de GitHub
 > No necesitas leer código. Necesitas leer la documentación:
 >
 > 1. **`README.md`** → explica qué hace, cómo se instala, cómo se ejecuta.
@@ -150,6 +154,8 @@ No todo lo tienes que resolver tú. Escala cuando:
 La IA generativa no es estática: cambian las APIs, cambian los modelos, cambian los documentos que subiste, cambian las personas que lo usan. Sin mantenimiento, todo se rompe en silencio.
 
 Lo aprendí por las malas. Tenía un flujo que daba por sentado y un día dejó de devolver resultados: el proveedor había cambiado la API y nadie se enteró hasta que alguien preguntó por qué ya no llegaba el resumen. El mantenimiento aburre, y es justo lo que separa un experimento de una herramienta en la que el equipo confía.
+
+**¿Y cuánto tiempo es, en la práctica?** Te doy mis datos, que para esto valen más que una teoría. Mi sistema es de los grandes (varios flujos, conectores, búsqueda propia) y aun así el mantenimiento activo es una revisión semanal de media hora: comprobar que las rutinas corrieron, hojear los registros, actualizar lo que cambió. A eso se suman las averías: en mis primeras 25 semanas conté cinco, cada una con su diagnóstico y su arreglo documentados, todas del estilo de la que te acabo de contar (algo externo cambió y una pieza dejó de encajar). Para un flujo o un asistente como los de este curso, la escala es menor: unos minutos a la semana de comprobar que corre y que el resultado sigue siendo útil, y asumir desde el principio que alguna vez al año algo se romperá y te pedirá una tarde. Quien presupuesta ese tiempo mantiene la herramienta; quien no, la abandona en el primer susto.
 
 > [!tip] Observabilidad: que los fallos hagan ruido
 > Los ingenieros de sistemas tienen una palabra para esto: observabilidad. Significa montar las cosas de modo que puedas ver qué hacen y, sobre todo, enterarte cuando fallan. Un flujo sin observabilidad falla en silencio: deja de funcionar y nadie lo sabe hasta que alguien echa de menos el resultado. Uno con observabilidad te avisa, con un mensaje a un canal, un correo de error o una línea en un registro. La regla es sencilla: si algo se rompe, más vale que haga ruido. Diséñalo para enterarte tú antes de que lo note el cliente.

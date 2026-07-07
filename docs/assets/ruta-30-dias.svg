@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" width="920" height="440" role="img" aria-label="La ruta de los 30 días en cuatro semanas: la base con el chat, el criterio y la elección de tarea, la construcción del asistente o el flujo, y la prueba con casos reales, métricas y decisión">
+  <defs>
+    <style>
+      .titulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 21px; font-weight: 700; fill: #1a202c; }
+      .semana { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 700; fill: #2563eb; letter-spacing: 0.5px; }
+      .semana-t { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 700; fill: #0f766e; letter-spacing: 0.5px; }
+      .caja { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 15px; font-weight: 700; fill: #1a202c; }
+      .item { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #4a5568; }
+      .dia { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; font-style: italic; fill: #64748b; }
+      .linea { stroke: #94a3b8; stroke-width: 2.5; }
+    </style>
+  </defs>
+
+  <text class="titulo" x="460" y="40" text-anchor="middle">La ruta de los 30 días</text>
+
+  <!-- Semana 1 -->
+  <text class="semana" x="152" y="95" text-anchor="middle">SEMANA 1</text>
+  <rect x="60" y="108" width="185" height="170" rx="10" fill="#f1f5f9" stroke="#cbd5e0" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="caja" x="152" y="140" text-anchor="middle">La base</text>
+  <text class="item" x="152" y="170" text-anchor="middle">Escalones 1-3</text>
+  <text class="item" x="152" y="188" text-anchor="middle">con tu material</text>
+  <text class="item" x="152" y="212" text-anchor="middle">Regla de privacidad</text>
+  <text class="item" x="152" y="236" text-anchor="middle">Elige tu modelo</text>
+
+  <!-- Semana 2 -->
+  <text class="semana" x="357" y="95" text-anchor="middle">SEMANA 2</text>
+  <rect x="265" y="108" width="185" height="170" rx="10" fill="#f1f5f9" stroke="#cbd5e0" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="caja" x="357" y="140" text-anchor="middle">El criterio</text>
+  <text class="item" x="357" y="170" text-anchor="middle">Escalones 4-6</text>
+  <text class="item" x="357" y="194" text-anchor="middle">Elige tu tarea</text>
+  <text class="item" x="357" y="218" text-anchor="middle">Pásala por la matriz</text>
+  <text class="item" x="357" y="236" text-anchor="middle">del módulo 2</text>
+
+  <!-- Semana 3 -->
+  <text class="semana" x="562" y="95" text-anchor="middle">SEMANA 3</text>
+  <rect x="470" y="108" width="185" height="170" rx="10" fill="#f1f5f9" stroke="#cbd5e0" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="caja" x="562" y="140" text-anchor="middle">La construcción</text>
+  <text class="item" x="562" y="170" text-anchor="middle">Asistente con</text>
+  <text class="item" x="562" y="188" text-anchor="middle">documentos o flujo</text>
+  <text class="item" x="562" y="212" text-anchor="middle">Uno de los dos,</text>
+  <text class="item" x="562" y="230" text-anchor="middle">no ambos</text>
+
+  <!-- Semana 4 -->
+  <text class="semana-t" x="767" y="95" text-anchor="middle">SEMANA 4</text>
+  <rect x="675" y="108" width="185" height="170" rx="10" fill="#ccfbf1" stroke="#5eead4" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="caja" x="767" y="140" text-anchor="middle">La prueba</text>
+  <text class="item" x="767" y="170" text-anchor="middle">Casos reales</text>
+  <text class="item" x="767" y="194" text-anchor="middle">Las 4 métricas</text>
+  <text class="item" x="767" y="218" text-anchor="middle">Ficha completa</text>
+  <text class="item" x="767" y="236" text-anchor="middle">y decisión de seguir</text>
+
+  <!-- Línea de tiempo -->
+  <line class="linea" x1="60" y1="330" x2="847" y2="330"/>
+  <polygon points="847,323 860,330 847,337" fill="#94a3b8"/>
+  <circle cx="152" cy="330" r="6" fill="#2563eb"/>
+  <circle cx="357" cy="330" r="6" fill="#2563eb"/>
+  <circle cx="562" cy="330" r="6" fill="#2563eb"/>
+  <circle cx="767" cy="330" r="6" fill="#0f766e"/>
+  <text class="dia" x="60" y="360">día 1</text>
+  <text class="dia" x="858" y="360" text-anchor="end">día 30</text>
+
+  <text class="dia" x="460" y="404" text-anchor="middle">Orientativa: el orden importa más que el calendario. Si una semana se alarga, no pasa nada.</text>
+</svg>

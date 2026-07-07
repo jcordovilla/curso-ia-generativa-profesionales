@@ -1,5 +1,5 @@
 ---
-date: "2026-02-08"
+date: "2026-07-07"
 title: "Módulo 3 - Asistentes con documentos"
 tags:
   - lang/es
@@ -14,7 +14,7 @@ links_woven: true
 
 ## Crear asistentes propios que responden sobre tu información
 
-En el [módulo anterior](modulo-2-automatizar-con-ia.md) ya construiste un flujo que procesa información con IA. El siguiente paso lógico es: *¿y si en vez de un flujo fijo tengo un asistente al que puedo hacerle preguntas sobre mis propios documentos?*
+En el [módulo anterior](modulo-2-automatizar-con-ia.md) entendiste (y quizá montaste) un flujo que procesa información con IA, y en el escalón 5 aprendiste a adjuntar un documento para que la IA trabaje sobre él. Este módulo convierte ese escalón en algo permanente: en vez de subir el documento cada vez, montas una sola vez un asistente que ya lo tiene, y le preguntas las veces que haga falta.
 
 Eso es lo que veremos aquí: **cómo crear un asistente alimentado con tu documentación, sin poner en riesgo información sensible** y usando el vocabulario correcto para explicarlo dentro de tu organización.
 
@@ -34,6 +34,8 @@ Eso es lo que veremos aquí: **cómo crear un asistente alimentado con tu docume
 
 Se parece más a un **documento interactivo** que a un chatbot genérico.
 
+![Qué es un asistente con documentos: tus documentos y tus instrucciones entran una sola vez; el asistente responde con base en ese material y avisa cuando algo no está en la documentación](assets/asistente-documentos.svg)
+
 ---
 
 ## 2. Los tres constructores principales
@@ -47,6 +49,8 @@ Hoy existen varios entornos para crear asistentes con documentos sin programar. 
 | **Google** | Gemini Gems | Integración directa con Google Workspace | Menor control sobre instrucciones |
 
 Los tres funcionan con el mismo principio: subes documentos, escribes instrucciones de sistema y el asistente responde basándose en ese material.
+
+**El coste comparado** es fácil de recordar: crear asistentes es, con carácter general, función de los planes de pago que ya viste en el módulo 1 (ChatGPT Plus 20 $, Claude Pro 20 $ o 17 $ en anual, Google AI Pro 19,99 $, a junio de 2026; las excepciones en los planes gratuitos cambian cada pocos meses). La parte buena: crear el asistente no añade coste sobre la suscripción, así que la decisión de plataforma es la misma del módulo 1, y si ya pagas una, esta función viene con ella.
 
 > [!tip] Observación práctica
 > Muchos profesionales se quedan en los GPTs personalizados sin saber que existen alternativas. Yo tengo montado un Claude Project sobre mi propia documentación de proyectos: le he subido procedimientos, actas y fichas, y le pregunto en lenguaje natural cosas que antes me obligaban a abrir diez archivos. Claude Projects trabaja bien con documentos largos y no usa tus datos para entrenar. Vale la pena probar al menos dos plataformas antes de decidir.
@@ -159,7 +163,7 @@ Con esto el técnico ya sabe:
 ## 8. Aplícalo
 
 > [!example] Aplícalo
-> Elige un tema sobre el que tu equipo te pregunta una y otra vez: un procedimiento interno, la política de gastos, las preguntas frecuentes de un producto. Reúne tres o cuatro documentos buenos sobre ese tema (los justos, bien nombrados), crea un asistente en Claude Projects o en un GPT y dale instrucciones de no inventar y de avisar cuando algo no esté en la documentación. Pruébalo con cinco preguntas reales del equipo. Si responde bien a esas cinco, ya tienes algo que enseñar.
+> Elige un tema sobre el que tu equipo te pregunta una y otra vez: un procedimiento interno, la política de gastos, las preguntas frecuentes de un producto. Reúne tres o cuatro documentos buenos sobre ese tema (los justos, bien nombrados, y que pasen las tres preguntas de privacidad del módulo 1), crea un asistente en Claude Projects o en un GPT y dale instrucciones de no inventar y de avisar cuando algo no esté en la documentación. Después viene la parte que casi nadie hace y que lo cambia todo: **evalúalo**. Escribe cinco preguntas reales del equipo cuya respuesta tú ya conoces, házselas, y puntúa cada respuesta con tres comprobaciones: ¿respondió desde los documentos o de memoria?, ¿la respuesta coincide con la que tú sabías?, ¿dijo "no está en la documentación" cuando tocaba? Cinco de cinco: ya tienes algo que enseñar. Menos de eso: revisa qué documento falta o qué instrucción se queda corta, y vuelve a pasar la prueba.
 
 ---
 

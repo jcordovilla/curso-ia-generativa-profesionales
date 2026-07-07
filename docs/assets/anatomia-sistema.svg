@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 620" width="920" height="620" role="img" aria-label="Anatomía del sistema: tus fuentes (correo, documentos y notas) alimentan un índice de significado local; unos conectores enchufan todo eso a la IA, que razona y redacta. Las fuentes, el índice y los conectores viven en tu ordenador">
+  <defs>
+    <style>
+      .titulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 21px; font-weight: 700; fill: #1a202c; }
+      .subtitulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 14px; fill: #4a5568; }
+      .grupo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 600; fill: #64748b; letter-spacing: 0.5px; }
+      .caja { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 15px; font-weight: 700; fill: #1a202c; }
+      .caja-sub { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #4a5568; }
+      .caja-b { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 700; fill: #ffffff; }
+      .caja-sub-b { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #e0e7ff; }
+      .caja-t { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 15px; font-weight: 700; fill: #0f766e; }
+      .caja-sub-t { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #0f766e; }
+      .pie { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-style: italic; fill: #4a5568; }
+      .flecha { stroke: #94a3b8; stroke-width: 2.5; }
+      .llave { stroke: #cbd5e0; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <text class="titulo" x="460" y="40" text-anchor="middle">La anatomía del sistema</text>
+  <text class="subtitulo" x="460" y="64" text-anchor="middle">Tres piezas: la memoria externa, el índice de significado y los conectores</text>
+
+  <!-- Fuentes -->
+  <text class="grupo" x="145" y="126" text-anchor="middle">TUS FUENTES</text>
+  <rect x="50" y="150" width="190" height="76" rx="8" fill="#f1f5f9" stroke="#cbd5e0" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="caja" x="145" y="194" text-anchor="middle">Correo</text>
+  <rect x="50" y="246" width="190" height="76" rx="8" fill="#f1f5f9" stroke="#cbd5e0" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="caja" x="145" y="290" text-anchor="middle">Documentos</text>
+  <rect x="50" y="342" width="190" height="76" rx="8" fill="#f1f5f9" stroke="#cbd5e0" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="caja" x="145" y="378" text-anchor="middle">Notas</text>
+  <text class="caja-sub" x="145" y="398" text-anchor="middle">la memoria externa</text>
+
+  <!-- Flechas fuentes → índice -->
+  <line class="flecha" x1="240" y1="188" x2="285" y2="230"/>
+  <line class="flecha" x1="240" y1="284" x2="287" y2="284"/>
+  <line class="flecha" x1="240" y1="380" x2="285" y2="338"/>
+  <polygon points="287,277 300,284 287,291" fill="#94a3b8"/>
+
+  <!-- Índice -->
+  <rect x="300" y="150" width="160" height="268" rx="8" fill="#ccfbf1" stroke="#5eead4" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="caja-t" x="380" y="270" text-anchor="middle">Índice de</text>
+  <text class="caja-t" x="380" y="290" text-anchor="middle">significado</text>
+  <text class="caja-sub-t" x="380" y="314" text-anchor="middle">búsqueda local</text>
+
+  <!-- Flecha índice → conectores -->
+  <line class="flecha" x1="460" y1="284" x2="507" y2="284"/>
+  <polygon points="507,277 520,284 507,291" fill="#94a3b8"/>
+
+  <!-- Conectores -->
+  <rect x="520" y="150" width="140" height="268" rx="8" fill="#f0fdfa" stroke="#5eead4" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="caja-t" x="590" y="278" text-anchor="middle">Conectores</text>
+  <text class="caja-sub-t" x="590" y="300" text-anchor="middle">los enchufes</text>
+
+  <!-- Flecha doble conectores ↔ IA -->
+  <line class="flecha" x1="660" y1="284" x2="707" y2="284"/>
+  <polygon points="707,277 720,284 707,291" fill="#94a3b8"/>
+  <polygon points="673,277 660,284 673,291" fill="#94a3b8"/>
+
+  <!-- IA -->
+  <rect x="720" y="150" width="160" height="268" rx="8" fill="#2563eb" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.08))"/>
+  <text class="caja-b" x="800" y="272" text-anchor="middle">La IA</text>
+  <text class="caja-sub-b" x="800" y="296" text-anchor="middle">razona y redacta</text>
+
+  <!-- Llave "vive en tu ordenador" -->
+  <line class="llave" x1="50" y1="450" x2="660" y2="450"/>
+  <line class="llave" x1="50" y1="443" x2="50" y2="457"/>
+  <line class="llave" x1="660" y1="443" x2="660" y2="457"/>
+  <text class="grupo" x="355" y="478" text-anchor="middle">TODO ESTO VIVE EN TU ORDENADOR</text>
+  <text class="grupo" x="800" y="478" text-anchor="middle">EN LA NUBE (O EN LOCAL)</text>
+
+  <!-- Pie -->
+  <text class="pie" x="460" y="540" text-anchor="middle">La memoria es tuya y permanente; la IA es el motor que se enchufa.</text>
+  <text class="pie" x="460" y="562" text-anchor="middle">En cada pregunta, la IA solo ve los fragmentos que necesita, no tus archivos enteros.</text>
+</svg>

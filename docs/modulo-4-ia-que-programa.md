@@ -256,4 +256,4 @@ Herramientas como **Ollama** o **LM Studio** permiten ejecutar modelos de IA dir
 
 ---
 
-En el [Módulo 5](modulo-5-construir-sistema.md) exploraremos la capa técnica para quienes quieran ir más allá: RAG, agentes y APIs, todo desde la lógica de este módulo, describir en lugar de programar.
+En el [Módulo 5](modulo-5-construir-sistema.md) abrimos el capó del sistema que has visto en este módulo: qué piezas tiene, cómo encajan, y cuál puedes replicar tú, cuál encargar y cuál dejar estar.
