@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 580" width="760" height="580" role="img" aria-label="El ciclo de cuatro pasos que convierte un experimento en herramienta del equipo: prototipo, medir, documentar y escalar, y vuelta a empezar con mejoras">
+  <defs>
+    <style>
+      .titulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 21px; font-weight: 700; fill: #1a202c; }
+      .num { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 20px; font-weight: 700; fill: #2563eb; }
+      .caja { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 700; fill: #1a202c; }
+      .caja-sub { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #4a5568; }
+      .rama { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; font-style: italic; fill: #64748b; }
+      .flecha { stroke: #94a3b8; stroke-width: 2.5; fill: none; }
+    </style>
+  </defs>
+
+  <text class="titulo" x="380" y="40" text-anchor="middle">De experimento a herramienta del equipo</text>
+
+  <!-- 1 Prototipo (arriba izquierda) -->
+  <rect x="70" y="100" width="280" height="130" rx="10" fill="#f1f5f9" stroke="#cbd5e0" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="num" x="100" y="140">1</text>
+  <text class="caja" x="210" y="160" text-anchor="middle">Prototipo</text>
+  <text class="caja-sub" x="210" y="186" text-anchor="middle">funciona una vez, contigo</text>
+
+  <!-- flecha 1 → 2 -->
+  <line class="flecha" x1="350" y1="165" x2="397" y2="165"/>
+  <polygon points="397,158 410,165 397,172" fill="#94a3b8"/>
+
+  <!-- 2 Medir (arriba derecha) -->
+  <rect x="410" y="100" width="280" height="130" rx="10" fill="#f1f5f9" stroke="#cbd5e0" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="num" x="440" y="140">2</text>
+  <text class="caja" x="550" y="160" text-anchor="middle">Medir</text>
+  <text class="caja-sub" x="550" y="186" text-anchor="middle">las 4 métricas sencillas</text>
+
+  <!-- flecha 2 → 3 -->
+  <line class="flecha" x1="550" y1="230" x2="550" y2="277"/>
+  <polygon points="543,277 550,290 557,277" fill="#94a3b8"/>
+
+  <!-- 3 Documentar (abajo derecha) -->
+  <rect x="410" y="290" width="280" height="130" rx="10" fill="#f1f5f9" stroke="#cbd5e0" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="num" x="440" y="330">3</text>
+  <text class="caja" x="550" y="350" text-anchor="middle">Documentar</text>
+  <text class="caja-sub" x="550" y="376" text-anchor="middle">la ficha de media página</text>
+
+  <!-- flecha 3 → 4 -->
+  <line class="flecha" x1="410" y1="355" x2="363" y2="355"/>
+  <polygon points="363,348 350,355 363,362" fill="#94a3b8"/>
+
+  <!-- 4 Escalar (abajo izquierda) -->
+  <rect x="70" y="290" width="280" height="130" rx="10" fill="#ccfbf1" stroke="#5eead4" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="num" x="100" y="330">4</text>
+  <text class="caja" x="210" y="350" text-anchor="middle">Escalar al equipo</text>
+  <text class="caja-sub" x="210" y="376" text-anchor="middle">credenciales, responsable, avisos</text>
+
+  <!-- flecha 4 → 1 (cierre del ciclo) -->
+  <line class="flecha" x1="210" y1="290" x2="210" y2="243"/>
+  <polygon points="203,243 210,230 217,243" fill="#94a3b8"/>
+  <text class="rama" x="228" y="266">y vuelta a mejorar</text>
+
+  <text class="rama" x="380" y="490" text-anchor="middle">El ciclo no termina: cada vuelta deja la herramienta más fiable y más del equipo.</text>
+</svg>

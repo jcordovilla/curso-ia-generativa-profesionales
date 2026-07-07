@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" width="920" height="440" role="img" aria-label="Qué es un asistente con documentos: tus documentos y tus instrucciones entran una sola vez; el asistente responde con base en ese material y avisa cuando algo no está en la documentación">
+  <defs>
+    <style>
+      .titulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 21px; font-weight: 700; fill: #1a202c; }
+      .caja { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 15px; font-weight: 700; fill: #1a202c; }
+      .caja-sub { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #4a5568; }
+      .caja-b { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 17px; font-weight: 700; fill: #ffffff; }
+      .caja-sub-b { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #e0e7ff; }
+      .caja-t { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 15px; font-weight: 700; fill: #0f766e; }
+      .caja-sub-t { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #0f766e; }
+      .pie { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-style: italic; fill: #4a5568; }
+      .flecha { stroke: #94a3b8; stroke-width: 2.5; }
+    </style>
+  </defs>
+
+  <text class="titulo" x="460" y="42" text-anchor="middle">Qué es un asistente con documentos</text>
+
+  <!-- Documentos -->
+  <rect x="50" y="100" width="240" height="110" rx="10" fill="#f1f5f9" stroke="#cbd5e0" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="caja" x="170" y="145" text-anchor="middle">Tus documentos</text>
+  <text class="caja-sub" x="170" y="170" text-anchor="middle">pocos y bien elegidos</text>
+
+  <!-- Instrucciones -->
+  <rect x="50" y="240" width="240" height="110" rx="10" fill="#f1f5f9" stroke="#cbd5e0" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="caja" x="170" y="285" text-anchor="middle">Tus instrucciones</text>
+  <text class="caja-sub" x="170" y="310" text-anchor="middle">"no inventes; avisa si falta"</text>
+
+  <!-- Flechas entradas → asistente -->
+  <line class="flecha" x1="290" y1="155" x2="367" y2="205"/>
+  <line class="flecha" x1="290" y1="295" x2="367" y2="245"/>
+  <polygon points="365,196 380,212 359,214" fill="#94a3b8"/>
+  <polygon points="359,236 380,238 365,254" fill="#94a3b8"/>
+
+  <!-- Asistente -->
+  <rect x="385" y="145" width="220" height="160" rx="10" fill="#2563eb" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.08))"/>
+  <text class="caja-b" x="495" y="220" text-anchor="middle">El asistente</text>
+  <text class="caja-sub-b" x="495" y="245" text-anchor="middle">se monta una sola vez</text>
+
+  <!-- Flecha asistente → respuestas -->
+  <line class="flecha" x1="605" y1="225" x2="652" y2="225"/>
+  <polygon points="652,218 665,225 652,232" fill="#94a3b8"/>
+
+  <!-- Respuestas -->
+  <rect x="665" y="145" width="215" height="160" rx="10" fill="#ccfbf1" stroke="#5eead4" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="caja-t" x="772" y="210" text-anchor="middle">Respuestas con base</text>
+  <text class="caja-sub-t" x="772" y="235" text-anchor="middle">y un "no está en la</text>
+  <text class="caja-sub-t" x="772" y="252" text-anchor="middle">documentación" cuando toca</text>
+
+  <!-- Pie -->
+  <text class="pie" x="460" y="398" text-anchor="middle">Se configura una vez; el equipo pregunta las veces que haga falta.</text>
+</svg>
