@@ -39,13 +39,13 @@ Te basta con saber **qué es posible, cómo se hace y dónde están los límites
 3. **Crear asistentes propios** que responden sobre tus documentos internos.
 4. **Entender el cambio de paradigma** de los AI coding assistants y qué significa para tu trabajo.
 5. **Evaluar, documentar y escalar** lo que construyas para que lo use tu equipo.
-6. **Si quieres ir más allá**, construir tu propio sistema con búsqueda semántica, agentes y APIs.
+6. **Si quieres ir más allá**, entender cómo se construye un sistema propio: búsqueda por significado, asistentes que actúan y conexiones entre herramientas.
 
 ---
 
 ## Cómo está organizado
 
-El curso tiene **7 módulos progresivos**, precedidos por una pieza de base sin número: [Antes de empezar](antes-de-empezar.md), los tres primeros escalones con el chat que ya tienes. Cada módulo tiene una **vía rápida** con los conceptos esenciales y secciones **Profundiza** opcionales para quienes quieran entrar en la capa técnica.
+El curso tiene **7 módulos progresivos**, precedidos por una pieza de base sin número, [Antes de empezar](antes-de-empezar.md), que cubre los tres primeros escalones con el chat que ya tienes. Cada módulo tiene una **vía rápida** con los conceptos esenciales y secciones **Profundiza** opcionales para quienes quieran entrar en la capa técnica.
 
 | Módulo | Tema | Qué sabrás hacer |
 |--------|------|-------------------|
@@ -64,7 +64,7 @@ Además encontrarás una página de [recursos](recursos.md) actualizados para se
 
 ## Cómo usar este curso
 
-Los módulos se leen en orden, pero no hace falta hacerlo todo de una sentada. La vía rápida (los apartados numerados) te da lo esencial; las secciones **Profundiza** son opcionales y puedes saltarlas sin perder el hilo. Cada módulo termina con un apartado **«Aplícalo»** para que pruebes lo aprendido sobre un caso tuyo, que es donde de verdad se aprende. Si te topas con una palabra que no conoces, el [glosario](glosario.md) la aclara sin tecnicismos.
+Los módulos se leen en orden, pero no hace falta hacerlo todo de una sentada. La vía rápida (los apartados numerados) te da lo esencial; las secciones **Profundiza** son opcionales y puedes saltarlas sin perder el hilo. Cada pieza incluye ejercicios sobre material tuyo y un apartado **«Aplícalo»** de cierre, que es donde de verdad se aprende. Si te topas con una palabra que no conoces, el [glosario](glosario.md) la aclara sin tecnicismos.
 
 ---
 

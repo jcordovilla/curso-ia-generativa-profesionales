@@ -82,20 +82,20 @@ Cuando pienses en un caso de uso, pregúntate: **¿estoy resumiendo, clasificand
 
 ## 3. Elegir modelo: el mapa actual
 
-No existe "la mejor IA". Existen modelos con distintas capacidades, precios y políticas de privacidad. Aquí tienes un mapa orientativo:
+No existe "la mejor IA". Existen modelos con distintas capacidades, precios y políticas de privacidad. Antes de mirar la tabla, una advertencia que le quita presión: no hace falta memorizar ningún nombre. Los nombres cambian cada pocos meses; lo que se mantiene es el mapa de proveedores y el criterio para elegir, así que fíjate en las columnas de fortaleza y privacidad más que en el número de versión.
 
 | Proveedor | Modelo destacado | Fortaleza | Privacidad |
 |-----------|-----------------|-----------|-----------|
 | **OpenAI** | GPT-5.5 | Versatilidad general, multimodal | Datos en nube, opción de no entrenar |
 | **Anthropic** | Claude Opus 4.8 / Sonnet 4.6 | Análisis extenso, instrucciones complejas, código | No entrena con datos de usuario |
 | **Google** | Gemini 3.5 | Integración con Google Workspace, multimodal | Datos en nube de Google |
-| **Meta** | Llama 4 (vía Ollama) | Gratuito, ejecutable en local | Completamente privado si es local |
+| **Meta** | Llama 4 (vía Ollama, un programa para ejecutar modelos en tu ordenador; se explica más abajo) | Gratuito, ejecutable en local | Completamente privado si es local |
 | **Mistral** | Mistral (empresa europea) | Buen rendimiento, opción europea | Opción local o en nube |
 | **Alibaba** | Qwen 3 | Multilingüe, licencia abierta | Opción local o en nube |
 | **Google (abierto)** | Gemma 4 | Ligero, ideal para ejecutar en local | Completamente privado si es local |
 
 > [!note] Los nombres caducan; el mapa no
-> Esta tabla es de mediados de 2026 y para cuando la leas algún nombre habrá cambiado: estos modelos sacan versión nueva cada pocos meses. Lo que se mantiene es el mapa de proveedores y, sobre todo, el criterio para elegir. Fíjate en las columnas de fortaleza y privacidad más que en el número de versión.
+> Esta tabla es de mediados de 2026 y para cuando la leas algún nombre habrá cambiado: estos modelos sacan versión nueva cada pocos meses. El criterio de las columnas sigue valiendo aunque el número de versión cambie.
 
 > [!tip] Observación práctica
 > Para la mayoría de los casos de uso profesionales, Claude Sonnet 4.6 o GPT-5.5 dan la mejor relación entre calidad y coste. Si necesitas privacidad total, los modelos locales vía Ollama han mejorado enormemente: Llama 4, Qwen 3 y Gemma 4 son sorprendentemente capaces para tareas de resumen, clasificación y extracción, y corren en un portátil reciente sin enviar nada a la nube.
@@ -124,9 +124,9 @@ La pregunta que todo el mundo se hace y casi ningún curso responde con cifras. 
 | Google AI Plus | 7,99 $ | Escalón intermedio, con menos cuota |
 | Modelos locales (Ollama, LM Studio) | 0 | Corren en tu ordenador; la privacidad total de la sección siguiente |
 
-**Coste por uso.** Cuando en el [módulo 2](modulo-2-automatizar-con-ia.md) montes flujos automáticos, esa parte del trabajo deja de cubrirla la suscripción: el flujo llama al modelo y paga por trabajo hecho, a precios que sorprenden por lo bajos. Resumir un informe de 30 páginas cuesta del orden de 5 a 10 céntimos con un modelo de gama media, y 2 o 3 céntimos con uno ligero (tarifas de junio de 2026). Un caso de uso personal que corre a diario (el resumen matinal de boletines, la clasificación del correo entrante) se mueve en pocos euros al mes. Mi propio flujo de boletines de cada mañana cuesta menos de 50 céntimos de euro al mes.
+**Coste por uso.** Cuando en el [módulo 2](modulo-2-automatizar-con-ia.md) montes flujos automáticos, esa parte del trabajo deja de cubrirla la suscripción: el flujo llama al modelo y paga por trabajo hecho, a precios que sorprenden por lo bajos. Resumir un informe de 30 páginas cuesta del orden de 5 a 10 céntimos con un modelo de gama media, y 2 o 3 céntimos con uno ligero (tarifas de junio de 2026). Mi propio flujo de boletines de cada mañana cuesta menos de 50 céntimos de euro al mes. Un aviso que ahorra confusión más adelante: la suscripción de chat y el uso por API son cosas separadas, con cuenta y facturación propias; pagar ChatGPT Plus o Claude Pro no incluye la clave de API que usan los flujos, y al revés tampoco.
 
-**Presupuesto orientativo.** Aprender (este curso hasta el módulo 3) cuesta cero: las versiones gratuitas bastan. Trabajar en serio a diario justifica una suscripción de pago, unos 20 dólares al mes. Automatizar añade los céntimos de API y, según la plataforma que elijas, un plan de pago que verás con detalle en el módulo 2.
+**Presupuesto orientativo.** Aprender (este curso hasta el módulo 3) cuesta cero: las versiones gratuitas bastan. Trabajar en serio a diario justifica una suscripción de pago, unos 20 dólares al mes. Automatizar añade los céntimos de API y, si tu flujo crece, el plan de pago de la plataforma; el orden de coste de esas plataformas lo verás en el módulo 2.
 
 > [!tip] Observación práctica
 > Más de una suscripción de pago a la vez rara vez compensa al empezar. Prueba dos o tres herramientas en gratuito, elige la que mejor entienda tu contexto, paga esa y revisa la decisión a los tres meses, que en este mercado es una era geológica.
@@ -170,7 +170,7 @@ Las listas anteriores cubren los casos típicos, y aun así la duda reaparece co
 
 Si el material pasa las tres preguntas, adelante.
 
-<!-- Pieza visual pendiente: árbol de decisión SVG, tras fijar el estilo con el diagrama de la escalera (fase 1, iteración con JC) -->
+![Árbol de decisión de privacidad: tres preguntas en orden sobre datos personales, confidencialidad y canal externo; cualquier respuesta mala detiene el envío, y solo si las tres pasan se comparte el material con la IA](assets/arbol-decision-privacidad.svg)
 
 ### ¿Y si tu empresa no permite la nube?
 
@@ -232,7 +232,7 @@ Esto ya es presente. GPT-5.5, Claude y Gemini 3.5 procesan imágenes con soltura
 ## 9. Aplícalo
 
 > [!example] Aplícalo
-> Piensa en una tarea repetitiva de tu semana que te robe tiempo: leer correos largos, clasificar consultas que entran, sacar datos de informes. Ponle nombre con uno de los cuatro patrones: ¿estás resumiendo, clasificando, extrayendo o conversando? Después abre dos modelos distintos (por ejemplo Claude y ChatGPT), dales la misma tarea con un dato real ya anonimizado y compara las respuestas. Quédate con el que mejor entienda tu contexto. Ese pequeño experimento te enseña más que cualquier tabla comparativa.
+> Piensa en una tarea repetitiva de tu semana que te robe tiempo: leer correos largos, clasificar consultas que entran, sacar datos de informes. Ponle nombre con uno de los cuatro patrones: ¿estás resumiendo, clasificando, extrayendo o conversando? Después abre dos modelos distintos (por ejemplo Claude y ChatGPT; si solo tienes cuenta en uno, crear la otra en versión gratuita lleva dos minutos, un correo y una contraseña), dales la misma tarea con un dato real ya anonimizado y compara las respuestas. Quédate con el que mejor entienda tu contexto. Ese pequeño experimento te enseña más que cualquier tabla comparativa.
 
 ---
 

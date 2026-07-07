@@ -20,7 +20,7 @@ Es un cambio real que afecta directamente a lo que un profesional puede hacer po
 
 ![El cambio de paradigma: del chat que responde con texto al asistente de código que ejecuta acciones, lee tus archivos y entrega un resultado](assets/cambio-de-paradigma.svg)
 
-Hasta el módulo 3, la IA te respondía y tú actuabas: le pedías un resumen, lo leías y lo usabas. Lo que aparece en este módulo invierte esa relación. Le describes lo que necesitas y la IA actúa: escribe el código, lo ejecuta, lee tus archivos y te entrega un resultado. Tú revisas y decides, que es donde tu criterio vale más. Ese es el cambio, y conviene entenderlo antes de ver las herramientas que lo permiten.
+Hasta ahora, la IA respondía cuando tú se lo pedías, o ejecutaba flujos fijos que tú habías diseñado caja a caja, como el del módulo 2. Lo que aparece en este módulo va un paso más allá: le describes lo que necesitas y la IA escribe el código que lo resuelve, lo ejecuta, lee tus archivos y te entrega un resultado. Tú revisas y decides, que es donde tu criterio vale más. Ese es el cambio, y conviene entenderlo antes de ver las herramientas que lo permiten.
 
 ---
 
@@ -35,7 +35,7 @@ Programar sigue importando, pero **la barrera de entrada ha bajado radicalmente*
 > [!tip] Observación práctica
 > La mayoría de profesionales que fracasan intentando automatizar con IA fracasan por una razón concreta: se enfrentan a frameworks como LangChain con tutoriales de hace seis meses que ya no funcionan. Con un asistente de código, el mismo resultado se consigue en días en vez de semanas. Lo que marca la diferencia es la herramienta, no el talento de la persona.
 
-> [!tip] Lo viví así
+> [!note] Lo viví así
 > Cuento esto porque lo he vivido. Empecé, como casi todos, usando la IA en el navegador para preguntas sueltas. En algún momento quise que leyera mi correo de verdad, que buscara en mis notas, que me preparara las reuniones. Con un asistente de código fui montando, pieza a pieza y sin ser programador, conectores a mi correo y mis documentos, asistentes que me sintetizan información y pequeños programas que se ocupan de lo tedioso. No salió a la primera ni a la décima: reconstruí casi todo varias veces. Pero el salto, de "uso ChatGPT" a "tengo un sistema que trabaja conmigo", es real y está al alcance de cualquiera con criterio y paciencia.
 
 ---
@@ -96,7 +96,7 @@ MCP es un estándar abierto que permite a los modelos de IA conectarse con herra
 - No necesitas programar cada conexión desde cero.
 - El ecosistema crece rápidamente: lo que hoy no existe, probablemente existirá en meses.
 
-> [!example]- Profundiza: cómo funciona MCP
+> [!note]- Profundiza: cómo funciona MCP
 > MCP define un protocolo cliente-servidor donde:
 >
 > - El **cliente** es el modelo de IA (Claude, GPT, etc.).
@@ -160,7 +160,7 @@ Este cambio de paradigma tiene consecuencias prácticas para cómo trabajas y c�
 
 **Para evaluar proveedores de IA:** ahora puedes preguntarles con propiedad: "¿Soportáis MCP?", "¿Se puede conectar con nuestro CRM?", "¿Usáis modelos que podamos ejecutar localmente?". Ya no dependes de traducciones imprecisas.
 
-**Para pedir a IT con vocabulario adecuado:** en vez de "quiero que la IA haga algo con mis correos", puedes decir: "necesito un servidor MCP para Apple Mail conectado a Claude, ejecutándose en local". Eso se resuelve.
+**Para pedir a IT con vocabulario adecuado:** en vez de "quiero que la IA haga algo con mis correos", puedes decir: "necesito un servidor MCP para nuestro correo (Outlook, por ejemplo) conectado a la IA, ejecutándose en local". Eso se resuelve.
 
 **Para liderar proyectos de IA:** entiendes qué es posible, cuánto cuesta y dónde están los riesgos. No necesitas programar, pero puedes dirigir a quien lo haga.
 
@@ -195,8 +195,8 @@ Lo que acabo de contar es la versión limpia. La de verdad tuvo más tropiezos, 
 
 Ninguno de esos problemas era de programación en el sentido clásico: eran detalles de cómo encajan las piezas, y los resolví describiéndoselos al asistente de código una y otra vez hasta que funcionaron. Esa es la destreza real, y no aparece en ningún tutorial: no escribir código, sino tener la paciencia de volver a explicar el problema cuando la primera solución no sirve.
 
-> [!tip] A dónde lleva el camino
-> Para que el destino no quede en abstracto, unos números propios. Entre diciembre de 2025 y junio de 2026, en 25 semanas, ese sistema acumuló más de 500 sesiones de trabajo con la IA, unos 420 archivos creados y más de 1.200 modificados, tres conectores que enlazan la IA con mi correo, mis documentos y mis notas, y una veintena de pequeñas habilidades reutilizables que automatizan lo repetido. No lo cuento como hazaña, sino como prueba de que el destino es real y se llega pieza a pieza, sin formación de programador. (Son cifras de mi sistema a mediados de 2026; las pongo como orden de magnitud, no como meta.)
+> [!note] A dónde lleva el camino
+> Para que el destino no quede en abstracto, unos números propios. Entre diciembre de 2025 y junio de 2026, en 25 semanas, ese sistema acumuló más de 500 sesiones de trabajo con la IA, unos 420 archivos creados y más de 1.200 modificados, tres conectores que enlazan la IA con mi correo, mis documentos y mis notas, y una veintena de pequeñas habilidades reutilizables que automatizan lo repetido. No lo cuento como hazaña ni como meta: cada pieza nació de una necesidad concreta y se añadió cuando la anterior ya funcionaba, y nadie necesita llegar hasta aquí. La mayor parte del valor te la daban ya los tres primeros escalones de la escalera; todo lo demás es opcional y se recorre al paso que quieras. (Cifras de mi sistema a mediados de 2026, como orden de magnitud.)
 
 ---
 
@@ -215,9 +215,11 @@ Herramientas como **Ollama** o **LM Studio** permiten ejecutar modelos de IA dir
 - Para tareas que requieren el máximo rendimiento (GPT-5.5, Claude Opus 4.8 siguen siendo superiores).
 - Para procesamiento masivo de documentos (los modelos locales son más lentos).
 
-> [!example]- Profundiza: primeros pasos con Ollama
+> [!note]- Profundiza: primeros pasos con Ollama
+> Los comandos de abajo se escriben en la terminal, la ventana de texto del [glosario](glosario.md); instalar Ollama es lo que te la hace abrir por primera vez.
+>
 > 1. Instala Ollama: [ollama.com](https://ollama.com)
-> 2. Descarga un modelo: `ollama pull qwen3` (o el que prefieras: `llama4`, `gemma3`, `mistral`; los nombres cambian cada pocos meses, consulta el catálogo en ollama.com)
+> 2. Descarga un modelo: `ollama pull qwen3` (o el que prefieras del catálogo de ollama.com; los nombres exactos cambian cada pocos meses)
 > 3. Ejecuta: `ollama run qwen3`
 > 4. Ya tienes un modelo local funcionando en tu terminal.
 >
@@ -228,7 +230,7 @@ Herramientas como **Ollama** o **LM Studio** permiten ejecutar modelos de IA dir
 ## 9. Aplícalo
 
 > [!example] Aplícalo
-> No hace falta que construyas nada todavía. Abre un asistente de código (Claude Code o Cursor tienen versiones de prueba) y descríbele en una frase una tarea pequeña y real: "lee este archivo de texto con notas de reunión y sácame una lista de tareas con responsable". Mira cómo genera el código, lo ejecuta y corrige sus propios errores. Lo que buscas con esto es perderle el miedo a la herramienta y entender qué se siente al describir en lugar de programar. El resultado da igual.
+> No hace falta instalar nada para sentir el cambio de paradigma, porque tu propio chat ya sabe ejecutar código. Sube una hoja de cálculo con datos no sensibles (o pídele que se invente una de ejemplo) y escribe: "analiza estos datos, dime qué destaca y hazme un gráfico". Verás algo nuevo: en lugar de responder de memoria, la IA escribe un pequeño programa, lo ejecuta y te enseña el resultado. Eso es describir en lugar de programar, en miniatura. Las herramientas serias de este módulo (Claude Code, Cursor) piden más: instalarlas, usar la terminal y una suscripción o clave de API. Dales una oportunidad cuando quieras que la IA trabaje sobre tus archivos de verdad, no antes.
 
 ---
 
@@ -254,4 +256,4 @@ Herramientas como **Ollama** o **LM Studio** permiten ejecutar modelos de IA dir
 
 ---
 
-En el [Módulo 5](modulo-5-construir-sistema.md) exploraremos la capa técnica para quienes quieran ir más allá: RAG, agentes y APIs, todo a través del prisma de AI-assisted development.
+En el [Módulo 5](modulo-5-construir-sistema.md) exploraremos la capa técnica para quienes quieran ir más allá: RAG, agentes y APIs, todo desde la lógica de este módulo, describir en lugar de programar.

@@ -26,6 +26,8 @@ links_woven: true
 
 **Instrucciones de sistema.** Las normas de comportamiento que le das a un asistente una sola vez y que rigen todas sus respuestas: su papel, su estilo, qué hacer cuando falta información. El prompt es la petición de cada momento; las instrucciones de sistema son el contrato permanente.
 
+**GPT personalizado.** Un asistente que configuras dentro de ChatGPT con tus instrucciones y tus documentos, para reutilizarlo o compartirlo. Claude Projects y Gemini Gems son los equivalentes de los otros proveedores; los tres se aprenden en el módulo 3.
+
 **Token.** La unidad en la que el modelo cuenta el texto, más o menos una sílaba o un trozo de palabra. Importa porque los proveedores cobran por tokens y los modelos tienen un límite de cuántos procesan de una vez.
 
 **Alucinación.** Cuando el modelo se inventa un dato con total seguridad aparente: una cifra, una cita, una cláusula que no existe. Es la razón por la que nunca conviene fiarse de un resultado sin verificarlo.
@@ -48,7 +50,7 @@ links_woven: true
 
 ## Construir y conectar
 
-**No-code.** Herramientas que permiten montar automatizaciones conectando bloques visuales, sin escribir código. n8n, Make y Zapier son las más conocidas.
+**No-code.** Herramientas que permiten montar automatizaciones conectando bloques visuales, sin escribir código. Latenode, n8n y Make son las que verás en este curso.
 
 **Flujo.** Una secuencia de pasos que se ejecuta sola: algo llega (un correo, un formulario), la IA lo procesa y el resultado se entrega donde haga falta. Es la unidad básica de la automatización: si puedes dibujarlo en tres cajas, puedes construirlo.
 
@@ -69,6 +71,8 @@ links_woven: true
 ---
 
 ## El lenguaje de IT
+
+Algunos términos de este bloque pertenecen a los módulos avanzados (5 y 6); si aún no has llegado, no te intimiden: nadie te pedirá usarlos antes de tiempo.
 
 **API.** Una puerta para que un sistema le pida algo a otro. Cuando tu flujo llama a un modelo, usa una API.
 

@@ -22,7 +22,7 @@ Casi todo el mundo, y casi todos los cursos, dan aquí un salto demasiado largo:
 
 ## Primera mitad: los escalones 4, 5 y 6
 
-### 1. Escalón 4: encadenar pasos
+### 1. Encadenar pasos (escalón 4)
 
 Hasta ahora cada petición ha sido un acto único: preguntas, recibes, listo. El cuarto escalón es darse cuenta de que una tarea grande se hace mejor en dos o tres pasos seguidos, donde la salida de uno alimenta al siguiente. No es una técnica nueva de la IA: es cómo trabajas tú ya, partiendo lo complejo en piezas manejables.
 
@@ -42,7 +42,7 @@ Cada paso es corto, revisable y corregible antes de seguir. Si el guion del paso
 
 ---
 
-### 2. Escalón 5: adjuntar documentos
+### 2. Adjuntar documentos (escalón 5)
 
 Los chats de IA actuales aceptan que les subas un archivo (un PDF, un Word, una hoja de cálculo, la foto de un documento) y respondan sobre su contenido. Es el quinto escalón, y cambia la relación con la herramienta: dejas de copiar y pegar fragmentos y le das el documento entero para que trabaje sobre él.
 
@@ -58,7 +58,7 @@ Aquí reaparece, con más fuerza, el hábito del módulo 1: **que copie, no que 
 
 ---
 
-### 3. Escalón 6: pedir formatos reutilizables
+### 3. Pedir formatos reutilizables (escalón 6)
 
 El sexto escalón es el más sencillo de enunciar y el que más tiempo ahorra a la larga: pedir la salida en un formato que puedas reutilizar tal cual. Una tabla con columnas nombradas, una lista numerada, un esquema con apartados fijos. En vez de un párrafo que tienes que reordenar a mano, recibes algo que ya encaja donde va.
 
@@ -104,6 +104,14 @@ Las herramientas visuales que verás enseguida sirven para conectar estos tres b
 
 Este es mi flujo de verdad, tal como está montado en **Latenode**, la plataforma con la que lo construí. Hay otras equivalentes (las verás en la tabla del apartado siguiente); enseño esta porque es la que de verdad uso, y prefiero mostrarte algo que funciona en mi cuenta a describir una pantalla inventada.
 
+Una aclaración honesta antes de entrar: en este apartado vas a **entender un flujo real por dentro**, que es el objetivo del módulo. Montarlo tú requiere además tres prerrequisitos que hasta ahora el curso no te había pedido, y conviene saberlos antes, no descubrirlos a mitad:
+
+1. **Una cuenta en la plataforma** (Latenode o equivalente). Se crea como cualquier cuenta, con un correo y una contraseña, y el plan gratuito basta para empezar.
+2. **Una clave de API del proveedor de IA.** Recuerda el aviso del [módulo 1](modulo-1-entender-ia-generativa.md): es una cuenta distinta de tu suscripción de chat, se crea en el panel del proveedor (suele pedir una tarjeta, con cargos de céntimos) y ahí se genera la clave que luego pegas una sola vez en la plataforma. Algunas plataformas ofrecen su propio nodo de IA sin que tengas que traer clave, pagando el uso dentro del plan; para el primer flujo es la vía más cómoda.
+3. **Autorizar el acceso a la fuente de datos** (el correo, un formulario, una hoja). La plataforma te guía con pantallas de "conectar cuenta"; el aviso de privacidad de más abajo importa justo aquí.
+
+Nada de esto es difícil; es burocracia de configuración, de la que se hace una vez. Si prefieres solo entender cómo funciona y decidir después, este apartado te sirve entero sin tocar nada.
+
 ![Flujo de Latenode llamado Bloomberg Summarizer: cinco bloques encadenados de izquierda a derecha, con una nota amarilla sobre cada uno que explica qué hace. Un disparador horario, la búsqueda de correos, una limpieza del texto, el envío a ChatGPT y el envío del resumen por correo](assets/flujo-latenode-bloomberg.png)
 
 Cada bloque es una caja, y las notas amarillas de encima explican qué hace cada una. Se lee de izquierda a derecha, siguiendo las flechas, y es exactamente el patrón entrada → IA → salida del apartado anterior, solo que con un bloque de limpieza en medio. Estos cinco pasos:
@@ -115,6 +123,9 @@ El primer bloque decide qué pone en marcha el flujo. En el mío es la hora: se 
 #### Paso 2: recopilar los correos
 
 El segundo bloque busca en el correo y recoge todos los mensajes de las últimas 24 horas. Es el equivalente a abrir tú esos correos por la mañana, solo que lo hace el flujo, sin que estés delante.
+
+> [!warning] Conectar el correo es una decisión de privacidad mayor
+> Autorizar a una plataforma externa el acceso a tu buzón le da acceso a todo el buzón, y eso pesa más que subir un documento suelto: las tres preguntas del módulo 1 rara vez lo aprueban para un correo de empresa. Mi flujo lee una cuenta personal donde solo entran boletines públicos. Para tu primer flujo, usa una fuente de bajo riesgo (un correo personal, un formulario tuyo, una hoja de cálculo propia), y el correo corporativo trátalo como lo que es: territorio del departamento de informática, con la conversación del módulo 1 por delante.
 
 #### Paso 3: limpiar lo innecesario
 
@@ -151,7 +162,7 @@ No hay una plataforma "correcta". Las tres más accesibles para empezar funciona
 > [!tip] Observación práctica
 > Para un primer flujo, elige la que te resulte menos intimidante al abrirla, no la "más potente". El primer flujo que funciona enseña más que tres tutoriales de la herramienta teóricamente mejor. Cambiar de plataforma después, cuando ya entiendes el patrón, cuesta poco.
 
-**El coste, en orden de magnitud.** Estas plataformas tienen un plan gratuito que basta para uno o dos flujos personales, y planes de pago que arrancan en torno a 20-25 dólares al mes cuando automatizas en serio. A eso se suman los céntimos por uso de la IA que viste en el módulo 1: un flujo como el de los boletines, que corre una vez al día, se mueve en pocos euros al mes entre plataforma y modelo.
+**El coste, en orden de magnitud.** Estas plataformas tienen un plan gratuito que basta para uno o dos flujos personales, y planes de pago que arrancan en torno a 20-25 dólares al mes cuando automatizas en serio. A eso se suman los céntimos por uso de la IA que viste en el módulo 1: mi flujo de boletines, corriendo a diario, cuesta menos de 50 céntimos al mes de modelo. En plan gratuito de plataforma, ese es todo el coste; con plan de pago, súmale la cuota.
 
 ---
 
@@ -173,7 +184,7 @@ Antes de montar nada, conviene pasar la idea por un filtro, porque automatizar t
 - Comunicaciones delicadas: un flujo puede preparar el borrador, pero el envío lo decides y lo haces tú.
 
 > [!example] Aplícalo
-> Coge la tarea repetitiva que identificaste en el módulo anterior y dibújala en tres cajas: qué entra, qué hace la IA, dónde va el resultado. Antes de montar nada, pásala por la matriz: ¿es frecuente? ¿es estable? ¿tolera algún error? Si pasa los tres filtros, monta una primera versión en la plataforma que prefieras, con un único caso real y el prompt afinado en la primera mitad del módulo. No busques que quede perfecto: busca que funcione una vez de principio a fin.
+> El ejercicio tiene dos niveles, y el primero ya vale por sí solo. **Nivel 1 (sin cuentas nuevas):** coge la tarea repetitiva que identificaste en el módulo anterior y dibújala en tres cajas (qué entra, qué hace la IA, dónde va el resultado); después pásala por la matriz: ¿es frecuente? ¿es estable? ¿tolera algún error? Con eso ya sabes si merece automatizarse y cómo se estructura, que es lo que este módulo enseña. **Nivel 2 (si decides montarlo):** resuelve los tres prerrequisitos del apartado 5 (cuenta en la plataforma, la IA del flujo, autorizar una fuente de bajo riesgo) y monta una primera versión con un único caso real y el prompt afinado en la primera mitad. No busques que quede perfecto: busca que funcione una vez de principio a fin.
 
 ---
 
