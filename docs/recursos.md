@@ -3,9 +3,9 @@ date: "2026-06-12"
 title: "Recursos"
 tags:
   - lang/es
+  - type/course
   - topic/ai
   - topic/automation
-  - type/course
 usefulness: 0.9
 links_woven: true
 ---

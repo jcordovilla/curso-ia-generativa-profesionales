@@ -3,9 +3,9 @@ date: "2026-02-08"
 title: "Módulo 3 - Asistentes con documentos"
 tags:
   - lang/es
+  - type/course
   - topic/ai
   - topic/automation
-  - type/course
 usefulness: 0.9
 links_woven: true
 ---

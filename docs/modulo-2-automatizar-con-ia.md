@@ -3,9 +3,9 @@ date: "2026-06-16"
 title: "Módulo 2 - Encadenar y adjuntar antes que automatizar"
 tags:
   - lang/es
+  - type/course
   - topic/ai
   - topic/automation
-  - type/course
 usefulness: 0.9
 links_woven: true
 ---
@@ -75,7 +75,7 @@ Ese detalle conecta las dos mitades del módulo. **Los formatos estructurados so
 
 Con los seis escalones practicados, ya tienes lo que hace falta para dar el paso que la mayoría quiere ver desde el principio: **un flujo que procesa información con IA sin que tú estés delante**. Aquí cambia una cosa respecto a todo lo anterior: hasta ahora tú escribías cada petición; a partir de ahora el flujo la lanza solo, cuando se cumple un disparador.
 
-Para que no quede abstracto, parto de un flujo real, uno de los primeros que monté para mí mismo: cada mañana lee varios boletines y alertas de noticias, descarta el ruido, puntúa lo que tiene que ver con infraestructuras y me deja un resumen ordenado en el correo antes de desayunar. Entrada (los boletines), IA (filtra y puntúa), salida (el correo). Ese es todo el secreto, y es lo que vas a ver montado paso a paso.
+Para que no quede abstracto, parto de un flujo real, uno de los primeros que monté para mí mismo: cada mañana lee varios boletines y alertas de noticias, descarta el ruido, se queda con lo relevante para infraestructuras y me deja un resumen ordenado en el correo antes de desayunar. Entrada (los boletines), IA (filtra y resume), salida (el correo). Ese es todo el secreto, y es lo que vas a ver montado paso a paso.
 
 ---
 
@@ -102,37 +102,36 @@ Las herramientas visuales que verás enseguida sirven para conectar estos tres b
 
 ### 5. El flujo real, paso a paso, en Latenode
 
-Voy a montar el flujo de los boletines en **Latenode**, que es la plataforma con la que construí el mío. Hay otras equivalentes (las verás en la tabla del apartado siguiente); elijo esta porque es la que de verdad uso, y prefiero enseñarte algo que funciona en mi cuenta a describir una pantalla genérica. Los nombres de los botones cambian de una plataforma a otra, pero los pasos son los mismos en todas.
+Este es mi flujo de verdad, tal como está montado en **Latenode**, la plataforma con la que lo construí. Hay otras equivalentes (las verás en la tabla del apartado siguiente); enseño esta porque es la que de verdad uso, y prefiero mostrarte algo que funciona en mi cuenta a describir una pantalla inventada.
+
+![Flujo de Latenode llamado Bloomberg Summarizer: cinco bloques encadenados de izquierda a derecha, con una nota amarilla sobre cada uno que explica qué hace. Un disparador horario, la búsqueda de correos, una limpieza del texto, el envío a ChatGPT y el envío del resumen por correo](assets/flujo-latenode-bloomberg.png)
+
+Cada bloque es una caja, y las notas amarillas de encima explican qué hace cada una. Se lee de izquierda a derecha, siguiendo las flechas, y es exactamente el patrón entrada → IA → salida del apartado anterior, solo que con un bloque de limpieza en medio. Estos cinco pasos:
 
 #### Paso 1: el disparador
 
-Lo primero es decidir qué pone en marcha el flujo. En este caso es la hora: "cada día a las 7:00". En otros flujos el disparador será "cuando llegue un correo" o "cuando se rellene un formulario". Estás diciendo: cuando ocurra esto, arranca.
+El primer bloque decide qué pone en marcha el flujo. En el mío es la hora: se ejecuta una vez al día. La plataforma permite también otros disparadores, como "cuando llegue un correo". Estás diciendo: cuando ocurra esto, arranca.
 
-> [JC: captura pendiente. Panel de Latenode con el nodo disparador configurado a las 7:00, mostrando el selector de programación horaria. Fechar la captura.]
+#### Paso 2: recopilar los correos
 
-#### Paso 2: traer el contenido
+El segundo bloque busca en el correo y recoge todos los mensajes de las últimas 24 horas. Es el equivalente a abrir tú esos correos por la mañana, solo que lo hace el flujo, sin que estés delante.
 
-El segundo bloque recoge los boletines de la mañana: lee los correos de las fuentes que me interesan y junta su texto. Es el equivalente a abrir tú esos correos, solo que lo hace el flujo. Conviene una comprobación: si esa mañana no ha llegado nada, no tiene sentido seguir, así que el flujo se detiene ahí en lugar de llamar a la IA con las manos vacías.
+#### Paso 3: limpiar lo innecesario
 
-> [JC: captura pendiente. Nodo de lectura de correos o fuentes, con el resultado de una ejecución mostrando los boletines recogidos. Anonimizar remitentes si aparecen.]
+El tercer bloque quita del texto lo que no aporta: firmas, avisos legales, cabeceras repetidas, todo el ruido que trae un correo. Cuanto más limpio llega el material a la IA, mejor es el resultado y más barata sale la operación, porque la IA procesa menos texto. Este paso lo hace un pequeño fragmento de código, y aquí viene lo interesante: no lo escribí yo. Se lo describí a la plataforma en lenguaje llano ("quítame de estos correos las firmas y los pies legales") y ella generó el código. Es un primer anticipo del [módulo 4](modulo-4-ia-que-programa.md), donde esta idea (describir en vez de programar) es el tema central.
 
-#### Paso 3: la llamada a la IA
+#### Paso 4: la llamada a la IA
 
-El tercer bloque es el corazón del flujo. Usa el nodo de IA de la plataforma, que necesita dos cosas: tu **credencial** (la API key del módulo 1, pegada una vez en la configuración) y un **prompt fijo**. El prompt es el de siempre, con rol, tarea, formato y restricciones, solo que aquí no lo escribes cada día: lo escribes una vez y el flujo lo reutiliza. El mío dice, en esencia:
+El cuarto bloque es el corazón del flujo: envía el texto ya limpio a la IA con instrucciones concretas. Necesita dos cosas, tu **credencial** (la API key del módulo 1, pegada una vez en la configuración) y un **prompt fijo**. El prompt es el de siempre, con rol, tarea, formato y restricciones, solo que aquí no lo escribes cada día: lo escribes una vez y el flujo lo reutiliza. El mío, en esencia, le pide que se quede con lo relevante para infraestructuras, lo ordene y lo resuma en una lista breve, y que diga si no hay nada que destacar.
 
-> "Eres un analista que filtra noticias de infraestructuras. De los boletines siguientes, descarta lo irrelevante y devuélveme los temas que importan, puntuados del 1 al 5 por relevancia, en una lista breve con una línea de explicación cada uno. Si no hay nada relevante, dilo. Boletines: {{contenido recogido}}"
+#### Paso 5: enviar el resumen
 
-> [JC: captura pendiente. Nodo de IA con el prompt fijo a la vista y el campo de credencial (la clave oculta). Mostrar dónde se inserta la variable con el contenido del paso 2.]
+El quinto bloque coge lo que devolvió la IA y me lo manda por correo, a la dirección que quiera. Si tu organización usa Slack o Teams, este bloque de salida sería ese en vez del correo; la lógica no cambia.
 
-#### Paso 4: la salida al correo
+**La prueba y el despliegue.** Antes de dejarlo corriendo solo, se ejecuta una vez a mano (el botón "Ejecutar una vez" de la imagen) con el contenido real de un día, y se comprueba que la IA responde con el formato pedido y que el correo llega donde debe. Cuando las dos cosas salen bien, se despliega el flujo y ya se ocupa cada mañana sin que vuelvas a tocarlo.
 
-El último bloque coge lo que devolvió la IA y me lo manda por correo. Aquí solo conectas el resultado del paso anterior con el campo del mensaje. Si tu organización usa Slack o Teams, el bloque de salida sería ese en vez del correo; la lógica no cambia.
-
-> [JC: captura pendiente. Nodo de envío de correo con el cuerpo enlazado a la salida de la IA, y ejemplo del correo recibido en la bandeja. Anonimizar.]
-
-#### Paso 5: la prueba
-
-Antes de dejarlo corriendo solo, se ejecuta una vez a mano con el contenido real de un día y se comprueba dos cosas: que la IA responde con el formato pedido y que el correo llega donde debe. Si las dos salen bien, ya puedes activarlo y olvidarte; el flujo se ocupa cada mañana.
+> [!note] Los nombres cambian, el patrón no
+> En la imagen, un par de bloques llevan la etiqueta "obsoleto" o "deprecated". No es un fallo: solo significa que la plataforma ha sacado una versión más nueva de esos bloques desde que monté el flujo. El mío sigue funcionando, y esa es justo la clase de mantenimiento del que habla el [módulo 6](modulo-6-evaluar-y-escalar.md): estas herramientas cambian deprisa, y conviene revisar de vez en cuando lo que ya tienes montado.
 
 > [!tip] La calidad está en el prompt, no en la plataforma
 > Una vez montado el esqueleto, lo que decide si el resultado sirve es el prompt, no la herramienta. Un prompt genérico ("resume esto") da resultados genéricos por muy buena que sea la plataforma. El que dice quién leerá el resultado, en qué formato y qué priorizar es el que devuelve algo útil. Toda la primera mitad de este módulo trabajaba para este momento.

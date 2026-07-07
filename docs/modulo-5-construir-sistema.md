@@ -3,9 +3,9 @@ date: "2026-02-08"
 title: "Módulo 5 - Construir tu sistema"
 tags:
   - lang/es
+  - type/course
   - topic/ai
   - topic/automation
-  - type/course
 usefulness: 0.9
 links_woven: true
 ---

@@ -3,9 +3,9 @@ date: "2026-06-16"
 title: "Módulo 4 - IA que programa por ti"
 tags:
   - lang/es
+  - type/course
   - topic/ai
   - topic/automation
-  - type/course
 usefulness: 0.9
 links_woven: true
 ---
