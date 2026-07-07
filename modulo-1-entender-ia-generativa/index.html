@@ -1129,7 +1129,7 @@
 </ul>
 <hr />
 <h2 id="3-elegir-modelo-el-mapa-actual">3. Elegir modelo: el mapa actual<a class="headerlink" href="#3-elegir-modelo-el-mapa-actual" title="Permanent link">&para;</a></h2>
-<p>No existe "la mejor IA". Existen modelos con distintas capacidades, precios y políticas de privacidad. Aquí tienes un mapa orientativo:</p>
+<p>No existe "la mejor IA". Existen modelos con distintas capacidades, precios y políticas de privacidad. Antes de mirar la tabla, una advertencia que le quita presión: no hace falta memorizar ningún nombre. Los nombres cambian cada pocos meses; lo que se mantiene es el mapa de proveedores y el criterio para elegir, así que fíjate en las columnas de fortaleza y privacidad más que en el número de versión.</p>
 <table>
 <thead>
 <tr>
@@ -1160,7 +1160,7 @@
 </tr>
 <tr>
 <td><strong>Meta</strong></td>
-<td>Llama 4 (vía Ollama)</td>
+<td>Llama 4 (vía Ollama, un programa para ejecutar modelos en tu ordenador; se explica más abajo)</td>
 <td>Gratuito, ejecutable en local</td>
 <td>Completamente privado si es local</td>
 </tr>
@@ -1186,7 +1186,7 @@
 </table>
 <div class="admonition note">
 <p class="admonition-title">Los nombres caducan; el mapa no</p>
-<p>Esta tabla es de mediados de 2026 y para cuando la leas algún nombre habrá cambiado: estos modelos sacan versión nueva cada pocos meses. Lo que se mantiene es el mapa de proveedores y, sobre todo, el criterio para elegir. Fíjate en las columnas de fortaleza y privacidad más que en el número de versión.</p>
+<p>Esta tabla es de mediados de 2026 y para cuando la leas algún nombre habrá cambiado: estos modelos sacan versión nueva cada pocos meses. El criterio de las columnas sigue valiendo aunque el número de versión cambie.</p>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Observación práctica</p>
@@ -1244,8 +1244,8 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Coste por uso.</strong> Cuando en el <a href="../modulo-2-automatizar-con-ia/">módulo 2</a> montes flujos automáticos, esa parte del trabajo deja de cubrirla la suscripción: el flujo llama al modelo y paga por trabajo hecho, a precios que sorprenden por lo bajos. Resumir un informe de 30 páginas cuesta del orden de 5 a 10 céntimos con un modelo de gama media, y 2 o 3 céntimos con uno ligero (tarifas de junio de 2026). Un caso de uso personal que corre a diario (el resumen matinal de boletines, la clasificación del correo entrante) se mueve en pocos euros al mes. Mi propio flujo de boletines de cada mañana cuesta menos de 50 céntimos de euro al mes.</p>
-<p><strong>Presupuesto orientativo.</strong> Aprender (este curso hasta el módulo 3) cuesta cero: las versiones gratuitas bastan. Trabajar en serio a diario justifica una suscripción de pago, unos 20 dólares al mes. Automatizar añade los céntimos de API y, según la plataforma que elijas, un plan de pago que verás con detalle en el módulo 2.</p>
+<p><strong>Coste por uso.</strong> Cuando en el <a href="../modulo-2-automatizar-con-ia/">módulo 2</a> montes flujos automáticos, esa parte del trabajo deja de cubrirla la suscripción: el flujo llama al modelo y paga por trabajo hecho, a precios que sorprenden por lo bajos. Resumir un informe de 30 páginas cuesta del orden de 5 a 10 céntimos con un modelo de gama media, y 2 o 3 céntimos con uno ligero (tarifas de junio de 2026). Mi propio flujo de boletines de cada mañana cuesta menos de 50 céntimos de euro al mes. Un aviso que ahorra confusión más adelante: la suscripción de chat y el uso por API son cosas separadas, con cuenta y facturación propias; pagar ChatGPT Plus o Claude Pro no incluye la clave de API que usan los flujos, y al revés tampoco.</p>
+<p><strong>Presupuesto orientativo.</strong> Aprender (este curso hasta el módulo 3) cuesta cero: las versiones gratuitas bastan. Trabajar en serio a diario justifica una suscripción de pago, unos 20 dólares al mes. Automatizar añade los céntimos de API y, si tu flujo crece, el plan de pago de la plataforma; el orden de coste de esas plataformas lo verás en el módulo 2.</p>
 <div class="admonition tip">
 <p class="admonition-title">Observación práctica</p>
 <p>Más de una suscripción de pago a la vez rara vez compensa al empezar. Prueba dos o tres herramientas en gratuito, elige la que mejor entienda tu contexto, paga esa y revisa la decisión a los tres meses, que en este mercado es una era geológica.</p>
@@ -1287,8 +1287,7 @@
 <li><strong>¿La enviarías por un canal externo que no controlas?</strong> Si la respuesta te hace dudar, no la subas.</li>
 </ol>
 <p>Si el material pasa las tres preguntas, adelante.</p>
-<!-- Pieza visual pendiente: árbol de decisión SVG, tras fijar el estilo con el diagrama de la escalera (fase 1, iteración con JC) -->
-
+<p><img alt="Árbol de decisión de privacidad: tres preguntas en orden sobre datos personales, confidencialidad y canal externo; cualquier respuesta mala detiene el envío, y solo si las tres pasan se comparte el material con la IA" src="../assets/arbol-decision-privacidad.svg" /></p>
 <h3 id="y-si-tu-empresa-no-permite-la-nube">¿Y si tu empresa no permite la nube?<a class="headerlink" href="#y-si-tu-empresa-no-permite-la-nube" title="Permanent link">&para;</a></h3>
 <p>La prohibición suele ser más razonable de lo que parece desde fuera: quien la impone responde de los datos de los clientes. Ahora bien, prohibir la nube y renunciar a la IA son cosas distintas, y conviene conocer las tres salidas antes de dar el tema por cerrado:</p>
 <ol>
@@ -1358,7 +1357,7 @@
 <h2 id="9-aplicalo">9. Aplícalo<a class="headerlink" href="#9-aplicalo" title="Permanent link">&para;</a></h2>
 <div class="admonition example">
 <p class="admonition-title">Aplícalo</p>
-<p>Piensa en una tarea repetitiva de tu semana que te robe tiempo: leer correos largos, clasificar consultas que entran, sacar datos de informes. Ponle nombre con uno de los cuatro patrones: ¿estás resumiendo, clasificando, extrayendo o conversando? Después abre dos modelos distintos (por ejemplo Claude y ChatGPT), dales la misma tarea con un dato real ya anonimizado y compara las respuestas. Quédate con el que mejor entienda tu contexto. Ese pequeño experimento te enseña más que cualquier tabla comparativa.</p>
+<p>Piensa en una tarea repetitiva de tu semana que te robe tiempo: leer correos largos, clasificar consultas que entran, sacar datos de informes. Ponle nombre con uno de los cuatro patrones: ¿estás resumiendo, clasificando, extrayendo o conversando? Después abre dos modelos distintos (por ejemplo Claude y ChatGPT; si solo tienes cuenta en uno, crear la otra en versión gratuita lleva dos minutos, un correo y una contraseña), dales la misma tarea con un dato real ya anonimizado y compara las respuestas. Quédate con el que mejor entienda tu contexto. Ese pequeño experimento te enseña más que cualquier tabla comparativa.</p>
 </div>
 <hr />
 <h2 id="10-cierre-y-aprendizajes-clave">10. Cierre y aprendizajes clave<a class="headerlink" href="#10-cierre-y-aprendizajes-clave" title="Permanent link">&para;</a></h2>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" width="800" height="700" role="img" aria-label="Árbol de decisión de privacidad: tres preguntas en orden sobre datos personales, confidencialidad y canal externo; cualquier respuesta mala detiene el envío, y solo si las tres pasan se comparte el material con la IA">
+  <defs>
+    <style>
+      .titulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 21px; font-weight: 700; fill: #1a202c; }
+      .subtitulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 14px; fill: #4a5568; }
+      .pregunta { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: 600; fill: #ffffff; }
+      .salida { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 600; fill: #92400e; }
+      .final { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 700; fill: #0f766e; }
+      .final-sub { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 13px; fill: #0f766e; }
+      .rama { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; font-style: italic; fill: #64748b; }
+      .flecha { stroke: #94a3b8; stroke-width: 2.5; }
+    </style>
+  </defs>
+
+  <text class="titulo" x="400" y="40" text-anchor="middle">¿Qué comparto con la IA?</text>
+  <text class="subtitulo" x="400" y="64" text-anchor="middle">Tres preguntas en orden; en cuanto una sale mal, el material no se comparte</text>
+
+  <!-- Pregunta 1 -->
+  <rect x="50" y="100" width="400" height="90" rx="10" fill="#2563eb" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.08))"/>
+  <text class="pregunta" x="250" y="140" text-anchor="middle">1. ¿Contiene datos personales</text>
+  <text class="pregunta" x="250" y="160" text-anchor="middle">o de terceros?</text>
+
+  <line class="flecha" x1="450" y1="145" x2="497" y2="145"/>
+  <polygon points="497,138 510,145 497,152" fill="#94a3b8"/>
+  <text class="rama" x="473" y="133" text-anchor="middle">sí</text>
+
+  <rect x="510" y="100" width="240" height="90" rx="10" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="salida" x="630" y="140" text-anchor="middle">Fuera, o anonimiza</text>
+  <text class="salida" x="630" y="160" text-anchor="middle">y vuelve a empezar</text>
+
+  <line class="flecha" x1="250" y1="190" x2="250" y2="237"/>
+  <polygon points="243,237 250,250 257,237" fill="#94a3b8"/>
+  <text class="rama" x="268" y="222">no</text>
+
+  <!-- Pregunta 2 -->
+  <rect x="50" y="250" width="400" height="104" rx="10" fill="#2563eb" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.08))"/>
+  <text class="pregunta" x="250" y="285" text-anchor="middle">2. ¿Está bajo confidencialidad,</text>
+  <text class="pregunta" x="250" y="305" text-anchor="middle">o tu cliente la consideraría</text>
+  <text class="pregunta" x="250" y="325" text-anchor="middle">sensible?</text>
+
+  <line class="flecha" x1="450" y1="302" x2="497" y2="302"/>
+  <polygon points="497,295 510,302 497,309" fill="#94a3b8"/>
+  <text class="rama" x="473" y="290" text-anchor="middle">sí</text>
+
+  <rect x="510" y="257" width="240" height="90" rx="10" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="salida" x="630" y="297" text-anchor="middle">Solo en un entorno</text>
+  <text class="salida" x="630" y="317" text-anchor="middle">aprobado o modelo local</text>
+
+  <line class="flecha" x1="250" y1="354" x2="250" y2="401"/>
+  <polygon points="243,401 250,414 257,401" fill="#94a3b8"/>
+  <text class="rama" x="268" y="386">no</text>
+
+  <!-- Pregunta 3 -->
+  <rect x="50" y="414" width="400" height="90" rx="10" fill="#2563eb" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.08))"/>
+  <text class="pregunta" x="250" y="454" text-anchor="middle">3. ¿La enviarías por un canal</text>
+  <text class="pregunta" x="250" y="474" text-anchor="middle">externo que no controlas?</text>
+
+  <line class="flecha" x1="450" y1="459" x2="497" y2="459"/>
+  <polygon points="497,452 510,459 497,466" fill="#94a3b8"/>
+  <text class="rama" x="473" y="447" text-anchor="middle">con dudas</text>
+
+  <rect x="510" y="414" width="240" height="90" rx="10" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="salida" x="630" y="464" text-anchor="middle">No la subas</text>
+
+  <line class="flecha" x1="250" y1="504" x2="250" y2="551"/>
+  <polygon points="243,551 250,564 257,551" fill="#94a3b8"/>
+  <text class="rama" x="268" y="536">sin dudas</text>
+
+  <!-- Resultado -->
+  <rect x="50" y="564" width="400" height="84" rx="10" fill="#ccfbf1" stroke="#5eead4" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
+  <text class="final" x="250" y="600" text-anchor="middle">Adelante</text>
+  <text class="final-sub" x="250" y="624" text-anchor="middle">el material pasa las tres preguntas</text>
+</svg>

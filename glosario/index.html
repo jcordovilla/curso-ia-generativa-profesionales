@@ -714,6 +714,7 @@
 <p><strong>Modelo local.</strong> Un modelo que se ejecuta en tu propio ordenador en lugar de en los servidores del proveedor. Nada de lo que escribes sale de tu máquina, así que es la opción natural para datos sensibles. Herramientas como Ollama o LM Studio lo ponen al alcance de cualquiera.</p>
 <p><strong>Prompt.</strong> La instrucción que le das al modelo. Un buen prompt dice el papel ("eres un asistente que resume informes"), el formato ("en cinco viñetas"), el idioma y qué hacer si falta información. La calidad del resultado depende más del prompt que del modelo.</p>
 <p><strong>Instrucciones de sistema.</strong> Las normas de comportamiento que le das a un asistente una sola vez y que rigen todas sus respuestas: su papel, su estilo, qué hacer cuando falta información. El prompt es la petición de cada momento; las instrucciones de sistema son el contrato permanente.</p>
+<p><strong>GPT personalizado.</strong> Un asistente que configuras dentro de ChatGPT con tus instrucciones y tus documentos, para reutilizarlo o compartirlo. Claude Projects y Gemini Gems son los equivalentes de los otros proveedores; los tres se aprenden en el módulo 3.</p>
 <p><strong>Token.</strong> La unidad en la que el modelo cuenta el texto, más o menos una sílaba o un trozo de palabra. Importa porque los proveedores cobran por tokens y los modelos tienen un límite de cuántos procesan de una vez.</p>
 <p><strong>Alucinación.</strong> Cuando el modelo se inventa un dato con total seguridad aparente: una cifra, una cita, una cláusula que no existe. Es la razón por la que nunca conviene fiarse de un resultado sin verificarlo.</p>
 <p><strong>Precisión plausible.</strong> El caso de alucinación más peligroso: la IA suelta un dato concreto (cifra, fecha, nombre, sigla) con una seguridad y un formato tan creíbles que no lo cuestionas. Verifica siempre los datos concretos antes de darlos por buenos.</p>
@@ -725,7 +726,7 @@
 <p><strong>Webhook.</strong> Un aviso automático que un sistema envía a otro cuando pasa algo ("ha llegado un formulario", "se ha creado una fila"). Sirve para disparar un flujo sin que nadie pulse un botón.</p>
 <hr />
 <h2 id="construir-y-conectar">Construir y conectar<a class="headerlink" href="#construir-y-conectar" title="Permanent link">&para;</a></h2>
-<p><strong>No-code.</strong> Herramientas que permiten montar automatizaciones conectando bloques visuales, sin escribir código. n8n, Make y Zapier son las más conocidas.</p>
+<p><strong>No-code.</strong> Herramientas que permiten montar automatizaciones conectando bloques visuales, sin escribir código. Latenode, n8n y Make son las que verás en este curso.</p>
 <p><strong>Flujo.</strong> Una secuencia de pasos que se ejecuta sola: algo llega (un correo, un formulario), la IA lo procesa y el resultado se entrega donde haga falta. Es la unidad básica de la automatización: si puedes dibujarlo en tres cajas, puedes construirlo.</p>
 <p><strong>Disparador (trigger).</strong> El evento que pone en marcha un flujo: "cuando llegue un correo", "cuando se rellene el formulario", "cada lunes a las ocho". Todo flujo empieza por uno.</p>
 <p><strong>RAG (generación aumentada por recuperación).</strong> La forma de hacer que la IA responda sobre tus documentos: primero busca los fragmentos relevantes en tu material y luego redacta la respuesta con ellos delante. Como un asistente que consulta el archivador antes de contestar.</p>
@@ -736,6 +737,7 @@
 <p><strong>MCP (Model Context Protocol).</strong> Un estándar abierto que conecta los modelos de IA con tus herramientas (correo, documentos, bases de datos) sin programar cada conexión a medida. Como un enchufe universal: un único formato que vale para todo.</p>
 <hr />
 <h2 id="el-lenguaje-de-it">El lenguaje de IT<a class="headerlink" href="#el-lenguaje-de-it" title="Permanent link">&para;</a></h2>
+<p>Algunos términos de este bloque pertenecen a los módulos avanzados (5 y 6); si aún no has llegado, no te intimiden: nadie te pedirá usarlos antes de tiempo.</p>
 <p><strong>API.</strong> Una puerta para que un sistema le pida algo a otro. Cuando tu flujo llama a un modelo, usa una API.</p>
 <p><strong>Endpoint.</strong> La dirección concreta de esa puerta, una URL a la que se envían las peticiones.</p>
 <p><strong>Repositorio (repo).</strong> La carpeta donde vive el código de un proyecto, normalmente en GitHub.</p>
