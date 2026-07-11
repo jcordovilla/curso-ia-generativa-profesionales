@@ -686,6 +686,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#autoevaluacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Autoevaluación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#9-cierre-y-aprendizajes-clave" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1011,6 +1022,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#autoevaluacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Autoevaluación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#9-cierre-y-aprendizajes-clave" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1050,23 +1072,31 @@
 <p><img alt="El ciclo de cuatro pasos que convierte un experimento en herramienta del equipo: prototipo, medir, documentar y escalar, y vuelta a empezar con mejoras" src="../assets/ciclo-evaluacion.svg" /></p>
 <hr />
 <h2 id="1-pruebas-lista-de-comprobacion-para-flujos-y-asistentes">1. Pruebas: lista de comprobación para flujos y asistentes<a class="headerlink" href="#1-pruebas-lista-de-comprobacion-para-flujos-y-asistentes" title="Permanent link">&para;</a></h2>
-<p>Cada vez que cambies un prompt, una conexión, un documento o una credencial, pasa por esta lista:</p>
-<p><strong>Entrada:</strong>
-- El flujo sigue recibiendo el dato (email, formulario, webhook).
-- La conexión sigue autorizada (no ha caducado la cuenta).
-- Los filtros funcionan (no envía a la IA contenido que no debería).</p>
-<p><strong>Procesamiento IA:</strong>
-- La IA responde en el idioma correcto.
-- Devuelve el formato esperado (lista, párrafo, JSON).
-- Responde algo razonable con un caso real.
-- Ante una pregunta que no puede responder, lo indica en vez de inventar.</p>
-<p><strong>Salida:</strong>
-- El resultado llega al canal/equipo correcto.
-- Se guarda en el sistema previsto (CRM, Sheets, Slack).
-- Se ve quién o qué lo ha generado (trazabilidad mínima).</p>
-<p><strong>Errores:</strong>
-- Si la IA falla, el flujo no se queda colgado sin avisar.
-- Existe algún sitio donde se ve el error (un registro, un correo de aviso, el historial de la plataforma).</p>
+<p>Cada vez que cambies un prompt, una conexión, un documento o una credencial, pasa por esta lista (el curso recuerda lo que marques):</p>
+<p><strong>Entrada:</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> El flujo sigue recibiendo el dato (correo, formulario, webhook).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> La conexión sigue autorizada (no ha caducado la cuenta).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Los filtros funcionan (no envía a la IA contenido que no debería).</li>
+</ul>
+<p><strong>Procesamiento IA:</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> La IA responde en el idioma correcto.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Devuelve el formato esperado (lista, párrafo, JSON).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Responde algo razonable con un caso real.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Ante una pregunta que no puede responder, lo indica en vez de inventar.</li>
+</ul>
+<p><strong>Salida:</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> El resultado llega al canal o equipo correcto.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Se guarda en el sistema previsto (CRM, hoja de cálculo, Slack).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Se ve quién o qué lo ha generado (trazabilidad mínima).</li>
+</ul>
+<p><strong>Errores:</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Si la IA falla, el flujo no se queda colgado sin avisar.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Existe algún sitio donde se ve el error (un registro, un correo de aviso, el historial de la plataforma).</li>
+</ul>
 <div class="admonition warning">
 <p class="admonition-title">Alerta de privacidad</p>
 <p>Al probar, usa datos de ejemplo o anonimizados. No envíes datos reales de clientes a través de un flujo que todavía estás depurando: un error de configuración podría enviar información sensible a un canal equivocado.</p>
@@ -1202,6 +1232,25 @@
 <p>Coge el flujo o el asistente que montaste en los módulos anteriores y escribe su ficha en media página: qué hace, cuándo se ejecuta, qué prompt usa (la versión exacta), quién mantiene las credenciales y a quién se avisa si falla. Si no eres capaz de rellenarla, ahí tienes el trabajo pendiente antes de enseñárselo a nadie. Esa media página es lo que convierte "mi experimento" en "herramienta del equipo".</p>
 </div>
 <hr />
+<h2 id="autoevaluacion">Autoevaluación<a class="headerlink" href="#autoevaluacion" title="Permanent link">&para;</a></h2>
+<div class="admonition question">
+<p class="admonition-title">Comprueba lo que te llevas</p>
+<p>Respóndete a estas tres y despliega para comprobar.</p>
+<ol>
+<li>Nombra dos de las cuatro métricas sencillas que demuestran valor.</li>
+<li>¿Qué es "observabilidad", en una frase de andar por casa?</li>
+<li>¿Cuánto mantenimiento pide, en la práctica, un flujo o un asistente como los de este curso?</li>
+</ol>
+</div>
+<details class="note">
+<summary>Soluciones</summary>
+<ol>
+<li>Dos de estas cuatro: <strong>uso</strong>, <strong>ahorro de tiempo estimado</strong>, <strong>calidad percibida</strong> y <strong>errores o reintentos</strong>.</li>
+<li>Montar las cosas de modo que <strong>te enteres cuando fallan</strong>, con un aviso, un correo de error o un registro, en vez de que se rompan en silencio.</li>
+<li><strong>Unos minutos a la semana</strong> de comprobar que corre y sigue siendo útil, más asumir que alguna vez al año algo se romperá y te pedirá una tarde.</li>
+</ol>
+</details>
+<hr />
 <h2 id="9-cierre-y-aprendizajes-clave">9. Cierre y aprendizajes clave<a class="headerlink" href="#9-cierre-y-aprendizajes-clave" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Evaluar y mantener</strong> es lo que convierte un experimento en una práctica estable del equipo.</li>
@@ -1329,6 +1378,8 @@
     
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../javascripts/tareas.js"></script>
       
     
   </body>

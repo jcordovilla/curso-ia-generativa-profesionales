@@ -562,6 +562,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#autoevaluacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Autoevaluación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#8-cierre-y-aprendizajes-clave" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -979,6 +990,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#autoevaluacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Autoevaluación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#8-cierre-y-aprendizajes-clave" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1065,13 +1087,23 @@
 </ol>
 <p><img alt="El patrón de toda automatización con IA: una entrada llega, la IA la procesa con un prompt y el resultado sale a un canal o sistema" src="../assets/esquema-entrada-ia-salida.svg" /></p>
 <p>Las herramientas visuales que verás enseguida sirven para conectar estos tres bloques sin escribir código: arrastras cajas y las unes con flechas. El patrón es siempre el mismo; lo único que cambia entre un flujo y otro son las piezas que metes en cada caja.</p>
-<p><strong>Ejemplos por sector</strong>, todos con la misma estructura de tres cajas:</p>
-<ul>
-<li><strong>Consultoría</strong>: correo largo del cliente (entrada) → la IA lo resume en cinco puntos (proceso) → llega al canal del equipo (salida).</li>
-<li><strong>Ventas</strong>: formulario de contacto web → la IA clasifica si es consulta, presupuesto o queja → se deriva al departamento correcto.</li>
-<li><strong>Operaciones</strong>: informe mensual de un proveedor → la IA extrae riesgos y desviaciones → se guarda en la hoja de seguimiento.</li>
-<li><strong>RRHH</strong>: candidatura recibida → la IA extrae la experiencia clave y la compara con el perfil → resumen para el responsable.</li>
-</ul>
+<p><strong>Ejemplos por sector</strong>, todos con la misma estructura de tres cajas (abre el tuyo):</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Consultoría</label><label for="__tabbed_1_2">Ventas</label><label for="__tabbed_1_3">Operaciones</label><label for="__tabbed_1_4">RRHH</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Correo largo del cliente (entrada): la IA lo resume en cinco puntos (proceso) y llega al canal del equipo (salida).</p>
+</div>
+<div class="tabbed-block">
+<p>Formulario de contacto web: la IA clasifica si es consulta, presupuesto o queja, y se deriva al departamento correcto.</p>
+</div>
+<div class="tabbed-block">
+<p>Informe mensual de un proveedor: la IA extrae riesgos y desviaciones, y se guarda en la hoja de seguimiento.</p>
+</div>
+<div class="tabbed-block">
+<p>Candidatura recibida: la IA extrae la experiencia clave y la compara con el perfil, con un resumen para el responsable.</p>
+</div>
+</div>
+</div>
 <hr />
 <h3 id="5-el-flujo-real-paso-a-paso-en-latenode">5. El flujo real, paso a paso, en Latenode<a class="headerlink" href="#5-el-flujo-real-paso-a-paso-en-latenode" title="Permanent link">&para;</a></h3>
 <p>Este es mi flujo de verdad, tal como está montado en <strong>Latenode</strong>, la plataforma con la que lo construí. Hay otras equivalentes (las verás en la tabla del apartado siguiente); enseño esta porque es la que de verdad uso, y prefiero mostrarte algo que funciona en mi cuenta a describir una pantalla inventada.</p>
@@ -1161,6 +1193,25 @@
 <p class="admonition-title">Aplícalo</p>
 <p>El ejercicio tiene dos niveles, y el primero ya vale por sí solo. <strong>Nivel 1 (sin cuentas nuevas):</strong> coge la tarea repetitiva que identificaste en el módulo anterior y dibújala en tres cajas (qué entra, qué hace la IA, dónde va el resultado); después pásala por la matriz: ¿es frecuente? ¿es estable? ¿tolera algún error? Con eso ya sabes si merece automatizarse y cómo se estructura, que es lo que este módulo enseña. <strong>Nivel 2 (si decides montarlo):</strong> resuelve los tres prerrequisitos del apartado 5 (cuenta en la plataforma, la IA del flujo, autorizar una fuente de bajo riesgo) y monta una primera versión con un único caso real y el prompt afinado en la primera mitad. No busques que quede perfecto: busca que funcione una vez de principio a fin.</p>
 </div>
+<hr />
+<h2 id="autoevaluacion">Autoevaluación<a class="headerlink" href="#autoevaluacion" title="Permanent link">&para;</a></h2>
+<div class="admonition question">
+<p class="admonition-title">Comprueba lo que te llevas</p>
+<p>Respóndete a estas tres y despliega para comprobar.</p>
+<ol>
+<li>Una tarea la haces una vez al trimestre y encima cambia cada vez. ¿La automatizas?</li>
+<li>En un flujo que ya funciona, ¿de qué depende sobre todo la calidad del resultado?</li>
+<li>Antes de montar tu primer flujo, ¿qué tres prerrequisitos necesitas resolver?</li>
+</ol>
+</div>
+<details class="note">
+<summary>Soluciones</summary>
+<ol>
+<li><strong>No</strong>: falla la frecuencia y la estabilidad. Es construir sobre arena.</li>
+<li>Del <strong>prompt</strong>, no de la plataforma. Un prompt genérico da resultados genéricos por muy buena que sea la herramienta.</li>
+<li>Una <strong>cuenta en la plataforma</strong>, una <strong>clave de API</strong> (o el nodo de IA del propio flujo) y <strong>autorizar la fuente de datos</strong>. Son configuración de una sola vez.</li>
+</ol>
+</details>
 <hr />
 <h2 id="8-cierre-y-aprendizajes-clave">8. Cierre y aprendizajes clave<a class="headerlink" href="#8-cierre-y-aprendizajes-clave" title="Permanent link">&para;</a></h2>
 <ul>
@@ -1288,6 +1339,8 @@
     
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../javascripts/tareas.js"></script>
       
     
   </body>
