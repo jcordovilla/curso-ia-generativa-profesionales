@@ -122,20 +122,20 @@ No existe "la mejor IA". Existen modelos con distintas capacidades, precios y po
 
 La pregunta que todo el mundo se hace y casi nadie responde con cifras. Las de esta sección son de junio de 2026; los precios concretos cambian, pero los órdenes de magnitud llevan años estables.
 
-**Suscripciones de chat** (precios oficiales en dólares, sin impuestos; el cargo en euros varía con el cambio y el IVA):
+**Suscripciones de chat** (importes en euros para España). Los proveedores fijan el precio en dólares y en España se cobra en euros a cifras redondas parecidas; el IVA (21%) va aparte o incluido según el proveedor, así que toma estas cifras como aproximadas. El precio original en dólares va entre paréntesis por transparencia.
 
-| Opción | Coste mensual | Qué cubre |
-|--------|---------------|-----------|
-| Versión gratuita (ChatGPT, Claude, Gemini) | 0 | Suficiente para los ejercicios de "Antes de empezar"; límites de uso y modelos básicos |
-| ChatGPT Plus | 20 $ | Modelos superiores, más cuota de uso, GPTs personalizados |
-| Claude Pro | 20 $ (17 $/mes en plan anual) | Modelos superiores, más cuota, Claude Projects |
-| Google AI Pro | 19,99 $ | Gemini avanzado e integración con Google Workspace |
-| Google AI Plus | 7,99 $ | Escalón intermedio, con menos cuota |
-| Modelos locales (Ollama, LM Studio) | 0 | Corren en tu ordenador; la privacidad total de la sección siguiente |
+| Opción | Coste mensual aproximado | Qué cubre |
+|--------|--------------------------|-----------|
+| Versión gratuita (ChatGPT, Claude, Gemini) | 0 € | Suficiente para los ejercicios de "Antes de empezar"; límites de uso y modelos básicos |
+| ChatGPT Plus | unos 20 € + IVA (20 $) | Modelos superiores, más cuota de uso, GPTs personalizados |
+| Claude Pro | unos 20 € + IVA, o unos 17 €/mes en plan anual (20 $ / 17 $) | Modelos superiores, más cuota, Claude Projects |
+| Google AI Pro | unos 20 € (19,99 $) | Gemini avanzado e integración con Google Workspace |
+| Google AI Plus | unos 8 € (7,99 $) | Escalón intermedio, con menos cuota |
+| Modelos locales (Ollama, LM Studio) | 0 € | Corren en tu ordenador; la privacidad total de la sección siguiente |
 
 **Coste por uso.** Cuando en el [módulo 2](modulo-2-automatizar-con-ia.md) montes flujos automáticos, esa parte del trabajo deja de cubrirla la suscripción: el flujo llama al modelo y paga por trabajo hecho, a precios que sorprenden por lo bajos. Resumir un informe de 30 páginas cuesta del orden de 5 a 10 céntimos con un modelo de gama media, y 2 o 3 céntimos con uno ligero (tarifas de junio de 2026). Mi propio flujo de boletines de cada mañana cuesta menos de 50 céntimos de euro al mes. Un aviso que ahorra confusión más adelante: la suscripción de chat y el uso por API son cosas separadas, con cuenta y facturación propias; pagar ChatGPT Plus o Claude Pro no incluye la clave de API que usan los flujos, y al revés tampoco.
 
-**Presupuesto orientativo.** Aprender (este curso hasta el módulo 3) cuesta cero: las versiones gratuitas bastan. Trabajar en serio a diario justifica una suscripción de pago, unos 20 dólares al mes. Automatizar añade los céntimos de API y, si tu flujo crece, el plan de pago de la plataforma; el orden de coste de esas plataformas lo verás en el módulo 2.
+**Presupuesto orientativo.** Aprender (este curso hasta el módulo 3) cuesta cero: las versiones gratuitas bastan. Trabajar en serio a diario justifica una suscripción de pago, en torno a 20 euros al mes. Automatizar añade los céntimos de API y, si tu flujo crece, el plan de pago de la plataforma; el orden de coste de esas plataformas lo verás en el módulo 2.
 
 > [!tip] Observación práctica
 > Más de una suscripción de pago a la vez rara vez compensa al empezar. Prueba dos o tres herramientas en gratuito, elige la que mejor entienda tu contexto, paga esa y revisa la decisión a los tres meses, que en este mercado es una era geológica.
@@ -267,7 +267,7 @@ Esto ya es presente. GPT-5.5, Claude y Gemini 3.5 procesan imágenes con soltura
 - La IA generativa es **una herramienta de proceso que necesita instrucciones claras**: tratarla como un buscador o un oráculo es la vía rápida a la decepción.
 - Todo lo que harás con IA se reduce a **4 patrones**: resumir, clasificar, extraer, conversar.
 - **Elegir modelo es elegir compromiso** entre calidad, coste y privacidad.
-- **El coste tiene órdenes de magnitud conocidos**: gratuito para aprender, unos 20 dólares al mes para trabajar en serio, céntimos por documento cuando automatices.
+- **El coste tiene órdenes de magnitud conocidos**: gratuito para aprender, en torno a 20 euros al mes para trabajar en serio, céntimos por documento cuando automatices.
 - **La privacidad cabe en tres preguntas**, y si tu empresa no permite la nube hay tres salidas concretas que plantearle a informática.
 - **La privacidad no es opcional**: saber qué compartir y qué no es tan importante como saber usar la herramienta.
 - **Las credenciales son la puerta de entrada**: si no las entiendes, te atascas antes de empezar.

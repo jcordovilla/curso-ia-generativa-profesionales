@@ -169,7 +169,7 @@ No hay una plataforma "correcta". Las tres más accesibles para empezar funciona
 > [!tip] Observación práctica
 > Para un primer flujo, elige la que te resulte menos intimidante al abrirla, no la "más potente". El primer flujo que funciona enseña más que tres tutoriales de la herramienta teóricamente mejor. Cambiar de plataforma después, cuando ya entiendes el patrón, cuesta poco.
 
-**El coste, en orden de magnitud.** Estas plataformas tienen un plan gratuito que basta para uno o dos flujos personales, y planes de pago que arrancan en torno a 20-25 dólares al mes cuando automatizas en serio. A eso se suman los céntimos por uso de la IA que viste en el módulo 1: mi flujo de boletines, corriendo a diario, cuesta menos de 50 céntimos al mes de modelo. En plan gratuito de plataforma, ese es todo el coste; con plan de pago, súmale la cuota.
+**El coste, en orden de magnitud.** Estas plataformas tienen un plan gratuito que basta para uno o dos flujos personales, y planes de pago que arrancan en torno a 20-25 euros al mes (más IVA) cuando automatizas en serio. A eso se suman los céntimos por uso de la IA que viste en el módulo 1: mi flujo de boletines, corriendo a diario, cuesta menos de 50 céntimos al mes de modelo. En plan gratuito de plataforma, ese es todo el coste; con plan de pago, súmale la cuota.
 
 ---
 
