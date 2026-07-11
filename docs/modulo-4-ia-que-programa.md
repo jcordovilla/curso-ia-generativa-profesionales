@@ -234,6 +234,22 @@ Herramientas como **Ollama** o **LM Studio** permiten ejecutar modelos de IA dir
 
 ---
 
+## Autoevaluación
+
+> [!question] Comprueba lo que te llevas
+> Respóndete a estas tres y despliega para comprobar.
+>
+> 1. La destreza que de verdad hace falta con un asistente de código no aparece en ningún tutorial. ¿Cuál es?
+> 2. ¿Qué de esta lista NO necesitas: criterio de negocio, saber Python, paciencia para iterar, leer el código línea a línea?
+> 3. ¿Para qué sirve MCP, en una frase?
+
+> [!note]- Soluciones
+> 1. La **paciencia para volver a describir el problema** cuando la primera solución no sirve, y el criterio para saber qué construir. Eso importa más que escribir código.
+> 2. No necesitas **saber Python** ni **leer el código línea a línea**. Sí necesitas criterio y paciencia.
+> 3. Conectar la IA con tus herramientas (correo, documentos, bases de datos) con un **estándar único**, en lugar de programar cada conexión a medida.
+
+---
+
 ## 10. Cierre y aprendizajes clave
 
 - **La frontera entre programar y no programar se ha desdibujado.** Los AI coding assistants permiten construir herramientas describiendo lo que necesitas.

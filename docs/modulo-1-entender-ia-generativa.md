@@ -70,13 +70,22 @@ Prácticamente todo lo que puedes hacer con IA generativa en un entorno profesio
 
 Cuando pienses en un caso de uso, pregúntate: **¿estoy resumiendo, clasificando, extrayendo o conversando?** Si puedes nombrarlo, puedes construirlo.
 
-**Ejemplos por sector:**
+**Ejemplos por sector** (abre el tuyo):
 
-- **Consultoría:** un informe de 30 páginas llega por email → la IA extrae los 5 riesgos principales y los resume para el socio director.
-- **Legal:** un contrato nuevo → la IA extrae las cláusulas de penalización y las compara con la plantilla estándar.
-- **Marketing:** 200 respuestas a una encuesta de satisfacción → la IA clasifica por sentimiento y genera un resumen por temas.
-- **RRHH:** preguntas frecuentes de empleados sobre políticas internas → un asistente que conversa sobre el manual de la empresa.
-- **Finanzas:** informes mensuales de 15 páginas → la IA extrae los KPIs y señala desviaciones respecto al mes anterior.
+=== "Consultoría"
+    Un informe de 30 páginas llega por correo: la IA extrae los 5 riesgos principales y los resume para el socio director.
+
+=== "Legal"
+    Un contrato nuevo: la IA extrae las cláusulas de penalización y las compara con la plantilla estándar.
+
+=== "Marketing"
+    200 respuestas a una encuesta de satisfacción: la IA clasifica por sentimiento y genera un resumen por temas.
+
+=== "RRHH"
+    Preguntas frecuentes de empleados sobre políticas internas: un asistente que conversa sobre el manual de la empresa.
+
+=== "Finanzas"
+    Informes mensuales de 15 páginas: la IA extrae los KPI y señala desviaciones respecto al mes anterior.
 
 ---
 
@@ -153,12 +162,13 @@ Esta es la sección que más profesionales ignoran y la que más problemas causa
 - Datos de terceros que tu organización no tiene derecho a procesar fuera de su entorno.
 - Credenciales, contraseñas o claves de API.
 
-### Preguntas que debes hacerte antes de usar una herramienta
-
-1. **¿Dónde se procesan mis datos?** ¿En los servidores del proveedor o en mi máquina?
-2. **¿El proveedor usa mis datos para entrenar?** (OpenAI: sí por defecto salvo opt-out; Anthropic: no; Ollama: local, sin envío).
-3. **¿Puedo usar una versión empresarial?** (ChatGPT Enterprise, Claude for Teams: no entrenan con datos).
-4. **¿Mi organización tiene una política de IA?** Si no la tiene, es buen momento para proponerla.
+> [!note]- Cuatro preguntas para elegir herramienta (despliega)
+> Antes de casarte con una herramienta, respóndete a esto:
+>
+> 1. **¿Dónde se procesan mis datos?** ¿En los servidores del proveedor o en mi máquina?
+> 2. **¿El proveedor usa mis datos para entrenar?** (OpenAI: sí por defecto salvo opt-out; Anthropic: no; Ollama: local, sin envío).
+> 3. **¿Puedo usar una versión empresarial?** (ChatGPT Enterprise, Claude for Teams: no entrenan con datos).
+> 4. **¿Mi organización tiene una política de IA?** Si no la tiene, es buen momento para proponerla.
 
 ### La decisión en tres preguntas
 
@@ -233,6 +243,22 @@ Esto ya es presente. GPT-5.5, Claude y Gemini 3.5 procesan imágenes con soltura
 
 > [!example] Aplícalo
 > Piensa en una tarea repetitiva de tu semana que te robe tiempo: leer correos largos, clasificar consultas que entran, sacar datos de informes. Ponle nombre con uno de los cuatro patrones: ¿estás resumiendo, clasificando, extrayendo o conversando? Después abre dos modelos distintos (por ejemplo Claude y ChatGPT; si solo tienes cuenta en uno, crear la otra en versión gratuita lleva dos minutos, un correo y una contraseña), dales la misma tarea con un dato real ya anonimizado y compara las respuestas. Quédate con el que mejor entienda tu contexto. Ese pequeño experimento te enseña más que cualquier tabla comparativa.
+
+---
+
+## Autoevaluación
+
+> [!question] Comprueba lo que te llevas
+> Respóndete a estas tres y despliega para comprobar.
+>
+> 1. "Sacar las cláusulas de penalización de un contrato de 40 páginas" es uno de los cuatro patrones. ¿Cuál?
+> 2. Tienes un documento con datos de un cliente. ¿Pasa las tres preguntas de privacidad? ¿Qué haces con él?
+> 3. Pagas ChatGPT Plus. ¿Incluye eso la clave de API que usará un flujo automático?
+
+> [!note]- Soluciones
+> 1. **Extraer**: sacas datos concretos de un texto.
+> 2. **No**: falla la primera pregunta (datos de terceros). Lo anonimizas primero, o no lo subes, o usas un modelo local.
+> 3. **No**: la suscripción de chat y el uso por API son cuentas y facturación separadas. Una no incluye la otra.
 
 ---
 

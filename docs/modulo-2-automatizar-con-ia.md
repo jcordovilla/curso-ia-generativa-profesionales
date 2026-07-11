@@ -91,12 +91,19 @@ Casi toda automatización con IA se reduce a tres bloques encadenados:
 
 Las herramientas visuales que verás enseguida sirven para conectar estos tres bloques sin escribir código: arrastras cajas y las unes con flechas. El patrón es siempre el mismo; lo único que cambia entre un flujo y otro son las piezas que metes en cada caja.
 
-**Ejemplos por sector**, todos con la misma estructura de tres cajas:
+**Ejemplos por sector**, todos con la misma estructura de tres cajas (abre el tuyo):
 
-- **Consultoría**: correo largo del cliente (entrada) → la IA lo resume en cinco puntos (proceso) → llega al canal del equipo (salida).
-- **Ventas**: formulario de contacto web → la IA clasifica si es consulta, presupuesto o queja → se deriva al departamento correcto.
-- **Operaciones**: informe mensual de un proveedor → la IA extrae riesgos y desviaciones → se guarda en la hoja de seguimiento.
-- **RRHH**: candidatura recibida → la IA extrae la experiencia clave y la compara con el perfil → resumen para el responsable.
+=== "Consultoría"
+    Correo largo del cliente (entrada): la IA lo resume en cinco puntos (proceso) y llega al canal del equipo (salida).
+
+=== "Ventas"
+    Formulario de contacto web: la IA clasifica si es consulta, presupuesto o queja, y se deriva al departamento correcto.
+
+=== "Operaciones"
+    Informe mensual de un proveedor: la IA extrae riesgos y desviaciones, y se guarda en la hoja de seguimiento.
+
+=== "RRHH"
+    Candidatura recibida: la IA extrae la experiencia clave y la compara con el perfil, con un resumen para el responsable.
 
 ---
 
@@ -185,6 +192,22 @@ Antes de montar nada, conviene pasar la idea por un filtro, porque automatizar t
 
 > [!example] Aplícalo
 > El ejercicio tiene dos niveles, y el primero ya vale por sí solo. **Nivel 1 (sin cuentas nuevas):** coge la tarea repetitiva que identificaste en el módulo anterior y dibújala en tres cajas (qué entra, qué hace la IA, dónde va el resultado); después pásala por la matriz: ¿es frecuente? ¿es estable? ¿tolera algún error? Con eso ya sabes si merece automatizarse y cómo se estructura, que es lo que este módulo enseña. **Nivel 2 (si decides montarlo):** resuelve los tres prerrequisitos del apartado 5 (cuenta en la plataforma, la IA del flujo, autorizar una fuente de bajo riesgo) y monta una primera versión con un único caso real y el prompt afinado en la primera mitad. No busques que quede perfecto: busca que funcione una vez de principio a fin.
+
+---
+
+## Autoevaluación
+
+> [!question] Comprueba lo que te llevas
+> Respóndete a estas tres y despliega para comprobar.
+>
+> 1. Una tarea la haces una vez al trimestre y encima cambia cada vez. ¿La automatizas?
+> 2. En un flujo que ya funciona, ¿de qué depende sobre todo la calidad del resultado?
+> 3. Antes de montar tu primer flujo, ¿qué tres prerrequisitos necesitas resolver?
+
+> [!note]- Soluciones
+> 1. **No**: falla la frecuencia y la estabilidad. Es construir sobre arena.
+> 2. Del **prompt**, no de la plataforma. Un prompt genérico da resultados genéricos por muy buena que sea la herramienta.
+> 3. Una **cuenta en la plataforma**, una **clave de API** (o el nodo de IA del propio flujo) y **autorizar la fuente de datos**. Son configuración de una sola vez.
 
 ---
 

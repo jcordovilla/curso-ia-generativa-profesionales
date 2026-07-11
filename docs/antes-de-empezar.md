@@ -41,7 +41,10 @@ Mis primeras conversaciones útiles, allá por 2023, fueron exactamente eso: peg
 
 Una petición de primer escalón se parece a esto:
 
-> "Resume el texto siguiente en cinco puntos, pensando en alguien que tiene dos minutos para leerlos. Texto: [pegas aquí el documento]"
+```text
+Resume el texto siguiente en cinco puntos, pensando en alguien que
+tiene dos minutos para leerlos. Texto: [pegas aquí el documento]
+```
 
 Fíjate en que la instrucción que escribes tiene nombre propio: se llama **prompt**, así la llama todo el mundo y así la recoge el [glosario](glosario.md). De momento basta con saber que un buen prompt dice qué quieres, sobre qué material y para quién.
 
@@ -81,9 +84,15 @@ Un caso mío, de cuando preparaba un artículo: necesitaba una pieza visual que 
 
 Dos peticiones de iteración que uso constantemente:
 
-> "Demasiado genérico. El lector es [quien sea] y le importa sobre todo [lo que sea]. Reescribe con eso en mente."
+```text
+Demasiado genérico. El lector es [quien sea] y le importa sobre todo
+[lo que sea]. Reescribe con eso en mente.
+```
 
-> "Tu respuesta me da la razón en todo, y eso me sirve de poco. Dame los tres argumentos en contra más fuertes."
+```text
+Tu respuesta me da la razón en todo, y eso me sirve de poco.
+Dame los tres argumentos en contra más fuertes.
+```
 
 La segunda merece comentario: estas herramientas son complacientes por diseño, y pedirles explícitamente el ángulo contrario es la forma más rápida de obtener un análisis con sustancia en lugar de un eco de tu propia opinión.
 
@@ -111,6 +120,22 @@ Las preguntas que siguen son las que más oigo de colegas de mi generación, y m
 **"Mi empresa prohíbe subir datos a la nube."** Prudente por su parte, y compatible con este curso. Para aprender no hace falta tocar ni un dato de la empresa: los ejercicios funcionan con documentos públicos, material inventado o textos anonimizados. En el módulo 1 verás la regla completa de qué se puede compartir, las opciones que no salen de tu ordenador y cómo plantear la conversación con el responsable de informática, que suele ser más receptiva de lo que se espera cuando llegas con el vocabulario correcto.
 
 **"Ya lo probé y me decepcionó."** Lo esperable, si la entrada fue una petición suelta de una línea. La respuesta mediocre ante una entrada pobre es el comportamiento normal de estas herramientas, y los escalones 2 y 3 existen precisamente para eso. Antes de dar el veredicto definitivo, concédele los tres ejercicios de este capítulo con material tuyo; el juicio que emitas después será informado, sea cual sea.
+
+---
+
+## Autoevaluación
+
+> [!question] Comprueba lo que te llevas
+> Respóndete a estas tres y despliega para comprobar.
+>
+> 1. Tu resumen sale genérico por más que lo pides. ¿En qué pieza de la instrucción estructurada suele estar el fallo?
+> 2. La primera respuesta es floja. ¿Qué haces, y por qué eso separa a quien avanza de quien abandona?
+> 3. La IA te suelta un dato concreto con total seguridad. ¿Qué instrucción, escrita de antemano, evita que se lo invente?
+
+> [!note]- Soluciones
+> 1. Casi siempre falta el **contexto** y el **para quién**: no le has dicho el material ni el público. El modelo responde a ciegas.
+> 2. La tratas como un **borrador** y respondes con crítica concreta (el enfoque, el tono, el formato). Quien la trata como veredicto se rinde; quien la trata como borrador mejora.
+> 3. Añadir **"si no tienes el dato, dilo en vez de inventarlo"**. Es el hábito más rentable del capítulo.
 
 ---
 

@@ -36,6 +36,9 @@ theme:
 extra_css:
   - style.css
 
+extra_javascript:
+  - javascripts/tareas.js
+
 
 markdown_extensions:
 
@@ -68,7 +71,7 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
-      clickable_checkbox: false
+      clickable_checkbox: true
   - pymdownx.tilde
 
 nav:

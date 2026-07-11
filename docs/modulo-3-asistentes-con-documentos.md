@@ -78,12 +78,14 @@ Sé específico. En vez de "un asistente de mi empresa", algo como:
 
 Aquí mandas tú. Un bloque que suele funcionar bien:
 
-> **Rol:** Eres un asistente interno para personal no técnico.
-> **Fuente:** Responde únicamente con la información de los documentos proporcionados.
-> **Si falta información:** Di "No está en la documentación" y sugiere el documento más cercano.
-> **Estilo:** Español profesional, máximo 120 palabras, estructurado en lista corta.
-> **Seguridad:** No inventes procedimientos ni datos que no estén en los documentos.
-> **Idioma:** Responde siempre en el idioma de la pregunta.
+```text
+Rol: Eres un asistente interno para personal no técnico.
+Fuente: Responde únicamente con la información de los documentos proporcionados.
+Si falta información: Di "No está en la documentación" y sugiere el documento más cercano.
+Estilo: Español profesional, máximo 120 palabras, estructurado en lista corta.
+Seguridad: No inventes procedimientos ni datos que no estén en los documentos.
+Idioma: Responde siempre en el idioma de la pregunta.
+```
 
 ### Paso 4: prueba con preguntas reales
 
@@ -122,14 +124,14 @@ A lo anterior se añaden tres comprobaciones:
 
 ## 5. Lista de comprobación de seguridad antes de compartir
 
-Usa esta lista cada vez que vayas a compartir un asistente:
+Marca cada punto antes de compartir un asistente (el curso recuerda lo que marques):
 
-- He revisado los documentos y no contienen datos sensibles.
-- El asistente tiene instrucciones claras de no inventar.
-- Indica qué hacer si la información no está.
-- Sé exactamente con quién lo voy a compartir.
-- He probado preguntas reales del equipo.
-- He documentado (aunque sea en 5 líneas) qué hace este asistente y qué documentos usa.
+- [ ] He revisado los documentos y no contienen datos sensibles.
+- [ ] El asistente tiene instrucciones claras de no inventar.
+- [ ] Indica qué hacer si la información no está.
+- [ ] Sé exactamente con quién lo voy a compartir.
+- [ ] He probado preguntas reales del equipo.
+- [ ] He documentado (aunque sea en 5 líneas) qué hace este asistente y qué documentos usa.
 
 Si marcas todo, ya tienes algo enseñable a tu organización.
 
@@ -164,6 +166,22 @@ Con esto el técnico ya sabe:
 
 > [!example] Aplícalo
 > Elige un tema sobre el que tu equipo te pregunta una y otra vez: un procedimiento interno, la política de gastos, las preguntas frecuentes de un producto. Reúne tres o cuatro documentos buenos sobre ese tema (los justos, bien nombrados, y que pasen las tres preguntas de privacidad del módulo 1), crea un asistente en Claude Projects o en un GPT y dale instrucciones de no inventar y de avisar cuando algo no esté en la documentación. Después viene la parte que casi nadie hace y que lo cambia todo: **evalúalo**. Escribe cinco preguntas reales del equipo cuya respuesta tú ya conoces, házselas, y puntúa cada respuesta con tres comprobaciones: ¿respondió desde los documentos o de memoria?, ¿la respuesta coincide con la que tú sabías?, ¿dijo "no está en la documentación" cuando tocaba? Cinco de cinco: ya tienes algo que enseñar. Menos de eso: revisa qué documento falta o qué instrucción se queda corta, y vuelve a pasar la prueba.
+
+---
+
+## Autoevaluación
+
+> [!question] Comprueba lo que te llevas
+> Respóndete a estas tres y despliega para comprobar.
+>
+> 1. ¿Qué instrucción evita que el asistente improvise cuando algo no está en los documentos?
+> 2. Tienes 50 documentos sobre el tema. ¿Los subes todos? ¿Por qué?
+> 3. ¿Cómo compruebas de verdad que el asistente funciona, más allá de que "responda"?
+
+> [!note]- Soluciones
+> 1. Decirle explícitamente que responda **"no está en la documentación"** cuando falte, en vez de rellenar el hueco.
+> 2. **No**: mejor pocos y relevantes. Con muchos, la IA a veces se va al documento menos pertinente.
+> 3. Con **cinco preguntas cuya respuesta ya conoces**: ¿respondió desde el documento?, ¿coincide con lo que sabías?, ¿avisó cuando la información no estaba?
 
 ---
 

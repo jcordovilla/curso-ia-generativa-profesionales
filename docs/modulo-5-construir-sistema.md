@@ -116,6 +116,22 @@ Con el vocabulario de este módulo (memoria externa, índice de significado, con
 
 ---
 
+## Autoevaluación
+
+> [!question] Comprueba lo que te llevas
+> Respóndete a estas tres y despliega para comprobar.
+>
+> 1. ¿Cuáles son las tres piezas del sistema?
+> 2. Quieres buscar por significado en años de tu correo. ¿En qué color del semáforo cae, y qué implica?
+> 3. Si solo copiaras una regla de mi sistema, ¿cuál recomiendo?
+
+> [!note]- Soluciones
+> 1. **Memoria externa** (tus notas y documentos), **índice de significado** (la búsqueda) y **conectores** (los enchufes a la IA).
+> 2. En **ámbar**: es un encargo de días a un especialista; una vez montado, lo operas tú sin tocar la tripa.
+> 3. La regla de diseño: **la IA ejecuta, tú decides, y nada sale con tu nombre sin pasar por ti**.
+
+---
+
 ## 9. Cierre y aprendizajes clave
 
 - **El sistema tiene tres piezas**: memoria externa, índice de significado y conectores. La IA es el motor; el conocimiento es tuyo y se queda contigo.

@@ -29,27 +29,31 @@ El camino de este módulo es un ciclo de cuatro pasos, y conviene verlo entero a
 
 ## 1. Pruebas: lista de comprobación para flujos y asistentes
 
-Cada vez que cambies un prompt, una conexión, un documento o una credencial, pasa por esta lista:
+Cada vez que cambies un prompt, una conexión, un documento o una credencial, pasa por esta lista (el curso recuerda lo que marques):
 
 **Entrada:**
-- El flujo sigue recibiendo el dato (email, formulario, webhook).
-- La conexión sigue autorizada (no ha caducado la cuenta).
-- Los filtros funcionan (no envía a la IA contenido que no debería).
+
+- [ ] El flujo sigue recibiendo el dato (correo, formulario, webhook).
+- [ ] La conexión sigue autorizada (no ha caducado la cuenta).
+- [ ] Los filtros funcionan (no envía a la IA contenido que no debería).
 
 **Procesamiento IA:**
-- La IA responde en el idioma correcto.
-- Devuelve el formato esperado (lista, párrafo, JSON).
-- Responde algo razonable con un caso real.
-- Ante una pregunta que no puede responder, lo indica en vez de inventar.
+
+- [ ] La IA responde en el idioma correcto.
+- [ ] Devuelve el formato esperado (lista, párrafo, JSON).
+- [ ] Responde algo razonable con un caso real.
+- [ ] Ante una pregunta que no puede responder, lo indica en vez de inventar.
 
 **Salida:**
-- El resultado llega al canal/equipo correcto.
-- Se guarda en el sistema previsto (CRM, Sheets, Slack).
-- Se ve quién o qué lo ha generado (trazabilidad mínima).
+
+- [ ] El resultado llega al canal o equipo correcto.
+- [ ] Se guarda en el sistema previsto (CRM, hoja de cálculo, Slack).
+- [ ] Se ve quién o qué lo ha generado (trazabilidad mínima).
 
 **Errores:**
-- Si la IA falla, el flujo no se queda colgado sin avisar.
-- Existe algún sitio donde se ve el error (un registro, un correo de aviso, el historial de la plataforma).
+
+- [ ] Si la IA falla, el flujo no se queda colgado sin avisar.
+- [ ] Existe algún sitio donde se ve el error (un registro, un correo de aviso, el historial de la plataforma).
 
 > [!warning] Alerta de privacidad
 > Al probar, usa datos de ejemplo o anonimizados. No envíes datos reales de clientes a través de un flujo que todavía estás depurando: un error de configuración podría enviar información sensible a un canal equivocado.
@@ -189,6 +193,22 @@ Para un flujo o un asistente como los de este curso, la escala es menor: unos mi
 
 > [!example] Aplícalo
 > Coge el flujo o el asistente que montaste en los módulos anteriores y escribe su ficha en media página: qué hace, cuándo se ejecuta, qué prompt usa (la versión exacta), quién mantiene las credenciales y a quién se avisa si falla. Si no eres capaz de rellenarla, ahí tienes el trabajo pendiente antes de enseñárselo a nadie. Esa media página es lo que convierte "mi experimento" en "herramienta del equipo".
+
+---
+
+## Autoevaluación
+
+> [!question] Comprueba lo que te llevas
+> Respóndete a estas tres y despliega para comprobar.
+>
+> 1. Nombra dos de las cuatro métricas sencillas que demuestran valor.
+> 2. ¿Qué es "observabilidad", en una frase de andar por casa?
+> 3. ¿Cuánto mantenimiento pide, en la práctica, un flujo o un asistente como los de este curso?
+
+> [!note]- Soluciones
+> 1. Dos de estas cuatro: **uso**, **ahorro de tiempo estimado**, **calidad percibida** y **errores o reintentos**.
+> 2. Montar las cosas de modo que **te enteres cuando fallan**, con un aviso, un correo de error o un registro, en vez de que se rompan en silencio.
+> 3. **Unos minutos a la semana** de comprobar que corre y sigue siendo útil, más asumir que alguna vez al año algo se romperá y te pedirá una tarde.
 
 ---
 
