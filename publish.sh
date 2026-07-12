@@ -19,7 +19,7 @@ set -euo pipefail
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SRC="/Users/jose/obsidian/JC/1.PROYECTOS/AI-Pub/IA Generativa Profesionales v2"
 DOCS="$REPO_DIR/docs"
-URL="https://jcordovilla.github.io/curso-ia-generativa-profesionales-v2/"
+URL="https://jcordovilla.github.io/curso-ia-generativa-profesionales/"
 
 cd "$REPO_DIR"
 
