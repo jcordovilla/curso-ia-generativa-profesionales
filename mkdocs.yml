@@ -33,11 +33,17 @@ theme:
         icon: material/brightness-4
         name: Cambiar a modo claro
 
+copyright: >
+  © José Cordovilla ·
+  ¿Algo no te ha funcionado o falta algo?
+  <a href="mailto:jose@cordovilla.email?subject=Curso%20IA%3A%20feedback">Escríbeme</a>
+
 extra_css:
   - style.css
 
 extra_javascript:
   - javascripts/tareas.js
+  - javascripts/analitica.js
 
 
 markdown_extensions:
@@ -86,11 +92,16 @@ nav:
   - "Módulo 7 - Tu caso de uso": modulo-7-caso-uso-final.md
   - "Recursos": recursos.md
   - "Glosario": glosario.md
+  - "Novedades": novedades.md
 
 
 plugins:
   - search
   - callouts
+  - git-revision-date-localized:
+      type: date
+      locale: es
+      fallback_to_build_date: true
 
 exclude_docs: |
   _archivo/

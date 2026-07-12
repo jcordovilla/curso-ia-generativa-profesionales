@@ -183,6 +183,18 @@ Tres competencias que ya tienes:
 
 ---
 
+## 8. Cuéntame cómo te ha ido
+
+Si has llegado hasta aquí, tu experiencia es el dato que más me interesa: el curso mejora con lo que cuentan quienes lo han recorrido, y cada edición recoge esos arreglos en la página de [novedades](novedades.md). Son tres preguntas y una respuesta de cinco minutos por correo:
+
+1. ¿Qué montaste (o intentaste montar)?
+2. ¿Dónde te atascaste?
+3. ¿Qué te faltó en el curso?
+
+[Escríbeme la respuesta](mailto:jose@cordovilla.email?subject=Curso%20IA%3A%20mi%20experiencia&body=1)%20Qu%C3%A9%20mont%C3%A9%20(o%20intent%C3%A9%20montar)%3A%0A%0A2)%20D%C3%B3nde%20me%20atasqu%C3%A9%3A%0A%0A3)%20Qu%C3%A9%20me%20falt%C3%B3%3A%0A%0A) (el enlace lleva las preguntas ya puestas). Leo todo lo que llega.
+
+---
+
 > [!info] Para profundizar
 > - [The GenAI Divide: State of AI in Business 2025: MIT NANDA](https://nanda.media.mit.edu/ai_report_2025.pdf): Por qué el 95% de las organizaciones no obtienen ROI medible de GenAI.
 > - [AI Index Report: Stanford HAI](https://aiindex.stanford.edu/report/): Datos anuales del panorama global de IA.
