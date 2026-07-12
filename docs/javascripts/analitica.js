@@ -2,7 +2,7 @@
 // Inerte mientras GC_CODE esté vacío. Para activarla: crear el sitio en
 // goatcounter.com y poner aquí su código (p. ej. "jcordovilla").
 (function () {
-  var GC_CODE = "";
+  var GC_CODE = "jcordovilla";
   if (!GC_CODE) return;
 
   var s = document.createElement("script");
