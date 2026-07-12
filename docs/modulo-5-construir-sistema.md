@@ -58,6 +58,8 @@ La tercera pieza responde a la pregunta más práctica: ¿cómo lee la IA mi cor
 
 En mi sistema hay tres, uno por fuente: correo, documentos y notas. La consecuencia de esta arquitectura es la que más tranquiliza a un responsable de informática: **los datos no se mudan a ninguna parte**. No hay una copia de mi archivo en la nube del proveedor; hay una IA que, pregunta a pregunta, recibe los fragmentos justos que el conector le sirve. La conversación viaja; el archivo se queda.
 
+A lo que viaja se le aplican las mismas tres preguntas del [módulo 1](modulo-1-entender-ia-generativa.md), que rigen aquí igual que en un chat. Y si parte de tu material no puede salir ni en fragmentos, la arquitectura tiene la respuesta sin cambiar el dibujo: el motor también puede ser local, con las herramientas del [módulo 4](modulo-4-ia-que-programa.md), y entonces nada abandona tu máquina.
+
 ---
 
 ## 5. Cómo se ve desde fuera: un día cualquiera
@@ -78,7 +80,7 @@ La fila que más cuesta interiorizar es la primera: por mucha automatización qu
 
 ## 6. El semáforo de replicabilidad
 
-La pregunta honesta que ningún curso responde: ¿cuánto de esto puedes montar tú? Depende de la pieza, y la respuesta cabe en un semáforo.
+La pregunta que ningún curso responde: ¿cuánto de esto puedes montar tú? Depende de la pieza, y la respuesta cabe en un semáforo.
 
 ![Semáforo de replicabilidad en tres niveles: en verde lo que puedes hacer tú sin programar, en ámbar lo que requiere unos días de un especialista y luego operas tú, en rojo lo que exige programación continua y conviene dejar a IT](assets/semaforo-replicabilidad.svg)
 
@@ -137,7 +139,7 @@ Con el vocabulario de este módulo (memoria externa, índice de significado, con
 - **El sistema tiene tres piezas**: memoria externa, índice de significado y conectores. La IA es el motor; el conocimiento es tuyo y se queda contigo.
 - **La memoria externa es la pieza más replicable** y no exige programar: archivos de texto, carpetas con criterio y constancia.
 - **La búsqueda por significado** encuentra ideas y no palabras, y es lo que convierte años de material propio en algo consultable.
-- **El semáforo marca la frontera honesta**: verde para hacer, ámbar para encargar con criterio, rojo para dejar al equipo técnico.
+- **El semáforo marca la frontera real**: verde para hacer, ámbar para encargar con criterio, rojo para dejar al equipo técnico.
 - **La regla que más vale copiar es de diseño**: la IA ejecuta, tú decides, y nada sale con tu nombre sin pasar por ti.
 
 > [!abstract] Resumen del módulo

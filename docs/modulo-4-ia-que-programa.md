@@ -66,7 +66,7 @@ Tú no necesitas entender cada línea de código. Necesitas saber **qué pedirle
 > Cuidado con lo que le pasas a estos asistentes. Si le pides que procese un archivo con datos de clientes, ese archivo puede acabar en los servidores del proveedor. Antes de trabajar con datos reales, verifica las políticas de privacidad y usa datos de prueba cuando estés experimentando.
 
 > [!question] ¿Esto es para ti?
-> Conviene ser honesto sobre el listón, porque el marketing del sector lo baja demasiado y los manuales técnicos lo suben demasiado. La verdad está en medio.
+> Sobre el listón: el marketing del sector lo baja demasiado y los manuales técnicos lo suben demasiado. La verdad está en medio.
 >
 > **Lo que sí necesitas:**
 > - Criterio de negocio: saber qué construir, para qué y para quién. Es lo que la IA no tiene.
@@ -78,7 +78,7 @@ Tú no necesitas entender cada línea de código. Necesitas saber **qué pedirle
 > - Saber programar, ni Python, ni entender el código línea a línea. Lo escribe la IA; tú validas el resultado, no el código.
 > - Una formación técnica previa. Yo no la tenía.
 >
-> **Dónde está el listón real:** no en la dificultad técnica, sino en la tolerancia a que algo no funcione al primer intento y en la constancia para volver a describirlo mejor. Si eso te echa para atrás, este módulo te sirve igual para entender qué pedir y a quién; no hace falta que lo construyas tú.
+> **Dónde está el listón real:** en la tolerancia a que algo no funcione al primer intento y en la constancia para volver a describirlo mejor, más que en la dificultad técnica. Si eso te echa para atrás, este módulo te sirve igual para entender qué pedir y a quién; no hace falta que lo construyas tú.
 
 ---
 
@@ -133,7 +133,7 @@ Con AI coding assistants y MCP combinados, las posibilidades se amplían enormem
 
 ## 5. Lo que los AI coding assistants NO resuelven
 
-Es importante ser honesto sobre los límites. Los AI coding assistants son herramientas extraordinarias, pero no sustituyen tres cosas:
+Los AI coding assistants son herramientas extraordinarias, y aun así no sustituyen tres cosas:
 
 ### Criterio profesional
 La IA escribe código, pero no sabe si el código resuelve el problema correcto. Tú decides qué construir, por qué y para quién. Sin criterio de negocio, la herramienta más potente del mundo genera basura sofisticada.
@@ -189,9 +189,9 @@ El ejemplo que sigue no es hipotético: es, más o menos, cómo nació el sistem
 
 Luego puedes añadir MCP para que el asistente tenga acceso permanente a tu correo, y un programador horario para que se ejecute cada lunes. Lo que antes era un proyecto de semanas se convierte en una sesión de trabajo. Eso fue, casi literalmente, mi primer proyecto serio con un asistente de código. El segundo ya fue más ambicioso, y cada uno me costó menos que el anterior.
 
-### La versión honesta del camino
+### El camino, contado entero
 
-Lo que acabo de contar es la versión limpia. La de verdad tuvo más tropiezos, y conviene contarla entera, porque la frontera honesta del curso es justo esto. Aquel sistema que lee mi correo perdió mensajes durante semanas sin que yo lo supiera: un problema de tiempos entre cuándo llegaba un correo y cuándo lo veía el flujo hacía que algunos se saltaran para siempre. Lo descubrí por casualidad, buscando un correo que sabía que existía y no aparecía. La búsqueda sobre mis miles de notas se quedó pequeña y empezó a fallar, y hubo que rehacerla entera sobre otra base. Los conectores se rompían con las carpetas anidadas del correo y devolvían errores que no decían nada. Cada uno de esos atascos fue una tarde perdida y una reconstrucción.
+Lo que acabo de contar es la versión limpia. La de verdad tuvo más tropiezos, y conviene contarla entera: este curso prometió contar los atascos, no solo los aciertos. Aquel sistema que lee mi correo perdió mensajes durante semanas sin que yo lo supiera: un problema de tiempos entre cuándo llegaba un correo y cuándo lo veía el flujo hacía que algunos se saltaran para siempre. Lo descubrí por casualidad, buscando un correo que sabía que existía y no aparecía. La búsqueda sobre mis miles de notas se quedó pequeña y empezó a fallar, y hubo que rehacerla entera sobre otra base. Los conectores se rompían con las carpetas anidadas del correo y devolvían errores que no decían nada. Cada uno de esos atascos fue una tarde perdida y una reconstrucción.
 
 Ninguno de esos problemas era de programación en el sentido clásico: eran detalles de cómo encajan las piezas, y los resolví describiéndoselos al asistente de código una y otra vez hasta que funcionaron. Esa es la destreza real, y no aparece en ningún tutorial: la paciencia de volver a explicar el problema cuando la primera solución no sirve, que importa más que saber escribir código.
 

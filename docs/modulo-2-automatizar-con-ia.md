@@ -111,7 +111,7 @@ Las herramientas visuales que verás enseguida sirven para conectar estos tres b
 
 Este es mi flujo de verdad, tal como está montado en **Latenode**, la plataforma con la que lo construí. Hay otras equivalentes (las verás en la tabla del apartado siguiente); enseño esta porque es la que de verdad uso, y prefiero mostrarte algo que funciona en mi cuenta a describir una pantalla inventada.
 
-Una aclaración honesta antes de entrar: en este apartado vas a **entender un flujo real por dentro**, que es el objetivo del módulo. Montarlo tú requiere además tres prerrequisitos que hasta ahora el curso no te había pedido, y conviene saberlos antes, no descubrirlos a mitad:
+Una aclaración antes de entrar: en este apartado vas a **entender un flujo real por dentro**, que es el objetivo del módulo. Montarlo tú requiere además tres prerrequisitos que hasta ahora el curso no te había pedido, y conviene saberlos antes, no descubrirlos a mitad:
 
 1. **Una cuenta en la plataforma** (Latenode o equivalente). Se crea como cualquier cuenta, con un correo y una contraseña, y el plan gratuito basta para empezar.
 2. **Una clave de API del proveedor de IA.** Recuerda el aviso del [módulo 1](modulo-1-entender-ia-generativa.md): es una cuenta distinta de tu suscripción de chat, se crea en el panel del proveedor (suele pedir una tarjeta, con cargos de céntimos) y ahí se genera la clave que luego pegas una sola vez en la plataforma. Algunas plataformas ofrecen su propio nodo de IA sin que tengas que traer clave, pagando el uso dentro del plan; para el primer flujo es la vía más cómoda.
