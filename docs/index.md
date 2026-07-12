@@ -67,6 +67,9 @@ El curso tiene **7 módulos progresivos**, precedidos por una pieza de base sin 
 
 **La línea de meta es una ruta de 30 días**, con un hito por semana: la base (semana 1), el criterio y la elección de tu tarea (semana 2), la construcción (semana 3) y la prueba con casos reales (semana 4). La tienes entera en el [módulo 7](modulo-7-caso-uso-final.md); tenerla a la vista desde ahora ayuda a que la lectura acabe en algo construido.
 
+> [!note] Cuánto tiempo pide este curso
+> Leer un módulo lleva en torno a media hora. Aprender lo que enseña pide más, porque se aprende aplicándolo a tu propio material: con dos o tres horas a la semana completas la ruta de 30 días con holgura. Y una advertencia que ahorra frustraciones: en este terreno casi nada sale a la primera, tampoco a quien escribe esto. Cada intento fallido con su corrección forma parte del método, así que date margen y avanza al paso que puedas.
+
 Además encontrarás una página de [recursos](recursos.md) para seguir aprendiendo y un [glosario](glosario.md) que explica en lenguaje llano los términos que van apareciendo.
 
 ---
