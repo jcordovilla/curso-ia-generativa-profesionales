@@ -7,8 +7,8 @@ theme:
     text: Lato
     code: Fira Code
   language: es
-  icon:
-    logo: material/toy-brick-plus
+  logo: assets/logo.svg
+  favicon: assets/favicon.png
   features:
     - navigation.instant
     - navigation.sections
