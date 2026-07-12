@@ -163,7 +163,7 @@ No hay una plataforma "correcta". Las tres más accesibles para empezar funciona
 | Plataforma | Punto fuerte | A tener en cuenta |
 |-----------|--------------|-------------------|
 | **Latenode** | Nodo de IA integrado, interfaz directa; con la que monté mi flujo real | Plataforma más reciente, comunidad menor que n8n |
-| **n8n** | Open-source, se puede alojar en tu propio servidor, comunidad amplia | Más opciones implica más que aprender al principio |
+| **n8n** | Open-source, se puede alojar en tu propio servidor, comunidad amplia | Más opciones implican más que aprender al principio |
 | **Make** | Muy visual, gran catálogo de conexiones a otras herramientas | El plan gratuito se queda corto en cuanto el flujo crece |
 
 > [!tip] Observación práctica

@@ -59,7 +59,7 @@ Tú no necesitas entender cada línea de código. Necesitas saber **qué pedirle
 |-------------|--------|------------|
 | **Claude Code** | Terminal que escribe y ejecuta código autónomamente | Profesionales que quieren construir herramientas propias |
 | **Cursor** | Editor de código con IA integrada | Quien quiere trabajar dentro de un proyecto de código |
-| **GitHub Copilot** | Autocompletado de código con IA en VS Code | Desarrolladores y semi-técnicos |
+| **GitHub Copilot** | Autocompletado de código con IA en VS Code | Desarrolladores y semitécnicos |
 | **Replit Agent** | Entorno web que genera aplicaciones desde instrucciones | Prototipos rápidos sin instalación local |
 
 > [!warning] Alerta de privacidad

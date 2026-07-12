@@ -73,7 +73,7 @@ No necesitas un panel de control completo. Con 4 métricas puedes saber si tu ca
 *Ejemplo:* "El flujo de resumen automático procesó 46 correos en la última semana, con un ahorro estimado de 3,8 horas de lectura."
 
 ### Calidad percibida
-¿Las personas que reciben el resultado lo usan o lo ignoran? Una mini-encuesta basta: "¿Te sirve tal como llega?": Sí / No / A medias.
+¿Las personas que reciben el resultado lo usan o lo ignoran? Una miniencuesta basta: "¿Te sirve tal como llega?": Sí / No / A medias.
 
 ### Errores o reintentos
 ¿Cuántas veces falla por credenciales caducadas, formatos inesperados o cambios en el modelo? Menos errores = más confianza del equipo.
@@ -230,7 +230,7 @@ Para un flujo o un asistente como los de este curso, la escala es menor: unos mi
 > - [OpenAI Evals](https://github.com/openai/evals): Framework para evaluar modelos de lenguaje de forma sistemática.
 > - [Promptfoo](https://www.promptfoo.dev/): Herramienta para probar y comparar prompts, detectar regresiones y validar respuestas.
 > - [What is an API?: IBM](https://www.ibm.com/topics/api): Explicación accesible de qué es una API y por qué es fundamental.
-> - [Git Explained in 100 Seconds: Fireship](https://www.youtube.com/watch?v=hwP7WQkmECE): Vídeo ultra-conciso sobre control de versiones.
+> - [Git Explained in 100 Seconds: Fireship](https://www.youtube.com/watch?v=hwP7WQkmECE): Vídeo ultraconciso sobre control de versiones.
 
 ---
 

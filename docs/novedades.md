@@ -14,7 +14,7 @@ En este campo los precios, los modelos y las herramientas caducan en meses. Esta
 
 ## Julio de 2026: segunda edición
 
-La primera versión de este curso se publicó hace unos meses. Esta segunda edición lo reescribe entero, con más práctica sobre material propio, una ruta de 30 días y precios en euros. La edición original queda archivada y sus enlaces antiguos redirigen aquí.
+La primera versión de este curso se publicó hace unos meses. Esta segunda edición lo reescribe entero, con más práctica sobre material propio y una ruta de 30 días. La edición original queda archivada y sus enlaces antiguos redirigen aquí.
 
 ## Cómo se mantiene este curso
 
