@@ -3,7 +3,7 @@
 
 > **Bienvenido/a** al curso de IA Generativa para Profesionales. Un programa práctico para profesionales senior que quieren usar la inteligencia artificial con criterio, autonomía y resultados reales.
 
-Este repositorio contiene la **versión 2** del curso, en transformación durante junio de 2026. La versión 1 permanece publicada y congelada en [curso-ia-generativa-profesionales](https://github.com/jcordovilla/curso-ia-generativa-profesionales).
+Este repositorio contiene la **versión 2** del curso, la edición vigente. La versión 1 original quedó archivada y congelada en [curso-ia-generativa-profesionales-v1](https://github.com/jcordovilla/curso-ia-generativa-profesionales-v1).
 
 ## Qué encontrarás aquí
 
@@ -25,7 +25,7 @@ El objetivo no es memorizar conceptos, sino aprender a **usar la IA con criterio
 
 ## Cómo empezar
 
-Explora la [bienvenida del curso](https://jcordovilla.github.io/curso-ia-generativa-profesionales-v2/) y comienza por el Módulo 1.
+Explora la [bienvenida del curso](https://jcordovilla.github.io/curso-ia-generativa-profesionales/) y comienza por el Módulo 1.
 
 Tu experiencia profesional es el punto de partida; la IA es el nuevo instrumento.
 
@@ -41,7 +41,7 @@ Este curso ha sido ideado y creado por [**José Cordovilla**](https://www.linked
 
 Puedes consultar el curso completo y navegar por los módulos en:
 
-[Curso IA Generativa para Profesionales v2 (GitHub Pages)](https://jcordovilla.github.io/curso-ia-generativa-profesionales-v2/)
+[Curso IA Generativa para Profesionales (GitHub Pages)](https://jcordovilla.github.io/curso-ia-generativa-profesionales/)
 
 ---
 
