@@ -1,5 +1,5 @@
 
-# IA Generativa para Profesionales (versión 2)
+# IA Generativa para Profesionales
 
 > **Bienvenido/a** al curso de IA Generativa para Profesionales. Un programa práctico para profesionales senior que quieren usar la inteligencia artificial con criterio, autonomía y resultados reales.
 
