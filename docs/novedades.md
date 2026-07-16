@@ -16,4 +16,6 @@ Siempre dentro de mis posibilidades y tiempo disponible. Si detectas algún erro
 
 ¿Quieres que te avise cuando actualice el curso? [Escríbeme](mailto:jose@cordovilla.email?subject=Curso%20IA%3A%20avisos%20de%20novedades) y te apuntaré a una lista breve. Solo te escribiré cuando haya cambios que merezcan la pena.
 
+**Julio de 2026.** El curso pasa a licencia [Creative Commons CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es): puedes copiarlo, adaptarlo y reutilizarlo, incluso con fines comerciales, siempre que cites la autoría y mantengas la misma licencia abierta.
+
 **Julio de 2026.** Segunda edición: revisión completa del curso. La edición original queda archivada y sus enlaces redirigen aquí.
