@@ -14,6 +14,8 @@ links_woven: true
 
 ## Qué es, para qué sirve y cómo elegir
 
+Todo lo que hoy hace por mí Paco (así, de tanto trabajar codo con codo, acabé llamando al sistema con el que trabajo cada día) empezó en un punto exacto: yo, delante de un chat, con las mismas dudas con las que quizá llegas tú a este módulo. Este es ese punto de partida.
+
 ¿Cuántas aplicaciones de IA has abierto este último año sin tener claro cuál usar, para qué, ni qué podías escribir en ellas sin meter la pata? Es una confusión habitual, y casi siempre nace de empezar por las herramientas en lugar de por los conceptos.
 
 Antes de automatizar nada conviene entender las piezas básicas, las justas para **decidir con criterio**: qué herramienta usar, qué puedes compartir con la IA, qué modelo elegir y cuánto cuesta todo esto. Este módulo te da esas bases. Todo lo demás se construye encima.
