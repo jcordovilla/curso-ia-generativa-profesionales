@@ -21,7 +21,7 @@ links_woven: true
 
 ## 1. El plano general
 
-Mi sistema, reducido a su esqueleto, tiene tres piezas: una **memoria externa** (mis notas y documentos, que viven en archivos normales en mi ordenador), un **índice de significado** (lo que me permite buscar en todo eso por lo que quiero decir, y no por la palabra exacta) y unos **conectores** (los enchufes que dejan que la IA lea mi correo, mis documentos y mis notas cuando se lo pido). La IA es el motor que razona y redacta; todo lo demás es mío y se queda en mi máquina.
+Ya ha asomado su nombre en los módulos anteriores: a mi sistema lo llamo Paco. Reducido a su esqueleto, Paco tiene tres piezas: una **memoria externa** (mis notas y documentos, que viven en archivos normales en mi ordenador), un **índice de significado** (lo que me permite buscar en todo eso por lo que quiero decir, y no por la palabra exacta) y unos **conectores** (los enchufes que dejan que la IA lea mi correo, mis documentos y mis notas cuando se lo pido). La IA es el motor que razona y redacta; todo lo demás es mío y se queda en mi máquina.
 
 ![Anatomía del sistema: tus fuentes (correo, documentos y notas) alimentan un índice de significado local; unos conectores enchufan todo eso a la IA, que razona y redacta. Las fuentes, el índice y los conectores viven en tu ordenador](assets/anatomia-sistema.svg)
 

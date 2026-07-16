@@ -179,7 +179,7 @@ Tres competencias que ya tienes:
 3. **Capacidad de transferencia:** tienes un caso de uso documentado, listo para compartir, escalar o entregar a IT.
 
 > [!abstract] Cierre
-> La IA amplifica tu experiencia profesional. Lo que has aprendido en estos siete módulos es una forma nueva de trabajar que premia a quienes combinan criterio profesional con curiosidad técnica. Y esa combinación la tienes tú. El resto es ponerse: elige una tarea que te duela, móntala y mejórala. Así empezó todo lo que hoy te he contado.
+> La IA amplifica tu experiencia profesional. Lo que has aprendido en estos siete módulos es una forma nueva de trabajar que premia a quienes combinan criterio profesional con curiosidad técnica. Y esa combinación la tienes tú. El resto es ponerse: elige una tarea que te duela, móntala y mejórala. Así empezó Paco, el sistema con el que hoy trabajo cada día, y así empieza todo lo que en este curso te he contado.
 
 ---
 

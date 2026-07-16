@@ -75,7 +75,7 @@ Ese detalle conecta las dos mitades del módulo. **Los formatos estructurados so
 
 Con los seis escalones practicados, ya tienes lo que hace falta para dar el paso que la mayoría quiere ver desde el principio: **un flujo que procesa información con IA sin que tú estés delante**. Aquí cambia una cosa respecto a todo lo anterior: hasta ahora tú escribías cada petición; a partir de ahora el flujo la lanza solo, cuando se cumple un disparador.
 
-Para que no quede abstracto, parto de un flujo real, uno de los primeros que monté para mí mismo: cada mañana lee varios boletines y alertas de noticias, descarta el ruido, se queda con lo relevante para infraestructuras y me deja un resumen ordenado en el correo antes de desayunar. Entrada (los boletines), IA (filtra y resume), salida (el correo). Ese es todo el secreto, y es lo que vas a ver montado paso a paso.
+Para que no quede abstracto, parto de un flujo real, uno de los primeros que monté para mí mismo: cada mañana lee varios boletines y alertas de noticias, descarta el ruido, se queda con lo relevante para infraestructuras y me deja un resumen ordenado en el correo antes de desayunar. En mi caso este flujo es una pieza de un sistema mayor al que, de tanto trabajar con él, acabé llamando Paco. Aquí lo miramos suelto, porque así se aprende; a Paco entero le dedicamos el módulo 5. Entrada (los boletines), IA (filtra y resume), salida (el correo). Ese es todo el secreto, y es lo que vas a ver montado paso a paso.
 
 ---
 
