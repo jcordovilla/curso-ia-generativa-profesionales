@@ -14,4 +14,6 @@ Este es el registro de cambios del curso. Cada módulo muestra al pie su fecha d
 
 Siempre dentro de mis posibilidades y tiempo disponible. Si detectas algún error o referencia desfasada, [escríbeme](mailto:jose@cordovilla.email?subject=Curso%20IA%3A%20algo%20desfasado), te lo agradeceré.
 
+¿Quieres que te avise cuando actualice el curso? [Escríbeme](mailto:jose@cordovilla.email?subject=Curso%20IA%3A%20avisos%20de%20novedades) y te apuntaré a una lista breve. Solo te escribiré cuando haya cambios que merezcan la pena.
+
 **Julio de 2026.** Segunda edición: revisión completa del curso. La edición original queda archivada y sus enlaces redirigen aquí.

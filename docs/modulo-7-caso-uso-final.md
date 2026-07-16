@@ -193,6 +193,8 @@ Si has llegado hasta aquí, tu experiencia es el dato que más me interesa: el c
 
 [Escríbeme la respuesta](mailto:jose@cordovilla.email?subject=Curso%20IA%3A%20mi%20experiencia&body=1)%20Qu%C3%A9%20mont%C3%A9%20(o%20intent%C3%A9%20montar)%3A%0A%0A2)%20D%C3%B3nde%20me%20atasqu%C3%A9%3A%0A%0A3)%20Qu%C3%A9%20me%20falt%C3%B3%3A%0A%0A) (el enlace lleva las preguntas ya puestas). Leo todo lo que llega.
 
+Y si quieres enterarte de las actualizaciones, [escríbeme](mailto:jose@cordovilla.email?subject=Curso%20IA%3A%20avisos%20de%20novedades) y te sumo a la lista de avisos.
+
 ---
 
 > [!info] Para profundizar
