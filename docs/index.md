@@ -12,7 +12,7 @@ links_woven: true
 
 # IA Generativa para Profesionales
 
-**¿Ves a alguien más joven entregar en una tarde, con ChatGPT, lo que a ti te lleva dos días?** Este curso cierra esa brecha, con criterio y sin humo. En la primera media hora, usando el chat que ya tienes, resolverás una tarea real tuya. Al final, tendrás una tarea de tu semana automatizada o un asistente que responde sobre tus documentos, y sabrás cuánto cuesta, qué puedes montar tú y qué conviene dejar estar.
+**¿Ves a alguien más joven entregar en una tarde, con ChatGPT, lo que a ti te lleva dos días?** Este curso cierra esa brecha, con criterio y sin humo. En la primera media hora, usando el chat que ya tienes, resolverás una tarea real tuya. Al final, tendrás una tarea de tu semana automatizada o un asistente que responde sobre tus documentos, y sabrás cuánto cuesta, qué puedes montar tú y qué conviene dejar estar. El curso es gratuito de principio a fin, los siete módulos; las únicas cifras que verás son las de las herramientas, y las versiones gratuitas bastan para seguirlo entero.
 
 > [!example] Pruébalo ahora, antes de leer nada más
 > Coge un correo largo que tengas pendiente o un informe que te dé pereza resumir (algo sin datos sensibles: un texto público o tuyo). Pégalo en ChatGPT, Claude o Gemini y pide esto:
