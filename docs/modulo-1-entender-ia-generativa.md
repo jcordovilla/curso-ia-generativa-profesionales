@@ -139,6 +139,8 @@ La pregunta que todo el mundo se hace y casi nadie responde con cifras. Lo prime
 
 **Presupuesto orientativo para las herramientas.** Seguir el curso completo, del módulo 1 al 7, cuesta cero: se puede leer entero y hacer los ejercicios de los tres primeros módulos con las versiones gratuitas. Trabajar en serio a diario justifica una suscripción de pago, en torno a 20 euros al mes. Automatizar (la práctica de los módulos 2 en adelante, si decides montarla) añade los céntimos de API y, si tu flujo crece, el plan de pago de la plataforma; el orden de coste de esas plataformas lo verás en el módulo 2.
 
+Una advertencia que va pegada al precio: **gratis en euros exige más cuidado con los datos**. Las versiones gratuitas suelen tener las políticas de datos menos favorables (en varios proveedores, lo que escribes puede usarse para entrenar sus modelos, salvo que lo desactives), así que con ellas practica con material público o tuyo, ya anonimizado. La sección siguiente te da el criterio completo; aquí basta con retener que el escalón gratuito es perfecto para aprender y el peor sitio para pegar nada sensible.
+
 > [!tip] Observación práctica
 > Más de una suscripción de pago a la vez rara vez compensa al empezar. Prueba dos o tres herramientas en gratuito, elige la que mejor entienda tu contexto, paga esa y revisa la decisión a los tres meses, que en este mercado es una era geológica.
 
