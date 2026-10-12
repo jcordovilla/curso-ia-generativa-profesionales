@@ -6,6 +6,7 @@ tags:
   - type/course
   - topic/ai
 usefulness: 0.9
+links_woven: true
 ---
 
 # Novedades
@@ -15,6 +16,8 @@ Este es el registro de cambios del curso. Cada módulo muestra al pie su fecha d
 Siempre dentro de mis posibilidades y tiempo disponible. Si detectas algún error o referencia desfasada, [escríbeme](mailto:jose@cordovilla.email?subject=Curso%20IA%3A%20algo%20desfasado), te lo agradeceré.
 
 ¿Quieres que te avise cuando actualice el curso? [Escríbeme](mailto:jose@cordovilla.email?subject=Curso%20IA%3A%20avisos%20de%20novedades) y te apuntaré a una lista breve. Solo te escribiré cuando haya cambios que merezcan la pena.
+
+**Octubre de 2026.** Corregida la información sobre Anthropic en los módulos 1 y 3: desde septiembre de 2025, en sus planes individuales (gratuito, Pro y Max) puede usar tus conversaciones para entrenar sus modelos salvo que lo desactives en los ajustes de privacidad; los planes de empresa siguen sin hacerlo. Arreglado también el enlace del módulo 7 para contarme tu experiencia.
 
 **Julio de 2026.** El curso pasa a licencia [Creative Commons CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es): puedes copiarlo, adaptarlo y reutilizarlo, incluso con fines comerciales, siempre que cites la autoría y mantengas la misma licencia abierta.
 

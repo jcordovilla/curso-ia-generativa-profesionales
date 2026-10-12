@@ -45,7 +45,7 @@ Hoy existen varios entornos para crear asistentes con documentos sin programar. 
 | Plataforma | Producto | Ventaja | Limitación |
 |-----------|----------|---------|------------|
 | **OpenAI** | GPTs personalizados | El más maduro, amplia base de usuarios | Datos en nube de OpenAI |
-| **Anthropic** | Claude Projects | Excelente para documentos largos, no entrena con datos | Menos integraciones que OpenAI |
+| **Anthropic** | Claude Projects | Excelente para documentos largos | Menos integraciones que OpenAI |
 | **Google** | Gemini Gems | Integración directa con Google Workspace | Menor control sobre instrucciones |
 
 Los tres funcionan con el mismo principio: subes documentos, escribes [instrucciones de sistema](glosario.md) y el asistente responde basándose en ese material.
@@ -53,7 +53,7 @@ Los tres funcionan con el mismo principio: subes documentos, escribes [instrucci
 **El coste comparado** es fácil de recordar: crear asistentes es, con carácter general, función de los planes de pago que ya viste en el módulo 1 (ChatGPT Plus 20 $, Claude Pro 20 $ o 17 $ en anual, Google AI Pro 19,99 $, a junio de 2026; las excepciones en los planes gratuitos cambian cada pocos meses). La parte buena: crear el asistente no añade coste sobre la suscripción, así que la decisión de plataforma es la misma del módulo 1, y si ya pagas una, esta función viene con ella.
 
 > [!tip] Observación práctica
-> Muchos profesionales se quedan en los GPTs personalizados sin saber que existen alternativas. Yo tengo montado un Claude Project sobre mi propia documentación de proyectos: le he subido procedimientos, actas y fichas, y le pregunto en lenguaje natural cosas que antes me obligaban a abrir diez archivos. Claude Projects trabaja bien con documentos largos y no usa tus datos para entrenar. Vale la pena probar al menos dos plataformas antes de decidir.
+> Muchos profesionales se quedan en los GPTs personalizados sin saber que existen alternativas. Yo tengo montado un Claude Project sobre mi propia documentación de proyectos: le he subido procedimientos, actas y fichas, y le pregunto en lenguaje natural cosas que antes me obligaban a abrir diez archivos. Claude Projects trabaja bien con documentos largos; eso sí, en los planes individuales comprueba en los ajustes de privacidad que tienes desactivado el uso de tus chats para entrenar, como en cualquier otro proveedor. Vale la pena probar al menos dos plataformas antes de decidir.
 
 ---
 

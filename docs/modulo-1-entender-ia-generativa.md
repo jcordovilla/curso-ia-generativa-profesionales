@@ -98,7 +98,7 @@ No existe "la mejor IA". Existen modelos con distintas capacidades, precios y po
 | Proveedor | Modelo destacado | Fortaleza | Privacidad |
 |-----------|-----------------|-----------|-----------|
 | **OpenAI** | GPT-5.5 | Versatilidad general, multimodal | Datos en nube, opción de no entrenar |
-| **Anthropic** | Claude Opus 4.8 / Sonnet 4.6 | Análisis extenso, instrucciones complejas, código | No entrena con datos de usuario |
+| **Anthropic** | Claude Opus 4.8 / Sonnet 4.6 | Análisis extenso, instrucciones complejas, código | Planes individuales: puede entrenar con tus chats salvo que lo desactives |
 | **Google** | Gemini 3.5 | Integración con Google Workspace, multimodal | Datos en nube de Google |
 | **Meta** | Llama 4 (vía Ollama, un programa para ejecutar modelos en tu ordenador; se explica más abajo) | Gratuito, ejecutable en local | Completamente privado si es local |
 | **Mistral** | Mistral (empresa europea) | Buen rendimiento, opción europea | Opción local o en nube |
@@ -170,7 +170,7 @@ Esta es la sección que más profesionales ignoran y la que más problemas causa
 > Antes de casarte con una herramienta, respóndete a esto:
 >
 > 1. **¿Dónde se procesan mis datos?** ¿En los servidores del proveedor o en mi máquina?
-> 2. **¿El proveedor usa mis datos para entrenar?** (OpenAI: sí por defecto salvo opt-out; Anthropic: no; Ollama: local, sin envío).
+> 2. **¿El proveedor usa mis datos para entrenar?** (OpenAI y Anthropic, en sus planes individuales: sí, salvo que lo desactives en los ajustes de privacidad; Ollama: local, sin envío).
 > 3. **¿Puedo usar una versión empresarial?** (ChatGPT Enterprise, Claude for Teams: no entrenan con datos).
 > 4. **¿Mi organización tiene una política de IA?** Si no la tiene, es buen momento para proponerla.
 
