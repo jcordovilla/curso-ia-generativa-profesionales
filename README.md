@@ -3,21 +3,22 @@
 
 > **Bienvenido/a** al curso de IA Generativa para Profesionales. Un programa práctico para profesionales senior que quieren usar la inteligencia artificial con criterio, autonomía y resultados reales.
 
-Este repositorio contiene la **versión 2** del curso, la edición vigente. La versión 1 original quedó archivada y congelada en [curso-ia-generativa-profesionales-v1](https://github.com/jcordovilla/curso-ia-generativa-profesionales-v1).
+Este repositorio contiene la edición vigente del curso (revisada en octubre de 2026). La versión 1 original quedó archivada y congelada en [curso-ia-generativa-profesionales-v1](https://github.com/jcordovilla/curso-ia-generativa-profesionales-v1).
 
 ## Qué encontrarás aquí
 
-Un curso de **7 módulos progresivos** que te lleva desde entender qué es la IA generativa hasta construir tu propio sistema con AI coding assistants y MCP:
+Un curso gratuito de **8 módulos progresivos** que te lleva desde entender qué es la IA generativa hasta conectarla a tu correo y tus documentos y montar tu propio sistema, sin ser programador:
 
-1. **Entender la IA generativa**: modelos, patrones de uso, privacidad
-2. **Automatizar con IA**: flujos entrada → IA → salida con herramientas no-code
-3. **Asistentes con documentos**: GPTs, Claude Projects, Gemini Gems
-4. **IA que programa por ti**: AI coding assistants, MCP, modelos locales
-5. **Construir tu sistema**: RAG, agentes y APIs (profundización opcional)
-6. **Evaluar y escalar**: métricas, documentación, puente con IT
-7. **Tu caso de uso**: plantilla completa para diseñar tu propio proyecto
+1. **Entender la IA generativa**: modelos, patrones de uso, privacidad y marco legal
+2. **Encadenar y adjuntar antes que automatizar**: flujos entrada → IA → salida con herramientas sin código
+3. **Asistentes con documentos**: proyectos, GPTs, Gems, cuadernos y agentes de Copilot
+4. **Tus datos importan más que la IA**: archivos propios, texto plano y una sola versión válida de cada documento
+5. **IA que programa por ti**: asistentes de código, conectores y agentes de escritorio
+6. **Mirar dentro de un sistema real**: cómo funciona un sistema personal de IA por dentro
+7. **Evaluar y escalar**: pruebas, métricas, delegar con control y puente con informática
+8. **Tu caso de uso**: ficha completa para diseñar tu propio proyecto
 
-Cada módulo tiene una **vía rápida** con los conceptos esenciales y secciones **Profundiza** opcionales para quienes quieran entrar en la capa técnica.
+Cada módulo tiene una **vía rápida** con lo esencial, desplegables **Profundiza** para ampliar y, en los módulos técnicos, una sección final **Para los pros**.
 
 ## Propósito del curso
 
@@ -60,7 +61,7 @@ Recomendado: usar un entorno virtual. En macOS / zsh:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
-pip install mkdocs mkdocs-material mkdocs-callouts
+pip install mkdocs mkdocs-material mkdocs-callouts mkdocs-git-revision-date-localized-plugin mkdocs-redirects
 
 # Servir en local (ver en http://127.0.0.1:8000)
 mkdocs serve

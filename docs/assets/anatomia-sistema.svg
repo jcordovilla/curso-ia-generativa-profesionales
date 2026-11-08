@@ -69,5 +69,5 @@
 
   <!-- Pie -->
   <text class="pie" x="460" y="540" text-anchor="middle">La memoria es tuya y permanente; la IA es el motor que se enchufa.</text>
-  <text class="pie" x="460" y="562" text-anchor="middle">En cada pregunta, la IA solo ve los fragmentos que necesita, no tus archivos enteros.</text>
+  <text class="pie" x="460" y="562" text-anchor="middle">En cada pregunta, la IA solo ve los fragmentos de tus archivos que necesita.</text>
 </svg>

@@ -1,5 +1,5 @@
 site_name: IA Generativa para Profesionales
-site_description: "Curso práctico de IA generativa para profesionales senior. 7 módulos progresivos: desde entender la IA hasta construir tu propio sistema con AI coding assistants y MCP."
+site_description: "Curso práctico y gratuito de IA generativa para profesionales senior. Ocho módulos progresivos: desde entender la IA y usarla con criterio hasta conectarla a tu correo y tus documentos y montar tu propio sistema, sin ser programador."
 
 theme:
   name: material
@@ -87,10 +87,11 @@ nav:
   - "Módulo 1 - Entender la IA generativa": modulo-1-entender-ia-generativa.md
   - "Módulo 2 - Encadenar y adjuntar antes que automatizar": modulo-2-automatizar-con-ia.md
   - "Módulo 3 - Asistentes con documentos": modulo-3-asistentes-con-documentos.md
-  - "Módulo 4 - IA que programa por ti": modulo-4-ia-que-programa.md
-  - "Módulo 5 - Mirar dentro de un sistema real": modulo-5-construir-sistema.md
-  - "Módulo 6 - Evaluar y escalar": modulo-6-evaluar-y-escalar.md
-  - "Módulo 7 - Tu caso de uso": modulo-7-caso-uso-final.md
+  - "Módulo 4 - Tus datos importan más que la IA": modulo-4-tus-datos-importan-mas.md
+  - "Módulo 5 - IA que programa por ti": modulo-5-ia-que-programa.md
+  - "Módulo 6 - Mirar dentro de un sistema real": modulo-6-construir-sistema.md
+  - "Módulo 7 - Evaluar y escalar": modulo-7-evaluar-y-escalar.md
+  - "Módulo 8 - Tu caso de uso": modulo-8-caso-uso-final.md
   - "Recursos": recursos.md
   - "Glosario": glosario.md
   - "Novedades": novedades.md
@@ -103,6 +104,14 @@ plugins:
       type: date
       locale: es
       fallback_to_build_date: true
+  # Edición de octubre de 2026: entra el módulo 4 nuevo y los antiguos 4-7 pasan a 5-8.
+  # Las direcciones antiguas siguen funcionando y llevan a su módulo.
+  - redirects:
+      redirect_maps:
+        "modulo-4-ia-que-programa.md": "modulo-5-ia-que-programa.md"
+        "modulo-5-construir-sistema.md": "modulo-6-construir-sistema.md"
+        "modulo-6-evaluar-y-escalar.md": "modulo-7-evaluar-y-escalar.md"
+        "modulo-7-caso-uso-final.md": "modulo-8-caso-uso-final.md"
 
 exclude_docs: |
   _archivo/

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 430" width="600" height="430" role="img" aria-label="Mi uso de la aplicación de escritorio de la IA, en conversaciones al mes: noviembre de 2025, 20; diciembre, 24; enero de 2026, 21; febrero, 6; marzo, 25; abril, 20; mayo, 11; junio, 9; julio, 9. El tramo de noviembre a enero coincide con la construcción de mi sistema; de mayo a julio ese trabajo ya se hace en el terminal.">
+  <defs>
+    <style>
+      .titulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 21px; font-weight: 700; fill: #1a202c; }
+      .subtitulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 14px; fill: #4a5568; }
+      .valor { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 700; fill: #1a202c; }
+      .mes { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 15px; fill: #4a5568; }
+      .anio { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #64748b; }
+      .tramo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-style: italic; fill: #0f766e; }
+      .pie { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; font-style: italic; fill: #4a5568; }
+      .barra { fill: #0d9488; }
+      .llave { stroke: #5eead4; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="598" height="428" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <text class="titulo" x="300" y="40" text-anchor="middle">Mi uso de la aplicación de escritorio, mes a mes</text>
+  <text class="subtitulo" x="300" y="64" text-anchor="middle">Conversaciones al mes, de noviembre de 2025 a julio de 2026</text>
+
+  <line x1="50" y1="290" x2="560" y2="290" stroke="#cbd5e1" stroke-width="1.5"/>
+  <path class="barra" d="M66.3,290 V154.0 Q66.3,150.0 70.3,150.0 H86.3 Q90.3,150.0 90.3,154.0 V290 Z"/>
+  <path class="barra" d="M123.0,290 V126.0 Q123.0,122.0 127.0,122.0 H143.0 Q147.0,122.0 147.0,126.0 V290 Z"/>
+  <path class="barra" d="M179.7,290 V147.0 Q179.7,143.0 183.7,143.0 H199.7 Q203.7,143.0 203.7,147.0 V290 Z"/>
+  <path class="barra" d="M236.3,290 V252.0 Q236.3,248.0 240.3,248.0 H256.3 Q260.3,248.0 260.3,252.0 V290 Z"/>
+  <path class="barra" d="M293.0,290 V119.0 Q293.0,115.0 297.0,115.0 H313.0 Q317.0,115.0 317.0,119.0 V290 Z"/>
+  <path class="barra" d="M349.7,290 V154.0 Q349.7,150.0 353.7,150.0 H369.7 Q373.7,150.0 373.7,154.0 V290 Z"/>
+  <path class="barra" d="M406.3,290 V217.0 Q406.3,213.0 410.3,213.0 H426.3 Q430.3,213.0 430.3,217.0 V290 Z"/>
+  <path class="barra" d="M463.0,290 V231.0 Q463.0,227.0 467.0,227.0 H483.0 Q487.0,227.0 487.0,231.0 V290 Z"/>
+  <path class="barra" d="M519.7,290 V231.0 Q519.7,227.0 523.7,227.0 H539.7 Q543.7,227.0 543.7,231.0 V290 Z"/>
+  <text class="valor" x="78.3" y="142.0" text-anchor="middle">20</text>
+  <text class="valor" x="135.0" y="114.0" text-anchor="middle">24</text>
+  <text class="valor" x="191.7" y="135.0" text-anchor="middle">21</text>
+  <text class="valor" x="248.3" y="240.0" text-anchor="middle">6</text>
+  <text class="valor" x="305.0" y="107.0" text-anchor="middle">25</text>
+  <text class="valor" x="361.7" y="142.0" text-anchor="middle">20</text>
+  <text class="valor" x="418.3" y="205.0" text-anchor="middle">11</text>
+  <text class="valor" x="475.0" y="219.0" text-anchor="middle">9</text>
+  <text class="valor" x="531.7" y="219.0" text-anchor="middle">9</text>
+  <text class="mes" x="78.3" y="312" text-anchor="middle">nov</text>
+  <text class="mes" x="135.0" y="312" text-anchor="middle">dic</text>
+  <text class="mes" x="191.7" y="312" text-anchor="middle">ene</text>
+  <text class="mes" x="248.3" y="312" text-anchor="middle">feb</text>
+  <text class="mes" x="305.0" y="312" text-anchor="middle">mar</text>
+  <text class="mes" x="361.7" y="312" text-anchor="middle">abr</text>
+  <text class="mes" x="418.3" y="312" text-anchor="middle">may</text>
+  <text class="mes" x="475.0" y="312" text-anchor="middle">jun</text>
+  <text class="mes" x="531.7" y="312" text-anchor="middle">jul</text>
+  <text class="anio" x="78.3" y="330" text-anchor="middle">2025</text>
+  <text class="anio" x="191.7" y="330" text-anchor="middle">2026</text>
+
+  <path class="llave" d="M58.3,340 V348 H211.7 V340"/>
+  <text class="tramo" x="135.0" y="368" text-anchor="middle">construyo mi sistema</text>
+  <path class="llave" d="M398.3,340 V348 H551.7 V340"/>
+  <text class="tramo" x="475.0" y="368" text-anchor="middle">ese trabajo, ya en el terminal</text>
+
+  <text class="pie" x="300" y="412" text-anchor="middle">Solo recuentos, nunca contenido. Julio de 2026, hasta el día 19.</text>
+</svg>
