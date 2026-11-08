@@ -20,7 +20,7 @@
   <text class="item" x="152" y="170" text-anchor="middle">Escalones 1-3</text>
   <text class="item" x="152" y="188" text-anchor="middle">con tu material</text>
   <text class="item" x="152" y="212" text-anchor="middle">Regla de privacidad</text>
-  <text class="item" x="152" y="236" text-anchor="middle">Elige tu modelo</text>
+  <text class="item" x="152" y="236" text-anchor="middle">Elige tu herramienta</text>
 
   <!-- Semana 2 -->
   <text class="semana" x="357" y="95" text-anchor="middle">SEMANA 2</text>
@@ -37,8 +37,8 @@
   <text class="caja" x="562" y="140" text-anchor="middle">La construcción</text>
   <text class="item" x="562" y="170" text-anchor="middle">Asistente con</text>
   <text class="item" x="562" y="188" text-anchor="middle">documentos o flujo</text>
-  <text class="item" x="562" y="212" text-anchor="middle">Uno de los dos,</text>
-  <text class="item" x="562" y="230" text-anchor="middle">no ambos</text>
+  <text class="item" x="562" y="212" text-anchor="middle">Empieza por uno</text>
+  <text class="item" x="562" y="230" text-anchor="middle">de los dos</text>
 
   <!-- Semana 4 -->
   <text class="semana-t" x="767" y="95" text-anchor="middle">SEMANA 4</text>

@@ -1,0 +1,1086 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Tu ruta de 30 días y la ficha para diseñar tu propio caso de uso de IA, con un ejemplo real rellenado.">
+      
+      
+      
+      
+        <link rel="prev" href="../modulo-7-evaluar-y-escalar/">
+      
+      
+        <link rel="next" href="../recursos/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>Módulo 8 - Tu caso de uso - IA Generativa para Profesionales</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../style.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#modulo-8-tu-caso-de-uso" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="IA Generativa para Profesionales" class="md-header__button md-logo" aria-label="IA Generativa para Profesionales" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IA Generativa para Profesionales
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Módulo 8 - Tu caso de uso
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="IA Generativa para Profesionales" class="md-nav__button md-logo" aria-label="IA Generativa para Profesionales" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    IA Generativa para Profesionales
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bienvenida
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../antes-de-empezar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antes de empezar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-1-entender-ia-generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 1 - Entender la IA generativa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-2-automatizar-con-ia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 2 - Encadenar y adjuntar antes que automatizar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-3-asistentes-con-documentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 3 - Asistentes con documentos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-4-tus-datos-importan-mas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 4 - Tus datos importan más que la IA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-5-ia-que-programa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 5 - IA que programa por ti
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-6-construir-sistema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 6 - Mirar dentro de un sistema real
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modulo-7-evaluar-y-escalar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 7 - Evaluar y escalar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 8 - Tu caso de uso
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulo 8 - Tu caso de uso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#disenar-documentar-y-ejecutar-tu-propio-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diseñar, documentar y ejecutar tu propio proyecto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tu-ruta-de-30-dias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tu ruta de 30 días
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tu-ficha-de-caso-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tu ficha de caso de uso
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#la-ficha-para-informatica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        La ficha para informática
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lleva-un-registro-de-tu-propio-avance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lleva un registro de tu propio avance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cuentame-como-te-ha-ido" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cuéntame cómo te ha ido
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cierre-del-curso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cierre del curso
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recursos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recursos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glosario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glosario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../novedades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Novedades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#disenar-documentar-y-ejecutar-tu-propio-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diseñar, documentar y ejecutar tu propio proyecto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tu-ruta-de-30-dias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tu ruta de 30 días
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tu-ficha-de-caso-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tu ficha de caso de uso
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#la-ficha-para-informatica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        La ficha para informática
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lleva-un-registro-de-tu-propio-avance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lleva un registro de tu propio avance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cuentame-como-te-ha-ido" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cuéntame cómo te ha ido
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cierre-del-curso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cierre del curso
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="modulo-8-tu-caso-de-uso">Módulo 8 - Tu caso de uso<a class="headerlink" href="#modulo-8-tu-caso-de-uso" title="Permanent link">&para;</a></h1>
+<h2 id="disenar-documentar-y-ejecutar-tu-propio-proyecto">Diseñar, documentar y ejecutar tu propio proyecto<a class="headerlink" href="#disenar-documentar-y-ejecutar-tu-propio-proyecto" title="Permanent link">&para;</a></h2>
+<p>Este es el módulo de cierre, y es puro trabajo de mesa: una ruta de 30 días para pasar del papel a la práctica y una ficha para que diseñes tu propio caso de uso de principio a fin (con lo necesario para ponerlo en marcha tú mismo o entregarlo a un equipo técnico).</p>
+<hr />
+<h2 id="tu-ruta-de-30-dias">Tu ruta de 30 días<a class="headerlink" href="#tu-ruta-de-30-dias" title="Permanent link">&para;</a></h2>
+<p>Esta ruta es el recorrido del curso convertido en calendario, para quien prefiere avanzar con hitos a la vista. Cada semana termina con algo comprobable, y la regla de oro es no saltarse el orden: las dos primeras semanas no usan más herramienta que el chat, y son las que hacen fáciles las dos últimas. Si llegas aquí desde <a href="../antes-de-empezar/">Antes de empezar</a>, quédate de momento con la ruta; el resto del módulo te espera en la semana 2, cuando elijas tu tarea.</p>
+<p><img alt="La ruta de los 30 días en cuatro semanas: la base con el chat, el criterio y la elección de tarea, la construcción del asistente o el flujo, y la prueba con casos reales, métricas y decisión" src="../assets/ruta-30-dias.svg" /></p>
+<ul>
+<li><strong>Semana 1, la base.</strong> Los tres ejercicios de "Antes de empezar" sobre material tuyo, la regla de privacidad en tres preguntas y la elección de herramienta (en muchas empresas ya está hecha: Copilot). Hito: una tarea real resuelta con una instrucción estructurada e iterada.</li>
+<li><strong>Semana 2, el criterio.</strong> Los escalones 4 a 6 (encadenar, adjuntar, formatos) y la elección de tu tarea candidata, pasada por la matriz del módulo 2. Apunta ya su línea de base en la ficha de más abajo: cuánto tardas hoy y cada cuánto la haces. Hito: la tarea elegida, dibujada en tres cajas y con veredicto de "merece la pena".</li>
+<li><strong>Semana 3, la construcción.</strong> El asistente con documentos del módulo 3 o el primer flujo del módulo 2, uno de los dos; ambos a la vez es la receta clásica del abandono. Si es un asistente, deja antes sus documentos en una sola versión válida, como propone el módulo 4. Hito: funciona una vez de principio a fin.</li>
+<li><strong>Semana 4, la prueba.</strong> Casos reales, las cuatro métricas del módulo 7, la prueba de cinco preguntas del módulo 3 si es un asistente, y la ficha completa. Hito: la decisión de seguir, ajustar o parar, tomada con datos y con lo que apuntaste al principio en «sigo o lo dejo».</li>
+</ul>
+<hr />
+<h2 id="tu-ficha-de-caso-de-uso">Tu ficha de caso de uso<a class="headerlink" href="#tu-ficha-de-caso-de-uso" title="Permanent link">&para;</a></h2>
+<p>La ficha reúne en una página lo que hace falta para poner en marcha tu caso de uso o entregárselo a quien vaya a montarlo. No hace falta que salga perfecta al primer intento: es un documento vivo que irás refinando.</p>
+<p>Hay tres líneas que conviene rellenar antes de construir nada. La <strong>línea de base</strong> es cuánto tardas hoy en la tarea y cada cuánto la haces: si no la apuntas ahora, al final no tendrás con qué comparar. <strong>Qué no hace nunca sin ti</strong> marca la frontera que la herramienta no cruza aunque pudiera (en mi sistema, ningún correo sale sin que yo lo envíe). Y <strong>sigo o lo dejo</strong> es lo que tendría que pasar durante la prueba para que sigas usándolo, y lo que te haría abandonarlo; apúntalo al principio, cuando todavía no le has cogido cariño al invento.</p>
+<p>En la primera pestaña tienes la ficha de mi resumen de boletines del <a href="../modulo-2-automatizar-con-ia/">módulo 2</a>, ya rellenada; en la segunda, la plantilla en blanco, que copias con el botón del recuadro y pegas en un documento tuyo.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Ejemplo: mi resumen de boletines</label><label for="__tabbed_1_2">Tu ficha en blanco</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li><strong>Nombre:</strong> resumen matutino de boletines.</li>
+<li><strong>Propósito:</strong> leer cada mañana varios boletines y alertas de noticias, descartar el ruido y quedarme con lo relevante para infraestructuras.</li>
+<li><strong>Destinatario:</strong> yo, antes de desayunar.</li>
+<li><strong>Línea de base:</strong> unos 20-30 minutos cada mañana, todos los días, leyendo los boletines a mano.</li>
+<li><strong>Patrón de IA:</strong> clasificar (lo relevante frente al ruido) y resumir.</li>
+<li><strong>Entrada:</strong> los correos de las últimas 24 horas de una cuenta personal donde solo entran boletines públicos.</li>
+<li><strong>Qué hace la IA:</strong> un paso previo quita firmas, avisos legales y cabeceras repetidas; después ChatGPT recibe un prompt fijo: quedarse con lo relevante para infraestructuras, ordenarlo, resumirlo en una lista breve y decir si no hay nada que destacar.</li>
+<li><strong>Salida:</strong> un correo a mi dirección con la lista.</li>
+<li><strong>Restricciones:</strong> solo material público; ni correo de trabajo ni nada de clientes.</li>
+<li><strong>Qué no hace nunca sin ti:</strong> escribir a otra persona o leer otra cuenta que la de los boletines.</li>
+<li><strong>Nivel de delegación:</strong> ejecuta sola, porque solo lee material público y la única persona a la que escribe soy yo; con correo de clientes de por medio se quedaría en proponer, como el triaje de correo del módulo 6.</li>
+<li><strong>Herramientas y accesos:</strong> Latenode, una credencial del proveedor de IA y la autorización para que la plataforma lea esa cuenta de correo.</li>
+<li><strong>Coste al mes:</strong> menos de 50 céntimos de modelo; en plan gratuito de la plataforma, ese es todo el coste.</li>
+<li><strong>Hábito:</strong> corre solo cada mañana y lo reviso al leerlo; si falla del todo, lo noto enseguida, porque esa mañana no hay resumen. De mantenimiento, un vistazo de vez en cuando: la plataforma ya ha marcado un par de bloques como obsoletos, y el flujo sigue funcionando.</li>
+<li><strong>Responsable:</strong> yo.</li>
+<li><strong>Métricas:</strong> uso, una ejecución al día; ahorro, la línea de base menos los minutos que tardo en leer el resumen; calidad, si el resumen me basta o tengo que abrir los boletines; errores, las mañanas sin resumen o con el formato roto.</li>
+<li><strong>Sigo o lo dejo:</strong> sigo si me ahorra tiempo cada mañana y no se me escapa nada importante; lo dejo si empiezo a enterarme por otro lado de noticias que el resumen no traía.</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code>FICHA DE CASO DE USO
+
+Nombre:
+Propósito (qué problema resuelve, en una frase):
+Destinatario (quién usa el resultado):
+Línea de base (cuánto tardas hoy y cada cuánto lo haces):
+
+Patrón de IA (resumir, clasificar, extraer, conversar):
+Entrada (de dónde vienen los datos, en qué formato, cada cuánto):
+Qué hace la IA (con qué herramienta: tu chat, Copilot, un asistente
+con documentos o un flujo; y el prompt completo, con rol, formato,
+idioma y qué hacer si falta información):
+Salida (dónde se entrega y en qué formato):
+
+Restricciones (qué datos no pueden pasar por la IA; quién puede
+ver el resultado):
+Qué no hace nunca sin ti:
+Nivel de delegación (solo lee / propone y tú decides / ejecuta
+pidiendo confirmación / ejecuta sola):
+
+Herramientas y accesos (plataforma, plan, cuentas, credenciales):
+Coste al mes (suscripción y uso) frente a horas ahorradas al mes:
+Hábito (cuándo corre, quién revisa, cuánto mantenimiento asumes,
+cómo te enteras si falla):
+Responsable (quien vigila que siga sirviendo):
+
+Métricas (uso, ahorro, calidad, errores aceptables):
+Sigo o lo dejo (cuánto dura la prueba; sigo si...;
+lo dejo si...):
+</code></pre></div>
+</div>
+</div>
+</div>
+<p>Para rellenar cada línea tienes el curso a mano: los precios, en el cuadro de versiones y precios del <a href="../modulo-1-entender-ia-generativa/">módulo 1</a>; los niveles de delegación, las cuatro métricas y el mantenimiento, en el <a href="../modulo-7-evaluar-y-escalar/">módulo 7</a>.</p>
+<hr />
+<h2 id="la-ficha-para-informatica">La ficha para informática<a class="headerlink" href="#la-ficha-para-informatica" title="Permanent link">&para;</a></h2>
+<p>Si lo que montaste tiene que pasar al equipo técnico, tu ficha ya contiene casi todo lo que van a necesitar, y la IA puede pasarla al formato que te pidan:</p>
+<div class="highlight"><pre><span></span><code>Esta es la ficha de un caso de uso que quiero pasar al equipo de
+informática. Conviértela en una ficha técnica de una página con
+estos apartados: objetivo, cómo funciona hoy, qué datos maneja,
+qué cuentas y credenciales usa, quién lo mantiene, qué pasa si
+falla y qué necesito de ellos. Si un dato no está en la ficha,
+márcalo como pendiente en vez de suponerlo.
+
+[pega aquí tu ficha]
+</code></pre></div>
+<p>Si informática tiene su propia plantilla, pégala también y pide que la rellene con lo que dice tu ficha. Llegues con el formato que llegues, estas son las cuatro preguntas que te harán primero, y conviene llevarlas contestadas:</p>
+<ol>
+<li>¿Qué datos toca? De dónde salen, si hay datos personales o de clientes y por dónde viajan (las tres preguntas del módulo 1, dichas en su idioma).</li>
+<li>¿Con qué cuentas funciona? Si corre con tu cuenta personal o con una de equipo, y dónde se guardan las credenciales.</li>
+<li>¿Quién lo mantiene? Quién revisa que siga sirviendo y quién lo arregla cuando algo cambia por fuera.</li>
+<li>¿Qué pasa cuando falla? Quién se entera, cómo, y qué se hace mientras tanto.</li>
+</ol>
+<p>Cuándo pasárselo y con qué frase, en el <a href="../modulo-7-evaluar-y-escalar/#5-cuando-pasarlo-al-equipo-tecnico">módulo 7</a>.</p>
+<hr />
+<h2 id="lleva-un-registro-de-tu-propio-avance">Lleva un registro de tu propio avance<a class="headerlink" href="#lleva-un-registro-de-tu-propio-avance" title="Permanent link">&para;</a></h2>
+<p>Una última idea, quizá la más fácil de pasar por alto. Lleva un registro de lo que vas construyendo y aprendiendo: qué probaste, qué funcionó, qué te atascó. No hace falta nada sofisticado: un archivo de texto basta, y la ficha de este módulo puede ser su primera página.</p>
+<p>El salto de "uso ChatGPT" a "tengo un sistema que trabaja conmigo" se ve con meses de distancia, y para eso hacen falta las notas. Yo no me di cuenta de cuánto había avanzado hasta que un día leí mis propias notas de unos meses antes y no reconocí al que las había escrito.</p>
+<hr />
+<div class="admonition info">
+<p class="admonition-title">Para profundizar</p>
+<ul>
+<li><a href="https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf">The GenAI Divide: State of AI in Business 2025: MIT NANDA</a> (copia en PDF; la dirección original ya no sirve): por qué el 95% de los pilotos de IA generativa en empresas no mostraba retorno medible.</li>
+<li><a href="https://hai.stanford.edu/ai-index">AI Index Report: Stanford HAI</a>: los datos anuales de referencia sobre la evolución de la IA en el mundo.</li>
+<li><a href="https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/">What We Learned from a Year of Building with LLMs: O'Reilly</a>: lecciones de seis profesionales sobre lo que funciona y lo que no en producción.</li>
+<li><a href="https://www.oneusefulthing.org/">Ethan Mollick: One Useful Thing</a>: el blog más accesible y actualizado sobre el impacto real de la IA en el trabajo.</li>
+</ul>
+</div>
+<hr />
+<h2 id="cuentame-como-te-ha-ido">Cuéntame cómo te ha ido<a class="headerlink" href="#cuentame-como-te-ha-ido" title="Permanent link">&para;</a></h2>
+<p>Si has llegado hasta aquí, tu experiencia es el dato que más me interesa: el curso mejora con lo que cuentan quienes lo han recorrido, y cada edición recoge esos arreglos en la página de <a href="../novedades/">novedades</a>. Son tres preguntas y una respuesta de cinco minutos por correo:</p>
+<ol>
+<li>¿Qué montaste (o intentaste montar)?</li>
+<li>¿Dónde te atascaste?</li>
+<li>¿Qué te faltó en el curso?</li>
+</ol>
+<p><a href="mailto:jose@cordovilla.email?subject=Curso%20IA%3A%20mi%20experiencia&amp;body=1%29%20Qu%C3%A9%20mont%C3%A9%20%28o%20intent%C3%A9%20montar%29%3A%0A%0A2%29%20D%C3%B3nde%20me%20atasqu%C3%A9%3A%0A%0A3%29%20Qu%C3%A9%20me%20falt%C3%B3%3A%0A%0A">Escríbeme la respuesta</a> (el enlace lleva las preguntas ya puestas). Leo todo lo que llega.</p>
+<p>Y si quieres enterarte de las actualizaciones, <a href="mailto:jose@cordovilla.email?subject=Curso%20IA%3A%20avisos%20de%20novedades">escríbeme</a> y te sumo a la lista de avisos. Si tu programa de correo no abre estos enlaces, escríbeme directamente a jose@cordovilla.email.</p>
+<hr />
+<h2 id="cierre-del-curso">Cierre del curso<a class="headerlink" href="#cierre-del-curso" title="Permanent link">&para;</a></h2>
+<p>Si has hecho los ejercicios, sabes ya pedirle trabajo a la IA y revisar lo que devuelve, sabes qué material puede pasar por ella, por qué herramienta y con qué permisos, y tienes una ficha de tu propio caso que puedes enseñar a tu jefe o entregar a informática tal cual. Para seguir al día cuando el curso se acabe no hace falta leerlo todo: con los cinco recursos del principio de la <a href="../recursos/#si-solo-vas-a-mirar-cinco">página de recursos</a> y la página de <a href="../novedades/">novedades</a> tienes de sobra.</p>
+<div class="admonition abstract">
+<p class="admonition-title">Cierre</p>
+<p>El resto es ponerse: si eliges una tarea que te duela, la montas y la mejoras semana a semana, tendrás entre manos lo mismo que tuve yo al principio. Así empezó Paco, el sistema con el que hoy trabajo cada día, y así empieza todo lo que en este curso te he contado.</p>
+</div>
+
+
+
+
+
+
+
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Última actualización">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="8 de noviembre de 2026 23:26:37 UTC">8 de noviembre de 2026</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
+        
+          
+          <a href="../modulo-7-evaluar-y-escalar/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Módulo 7 - Evaluar y escalar">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Módulo 7 - Evaluar y escalar
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../recursos/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Recursos">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                Recursos
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © José Cordovilla · Contenido bajo licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank" rel="noopener">CC BY-SA 4.0</a> · ¿Algo no te ha funcionado o falta algo? <a href="mailto:jose@cordovilla.email?subject=Curso%20IA%3A%20feedback">Escríbeme</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.sections", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "content.code.copy", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+        <script src="../javascripts/tareas.js"></script>
+      
+        <script src="../javascripts/analitica.js"></script>
+      
+    
+  </body>
+</html>

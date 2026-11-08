@@ -89,6 +89,15 @@ h4, h5, h6 {
     border-radius: 8px;
 }
 
+/* Los bloques del curso son casi siempre peticiones para copiar, no código:
+   en el móvil se ajustan a la pantalla en vez de obligar a desplazarse en horizontal */
+@media screen and (max-width: 44.984375em) {
+    .md-typeset pre > code {
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
+    }
+}
+
 /* Copy button styling */
 .md-typeset .md-clipboard {
     color: var(--md-primary-fg-color--light);

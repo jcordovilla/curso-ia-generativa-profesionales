@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 620" width="920" height="620" role="img" aria-label="Semáforo de replicabilidad en tres niveles: en verde lo que puedes hacer tú sin programar, en ámbar lo que requiere unos días de un especialista y luego operas tú, en rojo lo que exige programación continua y conviene dejar a IT">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 620" width="920" height="620" role="img" aria-label="Semáforo de replicabilidad en tres niveles: en verde lo que puedes hacer tú sin programar (incluidos los conectores de catálogo), en ámbar lo que requiere unos días de un especialista y luego operas tú, en rojo lo que exige programación continua y conviene dejar a IT">
   <defs>
     <style>
       .titulo { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 21px; font-weight: 700; fill: #1a202c; }
@@ -30,8 +30,10 @@
   <text class="item" x="78" y="330">exigir fuentes</text>
   <text class="item" x="66" y="362">· Asistentes con</text>
   <text class="item" x="78" y="380">documentos (módulo 3)</text>
-  <text class="item" x="66" y="412">· Flujos no-code</text>
+  <text class="item" x="66" y="412">· Flujos sencillos sin código</text>
   <text class="item" x="78" y="430">sencillos (módulo 2)</text>
+  <text class="item" x="66" y="462">· Conectores de catálogo,</text>
+  <text class="item" x="78" y="480">que se activan con un clic</text>
 
   <!-- Columna ámbar -->
   <rect x="333" y="100" width="273" height="430" rx="10" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
@@ -42,8 +44,8 @@
   <text class="item" x="359" y="228">· Búsqueda por significado</text>
   <text class="item" x="371" y="246">sobre tu correo</text>
   <text class="item" x="371" y="264">y tus documentos</text>
-  <text class="item" x="359" y="296">· Conectores entre la IA</text>
-  <text class="item" x="371" y="314">y tus herramientas</text>
+  <text class="item" x="359" y="296">· Un conector a medida</text>
+  <text class="item" x="371" y="314">para una fuente sin catálogo</text>
   <text class="item" x="359" y="346">· Tareas programadas</text>
   <text class="item" x="371" y="364">que corren solas</text>
 
@@ -51,14 +53,14 @@
   <rect x="626" y="100" width="273" height="430" rx="10" fill="#fee2e2" stroke="#fca5a5" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.06))"/>
   <text class="cab-r" x="762" y="140" text-anchor="middle">NO TE COMPENSA</text>
   <text class="sub-r" x="762" y="162" text-anchor="middle">programación continua;</text>
-  <text class="sub-r" x="762" y="178" text-anchor="middle">es un proyecto para IT</text>
+  <text class="sub-r" x="762" y="178" text-anchor="middle">es para el equipo técnico</text>
   <line x1="656" y1="196" x2="869" y2="196" stroke="#fca5a5" stroke-width="1.5"/>
-  <text class="item" x="652" y="228">· Construir conectores</text>
-  <text class="item" x="664" y="246">a medida</text>
+  <text class="item" x="652" y="228">· Programar y mantener</text>
+  <text class="item" x="664" y="246">tú los conectores</text>
   <text class="item" x="652" y="278">· Mantener las bases</text>
   <text class="item" x="664" y="296">de datos del índice</text>
   <text class="item" x="652" y="328">· Depurar sincronizaciones</text>
   <text class="item" x="664" y="346">y averías finas</text>
 
-  <text class="pie" x="460" y="576" text-anchor="middle">El semáforo es la frontera honesta: casi todo el valor está en las dos primeras columnas.</text>
+  <text class="pie" x="460" y="576" text-anchor="middle">El semáforo marca la frontera real: casi todo el valor está en las dos primeras columnas.</text>
 </svg>
